@@ -1,0 +1,50 @@
+{
+    "assignee": null,
+    "assignees": [],
+    "body": "不分先后. 请大家补充:\r\n\r\n知乎\r\n[有用中文代码作示例的编程入门教程吗?](https://www.zhihu.com/question/62911087)\r\n\r\nOSChina\r\n[有用中文代码作示例的编程入门教程吗? ](https://www.oschina.net/question/750760_2262174)\r\n\r\n百度贴吧:\r\n[有想用中文编程的童鞋吗?](https://tieba.baidu.com/p/5246905084)\r\n[大家都在哪些主流编程语言里使用过中文?](http://tieba.baidu.com/p/4810237282)\r\n[有筒子想用中文写汇编吗？](http://tieba.baidu.com/p/3711851598)\r\n\r\n易语言论坛\r\n[有社区/群组专门讨论在其他编程语言中实践中文编程吗?](http://bbs.eyuyan.com/read.php?tid=402412)\r\n",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3/comments",
+    "created_at": "2017-07-30T00:32:58Z",
+    "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3/events",
+    "html_url": "https://github.com/program-in-chinese/overview/issues/3",
+    "id": 246553886,
+    "labels": [
+        {
+            "color": "c5def5",
+            "default": false,
+            "id": 658880771,
+            "name": "长期",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%95%BF%E6%9C%9F"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 3,
+    "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
+    "state": "open",
+    "title": "索引: 在其他论坛关于用中文编写代码的讨论(价值主要在反馈)",
+    "updated_at": "2017-08-02T02:47:21Z",
+    "url": "https://api.github.com/repos/program-in-chinese/overview/issues/3",
+    "user": {
+        "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+        "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+        "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+        "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/nobodxbodon",
+        "id": 392497,
+        "login": "nobodxbodon",
+        "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+        "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+        "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/nobodxbodon"
+    }
+}
