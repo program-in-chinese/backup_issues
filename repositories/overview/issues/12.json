@@ -1,12 +1,74 @@
 {
     "assignee": null,
     "assignees": [],
-    "body": "github的默认图标虽然不是太难看, 但肯定不算美观. 请推荐一下.",
+    "body": "随着新项目的开展, 迟早需要作为一个团队对项目进行维护和推广. 是否最好有个主页, 至少发布一些项目进度/发布的消息? Github page是否适合?\r\n\r\n另外, github的默认图标虽然不是太难看, 但肯定不算美观. 也请推荐一下.",
     "closed_at": null,
-    "comment_data": [],
-    "comments": 0,
+    "comment_data": [
+        {
+            "body": "因为暂且没有主页, 每周简报暂时这里和[知乎](https://www.zhihu.com/question/62953512)(对外)更新, 比如最近两周:\r\n\r\n> 好像没有发现在所有编程语言中实践用中文编程的讨论组. 一周推广下来, github的讨论组已有10位新成员. osc上暂时没有发现活跃成员, 接下来的讨论重心会在github.\r\n现有的成员中有各种领域和背景的开发者, 使用的语言包括.Net, Python, Kotlin, OCaml, Java, JavaScript等等. 发现了用中文编写Python3代码实现自然语言处理工具的实用项目, 代码量和成熟程度很可观. \r\n\r\n> --- 20170807 ---\r\n新增10位新成员. 其中包括用插件在vscode自动补全中实现拼音输入匹配中文的作者. \r\n进行了热烈友好的技术讨论, 增进互相了解.\r\n开展一些实验项目, 包括中文DSL, 汉化JUnit 等等. \r\n将之前在个人账号下的相关代码库fork到讨论组下`\r\n\r\n欢迎补充.",
+            "created_at": "2017-08-08T03:07:02Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/12#issuecomment-320837538",
+            "id": 320837538,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/12",
+            "updated_at": "2017-08-08T03:07:02Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/320837538",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/12/comments",
     "created_at": "2017-08-01T23:04:11Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-08-07T17:28:53Z",
+            "event": "renamed",
+            "id": 1195817144,
+            "rename": {
+                "from": "讨论组的徽标?",
+                "to": "讨论组的主页, 对外名称, 徽标?"
+            },
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1195817144"
+        }
+    ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/12/events",
     "html_url": "https://github.com/program-in-chinese/overview/issues/12",
     "id": 247227438,
@@ -17,8 +79,8 @@
     "number": 12,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
-    "title": "讨论组的徽标?",
-    "updated_at": "2017-08-01T23:04:11Z",
+    "title": "讨论组的主页, 对外名称, 徽标?",
+    "updated_at": "2017-08-08T03:07:02Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/12",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
