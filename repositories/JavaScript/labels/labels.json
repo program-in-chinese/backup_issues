@@ -1,0 +1,51 @@
+[
+    {
+        "color": "ee0701",
+        "default": true,
+        "id": 655107965,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/bug"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "id": 655107966,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "id": 655107968,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/enhancement"
+    },
+    {
+        "color": "128A0C",
+        "default": true,
+        "id": 655107969,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/help%20wanted"
+    },
+    {
+        "color": "e6e6e6",
+        "default": true,
+        "id": 655107971,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/invalid"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "id": 655107973,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 655107974,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/wontfix"
+    }
+]

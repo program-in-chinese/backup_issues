@@ -1,0 +1,51 @@
+[
+    {
+        "color": "ee0701",
+        "default": true,
+        "id": 662700965,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/DSL_FamilyRelation/labels/bug"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "id": 662700966,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/DSL_FamilyRelation/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "id": 662700967,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/DSL_FamilyRelation/labels/enhancement"
+    },
+    {
+        "color": "128A0C",
+        "default": true,
+        "id": 662700968,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/DSL_FamilyRelation/labels/help%20wanted"
+    },
+    {
+        "color": "e6e6e6",
+        "default": true,
+        "id": 662700969,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/DSL_FamilyRelation/labels/invalid"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "id": 662700970,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/DSL_FamilyRelation/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 662700971,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/DSL_FamilyRelation/labels/wontfix"
+    }
+]

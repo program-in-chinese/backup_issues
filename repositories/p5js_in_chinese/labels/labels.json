@@ -1,0 +1,51 @@
+[
+    {
+        "color": "ee0701",
+        "default": true,
+        "id": 666447314,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/p5js_in_chinese/labels/bug"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "id": 666447315,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/p5js_in_chinese/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "id": 666447316,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/p5js_in_chinese/labels/enhancement"
+    },
+    {
+        "color": "128A0C",
+        "default": true,
+        "id": 666447317,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/p5js_in_chinese/labels/help%20wanted"
+    },
+    {
+        "color": "e6e6e6",
+        "default": true,
+        "id": 666447318,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/p5js_in_chinese/labels/invalid"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "id": 666447319,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/p5js_in_chinese/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 666447320,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/p5js_in_chinese/labels/wontfix"
+    }
+]

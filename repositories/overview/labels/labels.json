@@ -1,0 +1,65 @@
+[
+    {
+        "color": "ee0701",
+        "default": true,
+        "id": 655106830,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/bug"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "id": 655106831,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "id": 655106832,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/enhancement"
+    },
+    {
+        "color": "128A0C",
+        "default": true,
+        "id": 655106833,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/help%20wanted"
+    },
+    {
+        "color": "e6e6e6",
+        "default": true,
+        "id": 655106834,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/invalid"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "id": 655106835,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 655106836,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/wontfix"
+    },
+    {
+        "color": "fbca04",
+        "default": false,
+        "id": 657797434,
+        "name": "日常",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%97%A5%E5%B8%B8"
+    },
+    {
+        "color": "c5def5",
+        "default": false,
+        "id": 658880771,
+        "name": "长期",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%95%BF%E6%9C%9F"
+    }
+]
