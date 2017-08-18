@@ -1,12 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
-    "body": "源自: https://github.com/program-in-chinese/junit4_in_chinese/pull/2#discussion_r132848745",
-    "closed_at": "2017-08-15T14:50:25Z",
+    "body": "Catch bugs, enforce style, and increase confidence in your code before you merge.",
+    "closed_at": "2017-08-18T01:30:41Z",
     "comment_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/7/comments",
-    "created_at": "2017-08-13T21:09:57Z",
+    "comments_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/10/comments",
+    "created_at": "2017-08-15T14:47:35Z",
     "event_data": [
         {
             "actor": {
@@ -28,12 +28,12 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "040a62267587fbb16d1cac0ed8f2fd6f30915688",
-            "commit_url": "https://api.github.com/repos/nobodxbodon/junit4_in_chinese/commits/040a62267587fbb16d1cac0ed8f2fd6f30915688",
-            "created_at": "2017-08-15T01:25:50Z",
+            "commit_id": "7c532f23d835b3592c08f1f3642e8c50f0d2d480",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/commits/7c532f23d835b3592c08f1f3642e8c50f0d2d480",
+            "created_at": "2017-08-17T23:56:02Z",
             "event": "referenced",
-            "id": 1205784602,
-            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1205784602"
+            "id": 1211088990,
+            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211088990"
         },
         {
             "actor": {
@@ -55,12 +55,66 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "1d897407712b47d33d953233222162bf8130ac75",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/commits/1d897407712b47d33d953233222162bf8130ac75",
-            "created_at": "2017-08-15T14:46:51Z",
+            "commit_id": "78c79676036a294342a5fc85b43086c48ae82632",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/commits/78c79676036a294342a5fc85b43086c48ae82632",
+            "created_at": "2017-08-18T00:07:01Z",
             "event": "referenced",
-            "id": 1206581315,
-            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1206581315"
+            "id": 1211097921,
+            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211097921"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": "4b42cd035bd71a407294d5f4c1b4f92d585e2a6b",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/commits/4b42cd035bd71a407294d5f4c1b4f92d585e2a6b",
+            "created_at": "2017-08-18T01:06:55Z",
+            "event": "referenced",
+            "id": 1211140245,
+            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211140245"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": "768a369ebcd025d5a83e3c310e6dca28000d7d36",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/commits/768a369ebcd025d5a83e3c310e6dca28000d7d36",
+            "created_at": "2017-08-18T01:29:43Z",
+            "event": "referenced",
+            "id": 1211155335,
+            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211155335"
         },
         {
             "actor": {
@@ -84,25 +138,25 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2017-08-15T14:50:25Z",
+            "created_at": "2017-08-18T01:30:41Z",
             "event": "closed",
-            "id": 1206588179,
-            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1206588179"
+            "id": 1211155994,
+            "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211155994"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/7/events",
-    "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/7",
-    "id": 249899214,
+    "events_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/10/events",
+    "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/10",
+    "id": 250337223,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/7/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/10/labels{/name}",
     "locked": false,
     "milestone": null,
-    "number": 7,
+    "number": 10,
     "repository_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese",
     "state": "closed",
-    "title": "把类命名一致",
-    "updated_at": "2017-08-15T14:50:25Z",
-    "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/7",
+    "title": " 设置CI - Set up continuous integration to automatically test your code  ",
+    "updated_at": "2017-08-18T01:30:41Z",
+    "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/10",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
