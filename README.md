@@ -4,5 +4,5 @@
 
 运行:
 ```
-$ github-backup -u USER_NAME -p USER_PASSWORD --issues --issue-comments --issue-events -O -F program-in-chinese
+$ github-backup -u USER_NAME -p USER_PASSWORD --issues --issue-comments --issue-events --labels --pull-comments -O program-in-chinese
 ```
