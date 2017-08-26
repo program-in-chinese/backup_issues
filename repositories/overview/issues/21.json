@@ -2,7 +2,7 @@
     "assignee": null,
     "assignees": [],
     "body": "java js py都有讨论区，为什么c/c++没有",
-    "closed_at": null,
+    "closed_at": "2017-08-18T08:25:35Z",
     "comment_data": [
         {
             "body": "非常欢迎创建新讨论区并发表内容。",
@@ -59,9 +59,37 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "body": "创建了",
+            "created_at": "2017-08-18T08:25:35Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/21#issuecomment-323292792",
+            "id": 323292792,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/21",
+            "updated_at": "2017-08-18T08:25:35Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/323292792",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/3119372?v=4",
+                "events_url": "https://api.github.com/users/swizl/events{/privacy}",
+                "followers_url": "https://api.github.com/users/swizl/followers",
+                "following_url": "https://api.github.com/users/swizl/following{/other_user}",
+                "gists_url": "https://api.github.com/users/swizl/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/swizl",
+                "id": 3119372,
+                "login": "swizl",
+                "organizations_url": "https://api.github.com/users/swizl/orgs",
+                "received_events_url": "https://api.github.com/users/swizl/received_events",
+                "repos_url": "https://api.github.com/users/swizl/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/swizl/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/swizl/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/swizl"
+            }
         }
     ],
-    "comments": 2,
+    "comments": 3,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/21/comments",
     "created_at": "2017-08-14T10:22:33Z",
     "event_data": [
@@ -118,6 +146,33 @@
             "event": "subscribed",
             "id": 1211401289,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1211401289"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/3119372?v=4",
+                "events_url": "https://api.github.com/users/swizl/events{/privacy}",
+                "followers_url": "https://api.github.com/users/swizl/followers",
+                "following_url": "https://api.github.com/users/swizl/following{/other_user}",
+                "gists_url": "https://api.github.com/users/swizl/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/swizl",
+                "id": 3119372,
+                "login": "swizl",
+                "organizations_url": "https://api.github.com/users/swizl/orgs",
+                "received_events_url": "https://api.github.com/users/swizl/received_events",
+                "repos_url": "https://api.github.com/users/swizl/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/swizl/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/swizl/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/swizl"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-08-18T08:25:35Z",
+            "event": "closed",
+            "id": 1211483027,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1211483027"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/21/events",
@@ -129,9 +184,9 @@
     "milestone": null,
     "number": 21,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "为什么没有设置C/C++的讨论区？",
-    "updated_at": "2017-08-18T07:19:37Z",
+    "updated_at": "2017-08-18T08:25:35Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/21",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/3119372?v=4",
