@@ -39,10 +39,12 @@
             "url": "https://api.github.com/users/nobodxbodon"
         }
     ],
+    "author_association": "OWNER",
     "body": "https://github.com/program-in-chinese/overview/issues/16 的后续\r\n\r\n[这里](https://zhuanlan.zhihu.com/p/25210915)是起初的设想. 先写点假想的例程看看, 如果有可行性的话,就试着做个原型.\r\n\r\n下面这段话([出处](https://github.com/program-in-chinese/java_in_hours_chn#%E4%BA%94-%E5%8F%98%E9%87%8F-%E5%9C%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E4%BF%9D%E5%AD%98%E4%BF%AE%E6%94%B9%E4%BF%A1%E6%81%AF)):\r\n```\r\n某投资方法,可以有8%的年回报率,那么1000元的初始投入资金,3年之后会变成多少\r\n```\r\n结巴分词之后是:\r\n```\r\n某 / 投资 / 方法 / , / 可以 / 有 / 8 / % / 的 / 年 / 回报率 / , / 那么 / 1000 / 元 / 的 / 初始 / 投入 / 资金 / , / 3 / 年 / 之后 / 会 / 变成 / 多少\r\n```\r\n然后, 关键的问题是如何从这里到下面的代码逻辑(暂用Java演示, 其他语言或者伪代码亦可):\r\n```\r\n    float 资金 = 1000f;\r\n    float 年回报率 = 0.08f;\r\n    for (int 年份 = 0; 年份 < 年限; 年份 ++) {\r\n      资金 = (1 + 年回报率) * 资金;\r\n    }\r\n    return 资金;\r\n```",
     "closed_at": null,
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "模糊的思路是: \r\n\r\n1. 定义一系列业务方法, 比如\r\n```\r\n资金(年) = 年==0 ? 初始资金 : (1+年回报率)*资金(年-1)\r\n```\r\n2. 定义语法:\r\n```\r\nxx的YY => YY=xx \r\n```\r\n比如:\r\n8%的年回报率 => 年回报率 = 8%\r\n1000的初始资金 => 初始资金 = 1000\r\n```\r\nx年之后多少 => F(x), F是一个当前语境下的关于\"年\"的方法, 就是\"资金\"\r\n```\r\n3. parse之后得到对应参数值(年回报率, 初始资金), 运行\r\n```\r\n资金(3)\r\n```\r\n\r\n感觉好像就是个DSL了",
             "created_at": "2017-08-05T02:36:43Z",
             "html_url": "https://github.com/program-in-chinese/Java/issues/1#issuecomment-320389932",
@@ -71,6 +73,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "为了简化实现, 考虑一个非常非常小的问题域 -- 家庭人际关系. 示例\"程序\"和对应返回值如下:\r\n```\r\n我是大明的爸爸, 大明是小明的爸爸, 我是小明的什么人? => 爷爷\r\n\r\n大明是小明的爸爸, 大明是小红的爸爸, 小明是小红的什么人? => 姐姐/妹妹/哥哥/弟弟\r\n\r\n小强是我的爸爸的哥哥的儿子的妹妹, 小强是我的什么人? => 堂妹\r\n\r\n小红是小王的什么人? => 不知道\r\n\r\n小红是小张的弟弟, 小王是小吴的妹妹, 小红是小王的什么人? => 不知道\r\n\r\n小王是什么人? => 错误: 语法不识别\r\n```",
             "created_at": "2017-08-05T22:29:45Z",
             "html_url": "https://github.com/program-in-chinese/Java/issues/1#issuecomment-320473900",
@@ -99,6 +102,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "为了尽量简化语法分析, 省去分词和标点. 实际程序如下:\r\n```\r\n大明 是 小明 的 爸爸\r\n小明 是 小红 的 爸爸\r\n大明 是 小红 的什么人\r\n```\r\n基本的语法如下(很不严格的Antlr格式):\r\n```\r\n程序: (关系声明'\\n')+ 关系问题\r\n关系声明: 人物 ' 是 ' 人物 ' 的 ' 关系\r\n关系问题: 人物 ' 是 ' 人物 ' 的什么人'\r\n人物: 任何字符\r\n关系: 爸爸/妈妈/儿子/女儿/姐姐/妹妹/哥哥/弟弟/爷爷/奶奶/孙子/孙女/外公/外婆/外孙/外孙女/堂姐/堂妹/堂兄/堂弟/表姐/表妹/表兄/表弟\r\n```\r\n",
             "created_at": "2017-08-05T23:23:48Z",
             "html_url": "https://github.com/program-in-chinese/Java/issues/1#issuecomment-320475949",
@@ -127,6 +131,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "试着把Antlr4的源文件[中文化](https://github.com/program-in-chinese/DSL_FamilyRelation/blob/master/Antlr%E6%BA%90%E6%96%87%E4%BB%B6/%E5%AE%B6%E6%97%8F%E5%85%B3%E7%B3%BB/%E5%85%B3%E7%B3%BB%E7%A8%8B%E5%BA%8F.g4)了. 发现Token必须用大写开头. 暂时用T开头表示. 另外还有开头的grammar.\r\n\r\n暂时用grun -gui​ 命令作简单测试. 刚开始看The Definitive Antlr4 Ref, 2nd.",
             "created_at": "2017-08-06T01:00:25Z",
             "html_url": "https://github.com/program-in-chinese/Java/issues/1#issuecomment-320479049",
@@ -155,6 +160,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "你这语法 Kotlin 就能写，完全不需要自己整编译器",
             "created_at": "2017-08-06T07:24:55Z",
             "html_url": "https://github.com/program-in-chinese/Java/issues/1#issuecomment-320490724",
@@ -183,6 +189,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "不对 我没看到前面",
             "created_at": "2017-08-06T07:25:19Z",
             "html_url": "https://github.com/program-in-chinese/Java/issues/1#issuecomment-320490737",

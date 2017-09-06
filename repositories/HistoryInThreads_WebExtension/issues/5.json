@@ -2,19 +2,15 @@
     "assignee": null,
     "assignees": [],
     "author_association": "OWNER",
-    "body": "调用`browser.history.search`两次, 一次返回时间段内所有`HistoryItem`记录, 一次返回时间段内匹配关键词的`HistoryItem`记录(如果有关键词)\r\n调用`browser.history.getVisits`次数为匹配的`HistoryItem`个数(容易上千/万)",
-    "closed_at": "2017-09-01T20:33:47Z",
-    "comment_data": [
+    "body": "比如`<select> - HTML | MDN`, 现在显示成了一个下拉框.",
+    "closed_at": "2017-09-01T06:06:34Z",
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/5/comments",
+    "created_at": "2017-09-01T05:07:42Z",
+    "event_data": [
         {
-            "author_association": "OWNER",
-            "body": "论坛上看到没有更好的API利用: https://discourse.mozilla.org/t/api-to-fetch-visits-by-multiple-urls/18467/4\r\n已经在 https://github.com/program-in-chinese/HistoryInThreads_WebExtension/commit/8466de15e73624450bd0a97db196f58ecf440106 添加了索引缓冲",
-            "created_at": "2017-09-01T20:33:47Z",
-            "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/issues/1#issuecomment-326677855",
-            "id": 326677855,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/1",
-            "updated_at": "2017-09-01T20:33:47Z",
-            "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/comments/326677855",
-            "user": {
+            "actor": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
                 "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
                 "followers_url": "https://api.github.com/users/nobodxbodon/followers",
@@ -32,13 +28,14 @@
                 "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
-            }
-        }
-    ],
-    "comments": 1,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/1/comments",
-    "created_at": "2017-08-25T06:23:01Z",
-    "event_data": [
+            },
+            "commit_id": "d4e9503340a1d3992ffcd02641ebc0316d926562",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/commits/d4e9503340a1d3992ffcd02641ebc0316d926562",
+            "created_at": "2017-09-01T05:45:17Z",
+            "event": "referenced",
+            "id": 1230782297,
+            "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/events/1230782297"
+        },
         {
             "actor": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
@@ -61,25 +58,25 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2017-09-01T20:33:47Z",
+            "created_at": "2017-09-01T06:06:34Z",
             "event": "closed",
-            "id": 1231988806,
-            "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/events/1231988806"
+            "id": 1230798804,
+            "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/events/1230798804"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/1/events",
-    "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/issues/1",
-    "id": 252808809,
+    "events_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/5/events",
+    "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/issues/5",
+    "id": 254537218,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/1/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/5/labels{/name}",
     "locked": false,
     "milestone": null,
-    "number": 1,
+    "number": 5,
     "repository_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension",
     "state": "closed",
-    "title": "优化运行速度",
-    "updated_at": "2017-09-01T20:33:48Z",
-    "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/1",
+    "title": "网页title中有html元素时, 节点应该显示原始文本",
+    "updated_at": "2017-09-01T06:06:34Z",
+    "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/5",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",

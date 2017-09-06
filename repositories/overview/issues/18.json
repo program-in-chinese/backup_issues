@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "除去客户要求代码必须是英文的项目(比如外包项目). 应该有很多因素, 这里尝试搜集那些\"硬\"的理由. 请补充.\r\n\r\n- 从别处粘贴复制代码简单\r\n- 不同操作系统的默认编码方式不同, 比如代码库在Linux机器, 开发机是Windows, 容易出乱码问题\r\n- 依赖的库或者工具对unicode支持不佳(比如[这里](http://tieba.baidu.com/p/4433232983?pn=1)22楼发现的Spring的Thymeleaf不支持中文变量名)\r\n\r\n",
     "closed_at": null,
     "comment_data": [
         {
+            "author_association": "MEMBER",
             "body": "只是因为英语目前是强势语言。在各个领域资源都是最丰富的。而且写出来的代码，需要被人认可，才有价值，用英文更加容易被认可。当中文成为强势语言时，大家也会倾向中文，拉丁文、法语同理。中文编程目前做能做个人的爱好而已，但是爱好中文的人和公司多了，中文才能强势起来。那些现在不愿意用中文编程的人才可能正视中文编程。",
             "created_at": "2017-08-14T10:17:24Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/18#issuecomment-322153989",
@@ -33,6 +35,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "@swizl 你说的确实是现状. 那么为什么英文代码更被人认可, 感觉应该有历史和现实的一些技术原因. 即使英语是强势语言, 绝大多数中文母语的程序员之间交流技术问题还是用中文吧. \r\n除了顶楼列的一些问题, 一些语言本身非常早期不支持unicode命名, 比如JavaScript, 根据[这里](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.3), 1998年间之后才支持.",
             "created_at": "2017-08-14T15:56:09Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/18#issuecomment-322230036",
@@ -61,6 +64,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "其实关于这个问题，本人觉得隔壁 https://github.com/program-in-chinese/overview/issues/3#issuecomment-322229109 引用的问题 [Should you use international identifiers in Java/C#?](https://stackoverflow.com/questions/61615/should-you-use-international-identifiers-in-java-c) 就解释了 `历史和现实的一些技术原因` ：ASCII字符集包含了所有英文字符。",
             "created_at": "2017-08-14T16:30:17Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/18#issuecomment-322239109",
@@ -87,9 +91,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/azige"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "输入方便啊。比如我最近的项目，输入只需要按三下 -> https://github.com/Cm-lang/Cmc",
+            "created_at": "2017-09-05T17:33:44Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/18#issuecomment-327248926",
+            "id": 327248926,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/18",
+            "updated_at": "2017-09-05T17:33:44Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/327248926",
+            "user": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/16398479?v=4",
+                "events_url": "https://api.github.com/users/ice1000/events{/privacy}",
+                "followers_url": "https://api.github.com/users/ice1000/followers",
+                "following_url": "https://api.github.com/users/ice1000/following{/other_user}",
+                "gists_url": "https://api.github.com/users/ice1000/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/ice1000",
+                "id": 16398479,
+                "login": "ice1000",
+                "organizations_url": "https://api.github.com/users/ice1000/orgs",
+                "received_events_url": "https://api.github.com/users/ice1000/received_events",
+                "repos_url": "https://api.github.com/users/ice1000/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/ice1000/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/ice1000/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/ice1000"
+            }
         }
     ],
-    "comments": 3,
+    "comments": 4,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/18/comments",
     "created_at": "2017-08-04T05:03:11Z",
     "event_data": [
@@ -159,7 +192,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "所有开发者母语都是中文时, 为什么大多数项目仍然选择英文命名?",
-    "updated_at": "2017-08-14T16:30:17Z",
+    "updated_at": "2017-09-05T17:33:44Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/18",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

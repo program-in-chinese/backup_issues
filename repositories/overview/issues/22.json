@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "@azige 恰好是你的专业领域, 请教一下需求和可能的方向. 下面源自https://github.com/program-in-chinese/overview/issues/19#issuecomment-322226995:\r\n\r\n> 游戏设计方面可能有很多应用，例如编写技能脚本或敌人的行动策略之类的\r\n\r\n例程源自 https://github.com/program-in-chinese/overview/issues/9#issuecomment-320517568\r\n```\r\ndef 基础策略() {\r\n    if (存在单位(是自己 & mp比例范围(0,0.05))){ \r\n        选择单位(敌方 & 活着的){\r\n            攻击 选择结果集.随机目标\r\n        }\r\n    }\r\n    选择单位(敌方 & 活着的){\r\n        if (选择结果集数量 > 2){\r\n            使用技能 \"XXX\", 选择结果集.hp数值最低\r\n        } \r\n    }\r\n    选择单位(敌方 & hp比例范围(0, 0.1)){\r\n        if (选择结果集数量 > 0) {\r\n            使用技能 \"XXX\", 选择结果集.hp数值最低\r\n        }\r\n    }\r\n    选择单位(敌方 & 活着的){\r\n        if (选择结果集数量 > 1){\r\n            使用技能 \"XXX\", 选择结果集.hp数值最低\r\n        } else {\r\n            使用技能 \"XXX\", 选择结果集.hp数值最低\r\n        }\r\n    }\r\n}\r\n```\r\n不知像 按键精灵，TC简单程序开发 之类的脚本语言是否方向也是相似的, 只是更侧重I/O?\r\n\r\n\r\n",
     "closed_at": null,
     "comment_data": [
         {
+            "author_association": "MEMBER",
             "body": "本人听同事说他们以前编写这类脚本是用表格的方式，在表里套用程序框架里提供的过滤条件之类的元素来编写脚本。但是表格维护起来从某些方面上来说比较难，于是本人就想利用Groovy来定制一个这样的DSL。虽然最后开发的结果就像例程那样还保留了许多Groovy的语法元素，但是基本上还算是一个不错的易读易扩展的脚本。\r\n\r\n感觉在游戏方面的话这类脚本如果设计得好应该不像“程序”而仅仅是一些“条件”和“策略”的组合，毕竟本来面向的也不是程序员。这些脚本应该是专业程序员在开发好游戏的大致结构后给非专业程序员的游戏设计师来设计游戏中一些易变的创意元素用的，例如技能、任务、剧本、敌人行动策略之类的。",
             "created_at": "2017-08-15T13:15:48Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322462865",
@@ -33,6 +35,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "多谢分享! 完全没有游戏设计经验(玩过类似的), 想确认一下语义:\r\n`游戏中角色(比如法师)的某种技能, 自己有魔法值时就攻击敌方活着的随机目标, 目标根据敌方数量和血量而定.`\r\n请问这个脚本的运行结果是什么呢? 它对游戏框架的依赖性有多大? 比如说在游戏框架完全建立前, 设计师能不能先行编写这些脚本, 然后进行模拟/测试呢?\r\n\r\n突然想到[Cucumber](https://github.com/larrycai/sdcamp/blob/master/contents/1-chapter6-cucumber.markdown#cucumber-%E7%AE%80%E4%BB%8B)框架, 虽然性质不大一样, 不过感觉思路有点近(类自然语言描述用例)",
             "created_at": "2017-08-15T18:12:32Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322544825",
@@ -61,6 +64,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "哈哈，一款网游，里面有多少物品，技能，英文怎么翻译的？很可能就是一个ID,然后中文写的注释。\r\n\r\n所以，你要知道这个ID是干嘛，你要去看注释。不然，你试下描述下 五雷轰顶，凌波微步 。",
             "created_at": "2017-08-16T04:48:31Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322665537",
@@ -89,6 +93,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "@chencun 如此这般\r\n\r\n    id = 111111\r\n    名字 = \"XXX\"\r\n    门派 = \"XXX\"\r\n    类型 = \"SPECIAL\"\r\n    最大目标数 = 4\r\n    基础攻击回数 = 1\r\n    物伤系数 = 1.4\r\n    基础伤害值 = { 等级 * 4 }\r\n    后期伤害 = 0\r\n    能否多重施法 = false\r\n    能否手动施放 = true\r\n\r\n    施放条件{\r\n        总是可用\r\n    }\r\n\r\n    消耗{\r\n        [sp:50]\r\n    }\r\n\r\n    目标类型{\r\n        敌方 & 活着的\r\n    }\r\n\r\n    多目标选择策略{\r\n        默认选择策略\r\n    }\r\n\r\n    主目标处理{\r\n        通常伤害(\r\n            // 伤害值\r\n            物理伤害计算(行动者, 目标),\r\n            // 伤害类型，有 normal spell absolute\r\n            \"normal\",\r\n            // 暴击参数，包含暴击率 暴击因子 暴击固定值\r\n            物理暴击计算(行动者, 目标),\r\n            // 命中率\r\n            1\r\n        )\r\n    }\r\n\r\n    副目标处理{\r\n        跟主目标一样()\r\n    }\r\n\r\n在需要用脚本的地方可以用一些跟数字id等价的中文id来描述一些对象，具体就看项目怎么运用。再说，既然是中国人开发的游戏，除了一些惯用词以外还需要把游戏里的元素用英文命名吗？",
             "created_at": "2017-08-16T05:12:29Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322668106",
@@ -117,6 +122,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "赞! 比较扎眼的就这块:\r\n```\r\n    通常伤害(\r\n        // 伤害值\r\n        物理伤害计算(行动者, 目标),\r\n        // 伤害类型，有 normal spell absolute\r\n        \"normal\",\r\n        // 暴击参数，包含暴击率 暴击因子 暴击固定值\r\n        物理暴击计算(行动者, 目标),\r\n        // 命中率\r\n        1\r\n```\r\n应该能分开成`命中率(1)`之类吧? 这个框架是Groovy写的?",
             "created_at": "2017-08-16T05:28:26Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322670002",
@@ -145,6 +151,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "是Groovy\r\n\r\n`通常伤害` 是一个4参数的方法，当然要增强语义的话改造成\r\n\r\n    通常伤害\r\n    .伤害值(1)\r\n    .类型(\"A\")\r\n    .命中率(1)\r\n\r\n也是可以，不过我们项目最近是没时间改了",
             "created_at": "2017-08-16T05:34:22Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322670749",
@@ -173,6 +180,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "开源吧 ;P 帮你改, 虽然本人没用过Groovy lol",
             "created_at": "2017-08-16T05:46:22Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322672242",
@@ -201,6 +209,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "那部分目前在我们项目里耦合略高，等有空整理一下拆出来可以考虑开源_(:3」∠)_",
             "created_at": "2017-08-16T06:14:07Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322676130",
@@ -229,6 +238,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "哦, 之前https://github.com/program-in-chinese/overview/issues/22#issuecomment-322544825 的依赖度问题也和耦合度有关.\r\n非常期待! 如果整个拆工作量太大的话, 有可能的话能否每次开一部分? 也方便别人跟进.",
             "created_at": "2017-08-16T06:26:18Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-322678117",

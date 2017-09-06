@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
-    "body": "之前写了一个Java入门教程, 在Java区有链接. 有空请各位斧正. \r\n现在考虑下一个教程的主题, 不知有什么建议.\r\n@jeromechan 看到你之前的译作https://github.com/jeromechan/programming-principles-cn, 想必有些感想?",
+    "author_association": "OWNER",
+    "body": "之前写了一个[Java入门教程](https://github.com/program-in-chinese/java_in_hours_chn), 在Java区有链接. 有空请各位斧正. \r\n现在考虑下一个教程的主题, 不知有什么建议.\r\n@jeromechan 看到你之前的译作https://github.com/jeromechan/programming-principles-cn, 想必有些感想?",
     "closed_at": null,
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "下面是想到的. 还有哪些可能的方向呢?\r\n- 翻译经典教程, 将示例代码中文化\r\n- 入门类: 如编程语言, 热门框架/库\r\n- 从0开始写XX: 操作系统, 编程语言(可以同时为中文语言的实现作实验), 输入法\r\n\r\n在初期人力有限的情况下, 考虑从工作量小, 周期短, 受众广的方向做起.\r\n",
             "created_at": "2017-08-01T21:28:30Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-319502367",
@@ -33,6 +35,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "我修改了下 Kotlin 的和 Haskell 的，现在稍微能看了，以前那个 Hello World 式的实例感觉十分挫 23333",
             "created_at": "2017-08-02T17:34:54Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-319743624",
@@ -61,6 +64,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "现在的示例程序并不为了演示编程语言本身的特性, 而是对中文命名进行可行性验证. 原则上越简单的越好. 如果想要用中文代码演示编程语言本身特性, 欢迎写一些针对某一编程语言的入门教程.",
             "created_at": "2017-08-02T17:40:16Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-319745047",
@@ -89,6 +93,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "我已经证明了 Kotlin 中可以完美汉化 `@Test`",
             "created_at": "2017-08-02T17:42:32Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-319745661",
@@ -117,6 +122,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "看了你的例程, 觉得在例程里展示一种编程语言中尽量多可以中文化的语言特性其实挺不错的. 大赞一下.",
             "created_at": "2017-08-02T17:49:08Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-319747432",
@@ -145,6 +151,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "[Teaching Front End Programming in Your Own Culture](https://github.com/MozillaFoundation/mozfest-program-2017/issues/282)里提到在编程教学中引入中国文化特色:\r\n\r\n>  A team of three heroes founded to save the country. var 蜀 = ['刘备', '关羽', '张飞'];\r\n    Their leader(刘备) then hired two military advisers. 蜀.splice(1, 0, '诸葛亮', '庞统')\r\n    One of them died in a battle. 蜀.splice(2, 1)\r\n    Two of the founders died in battles but more members joined. 蜀.splice(2, 2, '刘婵', '赵云', '廖化')\r\n    Later the leader (刘备) died and his son(刘婵) became the leader of the team. 蜀.copyWithin(0, 2, 3).splice(2, 1)\r\n\r\n\r\n同作者已经有比较中文特色的JS教程, 但代码本身还未完全中文化. 已提建议[何不把代码本身中文化?](https://github.com/fe13/fe/issues/1)",
             "created_at": "2017-08-04T03:21:02Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-320146113",
@@ -367,7 +374,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 用中文代码作示例的编程教程",
-    "updated_at": "2017-08-04T03:21:02Z",
+    "updated_at": "2017-08-28T07:19:02Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/5",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

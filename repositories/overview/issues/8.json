@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "MEMBER",
     "body": "Kotlin：\r\n\r\n```kotlin\r\nfun main(vararg args: String) {\r\n  val 垃圾 = 233\r\n  println(垃圾)\r\n}\r\n```\r\n\r\nHaskell：\r\n\r\n```haskell\r\n傻逼 :: Parser String\r\n傻逼 = do\r\n  傻逼1 <- 脑残\r\n  傻逼2 <- 智障\r\n  return $ 傻逼1 ++ 傻逼2\r\n```",
     "closed_at": "2017-08-01T03:42:02Z",
     "comment_data": [
         {
+            "author_association": "MEMBER",
             "body": "而且众多 Lisp（scm rkt等）也明显支持 utf8",
             "created_at": "2017-07-31T17:24:58Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/8#issuecomment-319135834",
@@ -33,6 +35,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "多谢. 如果方便的话能否在overview 的README.md中\"关键词为英文的编程语言对中文代码的支持\"部分加上这两个语言, 以及添加对应的例程和链接? 例程里请用老少咸宜的词语(可以参考其他例程). 再次感谢!\r\n\r\n---- 已添加",
             "created_at": "2017-07-31T17:46:43Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/8#issuecomment-319142957",

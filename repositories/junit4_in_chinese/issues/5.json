@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "源自: https://github.com/program-in-chinese/junit4_in_chinese/pull/2#discussion_r132844873",
     "closed_at": "2017-08-15T14:50:58Z",
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "https://github.com/program-in-chinese/junit4_in_chinese/commit/a1f00d0318d97fea4ff8c3c1eceda034c098139a",
             "created_at": "2017-08-15T14:50:58Z",
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/5#issuecomment-322491212",

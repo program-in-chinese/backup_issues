@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "https://github.com/search?p=18&q=%22%E4%B8%AD%E6%96%87%E7%B1%BB%E5%90%8D%22&type=Code&utf8=%E2%9C%93\r\n\r\n很好奇这一项的来由, 因为不少看起来像是公共企业的代码, 猜想是不是某个国家标准之类规定了需要标出类名的对应中文.\r\n\r\n已试着向一个注释中提到的组织发问, 待续..",
     "closed_at": "2017-08-12T23:52:11Z",
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "决定不继续跟进",
             "created_at": "2017-08-12T23:52:11Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/15#issuecomment-322012962",

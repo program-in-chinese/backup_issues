@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "请在这里补充发现的已有项目, 以及打算进行的项目. 方便后来人查询, 减少重复劳动.\r\n\r\n发现的第一个: @sih4sing5hong5 的[臺灣言語工具](https://github.com/sih4sing5hong5/tai5-uan5_gian5-gi2_kang1-ku7). 将放到Python区首页.\r\n希望多补充.",
     "closed_at": null,
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "[让 Lua 支持中文变量名](https://github.com/ailue/Shuihusha/commit/47a02ceb9e2bc498fbc65b014cbb804e07e6780d)",
             "created_at": "2017-07-31T07:25:03Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/6#issuecomment-318989830",

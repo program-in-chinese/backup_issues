@@ -47,5 +47,12 @@
         "id": 672230836,
         "name": "wontfix",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/wontfix"
+    },
+    {
+        "color": "d93f0b",
+        "default": false,
+        "id": 681666433,
+        "name": "受阻",
+        "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/%E5%8F%97%E9%98%BB"
     }
 ]

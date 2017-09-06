@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "考虑用https://developer.github.com/v3/issues/#list-issues-for-a-repository",
     "closed_at": "2017-08-07T17:20:13Z",
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "考虑导出成文本后新建git库保存, 然后同步到osc的git库, 这样万一github访问有什么问题, 另起炉灶的损失不会太大.",
             "created_at": "2017-08-03T06:18:31Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/1#issuecomment-319878530",
@@ -33,6 +35,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "已导出所有issue, 每个issue一个json文件. 新建库: https://github.com/program-in-chinese/backup_issues\r\n暂时手动运行. \r\n最好定期运行和提交. 比如某服务器上做个cron job之类.",
             "created_at": "2017-08-05T05:47:08Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/1#issuecomment-320414505",
@@ -61,6 +64,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "相关讨论转到 https://github.com/program-in-chinese/backup_issues 继续",
             "created_at": "2017-08-07T17:20:13Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/1#issuecomment-320725417",

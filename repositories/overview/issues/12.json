@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "随着新项目的开展, 迟早需要作为一个团队对项目进行维护和推广. 是否最好有个主页, 至少发布一些项目进度/发布的消息? Github page是否适合?\r\n\r\n另外, github的默认图标虽然不是太难看, 但肯定不算美观. 也请推荐一下.",
     "closed_at": "2017-08-15T18:26:29Z",
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "因为暂且没有主页, 每周简报暂时这里和[知乎](https://www.zhihu.com/question/62953512)(对外)更新, 比如最近两周:\r\n\r\n> 好像没有发现在所有编程语言中实践用中文编程的讨论组. 一周推广下来, github的讨论组已有10位新成员. osc上暂时没有发现活跃成员, 接下来的讨论重心会在github.\r\n现有的成员中有各种领域和背景的开发者, 使用的语言包括.Net, Python, Kotlin, OCaml, Java, JavaScript等等. 发现了用中文编写Python3代码实现自然语言处理工具的实用项目, 代码量和成熟程度很可观. \r\n\r\n> --- 20170807 ---\r\n新增10位新成员. 其中包括用插件在vscode自动补全中实现拼音输入匹配中文的作者. \r\n进行了热烈友好的技术讨论, 增进互相了解.\r\n开展一些实验项目, 包括中文DSL, 汉化JUnit 等等. \r\n将之前在个人账号下的相关代码库fork到讨论组下`\r\n\r\n欢迎补充.",
             "created_at": "2017-08-08T03:07:02Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/12#issuecomment-320837538",
@@ -33,6 +35,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "已开github pages: https://program-in-chinese.github.io/overview/ 暂时作为讨论组主页, 将添加周报等内容.",
             "created_at": "2017-08-12T20:56:34Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/12#issuecomment-322005511",
@@ -61,6 +64,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "暂以\"文\"字为徽标, 取\"以文会友\"之意.",
             "created_at": "2017-08-12T23:18:32Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/12#issuecomment-322011767",
@@ -89,6 +93,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "@program-in-chinese/all 本周开始周报在[github主页](https://program-in-chinese.github.io/overview/)更新. 难免遗漏内容, 欢迎各位补充.",
             "created_at": "2017-08-15T02:51:43Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/12#issuecomment-322363788",
@@ -117,6 +122,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "在JUnit4[项目讨论]((https://github.com/program-in-chinese/junit4_in_chinese/pull/2#discussion_r132850374))中, 发现只要开发者各自签名即可, 因此暂时不用确定团队名称.",
             "created_at": "2017-08-15T18:26:29Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/12#issuecomment-322548656",

@@ -1,6 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "Catch bugs, enforce style, and increase confidence in your code before you merge.",
     "closed_at": "2017-08-18T01:30:41Z",
     "comment_data": [],

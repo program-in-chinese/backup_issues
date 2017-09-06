@@ -39,10 +39,12 @@
             "url": "https://api.github.com/users/azige"
         }
     ],
+    "author_association": "OWNER",
     "body": "@azige 的一个方案在 https://github.com/program-in-chinese/overview/issues/10#issuecomment-320610037\r\n请问有空提交一下吗? 把CustomRunner也汉化如何?",
     "closed_at": "2017-08-15T14:52:39Z",
     "comment_data": [
         {
+            "author_association": "MEMBER",
             "body": "于是问题来了，应该给这个Runner起个什么名字？",
             "created_at": "2017-08-09T04:43:19Z",
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/1#issuecomment-321151184",
@@ -71,6 +73,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "运行器?",
             "created_at": "2017-08-09T05:01:01Z",
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/1#issuecomment-321153227",
@@ -99,6 +102,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "https://github.com/program-in-chinese/junit4_in_chinese/pull/2",
             "created_at": "2017-08-15T14:52:39Z",
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/1#issuecomment-322491657",

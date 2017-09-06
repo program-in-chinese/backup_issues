@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "个人感觉越和IT无关的领域越会希望易于理解和上手的. 妄自猜度, 文学/艺术类可能是其中之一. 不知各位有什么看法?\r\n@taostein 请问您能分享一些编程创作艺术作品的体会, 以及文艺界有怎样的软件需求吗?",
     "closed_at": null,
     "comment_data": [
         {
+            "author_association": "MEMBER",
             "body": "关于艺术方面，按我了解。国外教设计类课程的大学，已经有使用[processing](https://processing.org/)和[p5js](https://p5js.org/)来制作电子艺术作品和人机交互的原型的课程。国内的话不知道是否已经有了类似的课程，如果有的话，或许把前者的api用中文来表示可以更容易被学习者所理解。",
             "created_at": "2017-08-09T07:32:08Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/19#issuecomment-321177055",
@@ -33,6 +35,7 @@
             }
         },
         {
+            "author_association": "OWNER",
             "body": "试着中文化了一下这个p5js的简单[例程](https://p5js.org/examples/hello-p5-simple-shapes.html), 感觉是应该好懂些, 不少简单注释都能省掉. 不过最好要有领域背景的来看看翻译是否妥当. \r\n```\r\nfunction 构图() {\r\n  新画布(720, 400);\r\n  背景色(200);\r\n\r\n  填色(204, 101, 192, 127);\r\n  笔色(127, 63, 120);\r\n\r\n  长方形(40, 120, 120, 40);\r\n  椭圆(240, 240, 80, 80);\r\n  三角形(300, 100, 320, 100, 310, 80);\r\n\r\n  // 小花\r\n  偏移(580, 200);\r\n  无边界();\r\n  for (var i = 0; i < 10; i ++) {\r\n    椭圆(0, 30, 20, 80);\r\n    旋转(PI/5);\r\n  }\r\n}\r\n```\r\n一个不直接相关的问题, javascript的IDE有类似于javadoc的文档提示吗? 就是比如输入\"填色\"之后, 鼠标放上去之后能看到这个API的注释, 像这样:\r\n![screen shot 2017-07-20 at 4 50 19 pm](https://user-images.githubusercontent.com/392497/29154002-0bab275c-7d46-11e7-8f71-a3272c3205d6.png)\r\n因为想象写上面程序的时候, 应该经常需要查到底各个参数是啥意思.\r\n\r\n如果基于p5js中文化版本(可以逐渐增强图形库), 然后做成像[jsfiddle](https://jsfiddle.net/)那样的在线编辑运行环境, 再添加一些IDE功能(比如上面的文档集成), 感觉可能对用户会更加方便.",
             "created_at": "2017-08-10T04:08:47Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/19#issuecomment-321445161",
@@ -61,6 +64,7 @@
             }
         },
         {
+            "author_association": "MEMBER",
             "body": "游戏设计方面可能有很多应用，例如编写技能脚本或敌人的行动策略之类的",
             "created_at": "2017-08-14T15:45:29Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/19#issuecomment-322226995",

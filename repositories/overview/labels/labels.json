@@ -56,6 +56,13 @@
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%97%A5%E5%B8%B8"
     },
     {
+        "color": "d4c5f9",
+        "default": false,
+        "id": 678642283,
+        "name": "笔记",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%AC%94%E8%AE%B0"
+    },
+    {
         "color": "c5def5",
         "default": false,
         "id": 658880771,

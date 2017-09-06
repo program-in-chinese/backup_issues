@@ -1,6 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "缘由是[这里](https://github.com/fe13/fe/issues/1#issuecomment-320152512)提到的JS老版本不支持中文命名的问题.\r\n可以从热门语言开始验证",
     "closed_at": null,
     "comment_data": [],

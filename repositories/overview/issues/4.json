@@ -1,10 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
+    "author_association": "OWNER",
     "body": "@taostein 请问OCaml对中文/unicode命名支持吗? 刚尝试在OCaml 4.02下用中文命名:\r\n```\r\nlet rec 斐波那契 n =\r\n    if n < 2 then n else 斐波那契 (n-1) + 斐波那契 (n-2);;\r\n```\r\n报错:\r\n```\r\nWarning 3: deprecated: ISO-Latin1 characters in identifiers\r\n...\r\nError: Illegal character\r\n```\r\n",
     "closed_at": "2017-08-02T00:36:49Z",
     "comment_data": [
         {
+            "author_association": "OWNER",
             "body": "根据[这里](https://ocaml.org/learn/tutorials/basics.html):\r\n\r\n> OCaml provides a char type which is used for characters, written 'x' for example. Unfortunately the char type does not support Unicode or UTF-8. This is a serious flaw in OCaml which should be fixed, but for the time being there are comprehensive Unicode libraries which work around it.\r\n\r\n既然连内置char类型都不默认支持unicode, 估计命名更不会支持了. 暂时close了.",
             "created_at": "2017-08-02T00:36:49Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/4#issuecomment-319534930",
