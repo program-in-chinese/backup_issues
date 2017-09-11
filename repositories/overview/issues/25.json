@@ -2,7 +2,7 @@
     "assignee": null,
     "assignees": [],
     "author_association": "OWNER",
-    "body": "曾几何时, 编译器还多不能支持中文标识符, 前人[努力过改变](https://github.com/program-in-chinese/overview/issues/13). 现在多数语言本身已经支持unicode的标识符, 可以认为用中文编程的第一个障碍基本消除了. 随着语言和编译器的开源, 出现了各种对英文关键词的编程语言进行汉化的实践. 下面试着罗列一下:\r\n\r\n[TinyCC](https://github.com/swizl/tinycc_zh)\r\n[Julia](https://github.com/qinwf/Chinese.jl)\r\n[CoffeeScript](https://github.com/nobodxbodon/coffeescript)\r\n\r\n也有参照原语言的语法, 自己开发的语言:\r\n\r\n[Z语言 (类LOGO)](https://github.com/TKT2016/ZCompileCore)\r\n\r\n请各位补充.",
+    "body": "曾几何时, 编译器还多不能支持中文标识符, 前人[努力过改变](https://github.com/program-in-chinese/overview/issues/13). 现在多数语言本身已经支持unicode的标识符, 可以认为用中文编程的第一个障碍基本消除了. 随着语言和编译器的开源, 出现了各种对英文关键词的编程语言进行汉化的实践. 下面试着罗列一下:\r\n\r\n[TinyCC](https://github.com/swizl/tinycc_zh)\r\n[Lua](https://github.com/swizl/lua_cn)\r\n[Julia](https://github.com/qinwf/Chinese.jl)\r\n[CoffeeScript](https://github.com/nobodxbodon/coffeescript)\r\n\r\n也有参照原语言的语法, 自己开发的语言:\r\n\r\n[Z语言 (类LOGO)](https://github.com/TKT2016/ZCompileCore)\r\n\r\n请各位补充.",
     "closed_at": null,
     "comment_data": [],
     "comments": 0,
@@ -60,7 +60,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 对现有编程语言的英文关键词进行汉化或者再创造的实例",
-    "updated_at": "2017-08-19T02:55:17Z",
+    "updated_at": "2017-09-10T16:00:01Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/25",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

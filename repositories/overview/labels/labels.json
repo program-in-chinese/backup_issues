@@ -49,6 +49,13 @@
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/wontfix"
     },
     {
+        "color": "0e8a16",
+        "default": false,
+        "id": 688675470,
+        "name": "思路",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%80%9D%E8%B7%AF"
+    },
+    {
         "color": "fbca04",
         "default": false,
         "id": 657797434,

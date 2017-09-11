@@ -2,42 +2,12 @@
     "assignee": null,
     "assignees": [],
     "author_association": "OWNER",
-    "body": "缘由是[这里](https://github.com/fe13/fe/issues/1#issuecomment-320152512)提到的JS老版本不支持中文命名的问题.\r\n可以从热门语言开始验证",
-    "closed_at": "2017-09-10T23:53:18Z",
-    "comment_data": [
-        {
-            "author_association": "OWNER",
-            "body": "短期内没有追究老版本是否支持中文命名的动力. 更新readme后暂时放下.",
-            "created_at": "2017-09-10T23:53:18Z",
-            "html_url": "https://github.com/program-in-chinese/overview/issues/17#issuecomment-328382882",
-            "id": 328382882,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/17",
-            "updated_at": "2017-09-10T23:53:18Z",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328382882",
-            "user": {
-                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
-                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
-                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
-                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
-                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/nobodxbodon",
-                "id": 392497,
-                "login": "nobodxbodon",
-                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
-                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
-                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/nobodxbodon"
-            }
-        }
-    ],
-    "comments": 1,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/17/comments",
-    "created_at": "2017-08-04T04:47:15Z",
+    "body": "完成重构, 已发布2.1",
+    "closed_at": "2017-09-06T06:26:01Z",
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/9/comments",
+    "created_at": "2017-09-06T06:25:46Z",
     "event_data": [
         {
             "actor": {
@@ -59,12 +29,39 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "c0f877982c6c16584355bdb57232904cbaa34315",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/overview/commits/c0f877982c6c16584355bdb57232904cbaa34315",
-            "created_at": "2017-09-10T23:52:25Z",
+            "commit_id": "90439e6ca35c80226c6b5c6d56a0d5a63c6635c7",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/commits/90439e6ca35c80226c6b5c6d56a0d5a63c6635c7",
+            "created_at": "2017-09-06T06:26:01Z",
             "event": "referenced",
-            "id": 1242383753,
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1242383753"
+            "id": 1236195779,
+            "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/events/1236195779"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": "90439e6ca35c80226c6b5c6d56a0d5a63c6635c7",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/commits/90439e6ca35c80226c6b5c6d56a0d5a63c6635c7",
+            "created_at": "2017-09-06T06:26:01Z",
+            "event": "merged",
+            "id": 1236195783,
+            "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/events/1236195783"
         },
         {
             "actor": {
@@ -88,25 +85,31 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2017-09-10T23:53:18Z",
+            "created_at": "2017-09-06T06:26:01Z",
             "event": "closed",
-            "id": 1242384030,
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1242384030"
+            "id": 1236195786,
+            "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/events/1236195786"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/17/events",
-    "html_url": "https://github.com/program-in-chinese/overview/issues/17",
-    "id": 247901802,
+    "events_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/9/events",
+    "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/pull/9",
+    "id": 255494072,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/17/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/9/labels{/name}",
     "locked": false,
     "milestone": null,
-    "number": 17,
-    "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
+    "number": 9,
+    "pull_request": {
+        "diff_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/pull/9.diff",
+        "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/pull/9",
+        "patch_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/pull/9.patch",
+        "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/pulls/9"
+    },
+    "repository_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension",
     "state": "closed",
-    "title": "添加在编程语言的具体哪一版本之后支持中文命名的信息",
-    "updated_at": "2017-09-10T23:53:18Z",
-    "url": "https://api.github.com/repos/program-in-chinese/overview/issues/17",
+    "title": "Refactor 0820",
+    "updated_at": "2017-09-06T06:26:02Z",
+    "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/9",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
