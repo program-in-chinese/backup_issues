@@ -120,9 +120,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "我非常赞同qingseshaohua的看法！！！我一直都认为，我们做中文编程语言根本上是为了解决中国人自己的问题，很多人老是说外国人肯定不会用，我觉得这纯粹就是瞎操心，人家的问题人家自己不会解决吗？而且早就已经解决了。无论到什么时候，我们都没有必要去考虑外国人用中文编程语言的问题，他们做的编程语言什么时候迎合过我们的需求？我们强大了，他们自然会去学的，就像我们现在一样。解决自己的问题，走自己的路，树立自己的文化和信心，这才是我们最应该做的。",
+            "created_at": "2017-09-11T14:22:03Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328544658",
+            "id": 328544658,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
+            "updated_at": "2017-09-11T14:22:03Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328544658",
+            "user": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/31815492?v=4",
+                "events_url": "https://api.github.com/users/RogeJohn91/events{/privacy}",
+                "followers_url": "https://api.github.com/users/RogeJohn91/followers",
+                "following_url": "https://api.github.com/users/RogeJohn91/following{/other_user}",
+                "gists_url": "https://api.github.com/users/RogeJohn91/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/RogeJohn91",
+                "id": 31815492,
+                "login": "RogeJohn91",
+                "organizations_url": "https://api.github.com/users/RogeJohn91/orgs",
+                "received_events_url": "https://api.github.com/users/RogeJohn91/received_events",
+                "repos_url": "https://api.github.com/users/RogeJohn91/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/RogeJohn91/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/RogeJohn91/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/RogeJohn91"
+            }
         }
     ],
-    "comments": 4,
+    "comments": 5,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31/comments",
     "created_at": "2017-09-10T08:17:32Z",
     "event_data": [
@@ -192,7 +221,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "如果能够做到以下这些，我相信中文编程语言一定能取得颠覆性成功",
-    "updated_at": "2017-09-11T04:24:42Z",
+    "updated_at": "2017-09-11T14:22:03Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
     "user": {
         "avatar_url": "https://avatars0.githubusercontent.com/u/31815492?v=4",
