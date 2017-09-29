@@ -267,7 +267,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "我觉得步骤应该是\r\n1，志同道合者 建立理论 建立标准  -模仿C语言或javascript的ecma标准\r\n2，根据标准实现编译器  -模仿C语言或javascript的ecma标准\r\n3，用这门语言开发应用或者建立操作系统一样的平台  \r\n这样 用的人才会越来越多 用户群才会形成",
             "created_at": "2017-09-02T06:48:56Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/3#issuecomment-326726577",

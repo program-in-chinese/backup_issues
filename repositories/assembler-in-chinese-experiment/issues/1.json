@@ -35,7 +35,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "请问怎么使用，需要在安装java jvm吗？",
             "created_at": "2017-09-10T05:27:21Z",
             "html_url": "https://github.com/program-in-chinese/assembler-in-chinese-experiment/issues/1#issuecomment-328320950",

@@ -1195,7 +1195,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon 正在想办法实现",
             "created_at": "2017-09-07T02:57:08Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/2#issuecomment-327669475",

@@ -1,9 +1,9 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "body": "关于建立个制作委员会,  通过模仿现有编程语言的标准（如C和javascript）来实现汉语编程语言（中文编程）的发展。\r\n\r\nC的标准，ISO C语言标准。背后是ISO国际标准组织委员会。\r\nC的实现，GCC、llvm等等太多。背后是各大公司或组织或个人。\r\n\r\njavascript的标准，ECMAScript。背后是欧洲计算机制造商协会。\r\njavascript的实现，V8等。背后是各大公司或组织或个人。\r\n\r\n建立委员会的目的是为了形成一定的组织和产生执行能力。\r\n借鉴前人的经验，站在巨人的肩膀上是我们的基础。\r\n\r\n经过我的观察后，我总结得到，【操作系统】和【政府】是没有太大区别的，TA们本质上都是某种组织结构。\r\n操作系统的宿主是程序和数据，还有硬件创造的赛博空间。\r\n政府的宿主是人和人群，人类群居化带来的结果。\r\n因此，团队其实就是一个简单的组织结构，它最后会发展为现在市场上常见的组织结构，如；公司，企业，党派，政治团体等，力量来自于人群组织。要实现一件事，必须要有一定的力量，这是需求和条件，而一个人的力量是微小和微薄的。所以要说人多力量大，星星之火可以燎原。\r\n\r\n现在，我们为了实现汉语编程语言是凭着一腔热血和业余爱好在不断进取和向前探索，我们远远没有达到能创建公司企业的程度和阶段。所以我们只能凭借现在已经具有的人力、 物力 、财力、 资源等条件建立一个委员会。做出实际可行的探讨和列出大纲，还有设计一套发展阶段计划。\r\n\r\n1，芯片只能执行二进制。\r\n  大家可以想象一下其他语言是怎么发展的，怎么开始的，在赛博空间中本是空无一物、一无所有，是有限状态机产生的有限多个状态码驱动了软件世界的诞生和程序的运行，是不断抽象带来的一层一层的组织和结构使程序和数据有逻辑地不出错的产生功能，供人类使用解决问题。现在芯片大多能运行到3GHz左右，G是十亿，3GHz就是三十亿次，那么，一个晶体管每秒钟产生三十亿个二进制有限状态，10亿个晶体管就是10亿乘以30亿，每秒钟产生300亿个二进制有限状态（每秒钟可以执行300亿个二进制）。GPU的晶体管更多，产生的状态码更多。在这海量的二进制中（我称之为二进制海）有很多元器件会消耗掉一部分的二进制状态，如；寄存器，指令集，缓存等，即便如此，剩下的状态码也是不可小觑的，而程序就存在于这些二进制之中，因为我们现在是通过冯诺依曼结构来使用二进制的关系，所以，程序分为指令和数据，当然，TA们都是以二进制的形式存在的，只不过经过抽象后，表现的形式有些变化，第一世代是数字（二进制和八进制、十进制、十六进制一一对应），第二世代是字母和数字（汇编指令、地址与第一世代各种进制一一对应），第三世代是英文单词和数字（变量和数据与第二世代的指令、地址一一对应），第四世代是半自然语言和数字（编程范式和各种接口与第三世代的变量、数据一一对应）。其实这就是一级一级地翻译，从一种形态转换为另一种形态，想象下能量的流动和改变（风和水从一个地方流动到另一个地方），这让我想到了变形金刚Transformers，其实它应该被翻译为转换形态，Trans；转换、formers；形态，不知道为什么会有人翻译为变形金刚，可能是在搞秀。所以，程序语言和程序的关系也是如此的，我们创造汉语编程语言的目的就是要利用二进制为我们的母语、思想所用。当然，程序语言的本质是为了表达思想、主意、想法、idea，最后演变为实际的功能，供我们解决生活中面临的问题。\r\n  \r\n2，怎么利用二进制。\r\n\r\n经过上述理论的设想，我们知道，如果要建造程序，我们需要通过程序语言不断地将想法转换为代码，只有当代码量达到一定程度后（比如几千行，几万行，百万千万甚至上亿行）才能形成一定的功能，创造若干条件链、工具链，才能塑造出如；编译器，组件，模块，操作系统，大型软件工程。这就像（往下还有微观宇宙←原子（并不是一个，而是有限多个）→分子（并不是一个，而是有限多个）→ 大分子（并不是一个，而是有限多个）→细胞（并不是一个，而是有限多个）→器官（并不是一个，而是有限多个）→动物身体→社会→往上还有宏观宇宙）一样，前一层是后一层的组成基础。那么，程序语言该怎么建造呢？利用现有基础还是从零创造？我看了各种讨论，发现大家比较认同利用现有基础。利用现有基础也行，但是会受制于人，这种方法是能很快出成果，但是我们并不会有我们的核心条件链和工具链，从二进制到第四世代之间我们不会有我们的核心权。如果别人改动了第一到第四世代中的任何一环，我们的基础就会受动摇，以至于我们的程序上层就会瘫痪，那样的话，一切将会变得没有意义。如果从零创造，我们就得将现有的有限状态机（CPU、GPU、芯片等）之状态码（二进制）与我们设计的程序语言（汉语编程语言）一一对应，这必将是一项巨大的软件工程，工程量很庞大（如果是人手动来做的话）其实也不大，如果人力充沛的话。但是这里，我有个取巧之策，结合现有基础，比如利用现有的编程基础和程序语言写个增删改查和自动查找替换的小软件帮助我们，你看llvm都能完成。\r\n因为现在的有限状态机（如X86、ARM等）对外的接口已经不是原始的二进制，而是汇编指令，因此，我们要创造汉语编程语言的话，只需要模仿现有的最成功的编程语言（如C）和它的实现（如llvm）就够了，这个实现分前端、中段、后端、三大模块，每一部分都用到了 语法分析、 词法分析 、语义分析，它有一个核心的【语义处理器】，这是不管移植到什么平台都不会改变的。此实现相当的开放和自由，模块化程度很高，可以按需通过增加或删除或改变某一部分来适应不同的软件平台和硬件平台。通过模仿它，我们可以快速设计出汉语编程语言。当然这是第一步，有了第一步的基础，以后发展第二步就不需要再模仿TA们了（我们甚至可以设计基于汉语的有限状态机，比如易经的理论基础）。\r\n大家可以把二进制想象成一股能量或载体，它承载变量和数据组成的算法，通过使用指令和存储空间创造程序宿主。\r\n\r\n3，设计汉语编程语言\r\n\r\n首先我们需要成立一个制作委员会，我们需要通过讨论去制定计划和大纲。\r\n其次我们需要设计并规定这门语言的词法、语法、语义、关键字等一系列语言规范。它需要足够的简单（像C、python一样）好用。设计编程范式和模块接口等。\r\n然后我们需要创造它的实现，向下需要与汇编指令一一对应，向上需要与自然语言一一对应。\r\n创造条件链和工具链。\r\n几乎现有的操作系统、各种程序语言的实现都是基于C，所以我们创造的汉语编程语言要不就是替换c要不就是在c的基础上建立实现。其区别是，替换c，我们就需要用汇编写代码翻译汉语编程语言的编译或解释过程。以c为基础，我们就需要用C写代码翻译汉语编程语言的编译或解释过程。我们的目标是实现与二进制的交流，实现自举。现在到处都能用c，各平台都有c的编译器，那是因为它已经翻过了，它在这些平台已经有二进制可执行程序了。\r\n为什么不汉化汇编呢？第一，如果我们创造一个实现（编译器/解释器），那么我们会生成这门语言的专有汇编码。第二，现有硬件的CPU/GPU/或其他DSP、mcu等有限状态机有专门的汇编指令，TA们都是西方人开发的硬件，我们不可能做到每一类每一种都去汉化，这也是多此一举，我们只需要直接拿来用与我们的语言之专有汇编码适配就够了。\r\n某种编程范式的实现（面向对象、面向过程、函数式），是因为它的编译器/解释器中提供这一功能，能将用这一范式写的代码编译/解释为二进制。语言自带的函数也同理是这样实现的。\r\n总之就是翻译工作，大家协同合作按计划就能一步一步完成。\r\n\r\n\r\n关于有些观点说有易语言和习语言的前车之鉴，拿TA们的失败举例，但是我要说的是，首先，TA们并不开源也不自由，其次TA们没有一个良好的实现，没有开发者跟进。TA们甚至没有一个像样的组织结构。TA们缺少一切工具链、条件链。\r\n\r\n///\r\n\r\n我在知乎的回答；有些回答有讲到发展汉语编程语言的意义。\r\n\r\n为什么代码都是用英文来写的，将来会有用中文写代码的那天吗？\r\nhttps://www.zhihu.com/question/19769482/answer/98050506\r\n\r\n中文编程目前面临的难题是什么，你有哪些建议？\r\nhttps://www.zhihu.com/question/29895778/answer/98089092\r\n一般编程语言都是英文的，大家对中文编程有什么样的看法，中文编程有哪些优劣势？\r\nhttps://www.zhihu.com/question/20184664/answer/98090968\r\n\r\n共产主义最终是否会使经济学无意义？\r\nhttps://www.zhihu.com/question/42960875/answer/109848403\r\n\r\n如果计算机是由中国人发明的，那么编程时写代码会是全中文吗？\r\nhttps://www.zhihu.com/question/21061180/answer/121283185\r\n\r\n汉语编程语言意义何在？\r\nhttps://www.zhihu.com/question/33983820/answer/187782339\r\n一个开源的适合中文用户开发的编程语言和开发环境, 必需具备的独到功能有哪些?\r\nhttps://www.zhihu.com/question/55386231/answer/187784837\r\n\r\ncpu那么多晶体管组成的门电路代表不同的逻辑，那么输入的代码是怎样找到确定的逻辑的？\r\nhttps://www.zhihu.com/question/62173438/answer/195436918\r\n\r\n人工智能(AI) 是否进入了第三次技术瓶颈？  ---这篇讲到发展汉语编程语言的意义\r\nhttps://www.zhihu.com/question/62627800/answer/201181045\r\n\r\n完美的计算机语言存在吗？\r\nhttps://www.zhihu.com/question/62389459/answer/201189947",
-    "closed_at": null,
+    "closed_at": "2017-09-28T17:28:24Z",
     "comment_data": [
         {
             "author_association": "OWNER",
@@ -35,7 +35,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "1，现在开始为量子计算机编程还太早，待其芯片可以像80年代pc那样普及开始以后再讨论吧。\r\n2，为汇编做一一对应的工作是一个耗时耗力的工作，只有发挥人海战术或者用现有的语言设计一个工具实现解决重复操作，那么一个人也能完成。\r\n3，也可以这样说吧，但是我设想的是用于编译型语言。\r\n4，我描述的是模仿llvm这个编译器的编译过程和编译方法。\r\n5，是的，我说的我们创造的语言处于哪一层，但如果用汇编，无疑会更底层更高效。\r\n6，不是啊，我解释的是一门语言提供的功能其原理。\r\n7，我发现对实现汉语编程语言这一想法的志同道合道友很多，TA们现在各自为政，如果能把TA们的力量聚合起来，那么，无疑会帮助更快的实现。",
             "created_at": "2017-09-03T06:20:57Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-326786899",
@@ -151,7 +151,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon nobodxbodon你好，我觉得量子计算机的计算过程和计算原理我们现在没有任何文档可供参考，它的算法可能与现有编程语言的算法千差万别，甚至完全不同，如果用现有编程语言的词法、语法、语义去设计某种语言标准，无疑是一件牛头不对马嘴的事。现在探讨为时过早，我觉得现在我们还是把现有编程语言消化为汉语比较好，还有条件链和工具链的建立。我们必须要有一定的基础--也就是地基。",
             "created_at": "2017-09-05T02:57:04Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-327058867",
@@ -180,7 +180,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@swizl  你好，这个TinyCC 是自成一派还是可以兼容甚至使用现有这门语言和编译器的资源？我刚刚檄文描述了一个新思路。\r\n=======================================\r\n我想到一个新思路\r\n\r\n利用现有基础，站在巨人的肩膀上，借鉴前人的经验。\r\n\r\n手动汉化不如自动汉化。\r\n我们可以用自己现阶段会的某种语言，比如 javascript java python等语言写一个【源代码翻译器】，翻译C/C++的编译器gcc、llvm的源代码，调用Google 的|谷歌翻译|（谷歌已经在去年将它升级到了具有机器学习的人工智能翻译水平）去自动翻译其中的代码，然后保存为汉语源代码，然后再把这个源代码通过现成的编译器编译为支持汉语的新gcc或llvm编译器可执行程序，然后在我们用vs或者code：：block（或其它语言的IDE）的时候通过加载编译器，就可以在强大现有的IDE中使用汉语编程了。这是汉化C/C++这种语言的一个思路，也可以将其用于汉化其他语言，比如javascript java python。\r\n因为这个【源代码翻译器】本质上是个文本翻译器。\r\n对翻译的策略，我们可以给他设置一个规则，比如语言保留的关键字和已占用的命名空间用我们协商好的汉语词汇列表，非保留和占用的，如；库、模板、STL等，如果是英文单词就直接翻译，如果是缩写就手动翻译一处，其它相同的缩写就自动替换。",
             "created_at": "2017-09-05T03:04:10Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-327059704",
@@ -209,7 +209,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon llvm的优点是开源自由、模块化、友好的调试提示。",
             "created_at": "2017-09-05T03:05:44Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-327059872",
@@ -238,7 +238,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "这样做的好处是可以兼容现有语言的资源。反正是机器自动智能的翻译，即便是海量的源代码文件或者各种库、模板等也是可以轻易翻译完的。只不过校验需要一定的人手和时间，不过这应该已经很容易了。我觉得此举就像我们买了苏联的su-30 、su-35后将它国产化并自己生产出歼-11,、歼-15一样。完全消化并掌握这项技能。现在还有全新的歼-20，也就是说以后我们有创造全新语言的可能性，什么图形化编程，人工智能编程，自动化编程都不在话下。",
             "created_at": "2017-09-05T03:24:02Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-327061853",
@@ -354,7 +354,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@swizl 我看了，似乎没有中文支持？",
             "created_at": "2017-09-05T06:58:21Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-327088303",
@@ -412,7 +412,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon 有些关键字似乎还有改进的空间。如此看来，汉化的c已经有了，我只是不知道罢了，汉化的python也有了，只不过是正体中文。\r\n那么，我们现在应该干什么？我觉得我们的任务是完善它们，既然基础已经有人打好了，我们应该创造教程或指导，然后推广使用。让那些对汉语编程语言感兴趣的伙伴都来用。c语言刚开始也没几个人用，只不过用的人多了才变成事实标准的",
             "created_at": "2017-09-07T03:22:32Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-327672898",
@@ -470,7 +470,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "我考虑了，不如把关键字命名改成可以自定义设置的方式。\r\n使用者按照自己的意愿设置方便自己使用的关键字。",
             "created_at": "2017-09-08T00:43:55Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-327968201",
@@ -528,7 +528,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "词法会变，但是语法不会变，语义更不会",
             "created_at": "2017-09-08T05:36:19Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328003699",
@@ -557,7 +557,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "汉化高级语言可能是一件舍近求远，缘木求鱼的事\r\n创造一种汉语编程语言的突破口可能在低级语言。\r\n应该汉化汇编或者使用已经有的中文汇编语言，按照编译原理的理论创造一个可以汇编高级语言的中文汇编器。一旦这个中文汇编器可以汇编高级语言，那么也就可以汉化这门高级语言，比如C，只要能汉化C，那就能汉化类似它或基于它实现编译器的别的语言，这是思路1.\r\n思路2，如果我们能创造一个中文汇编器，那么，我们可以模仿现有高级语言的模式或格式创造一门全新的汉语编程语言编译器。或者完全推倒现有西式思维模式的编程语言模型，按照中式思维创造真正的汉语编程语言。然后在这个基础上再创造一门接近甚至类似于汉语自然语言的编程语言。有了这些工具链和条件链的基础，然后再在这个基础上创造诸如；图形化编程，人工智能编程，自动化编程等更先进的编程方式。有了这些基础，我们就能创造更强的编译器，操作系统，大型软件工程。\r\n现在的问题是，怎样在汇编语言中或汇编器中使用utf-8编码而不是ASCII编码。还有，汇编似乎只能汉化汇编语言的指令，而不能汉化某一硬件平台的硬件指令，如寄存器指令或指令集指令。",
             "created_at": "2017-09-09T01:38:46Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328246394",
@@ -615,7 +615,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon 还不彻底，不过我找到了o语言，支持全中文，汇编助记符和机器指令集指令都是汉语~~~\r\n现在就是想用o语言来写程序了。",
             "created_at": "2017-09-09T16:35:52Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328288375",
@@ -644,7 +644,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@swizl \r\n你好，我有几个问题想请教你\r\n1，请问相对于原始tcc，你改动了哪些文件，哪些地方？\r\n2，我能否按照你改动的方法和过程将tcc全部文件和代码修改为汉语，包括缩写（阿拉伯数字和数学符号就不改了）？\r\n3，我能否将全部修改后的代码用你的【小习编译器Bate】编译为新的汉化tcc编译器？如果技术上不行，我该怎么做？\r\n4，tcc怎么没有汇编器？它是直接编译为二进制吗？我没看到汇编代码。",
             "created_at": "2017-09-09T16:36:28Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328288413",
@@ -702,7 +702,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon 是啊 ，所以我想继续使用，在使用的过程中继续更新 ，它的主页都打不开了，所以我想搬到git上来。开发者也联系不上，没有源代码，只有一个汇编器 可执行程序，windows平台的。\r\n我想在这个基础上重新写个汇编器，用汉语，然后通过o语言的汇编器【OASM.exe】编译为新的纯汉语汇编器。然后在这个基础上开发 汉化C语言或其他语言。\r\n\r\n如果你也想实现这个想法，你可以先搞，我跟进",
             "created_at": "2017-09-10T05:31:25Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328321082",
@@ -760,7 +760,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@swizl  多谢再次回答我，谢谢。\r\n\r\n我的目的与你一样，我只是没发现你汉化的tcc才想到从更基层的入口找切入点，比如汉化汇编，我的想法也是想汉化用户基数最大的C。因为不管是什么软件平台或硬件平台，很多工程的基础几乎都是C，更多高级语言的解释器或编译器都是基于C。现在既然找到了你汉化的tcc，我觉得有新线索可循了。只是人力不够，希望有更多的兄弟伙伴加入汉化tcc这一项目。",
             "created_at": "2017-09-10T10:32:04Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328333841",
@@ -818,7 +818,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon\r\n\r\ntcc已经较为全面，支持了ISO c99。\r\n我的目的是在最近的稳定版本上汉化，并发展出全新的路线了。不是很想与官方同步更新。当然，如果有意愿的朋友，可以继续更新并编译新的版本。\r\n\r\n我是想在 swizl 的【tinycc_cn】基础上汉化。他取材自tinycc官方英文最新稳定版。",
             "created_at": "2017-09-11T06:19:22Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328427766",
@@ -905,7 +905,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "\"全新的路线\" 就是在汉化后的源码上改进或新增功能，远期计划是，汉化python3以上的源码，这样在python里就可以自由使用汉语，再加上python3本来就支持utf8，想来真是如虎添翼。\r\n再往后，就是上层和前端用汉化python，底层和后端用汉化C，直到，把它们的优点融合后发展出全新的   汉语编程语言 ",
             "created_at": "2017-09-11T08:02:32Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328450163",
@@ -1050,7 +1050,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@zhangboyang \r\n你好，请问tcc  0.9.27中有这个问题吗？是否需要打补丁？",
             "created_at": "2017-09-12T03:09:01Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328721130",
@@ -1108,7 +1108,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@zhangboyang \r\n哦，明白了。",
             "created_at": "2017-09-12T03:15:09Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328722135",
@@ -1166,7 +1166,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon  谢谢你的分析，swizl已经告诉我没有加进tinycc_zh，他说编译的时候只要把那个diff加进去一起编译就可以了。",
             "created_at": "2017-09-12T08:07:59Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-328775372",
@@ -1253,7 +1253,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@swizl @zhangboyang  为了保险起见，还是加进去比不加进去更有利于以后的改进？",
             "created_at": "2017-09-13T00:58:54Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-329026499",
@@ -1280,9 +1280,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/qwas982"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "https://github.com/program-in-chinese/overview/issues/35.\r\n@zhangboyang @swizl 多谢参与讨论! 总算还有收获.",
+            "created_at": "2017-09-28T17:28:23Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/28#issuecomment-332907329",
+            "id": 332907329,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/28",
+            "updated_at": "2017-09-28T17:28:23Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/332907329",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 44,
+    "comments": 45,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/28/comments",
     "created_at": "2017-09-02T11:59:28Z",
     "event_data": [
@@ -2851,6 +2880,141 @@
             "event": "subscribed",
             "id": 1246362554,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1246362554"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/7912829?v=4",
+                "events_url": "https://api.github.com/users/zhangboyang/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zhangboyang/followers",
+                "following_url": "https://api.github.com/users/zhangboyang/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zhangboyang/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zhangboyang",
+                "id": 7912829,
+                "login": "zhangboyang",
+                "organizations_url": "https://api.github.com/users/zhangboyang/orgs",
+                "received_events_url": "https://api.github.com/users/zhangboyang/received_events",
+                "repos_url": "https://api.github.com/users/zhangboyang/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zhangboyang/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zhangboyang/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zhangboyang"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-09-28T17:28:23Z",
+            "event": "mentioned",
+            "id": 1270252061,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270252061"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/7912829?v=4",
+                "events_url": "https://api.github.com/users/zhangboyang/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zhangboyang/followers",
+                "following_url": "https://api.github.com/users/zhangboyang/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zhangboyang/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zhangboyang",
+                "id": 7912829,
+                "login": "zhangboyang",
+                "organizations_url": "https://api.github.com/users/zhangboyang/orgs",
+                "received_events_url": "https://api.github.com/users/zhangboyang/received_events",
+                "repos_url": "https://api.github.com/users/zhangboyang/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zhangboyang/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zhangboyang/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zhangboyang"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-09-28T17:28:23Z",
+            "event": "subscribed",
+            "id": 1270252062,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270252062"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/3119372?v=4",
+                "events_url": "https://api.github.com/users/swizl/events{/privacy}",
+                "followers_url": "https://api.github.com/users/swizl/followers",
+                "following_url": "https://api.github.com/users/swizl/following{/other_user}",
+                "gists_url": "https://api.github.com/users/swizl/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/swizl",
+                "id": 3119372,
+                "login": "swizl",
+                "organizations_url": "https://api.github.com/users/swizl/orgs",
+                "received_events_url": "https://api.github.com/users/swizl/received_events",
+                "repos_url": "https://api.github.com/users/swizl/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/swizl/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/swizl/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/swizl"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-09-28T17:28:23Z",
+            "event": "mentioned",
+            "id": 1270252063,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270252063"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/3119372?v=4",
+                "events_url": "https://api.github.com/users/swizl/events{/privacy}",
+                "followers_url": "https://api.github.com/users/swizl/followers",
+                "following_url": "https://api.github.com/users/swizl/following{/other_user}",
+                "gists_url": "https://api.github.com/users/swizl/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/swizl",
+                "id": 3119372,
+                "login": "swizl",
+                "organizations_url": "https://api.github.com/users/swizl/orgs",
+                "received_events_url": "https://api.github.com/users/swizl/received_events",
+                "repos_url": "https://api.github.com/users/swizl/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/swizl/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/swizl/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/swizl"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-09-28T17:28:23Z",
+            "event": "subscribed",
+            "id": 1270252064,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270252064"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-09-28T17:28:24Z",
+            "event": "closed",
+            "id": 1270252073,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270252073"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/28/events",
@@ -2862,9 +3026,9 @@
     "milestone": null,
     "number": 28,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "关于建立个制作委员会,  通过模仿现有编程语言的标准（如C和javascript）来实现汉语编程语言（中文编程）的发展。",
-    "updated_at": "2017-09-13T00:58:54Z",
+    "updated_at": "2017-09-28T17:28:24Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/28",
     "user": {
         "avatar_url": "https://avatars3.githubusercontent.com/u/10122306?v=4",

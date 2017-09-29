@@ -441,7 +441,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "关于这个问题，我认为用code block 加载汉语编程语言的编译器就行了，有很多现成的IDE可以用。",
             "created_at": "2017-09-02T12:04:55Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-326740234",
@@ -528,7 +528,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon   你说的不错，我很赞同，我还完善了一下我的思路。\r\n---------------------------------------------------\r\n我想到一个新思路\r\n\r\n利用现有基础，站在巨人的肩膀上，借鉴前人的经验。\r\n\r\n手动汉化不如自动汉化。\r\n我们可以用自己现阶段会的某种语言，比如 javascript java python等语言写一个【源代码翻译器】，翻译C/C++的编译器gcc、llvm的源代码，调用Google 的|谷歌翻译|（谷歌已经在去年将它升级到了具有机器学习的人工智能翻译水平）去自动翻译其中的代码，然后保存为汉语源代码，然后再把这个源代码通过现成的编译器编译为支持汉语的新gcc或llvm编译器可执行程序，然后在我们用vs或者code：：block（或其它语言的IDE）的时候通过加载编译器，就可以在强大现有的IDE中使用汉语编程了。这是汉化C/C++这种语言的一个思路，也可以将其用于汉化其他语言，比如javascript java python。\r\n因为这个【源代码翻译器】本质上是个文本翻译器。\r\n对翻译的策略，我们可以给他设置一个规则，比如语言保留的关键字和已占用的命名空间用我们协商好的汉语词汇列表，非保留和占用的，如；库、模板、STL等，如果是英文单词就直接翻译，如果是缩写就手动翻译一处，其它相同的缩写就自动替换。",
             "created_at": "2017-09-05T03:12:06Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-327060565",
@@ -557,7 +557,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "这样做的好处是可以兼容现有语言的资源。反正是机器自动智能的翻译，即便是海量的源代码文件或者各种库、模板等也是可以轻易翻译完的。只不过校验需要一定的人手和时间，不过这应该已经很容易了。我觉得此举就像我们买了苏联的su-30 、su-35后将它国产化并自己生产出歼-11,、歼-15一样。完全消化并掌握这项技能。现在还有全新的歼-20，也就是说以后我们有创造全新语言的可能性，什么图形化编程，人工智能编程，自动化编程都不在话下。",
             "created_at": "2017-09-05T03:23:43Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-327061819",
@@ -673,7 +673,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@ice1000 感谢指出，已修正。",
             "created_at": "2017-09-05T05:38:37Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-327076089",
@@ -731,7 +731,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon 好的",
             "created_at": "2017-09-05T06:59:07Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-327088434",

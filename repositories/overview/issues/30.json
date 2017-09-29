@@ -6,7 +6,7 @@
     "closed_at": null,
     "comment_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "刚刚在群里讨论了一番，得出以下结论\r\n\r\n【表意啊 最重要的是让计算机知道你想要表达的意思\r\n怎样最快最高效就是最重要的\r\n很显然现在的语言既不快也不高效\r\nc所谓的快和高效是面向计算机的\r\n面向人的没有\r\npython这样的脚本做了一些尝试\r\n但还没够\r\n我觉得还要在python的基础上再创造一门语言  用编译器的架构来设计 分前中后端 c是后端 python是中段 在创造一门语言当前端。\r\n我突然想到了一个新思路\r\n既然python支持汉语，不如我们在python的基础上用汉语做关键字和命名再创造一门语言\r\n接近自然语言的编程语言\r\n先做出来 先有这么个东西再说\r\n之后在改进】\r\n",
             "created_at": "2017-09-06T03:03:09Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/30#issuecomment-327361123",

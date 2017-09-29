@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "OWNER",
     "body": "由[此处](https://github.com/program-in-chinese/overview/issues/19#issuecomment-321177055)讨论及后续引发. \r\n做了个初步的演示: https://github.com/program-in-chinese/p5js_in_chinese",
-    "closed_at": null,
+    "closed_at": "2017-09-27T22:31:08Z",
     "comment_data": [
         {
             "author_association": "OWNER",
@@ -120,9 +120,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "由于工作和设计无关, 也没有相关的业余爱好, 继续的动力不足.\r\n另一硬伤: 由于https://github.com/program-in-chinese/p5js_in_chinese/issues/1 3D效果无法输出到图片, 无法演示, 感觉前景有限.\r\n[Processing库](https://processing.org/)也许将来可以和https://github.com/program-in-chinese/overview/issues/33 结合, 用来实现类似Logo的教学语言. 但也不是短期目标.",
+            "created_at": "2017-09-27T22:31:08Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/20#issuecomment-332674407",
+            "id": 332674407,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/20",
+            "updated_at": "2017-09-27T22:31:08Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/332674407",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 4,
+    "comments": 5,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/20/comments",
     "created_at": "2017-08-11T03:33:03Z",
     "event_data": [
@@ -746,6 +775,33 @@
             "event": "subscribed",
             "id": 1232233492,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1232233492"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-09-27T22:31:08Z",
+            "event": "closed",
+            "id": 1268749594,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1268749594"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/20/events",
@@ -757,9 +813,9 @@
     "milestone": null,
     "number": 20,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "将p5js的API中文化",
-    "updated_at": "2017-09-08T05:12:51Z",
+    "updated_at": "2017-09-27T22:31:08Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/20",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

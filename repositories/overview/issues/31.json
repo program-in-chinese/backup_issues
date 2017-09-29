@@ -6,7 +6,7 @@
     "closed_at": null,
     "comment_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "兄弟，欢迎广发建议意见，同时注重实践\r\n1，可以通过设计新的软键盘实现。\r\n2，可能得求助输入法厂商。比如搜狗。\r\n3，目前第一步还是汉化吧，模仿已有的，完全吃透了才能创造全新的。\r\n4，编译器也推荐汉化已有的。\r\n5，目前是需要一款能用的汉语编程语言+能编译汉语代码的中文编译器。之后才是慢慢发展新的软件产品，比如IDE。",
             "created_at": "2017-09-10T10:23:10Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328333418",
