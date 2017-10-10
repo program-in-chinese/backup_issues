@@ -62,9 +62,67 @@
                 "type": "User",
                 "url": "https://api.github.com/users/azige"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "发现不少网上分析GBK<->UTF8互转出现乱码的文章里都提到偶数OK,奇数有问题的说法. 其实不尽然.\r\n\r\n比如[此文](http://www.itkeyword.com/doc/6517034904586268x890/utf-8-java)提到的\"姓名\"的三个双字节段恰好都是合法的GBK字符[e5 a7] [93 e5] [90 8d]因此没有被破坏.\r\n\r\n只要UTF8的字节码中有GBK中不合法的字符, 就会有问题. 比如我们碰到的\"开始\". 初步分析已经整理在https://github.com/program-in-chinese/junit4_in_chinese/pull/12#issuecomment-333757123 还有一些细节要探究, 然后是针对这个插件问题的对策.",
+            "created_at": "2017-10-03T18:42:44Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-333939921",
+            "id": 333939921,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "updated_at": "2017-10-03T18:42:44Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/333939921",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "看起来[checkstyle的Logger里](https://github.com/checkstyle/checkstyle/blob/master/src/main/java/com/puppycrawl/tools/checkstyle/DefaultLogger.java#L126)是按照UTF8编码输出信息的:\r\n```\r\n final Writer infoStreamWriter = new OutputStreamWriter(infoStream, StandardCharsets.UTF_8);\r\n...\r\n            final Writer errorStreamWriter = new OutputStreamWriter(errorStream,\r\nStandardCharsets.UTF_8);\r\n```\r\n试了把`StandardCharsets.UTF_8`改成`Charset.defaultCharset()`之后, 本地测试就显示正常了(ubuntu, mvn -v: Default locale:zh_CN, plaform encoding: GBK)",
+            "created_at": "2017-10-04T16:05:49Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-334206209",
+            "id": 334206209,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "updated_at": "2017-10-04T16:05:49Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/334206209",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 2,
+    "comments": 4,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26/comments",
     "created_at": "2017-08-24T07:04:25Z",
     "event_data": [
@@ -175,6 +233,37 @@
             "event": "subscribed",
             "id": 1222708462,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1222708462"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-10-03T18:43:44Z",
+            "event": "renamed",
+            "id": 1276589495,
+            "rename": {
+                "from": "Maven checkstyle输出乱码问题",
+                "to": "GBK<->UTF8 互转问题: Maven checkstyle输出乱码"
+            },
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1276589495"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26/events",
@@ -187,8 +276,8 @@
     "number": 26,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
-    "title": "Maven checkstyle输出乱码问题",
-    "updated_at": "2017-08-27T06:48:09Z",
+    "title": "GBK<->UTF8 互转问题: Maven checkstyle输出乱码",
+    "updated_at": "2017-10-04T16:05:49Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

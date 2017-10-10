@@ -1309,9 +1309,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/farteryhr"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "欢迎 @anders-liu !",
+            "created_at": "2017-10-03T17:17:03Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/2#issuecomment-333915456",
+            "id": 333915456,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
+            "updated_at": "2017-10-03T17:17:03Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/333915456",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 45,
+    "comments": 46,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/comments",
     "created_at": "2017-07-29T20:07:35Z",
     "event_data": [
@@ -3833,6 +3862,60 @@
             "event": "subscribed",
             "id": 1242092676,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1242092676"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/20924796?v=4",
+                "events_url": "https://api.github.com/users/anders-liu/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anders-liu/followers",
+                "following_url": "https://api.github.com/users/anders-liu/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anders-liu/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anders-liu",
+                "id": 20924796,
+                "login": "anders-liu",
+                "organizations_url": "https://api.github.com/users/anders-liu/orgs",
+                "received_events_url": "https://api.github.com/users/anders-liu/received_events",
+                "repos_url": "https://api.github.com/users/anders-liu/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anders-liu/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anders-liu/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anders-liu"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-10-03T17:17:03Z",
+            "event": "mentioned",
+            "id": 1276429405,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1276429405"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/20924796?v=4",
+                "events_url": "https://api.github.com/users/anders-liu/events{/privacy}",
+                "followers_url": "https://api.github.com/users/anders-liu/followers",
+                "following_url": "https://api.github.com/users/anders-liu/following{/other_user}",
+                "gists_url": "https://api.github.com/users/anders-liu/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/anders-liu",
+                "id": 20924796,
+                "login": "anders-liu",
+                "organizations_url": "https://api.github.com/users/anders-liu/orgs",
+                "received_events_url": "https://api.github.com/users/anders-liu/received_events",
+                "repos_url": "https://api.github.com/users/anders-liu/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/anders-liu/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/anders-liu/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/anders-liu"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-10-03T17:17:03Z",
+            "event": "subscribed",
+            "id": 1276429408,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1276429408"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/events",
@@ -3854,7 +3937,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "社区运行方式讨论, 迎新",
-    "updated_at": "2017-09-10T07:17:11Z",
+    "updated_at": "2017-10-03T17:17:03Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
