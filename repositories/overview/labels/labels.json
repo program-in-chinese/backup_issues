@@ -21,6 +21,13 @@
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/enhancement"
     },
     {
+        "color": "fef2c0",
+        "default": true,
+        "id": 717036872,
+        "name": "good first issue",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/good%20first%20issue"
+    },
+    {
         "color": "128A0C",
         "default": true,
         "id": 655106833,
