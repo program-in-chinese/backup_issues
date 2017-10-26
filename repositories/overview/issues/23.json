@@ -1,12 +1,12 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "body": "不太会使用Github，因为我目前主要使用c#,也使用中文进行编程\r\n所以，我曾经试过汉化常见的类库，但是时间不允许，有开发任务。\r\n因此，这个类库，是半成品，还有，很多一段时间，都不会更新和完善。\r\n\r\n这里，我就上传我之前写的一些东西，当成例程吧。 @nobodxbodon \r\n\r\n我不会添加和创建自己的项目，会的人下载后，合并到例程文件夹吧。\r\n\r\nVS2017的解决方案，存放的核心文件：幻象类库\\Cjing.Net\\变量类型 [幻象类库.zip](https://github.com/program-in-chinese/overview/files/1227124/default.zip)\r\n\r\n做了常量值，整数型，逻辑型，文本型，小数型，下面是逻辑型的部分截图。\r\n![qq 20170816131914](https://user-images.githubusercontent.com/5524105/29348334-80e83a52-8285-11e7-95e2-c71882f49991.png)",
     "closed_at": "2017-08-18T04:32:33Z",
     "comment_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "囧，我自己目前还是C#的关键词和类库，混合编程\r\n没有时间，如果有时间，利用兰姆达（lambda）应该能实现几乎全中文编程。",
             "created_at": "2017-08-16T05:26:12Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/23#issuecomment-322669688",
@@ -64,7 +64,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon  VS2017啊。可能有一些这个版本特有的语法糖。\r\n如果是作为示例的话，只要 幻象类库\\Cjing.Net\\变量类型 下面的 .cs文件 呢。\r\n不会玩github，我也不会同步项目到github啊，svn都不用，我个人开发者，用的同步盘\r\n\r\n这个东西，本身就是私有的项目，是为方便我自己而做的，也并非最终形态。\r\n而且，我后期的更希望是汉化编写一个自己常用的中文编程类库。\r\n所以，这个简单的封装汉化，只能算抛砖引玉，做个例子。",
             "created_at": "2017-08-16T05:48:50Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/23#issuecomment-322672535",

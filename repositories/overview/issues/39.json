@@ -2,7 +2,7 @@
     "assignee": null,
     "assignees": [],
     "author_association": "OWNER",
-    "body": "A comprehensive list on Wiki is [here](https://en.wikipedia.org/wiki/Non-English-based_programming_languages)\r\n\r\nIndex below only lists the open source ones among them:\r\n(Japanese) Nadesiko, なでしこ: [repo](https://github.com/kujirahand/nadesiko3)\r\n\r\n此贴搜集所有成气候的**开源**非英文关键词编程语言, 并与相关开发者进行交流.\r\n\r\n**由于牵涉到有共同目标的国际开发者, 请各位三思而后言!**",
+    "body": "A comprehensive list on Wiki is [here](https://en.wikipedia.org/wiki/Non-English-based_programming_languages)\r\n\r\nIndex below only lists the open source ones among them, with no specific order:\r\n\r\n| Locale | Programming language detail | \r\n| ------------- | ------------- |\r\nJapanese | [Nadesiko, なでしこ](https://nadesi.com/): [repo](https://github.com/kujirahand/nadesiko3) \r\nArabic | [قلب](https://github.com/nasser/---) |\r\nFrench | [Linotte](http://langagelinotte.free.fr/wordpress/): [repo](https://bitbucket.org/metalm/langagelinotte/) [v2.07 source zip](https://bitbucket.org/metalm/langagelinotte/downloads/Linotte_2.07.00_source.zip)\r\nLatvian | [Dzintars](https://github.com/dzintars-valoda/dzintars)\r\nTamil | [Ezhil](https://sourceforge.net/p/ezhillang/code/ci/master/tree/)\r\nPortuguese | [Potigol](https://github.com/potigol/Potigol)\r\n\r\n\r\n\r\n此贴搜集所有成气候的**开源**非英文关键词编程语言, 并与相关开发者进行交流.\r\n\r\n**由于牵涉到有共同目标的国际开发者, 请各位三思而后言!**",
     "closed_at": null,
     "comment_data": [
         {
@@ -175,7 +175,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "Open source Non-English-based programming languages 开源非英文关键词编程语言",
-    "updated_at": "2017-10-18T01:11:29Z",
+    "updated_at": "2017-10-20T05:41:13Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/39",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

@@ -1,0 +1,58 @@
+[
+    {
+        "color": "ee0701",
+        "default": true,
+        "id": 727709236,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/bug"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "id": 727709237,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "id": 727709238,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 727709240,
+        "name": "good first issue",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/good%20first%20issue"
+    },
+    {
+        "color": "33aa3f",
+        "default": true,
+        "id": 727709239,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/help%20wanted"
+    },
+    {
+        "color": "e6e6e6",
+        "default": true,
+        "id": 727709241,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/invalid"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "id": 727709242,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 727709243,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/wontfix"
+    }
+]

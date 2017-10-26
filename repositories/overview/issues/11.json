@@ -932,9 +932,67 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "至今, 只发现了一个开源的母语编程语言: Nadesiko(日语). 比较有意思的是, 它已经有了三代:\r\n- 第一代[Pascal实现](https://github.com/kujirahand/nadesiko)\r\n- 第二代[C#实现](https://github.com/kujirahand/nadesiko2)\r\n- 第三代[Javascript实现](https://github.com/kujirahand/nadesiko3)\r\n有兴趣的可以看看它的演变史",
+            "created_at": "2017-10-19T06:27:07Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-337811689",
+            "id": 337811689,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
+            "updated_at": "2017-10-19T06:27:07Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/337811689",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "又发现一个Java实现的开源法语编程语言: [Linotte](http://langagelinotte.free.fr/wordpress/): [repo](https://bitbucket.org/metalm/langagelinotte/) [v2.07 source zip](https://bitbucket.org/metalm/langagelinotte/downloads/Linotte_2.07.00_source.zip)\r\n已有超过10年历史",
+            "created_at": "2017-10-19T20:51:24Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-338034042",
+            "id": 338034042,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
+            "updated_at": "2017-10-19T20:51:24Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/338034042",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 32,
+    "comments": 34,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11/comments",
     "created_at": "2017-08-01T21:04:16Z",
     "event_data": [
@@ -2941,7 +2999,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "讨论: 适合中文用户的编程语言和IDE, 侧重于现有语言/IDE不具备的特性",
-    "updated_at": "2017-10-16T18:39:41Z",
+    "updated_at": "2017-10-19T20:51:24Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
