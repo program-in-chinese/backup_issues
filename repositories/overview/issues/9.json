@@ -1048,9 +1048,67 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "看到这个知乎回复:\r\n\r\n> 而对于非专业人员来说，觉得中文编程或者写代码对于易读性的提升还是有很大帮助的，尤其一些广泛普及的开源代码，比如php编写的discuz，如果其中的变量名都使用中文，对于二次开发应该有很大的便利。如果一些针对非专业编程人员的场景，比如实际的业务逻辑处理部分，即使只是采用中文变量名，对于提高业务代码的可读性也不是一般的提高。对于学习编程的人员来说，采用中文变量和代码，也可以让大家认识到，这些代码对于计算机来说，实际都是一样的，提高易读易学性的同时，可以更深入的理解计算机运行的本质。\r\n\r\n>作者：苗工\r\n链接：https://www.zhihu.com/question/19769482/answer/250694442\r\n来源：知乎\r\n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。\r\n\r\n尤其其中对于discuz之类框架的汉化, 感觉可以归到这个主题里.",
+            "created_at": "2017-10-27T01:22:44Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/9#issuecomment-339845772",
+            "id": 339845772,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
+            "updated_at": "2017-10-27T01:22:44Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/339845772",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "对外网站刚发文: [用中文命名API的意义和途径](http://codeinchinese.com/%E5%91%BD%E5%90%8D/2017/10/29/%E7%94%A8%E4%B8%AD%E6%96%87%E5%91%BD%E5%90%8DAPI%E7%9A%84%E6%84%8F%E4%B9%89%E5%92%8C%E9%80%94%E5%BE%84.html). 欢迎批评, PR, issue.",
+            "created_at": "2017-10-30T06:53:45Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/9#issuecomment-340358051",
+            "id": 340358051,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
+            "updated_at": "2017-10-30T06:53:45Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/340358051",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 36,
+    "comments": 38,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9/comments",
     "created_at": "2017-08-01T04:45:31Z",
     "event_data": [
@@ -3076,7 +3134,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "把最常用的开源的英文API进行中文化",
-    "updated_at": "2017-10-23T06:09:52Z",
+    "updated_at": "2017-10-30T06:53:45Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

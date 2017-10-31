@@ -2,18 +2,18 @@
     "assignee": null,
     "assignees": [],
     "author_association": "OWNER",
-    "body": "或者醒目的链接",
-    "closed_at": "2017-10-28T01:03:05Z",
+    "body": "参考：\r\nhttp://digitaldrummerj.me//blogging-on-github-part-3-adding-comments/\r\nhttp://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/",
+    "closed_at": "2017-10-27T23:14:28Z",
     "comment_data": [
         {
             "author_association": "OWNER",
-            "body": "https://jekyllrb.com/docs/themes/#overriding-theme-defaults",
-            "created_at": "2017-10-28T01:03:05Z",
-            "html_url": "https://github.com/program-in-chinese/team_website/issues/2#issuecomment-340128679",
-            "id": 340128679,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/2",
-            "updated_at": "2017-10-28T01:03:05Z",
-            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/comments/340128679",
+            "body": "https://desiredpersona.com/disqus-comments-jekyll/\r\n\r\n两种方式都有控制台错误：\r\nVM5234:1 Uncaught DOMException: Blocked a frame with origin \"https://disqus.com\" from accessing a cross-origin frame.\r\n    at <anonymous>:1:15\r\n暂时无视。",
+            "created_at": "2017-10-27T23:14:28Z",
+            "html_url": "https://github.com/program-in-chinese/team_website/issues/10#issuecomment-340118917",
+            "id": 340118917,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/10",
+            "updated_at": "2017-10-27T23:14:28Z",
+            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/comments/340118917",
             "user": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
                 "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
@@ -36,8 +36,8 @@
         }
     ],
     "comments": 1,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/2/comments",
-    "created_at": "2017-10-24T03:52:36Z",
+    "comments_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/10/comments",
+    "created_at": "2017-10-27T16:13:42Z",
     "event_data": [
         {
             "actor": {
@@ -59,12 +59,12 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "88277e012724d32c7f03b0d5bda0de7a1e66b5f7",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/team_website/commits/88277e012724d32c7f03b0d5bda0de7a1e66b5f7",
-            "created_at": "2017-10-24T06:06:08Z",
+            "commit_id": "fce02818be90dc254fb14dfa139e457316079ff2",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/team_website/commits/fce02818be90dc254fb14dfa139e457316079ff2",
+            "created_at": "2017-10-27T18:17:07Z",
             "event": "referenced",
-            "id": 1307030278,
-            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1307030278"
+            "id": 1314441240,
+            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314441240"
         },
         {
             "actor": {
@@ -86,12 +86,12 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "c3324147ed0d6585d5c924babf6cc0677a3c4b7b",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/team_website/commits/c3324147ed0d6585d5c924babf6cc0677a3c4b7b",
+            "commit_id": "b5c3b510f12be6cdcc502b7486fccf9383ce13a3",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/team_website/commits/b5c3b510f12be6cdcc502b7486fccf9383ce13a3",
             "created_at": "2017-10-27T22:52:10Z",
             "event": "referenced",
-            "id": 1314839998,
-            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314839998"
+            "id": 1314840001,
+            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314840001"
         },
         {
             "actor": {
@@ -113,12 +113,39 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "1099e56d5ddc0da5f3d9405f7b3b25d636df30bd",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/team_website/commits/1099e56d5ddc0da5f3d9405f7b3b25d636df30bd",
-            "created_at": "2017-10-27T22:52:10Z",
+            "commit_id": "9302c5c66e25551a2551243e432e1ceddc546cdc",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/team_website/commits/9302c5c66e25551a2551243e432e1ceddc546cdc",
+            "created_at": "2017-10-27T23:02:48Z",
             "event": "referenced",
-            "id": 1314840000,
-            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314840000"
+            "id": 1314849151,
+            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314849151"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": "ffdabf70bb2bcf1f62786e8ae7d5e50801a4c57f",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/team_website/commits/ffdabf70bb2bcf1f62786e8ae7d5e50801a4c57f",
+            "created_at": "2017-10-27T23:04:05Z",
+            "event": "referenced",
+            "id": 1314850061,
+            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314850061"
         },
         {
             "actor": {
@@ -142,25 +169,25 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2017-10-28T01:03:05Z",
+            "created_at": "2017-10-27T23:14:28Z",
             "event": "closed",
-            "id": 1314915213,
-            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314915213"
+            "id": 1314857860,
+            "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/events/1314857860"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/2/events",
-    "html_url": "https://github.com/program-in-chinese/team_website/issues/2",
-    "id": 267888786,
+    "events_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/10/events",
+    "html_url": "https://github.com/program-in-chinese/team_website/issues/10",
+    "id": 269160293,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/2/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/team_website/issues/10/labels{/name}",
     "locked": false,
     "milestone": null,
-    "number": 2,
+    "number": 10,
     "repository_url": "https://api.github.com/repos/program-in-chinese/team_website",
     "state": "closed",
-    "title": "首页添加fork me on github彩带",
-    "updated_at": "2017-10-28T01:03:05Z",
-    "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/2",
+    "title": "添加disqus评论功能",
+    "updated_at": "2017-10-27T23:14:28Z",
+    "url": "https://api.github.com/repos/program-in-chinese/team_website/issues/10",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",

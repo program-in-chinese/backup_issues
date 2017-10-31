@@ -1,0 +1,58 @@
+[
+    {
+        "color": "ee0701",
+        "default": true,
+        "id": 735617005,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/bug"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "id": 735617006,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "id": 735617007,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 735617009,
+        "name": "good first issue",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/good%20first%20issue"
+    },
+    {
+        "color": "33aa3f",
+        "default": true,
+        "id": 735617008,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/help%20wanted"
+    },
+    {
+        "color": "e6e6e6",
+        "default": true,
+        "id": 735617010,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/invalid"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "id": 735617011,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 735617012,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/wontfix"
+    }
+]

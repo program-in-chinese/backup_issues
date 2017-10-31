@@ -729,9 +729,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "刚注意到https://github.com/program-in-chinese/CTS/commit/f6e204bf54d335c9691de505d8d52d5f5897177d#diff-a15280067dcb3b0929808762f8352e86L236\r\nlet 和 var的区别好像很难从用词上表现出来啊...之前的'块级'估计是想反映\"block scoped\"吧?\r\n如果反正不能反映他们的实际区别, 是否可以考虑用接近原词的意思? 比如let->使得(其实'让'好像也行, 不过两字的没想到更好的), var应该是variable的缩写就还用\"变量\"?",
+            "created_at": "2017-10-27T05:46:42Z",
+            "html_url": "https://github.com/program-in-chinese/CTS/issues/2#issuecomment-339878697",
+            "id": 339878697,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/2",
+            "updated_at": "2017-10-27T05:46:42Z",
+            "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/339878697",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 25,
+    "comments": 26,
     "comments_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/2/comments",
     "created_at": "2017-10-20T17:30:04Z",
     "event_data": [
@@ -1287,7 +1316,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/CTS",
     "state": "open",
     "title": "希望大家多帮忙完善下关键字",
-    "updated_at": "2017-10-21T06:42:23Z",
+    "updated_at": "2017-10-27T05:46:42Z",
     "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/2",
     "user": {
         "avatar_url": "https://avatars3.githubusercontent.com/u/6562192?v=4",

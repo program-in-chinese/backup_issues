@@ -1483,9 +1483,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "欢迎 @jeffreybaoshenlee ! [博客](https://codecafe1984.wordpress.com/)上有大量作品, 心得. 包括对代码质量风格的分析, 中英术语的搜集研究, 以及历年来的专业书籍译作等等, 不一而足. 非常期待一同探讨合作!",
+            "created_at": "2017-10-30T16:27:23Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/2#issuecomment-340501114",
+            "id": 340501114,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
+            "updated_at": "2017-10-30T16:27:23Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/340501114",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 51,
+    "comments": 52,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/comments",
     "created_at": "2017-07-29T20:07:35Z",
     "event_data": [
@@ -4362,6 +4391,60 @@
             "event": "subscribed",
             "id": 1301236441,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1301236441"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/7299896?v=4",
+                "events_url": "https://api.github.com/users/jeffreybaoshenlee/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jeffreybaoshenlee/followers",
+                "following_url": "https://api.github.com/users/jeffreybaoshenlee/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jeffreybaoshenlee/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jeffreybaoshenlee",
+                "id": 7299896,
+                "login": "jeffreybaoshenlee",
+                "organizations_url": "https://api.github.com/users/jeffreybaoshenlee/orgs",
+                "received_events_url": "https://api.github.com/users/jeffreybaoshenlee/received_events",
+                "repos_url": "https://api.github.com/users/jeffreybaoshenlee/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jeffreybaoshenlee/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jeffreybaoshenlee/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jeffreybaoshenlee"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-10-30T16:27:23Z",
+            "event": "mentioned",
+            "id": 1317056783,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1317056783"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/7299896?v=4",
+                "events_url": "https://api.github.com/users/jeffreybaoshenlee/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jeffreybaoshenlee/followers",
+                "following_url": "https://api.github.com/users/jeffreybaoshenlee/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jeffreybaoshenlee/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jeffreybaoshenlee",
+                "id": 7299896,
+                "login": "jeffreybaoshenlee",
+                "organizations_url": "https://api.github.com/users/jeffreybaoshenlee/orgs",
+                "received_events_url": "https://api.github.com/users/jeffreybaoshenlee/received_events",
+                "repos_url": "https://api.github.com/users/jeffreybaoshenlee/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jeffreybaoshenlee/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jeffreybaoshenlee/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jeffreybaoshenlee"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-10-30T16:27:23Z",
+            "event": "subscribed",
+            "id": 1317056785,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1317056785"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/events",
@@ -4390,7 +4473,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "社区运行方式讨论, 迎新",
-    "updated_at": "2017-10-19T14:44:33Z",
+    "updated_at": "2017-10-30T16:27:23Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
