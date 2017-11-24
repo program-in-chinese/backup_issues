@@ -441,7 +441,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "我把一小段Python代码，翻译成了中文，个人觉得应该比较有代表性，比较符合中文使用习惯。\r\n\r\n> 由于缩进问题，我还是贴图片比较好，链接如下：\r\nhttps://pbs.twimg.com/media/DJ79-dwUMAETimD.jpg\r\n\r\n  @nobodxbodon 已经添加入GitHub，感谢!\r\n\r\nhttps://gist.github.com/qingseshaohua/9717f2750468f1a0801c235673a86567\r\n\r\n如果有翻译这块的问题，我想我能帮上一些忙。\r\nps，诸位大神已经在创造一门新语言了，为何还要纠结从英文的字面意思上翻译过来？\r\n从其功用，中文叫法习惯上去定义它，应该会更好。\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
             "created_at": "2017-09-17T15:50:48Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/33#issuecomment-330057985",
@@ -499,7 +499,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon \r\n关于需求（暂时能想起来的）：\r\n> 1，高度集成的支持库，与示例代码（对于常见的各种功能，都有集成支持库，比如界面库，常用组件库，数据库类的MySQL，系统操作类，还有对Windows的API各种等。）\r\n> 2，对于各种函数命令的详细释义（鼠标指针在某个命令上，按F1就能显示出来某个命令的详细解释）\r\n> 3，语法提示，键盘敲入某条命令的首字母，就列出候选项。\r\n最大的需求其实就是 都是中文的。\r\n\r\n\r\n易语言需要改进或者添加的地方：\r\n> 由于长期不更新，或者更新一些无关紧要的东西，易语言已经跟不上时代了。\r\n1，编译器。易语言自有的编译器是一个很蛋疼的东西，编译出来的文件，还需要带上支持库才能运行，而且受数字公司和电脑管家误报影响很大。当然也可以“静态编译”但这个静态确实调用vc的，最通用的是vc6，想想这是多么老的东西了。\r\n2，无法支持大型项目的开发，因为它的源码是一个单独且集成的文件（各种资源都在一起），这也是导致它无法被主流商业公司选择的原因。ps，小型项目没问题。这也导致了难以协同开发的问题。\r\n3，不支持Unicode，不支持64位系统（这个不支持是指无法编译64位程序，与它本身就不是64位的）\r\n4，IDE丑，影响敲代码的心情，试问现在还有哪个软件的界面是这样丑的。\r\n\r\n\r\n这些都是大的问题，小的细节太多了，说不完，下次有机会再说吧",
             "created_at": "2017-09-17T17:19:47Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/33#issuecomment-330063669",
@@ -1541,9 +1541,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "如楼上所说, 打算从最最基本的语言开始, 不考虑演进, 只实现变量赋值、条件判断、函数调用, 和四则运算. 尽量用最简单的代码实现, 主要为演示和学习用. 名字暂取\"圈\"语言.",
+            "created_at": "2017-11-16T16:21:49Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/33#issuecomment-344975812",
+            "id": 344975812,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/33",
+            "updated_at": "2017-11-16T16:21:49Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/344975812",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 53,
+    "comments": 54,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/33/comments",
     "created_at": "2017-09-12T05:59:03Z",
     "event_data": [
@@ -3426,7 +3455,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "简单易用的中文编程(脚本)语言原型",
-    "updated_at": "2017-10-20T14:55:46Z",
+    "updated_at": "2017-11-16T16:21:49Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/33",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

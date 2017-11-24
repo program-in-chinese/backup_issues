@@ -1106,9 +1106,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "@htwx https://github.com/program-in-chinese/Java/issues/1#issuecomment-341874288 内容更适合这里讨论:\r\n> 汉化编译器都不难 包括 C# JAVA 如果没有有效的汉化库的方法,只是汉化编译器作用不大, 大家要多想想 怎么汉化 库\r\n> 怎么说呢, 英文 api 中文化 也要从 编译器或运行器来实现, 在外部实现 就要重写api 了\r\n我的那个 CTS也是如果就只是汉化关键字 真的只有10分钟就完了, 难就难在 要支持汉化的API 了,\r\n这个我 看过好几个编译器的源码了, 想实现 api 中文 必须从 编译器 或运行时 来实现.\r\n\r\n你说的API应该是核心库部分吧? 关于CTS, 个人觉得汉化关键词可以先出一个版本.",
+            "created_at": "2017-11-04T06:11:38Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/9#issuecomment-341875167",
+            "id": 341875167,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
+            "updated_at": "2017-11-04T06:11:38Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/341875167",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 38,
+    "comments": 39,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9/comments",
     "created_at": "2017-08-01T04:45:31Z",
     "event_data": [
@@ -3113,6 +3142,60 @@
             "event": "subscribed",
             "id": 1304940143,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1304940143"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6562192?v=4",
+                "events_url": "https://api.github.com/users/htwx/events{/privacy}",
+                "followers_url": "https://api.github.com/users/htwx/followers",
+                "following_url": "https://api.github.com/users/htwx/following{/other_user}",
+                "gists_url": "https://api.github.com/users/htwx/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/htwx",
+                "id": 6562192,
+                "login": "htwx",
+                "organizations_url": "https://api.github.com/users/htwx/orgs",
+                "received_events_url": "https://api.github.com/users/htwx/received_events",
+                "repos_url": "https://api.github.com/users/htwx/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/htwx/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/htwx/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/htwx"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-11-04T06:11:38Z",
+            "event": "mentioned",
+            "id": 1325959098,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1325959098"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6562192?v=4",
+                "events_url": "https://api.github.com/users/htwx/events{/privacy}",
+                "followers_url": "https://api.github.com/users/htwx/followers",
+                "following_url": "https://api.github.com/users/htwx/following{/other_user}",
+                "gists_url": "https://api.github.com/users/htwx/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/htwx",
+                "id": 6562192,
+                "login": "htwx",
+                "organizations_url": "https://api.github.com/users/htwx/orgs",
+                "received_events_url": "https://api.github.com/users/htwx/received_events",
+                "repos_url": "https://api.github.com/users/htwx/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/htwx/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/htwx/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/htwx"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-11-04T06:11:38Z",
+            "event": "subscribed",
+            "id": 1325959099,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1325959099"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9/events",
@@ -3134,7 +3217,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "把最常用的开源的英文API进行中文化",
-    "updated_at": "2017-10-30T06:53:45Z",
+    "updated_at": "2017-11-04T06:11:38Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

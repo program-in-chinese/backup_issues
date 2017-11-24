@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "1.键盘。应该设计一种全新的、适合快速输入汉字的键盘。\r\n2.输入法。应该设计一种颠覆性的，既具备低学习成本又具备高输入效率（单字的输入效率也要高）的输入\r\n   法。我认为，输入法和键盘是很难完全独立，二者应该是相互影响的，输入法的设计应该影响到键盘的布\r\n   局，键盘的设计反过来又应该导致输入法的改进。\r\n3.语言本身的设计。绝不能生搬硬套英语编程语言的设计，应该在词法、语法、特性等方面做一个系统性\r\n   的、全新的设计。该设计的好坏，将直接决定语言的成败，所以将来最关键的是要在语言的设计上下功\r\n   夫。只要设计能够赢得广大程序员的青睐，汉语编程语言的成功就只是个时间问题。\r\n4.编译器。\r\n5.开发工具。开发工具的重要性不能低估，好的开发工具能够极大的提升用户的体验，对于产品的推广有\r\n   非常巨大的推动作用。",
-    "closed_at": null,
+    "closed_at": "2017-11-05T06:40:32Z",
     "comment_data": [
         {
             "author_association": "NONE",
@@ -64,7 +64,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "  诸位见信好。我是一名特别业余的编程爱好者，唯一称得上熟练的，大概就只有易语言了。我说一些自己的对于中文编程的理解、和其他的浅薄看法。\r\n\r\n  首先，中文编程的目的是什么？\r\n  应该是让更多中国人，能够更加简单的学习编程，这个才是最为主要的目的，不知是不是这点？\r\n\r\n  其次：\r\n\r\n英文的代码，让中国人唯一头疼的地方在于，它都是英文的，让没有任何编程经验的人，而且英文还不好的人，无法理解这些代码到底是何种意思，也就更无从说起去自学了。\r\n  说到自学，我觉得学习编程在很大程度上都是需要自己去摸索、去理解，去学习的一个状态，而不可能都是老师去教授。\r\n\r\n“易语言”当中做得最好的一点是（它的缺点也太多，就不一一累述了），它所有命令的详细释义都是中文的，让任何中国人看到之后，都能理解这个命令的意思。那些释义包含了它的功用，它的参数类型，返回类型，参数是用来干什么的。\r\n  比如下面的一个函数\r\n    *英文名称：MsgBox*\r\n*    在对话框中显示信息，等待用户单击按钮，并返回一个整数告诉用户单击哪一个按钮。该整数为以下常量值之一： 0、#确认钮； 1、#取消钮；\r\n2、#放弃钮； 3、#重试钮； 4、#忽略钮； 5、#是钮； 6、#否钮。如果对话框有“取消”按钮，则按下 ESC\r\n键与单击“取消”按钮的效果相同。本命令为初级命令。*\r\n*\r\n参数<1>的名称为“提示信息”，类型为“通用型（all）”。提示信息只能为文本、数值、逻辑值或日期时间。如果提示信息为文本且包含多行，可在各行之间用回车符\r\n(即“字符 (13)”)、换行符 (即“字符 (10)”) 或回车换行符的组合 (即：“字符 (13) + 字符 (10)”) 来分隔。*\r\n*\r\n参数<2>的名称为“按钮”，类型为“整数型（int）”，初始值为“0”。参数值由以下几组常量值组成，在将这些常量值相加以生成参数值时，每组值只能取用一个数字（第五组除外）：\r\n*\r\n*  第一组（描述对话框中显示按钮的类型与数目）：*\r\n*    0、#确认钮； 1、#确认取消钮； 2、#放弃重试忽略钮； 3、#取消是否钮；     4、#是否钮； 5、#重试取消钮*\r\n*  第二组（描述图标的样式）：*\r\n*    16、#错误图标； 32、#询问图标； 48、#警告图标； 64、#信息图标*\r\n*  第三组（说明哪一个按钮是缺省默认值）：*\r\n*    0、#默认按钮一； 256、#默认按钮二； 512、#默认按钮三； 768、#默认按钮四*\r\n*  第四组（决定如何等待消息框结束）：*\r\n*    0、#程序等待； 4096、#系统等待*\r\n*  第五组（其它）：*\r\n*    65536、#位于前台； 524288、#文本右对齐*\r\n\r\n*\r\n参数<3>的名称为“窗口标题”，类型为“文本型（text）”，可以被省略。参数值指定显示在对话框标题栏中的文本。如果省略，默认为文本“信息：”。*\r\n*\r\n参数<4>的名称为“父窗口”，类型为“通用型（all）”，可以被省略。指定信息框的父窗口,可以是一个\"窗口\"类型数据或者一个整数型窗口句柄.如果被省略,默认为无.*\r\n\r\n\r\n我想，只要智力、逻辑能力在水准线上，看到这样的释义，都能理解这段内容所要表达的意思，但如果这些都是英文的，那会是一个什么样的结果呢？最大的可能是先需要一个翻译软件，这无疑大大增加了学习成本，阻隔了无数对编程有兴趣的人。\r\n\r\n  最后，我们在词法、语法、IDE、编译器上思索的时候，也不应该忘记了创造中文编程的目的是什么。\r\n\r\n  英文的编程世界之所以强大，无非就是它起步早，又有无数人在其上边，积累了无数资料、经验。\r\n\r\n  我相信中文编程会普及开来的，这就像宇宙中必然存在外星生物一样，虽然我们没办法去证明，但几乎是可以断言的。\r\n\r\n在 2017年9月11日 上午6:44，Xuan Wu <notifications@github.com>写道：\r\n\r\n> 输入法和键盘是很难完全独立，二者应该是相互影响的，输入法的设计应该影响到键盘的布\r\n> 局，键盘的设计反过来又应该导致输入法的改进。\r\n>\r\n> 同意. 这两项研究下去都很有深度. 有个有趣的现状是, 最优秀(输入速度最快)的键盘/输入法往往不是最普及的(比如中文的五笔比拼音快).\r\n> 背后原因值得推敲, 可能对以后的推广也会有启发.\r\n>\r\n> 假设, 我们首先着手的是研发适合程序员编写代码使用的键盘/输入法, 在#11\r\n> <https://github.com/program-in-chinese/overview/issues/11> 有一些相关讨论,\r\n> 包括和IDE的自动补全功能的集成问题.\r\n>\r\n> 另外还有关于自动切换的思路在#2 (comment)\r\n> <https://github.com/program-in-chinese/overview/issues/2#issuecomment-321429975>\r\n> :\r\n>\r\n> 能自动感知，帮你切换输入法\r\n> 例如：\r\n>     function 你好（ 检测到function后输入法自动切换成中文，然后在检测到全角的圆括号后自动切换成英文输入法并且把全角圆括号变为半角的。\r\n>     let 变量 在输入let之后切换输入法为中文\r\n>\r\n> 简单来说，就是在需要定义新名字（函数名，变量名，类名）的地方，自动切换成中文输入法，在使用现有名字的地方（调用现有方法或者函数），使用智能感知来提高效率。\r\n>\r\n> 应该在词法、语法、特性等方面做一个系统性的、全新的设计\r\n>\r\n> 欢迎在#11 <https://github.com/program-in-chinese/overview/issues/11> 一起探讨思路.\r\n>\r\n> 4/5 也很同意, 也是当时把语言和IDE在#11\r\n> <https://github.com/program-in-chinese/overview/issues/11> 一起讨论的原因\r\n>\r\n> —\r\n> You are receiving this because you are subscribed to this thread.\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/program-in-chinese/overview/issues/31#issuecomment-328377542>,\r\n> or mute the thread\r\n> <https://github.com/notifications/unsubscribe-auth/APoxt1xrob8cqMsfJkwoKRfb2rTb-axLks5shGZWgaJpZM4PSPm6>\r\n> .\r\n>\r\n",
             "created_at": "2017-09-11T02:57:43Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328402984",
@@ -291,6 +291,33 @@
             "event": "subscribed",
             "id": 1270670199,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270670199"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-11-05T06:40:32Z",
+            "event": "closed",
+            "id": 1326340604,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1326340604"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31/events",
@@ -302,9 +329,9 @@
     "milestone": null,
     "number": 31,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "如果能够做到以下这些，我相信中文编程语言一定能取得颠覆性成功",
-    "updated_at": "2017-09-28T21:43:21Z",
+    "updated_at": "2017-11-05T06:40:32Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
     "user": {
         "avatar_url": "https://avatars0.githubusercontent.com/u/31815492?v=4",

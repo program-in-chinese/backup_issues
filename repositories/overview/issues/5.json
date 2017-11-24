@@ -323,9 +323,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "已将vuejs入门中文化的小结发布在[中文代码示例教程之Vuejs入门&后续计划](https://github.com/program-in-chinese/team_website/blob/master/docs/_posts/2017-10-31-%E4%B8%AD%E6%96%87%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B%E6%95%99%E7%A8%8B%E4%B9%8BVuejs%E5%85%A5%E9%97%A8.markdown)一文中. 顺便列出了以后进行类似实践的框架. 下一个在占据市场80%的PHP框架中选择, 考虑Laravel.",
+            "created_at": "2017-11-01T06:57:07Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-341006025",
+            "id": 341006025,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/5",
+            "updated_at": "2017-11-01T06:57:07Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/341006025",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 11,
+    "comments": 12,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/5/comments",
     "created_at": "2017-07-31T02:37:56Z",
     "event_data": [
@@ -627,7 +656,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 用中文代码作示例的编程教程",
-    "updated_at": "2017-10-30T19:29:21Z",
+    "updated_at": "2017-11-01T06:57:07Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/5",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

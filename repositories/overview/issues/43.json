@@ -1,0 +1,84 @@
+{
+    "assignee": null,
+    "assignees": [],
+    "author_association": "OWNER",
+    "body": "在写[这个](https://www.zhihu.com/question/37178794/answer/254274756)回复的时候想到如何用最小的代价用中文命名编写代码, 实现一个操作系统原型, 以迈出第一步. 最好是易于参与开发, 不需特定硬件环境. 短期目标是用于学习和实验.\r\n\r\n看到[基于Java的操作系统发展史](http://blog.csdn.net/fasttalk/article/details/284637), 开始颇兴奋, 但后发现ARM已经在2011后[不支持byte code](https://en.wikipedia.org/wiki/ARM_architecture#Thumb_Execution_Environment_.28ThumbEE.29). \r\n\r\n即便如此, 仍先挖个坑, 以便有兴趣者探讨. 也可以汇聚一些中文开发者开源的操作系统原型.",
+    "closed_at": null,
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/43/comments",
+    "created_at": "2017-11-03T06:29:53Z",
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-11-03T06:29:53Z",
+            "event": "labeled",
+            "id": 1324354758,
+            "label": {
+                "color": "0e8a16",
+                "name": "思路"
+            },
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1324354758"
+        }
+    ],
+    "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/43/events",
+    "html_url": "https://github.com/program-in-chinese/overview/issues/43",
+    "id": 270888455,
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "id": 688675470,
+            "name": "思路",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%80%9D%E8%B7%AF"
+        }
+    ],
+    "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/43/labels{/name}",
+    "locked": false,
+    "milestone": null,
+    "number": 43,
+    "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
+    "state": "open",
+    "title": "编写操作系统原型",
+    "updated_at": "2017-11-03T06:29:53Z",
+    "url": "https://api.github.com/repos/program-in-chinese/overview/issues/43",
+    "user": {
+        "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+        "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+        "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+        "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/nobodxbodon",
+        "id": 392497,
+        "login": "nobodxbodon",
+        "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+        "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+        "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/nobodxbodon"
+    }
+}

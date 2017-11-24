@@ -555,9 +555,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "@azige checkstyle开发组已开始对这个issue进行深入: https://github.com/checkstyle/checkstyle/issues/3569#issuecomment-343673061 有个问题, 中文windows的系统编码默认是GBK吗? 手边没有中文版windows来确认. 看到这个[Windows为什么用GBK而不是UTF-8？](https://www.zhihu.com/question/20689098), 其中提到windows内码是UTF-16. 那么这个issue的根源其实是, 中文windows命令行默认使用的编码格式是GBK吗?",
+            "created_at": "2017-11-11T16:04:37Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-343675009",
+            "id": 343675009,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "updated_at": "2017-11-11T16:04:37Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/343675009",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 19,
+    "comments": 20,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26/comments",
     "created_at": "2017-08-24T07:04:25Z",
     "event_data": [
@@ -1617,6 +1646,60 @@
             "event": "subscribed",
             "id": 1295198354,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1295198354"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/1646859?v=4",
+                "events_url": "https://api.github.com/users/azige/events{/privacy}",
+                "followers_url": "https://api.github.com/users/azige/followers",
+                "following_url": "https://api.github.com/users/azige/following{/other_user}",
+                "gists_url": "https://api.github.com/users/azige/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/azige",
+                "id": 1646859,
+                "login": "azige",
+                "organizations_url": "https://api.github.com/users/azige/orgs",
+                "received_events_url": "https://api.github.com/users/azige/received_events",
+                "repos_url": "https://api.github.com/users/azige/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/azige/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/azige/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/azige"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-11-11T16:04:37Z",
+            "event": "mentioned",
+            "id": 1337275486,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1337275486"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/1646859?v=4",
+                "events_url": "https://api.github.com/users/azige/events{/privacy}",
+                "followers_url": "https://api.github.com/users/azige/followers",
+                "following_url": "https://api.github.com/users/azige/following{/other_user}",
+                "gists_url": "https://api.github.com/users/azige/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/azige",
+                "id": 1646859,
+                "login": "azige",
+                "organizations_url": "https://api.github.com/users/azige/orgs",
+                "received_events_url": "https://api.github.com/users/azige/received_events",
+                "repos_url": "https://api.github.com/users/azige/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/azige/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/azige/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/azige"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2017-11-11T16:04:37Z",
+            "event": "subscribed",
+            "id": 1337275487,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1337275487"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26/events",
@@ -1630,7 +1713,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "GBK<->UTF8 互转问题: Maven checkstyle输出乱码",
-    "updated_at": "2017-10-16T16:26:56Z",
+    "updated_at": "2017-11-11T16:04:37Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
