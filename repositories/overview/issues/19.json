@@ -294,9 +294,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "https://www.zhihu.com/question/26071216/answer/268485364 建议:\r\n\r\n> 比如说WPS完全可以在软件内，开发一个比较简单的中文编程语言或者与某个中文编程语言相集成，让简单的一些易用程序可以跑起来，再慢慢的扩大规模，这样类似于WPS这样的完全和Office的用户重叠的软件可以吸引一部分的用户，实例就是主流编程圈子VB早就被抛弃，但是在OfficeVBA上还是有太多用户，毕竟大部分人不是搞程序开发的，只是想写个简单的东西方便自己的日常工作而已……性能也不是特别在乎……还有，中文编程最好能和类似于siri这样的人工智能相结合，有效降低编程的门槛，方便用户使用，比如我们在office编辑中经常会遇到2008年8月8日改成2008年08月08日或者是改成2008-08-08甚至是20080808这样的事情，对于不懂编程的小白来说这必须手动操作很麻烦，编程我们可以直接类似于siri一样，就写一句“把日期改成2008年08月08日”就能让系统自动识别并进行相关操作（这个例子不够严谨，反正就是类似的意思）。",
+            "created_at": "2017-11-30T15:42:24Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/19#issuecomment-348226649",
+            "id": 348226649,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/19",
+            "updated_at": "2017-11-30T15:43:22Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/348226649",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 10,
+    "comments": 11,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/19/comments",
     "created_at": "2017-08-08T06:20:04Z",
     "event_data": [
@@ -729,7 +758,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "跨界: 哪些中文非IT领域会偏好中文API, 编程/脚本语言?",
-    "updated_at": "2017-11-04T22:48:24Z",
+    "updated_at": "2017-11-30T15:43:22Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/19",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
