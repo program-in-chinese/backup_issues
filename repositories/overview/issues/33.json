@@ -1570,9 +1570,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "这个方向的进展如下:\r\n[尝试手写parser未果的'圈1'](https://github.com/program-in-chinese/quan1/issues/1#issuecomment-347051620)\r\n[编程语言试验之Antlr4+Java实现\"圈2\"](https://zhuanlan.zhihu.com/p/31429800)\r\n[编程语言试验之Antlr4+JavaScript实现\"圈4\"](https://zhuanlan.zhihu.com/p/31644101)\r\n以及JS版的ZLOGO子集: [圈3](https://github.com/program-in-chinese/quan3):\r\n[JavaScript实现ZLOGO子集: 前进+转向](https://zhuanlan.zhihu.com/p/31748014)\r\n[JavaScript实现ZLOGO子集: 单层循环功能](https://zhuanlan.zhihu.com/p/31785790)\r\n下一步打算继续'圈3', 在添加语言特性的同时争取兼顾一些在线编程环境的功能. ",
+            "created_at": "2017-12-07T22:50:09Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/33#issuecomment-350118790",
+            "id": 350118790,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/33",
+            "updated_at": "2017-12-07T22:50:09Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/350118790",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 54,
+    "comments": 55,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/33/comments",
     "created_at": "2017-09-12T05:59:03Z",
     "event_data": [
@@ -3455,7 +3484,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "简单易用的中文编程(脚本)语言原型",
-    "updated_at": "2017-11-16T16:21:49Z",
+    "updated_at": "2017-12-07T22:50:10Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/33",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
