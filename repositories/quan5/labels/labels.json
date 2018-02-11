@@ -1,0 +1,58 @@
+[
+    {
+        "color": "ee0701",
+        "default": true,
+        "id": 801064969,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/bug"
+    },
+    {
+        "color": "cccccc",
+        "default": true,
+        "id": 801064971,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/duplicate"
+    },
+    {
+        "color": "84b6eb",
+        "default": true,
+        "id": 801064973,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 801064977,
+        "name": "good first issue",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/good%20first%20issue"
+    },
+    {
+        "color": "33aa3f",
+        "default": true,
+        "id": 801064975,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/help%20wanted"
+    },
+    {
+        "color": "e6e6e6",
+        "default": true,
+        "id": 801064979,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/invalid"
+    },
+    {
+        "color": "cc317c",
+        "default": true,
+        "id": 801064982,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 801064985,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/quan5/labels/wontfix"
+    }
+]

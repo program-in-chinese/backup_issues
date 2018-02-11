@@ -1,0 +1,58 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 824548241,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/bug"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 824548242,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 824548243,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 824548245,
+        "name": "good first issue",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 824548244,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 824548246,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 824548247,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 824548248,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/wontfix"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 810400953,
+        "name": "bug",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/bug"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 810400954,
+        "name": "duplicate",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 810400955,
+        "name": "enhancement",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 810400957,
+        "name": "good first issue",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 810400956,
+        "name": "help wanted",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 810400958,
+        "name": "invalid",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 810400959,
+        "name": "question",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 810400960,
+        "name": "wontfix",
+        "url": "https://api.github.com/repos/program-in-chinese/xtext_tutorial_15_min_zh/labels/wontfix"
+    }
+]

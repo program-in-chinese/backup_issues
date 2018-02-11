@@ -410,9 +410,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "@chencun 简直同意，还有龙飞凤舞什么的……\r\n\r\n尽管在大学还去听了一学期英语笔译课，第一节课就举出了经典例子，各种中国名著里的四字短语，专业翻译都难对付，放进文章，还有上下文可以整体效果糊过去，作为独立的一个短语来翻，就更几近无解。\r\n\r\n然后来写中国风格砍砍砍，代码里起名还是只能拼音。",
+            "created_at": "2018-02-01T06:06:03Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/22#issuecomment-362168093",
+            "id": 362168093,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/22",
+            "updated_at": "2018-02-01T06:06:03Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/362168093",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1175749?v=4",
+                "events_url": "https://api.github.com/users/farteryhr/events{/privacy}",
+                "followers_url": "https://api.github.com/users/farteryhr/followers",
+                "following_url": "https://api.github.com/users/farteryhr/following{/other_user}",
+                "gists_url": "https://api.github.com/users/farteryhr/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/farteryhr",
+                "id": 1175749,
+                "login": "farteryhr",
+                "organizations_url": "https://api.github.com/users/farteryhr/orgs",
+                "received_events_url": "https://api.github.com/users/farteryhr/received_events",
+                "repos_url": "https://api.github.com/users/farteryhr/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/farteryhr/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/farteryhr/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/farteryhr"
+            }
         }
     ],
-    "comments": 14,
+    "comments": 15,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/22/comments",
     "created_at": "2017-08-14T17:05:17Z",
     "event_data": [
@@ -685,6 +714,60 @@
             "event": "subscribed",
             "id": 1302025866,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1302025866"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/5524105?v=4",
+                "events_url": "https://api.github.com/users/chencun/events{/privacy}",
+                "followers_url": "https://api.github.com/users/chencun/followers",
+                "following_url": "https://api.github.com/users/chencun/following{/other_user}",
+                "gists_url": "https://api.github.com/users/chencun/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/chencun",
+                "id": 5524105,
+                "login": "chencun",
+                "organizations_url": "https://api.github.com/users/chencun/orgs",
+                "received_events_url": "https://api.github.com/users/chencun/received_events",
+                "repos_url": "https://api.github.com/users/chencun/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/chencun/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/chencun/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/chencun"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-02-01T06:06:03Z",
+            "event": "mentioned",
+            "id": 1452286419,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1452286419"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/5524105?v=4",
+                "events_url": "https://api.github.com/users/chencun/events{/privacy}",
+                "followers_url": "https://api.github.com/users/chencun/followers",
+                "following_url": "https://api.github.com/users/chencun/following{/other_user}",
+                "gists_url": "https://api.github.com/users/chencun/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/chencun",
+                "id": 5524105,
+                "login": "chencun",
+                "organizations_url": "https://api.github.com/users/chencun/orgs",
+                "received_events_url": "https://api.github.com/users/chencun/received_events",
+                "repos_url": "https://api.github.com/users/chencun/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/chencun/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/chencun/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/chencun"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-02-01T06:06:03Z",
+            "event": "subscribed",
+            "id": 1452286420,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1452286420"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/22/events",
@@ -698,7 +781,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "游戏设计领域对中文编程(语言)的需求",
-    "updated_at": "2017-10-19T22:08:02Z",
+    "updated_at": "2018-02-01T06:06:03Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/22",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
