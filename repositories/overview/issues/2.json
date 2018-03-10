@@ -1599,9 +1599,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "欢迎 @zaoqi ! 期待看到https://github.com/program-in-chinese/overview/issues/56 的进展.",
+            "created_at": "2018-02-26T21:55:54Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/2#issuecomment-368664690",
+            "id": 368664690,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
+            "updated_at": "2018-02-26T21:55:54Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/368664690",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 55,
+    "comments": 56,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/comments",
     "created_at": "2017-07-29T20:07:35Z",
     "event_data": [
@@ -4694,6 +4723,60 @@
             "event": "subscribed",
             "id": 1402826654,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1402826654"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/19170231?v=4",
+                "events_url": "https://api.github.com/users/zaoqi/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zaoqi/followers",
+                "following_url": "https://api.github.com/users/zaoqi/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zaoqi/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zaoqi",
+                "id": 19170231,
+                "login": "zaoqi",
+                "organizations_url": "https://api.github.com/users/zaoqi/orgs",
+                "received_events_url": "https://api.github.com/users/zaoqi/received_events",
+                "repos_url": "https://api.github.com/users/zaoqi/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zaoqi/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zaoqi/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zaoqi"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-02-26T21:55:54Z",
+            "event": "mentioned",
+            "id": 1493080875,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1493080875"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/19170231?v=4",
+                "events_url": "https://api.github.com/users/zaoqi/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zaoqi/followers",
+                "following_url": "https://api.github.com/users/zaoqi/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zaoqi/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zaoqi",
+                "id": 19170231,
+                "login": "zaoqi",
+                "organizations_url": "https://api.github.com/users/zaoqi/orgs",
+                "received_events_url": "https://api.github.com/users/zaoqi/received_events",
+                "repos_url": "https://api.github.com/users/zaoqi/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zaoqi/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zaoqi/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zaoqi"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-02-26T21:55:54Z",
+            "event": "subscribed",
+            "id": 1493080876,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1493080876"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/events",
@@ -4722,7 +4805,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "社区运行方式讨论, 迎新",
-    "updated_at": "2017-12-27T19:09:56Z",
+    "updated_at": "2018-02-26T21:55:54Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
