@@ -1048,9 +1048,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "@htwx  引用了[楼上](https://github.com/program-in-chinese/overview/issues/25#issuecomment-337468058), 在知乎的反馈(在[此答复](https://www.zhihu.com/question/29895778/answer/150111814)下的评论中):\r\n\r\n>看到你所做的工作，首先是非常佩服的，不过为了继续长久发展下去，几个问题需要考虑:\r\n1.是否可以暂停一下，然后尝试找相关的翻译业务？\r\n不管是公司掏钱还是众筹，不管你现在是否是兴趣爱好或者不缺钱，从业务开始是很好的切入点，因为一旦找到需求点，接下来的活你可能就不必自己干了\r\n\r\n>2.可否从更简单的节点开始？\r\n中文汉化的本质是降低错误的筛选门槛，增加受众，那么既然是这样，是否可以降低到小白可以懂？最近区块链培训很火，动辄收费几万，不过真正讲到技术的极少，那么我们的中文代码是否可以让这些人看得懂？\r\n3.再有，高频与迅速反馈极为重要，那么你看有没有你所关心的领域中存在这样的程序\r\n4.游戏化兴趣驱动是比商业化更有动力的，比如MMD及MMM，若要走免费路线，必然要基于爆款又高于爆款\r\n5.对于基础算法的翻译，使用频率极高的算法及专业度极高的算法都是值得作为标杆的，人工智能领域值得深度探索",
+            "created_at": "2018-03-27T12:48:41Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/25#issuecomment-376512246",
+            "id": 376512246,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/25",
+            "updated_at": "2018-03-27T12:48:41Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/376512246",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 36,
+    "comments": 37,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/25/comments",
     "created_at": "2017-08-19T02:55:17Z",
     "event_data": [
@@ -1948,6 +1977,60 @@
             "event": "subscribed",
             "id": 1348060653,
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1348060653"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6562192?v=4",
+                "events_url": "https://api.github.com/users/htwx/events{/privacy}",
+                "followers_url": "https://api.github.com/users/htwx/followers",
+                "following_url": "https://api.github.com/users/htwx/following{/other_user}",
+                "gists_url": "https://api.github.com/users/htwx/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/htwx",
+                "id": 6562192,
+                "login": "htwx",
+                "organizations_url": "https://api.github.com/users/htwx/orgs",
+                "received_events_url": "https://api.github.com/users/htwx/received_events",
+                "repos_url": "https://api.github.com/users/htwx/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/htwx/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/htwx/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/htwx"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-03-27T12:48:41Z",
+            "event": "mentioned",
+            "id": 1543131503,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1543131503"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6562192?v=4",
+                "events_url": "https://api.github.com/users/htwx/events{/privacy}",
+                "followers_url": "https://api.github.com/users/htwx/followers",
+                "following_url": "https://api.github.com/users/htwx/following{/other_user}",
+                "gists_url": "https://api.github.com/users/htwx/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/htwx",
+                "id": 6562192,
+                "login": "htwx",
+                "organizations_url": "https://api.github.com/users/htwx/orgs",
+                "received_events_url": "https://api.github.com/users/htwx/received_events",
+                "repos_url": "https://api.github.com/users/htwx/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/htwx/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/htwx/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/htwx"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-03-27T12:48:41Z",
+            "event": "subscribed",
+            "id": 1543131504,
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1543131504"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/25/events",
@@ -1969,7 +2052,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 对现有编程语言的英文关键词进行汉化或者再创造的实例",
-    "updated_at": "2017-11-17T22:40:37Z",
+    "updated_at": "2018-03-27T12:48:41Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/25",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
