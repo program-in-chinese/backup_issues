@@ -120,9 +120,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "OWNER",
+            "body": "顶一下. 想把楼上的[那个草稿](https://github.com/program-in-chinese/team_website/blob/master/%E4%B8%B4%E6%97%B6/2018-02-03-5%E5%88%86%E9%92%9F%E5%85%A5%E9%97%A8%E4%B8%AD%E6%96%87TypeScript.markdown)发布一下, 不知CTS是否有公测版本?",
+            "created_at": "2018-04-17T18:54:55Z",
+            "html_url": "https://github.com/program-in-chinese/CTS/issues/10#issuecomment-382103291",
+            "id": 382103291,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/10",
+            "updated_at": "2018-04-17T18:54:55Z",
+            "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/382103291",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 4,
+    "comments": 5,
     "comments_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/10/comments",
     "created_at": "2017-11-17T17:59:14Z",
     "event_data": [
@@ -354,7 +383,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/CTS",
     "state": "open",
     "title": "请问有兴趣写篇关于技术和心得的文章吗?",
-    "updated_at": "2018-02-04T03:43:53Z",
+    "updated_at": "2018-04-17T18:54:55Z",
     "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/10",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

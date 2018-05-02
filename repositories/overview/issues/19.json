@@ -381,9 +381,38 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "说到哆来咪【想到basic的play函数【扩展成了music mml，8bit爱好者很多人用此语法作曲【\r\n论各种东西的字面量（还想到了b站开源的最新弹幕语法（",
+            "created_at": "2018-04-25T17:30:32Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/19#issuecomment-384369293",
+            "id": 384369293,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/19",
+            "updated_at": "2018-04-25T17:30:32Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/384369293",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1175749?v=4",
+                "events_url": "https://api.github.com/users/farteryhr/events{/privacy}",
+                "followers_url": "https://api.github.com/users/farteryhr/followers",
+                "following_url": "https://api.github.com/users/farteryhr/following{/other_user}",
+                "gists_url": "https://api.github.com/users/farteryhr/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/farteryhr",
+                "id": 1175749,
+                "login": "farteryhr",
+                "organizations_url": "https://api.github.com/users/farteryhr/orgs",
+                "received_events_url": "https://api.github.com/users/farteryhr/received_events",
+                "repos_url": "https://api.github.com/users/farteryhr/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/farteryhr/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/farteryhr/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/farteryhr"
+            }
         }
     ],
-    "comments": 13,
+    "comments": 14,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/19/comments",
     "created_at": "2017-08-08T06:20:04Z",
     "event_data": [
@@ -816,7 +845,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "跨界: 哪些中文非IT领域会偏好中文API, 编程/脚本语言?",
-    "updated_at": "2018-01-08T07:42:07Z",
+    "updated_at": "2018-04-25T17:30:32Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/19",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
