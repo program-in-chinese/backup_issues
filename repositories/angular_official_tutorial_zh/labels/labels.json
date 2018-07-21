@@ -4,6 +4,7 @@
         "default": true,
         "id": 744668169,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNjk=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 744668170,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNzA=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 744668171,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNzE=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 744668173,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNzM=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 744668172,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNzI=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 744668174,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNzQ=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 744668175,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNzU=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 744668176,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3NDQ2NjgxNzY=",
         "url": "https://api.github.com/repos/program-in-chinese/angular_official_tutorial_zh/labels/wontfix"
     }
 ]

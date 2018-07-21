@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "善后 - [这里](http://www.baike.com/wiki/%E5%96%84%E5%90%8E)给出的意思是\"处理事务的后续问题，妥善处理事情发生后的遗留问题\" 感觉蛮接近Finally的用途\r\n导入 - 感觉Import和Export的作用是对应而且相反的, 那么中文最好也是对应而且相反?\r\nInstanceOf - 如果它也可以用于接口, 比如`某某对象 instanceOf 某某接口`, 那么`为类`好像就有点不全面? 不过`身为`个人感觉有点太拟人化, 但暂时没有想到其他的...",
     "closed_at": "2017-10-25T14:34:03Z",
     "comment_data": [
@@ -12,6 +12,7 @@
             "html_url": "https://github.com/program-in-chinese/CTS/pull/7#issuecomment-339290767",
             "id": 339290767,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/7",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzOTI5MDc2Nw==",
             "updated_at": "2017-10-25T10:49:08Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/339290767",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -50,6 +52,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -64,6 +67,7 @@
             "created_at": "2017-10-25T14:34:03Z",
             "event": "referenced",
             "id": 1310013501,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMTAwMTM1MDE=",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1310013501"
         },
         {
@@ -77,6 +81,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -91,6 +96,7 @@
             "created_at": "2017-10-25T14:34:03Z",
             "event": "merged",
             "id": 1310013502,
+            "node_id": "MDExOk1lcmdlZEV2ZW50MTMxMDAxMzUwMg==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1310013502"
         },
         {
@@ -104,6 +110,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -118,6 +125,7 @@
             "created_at": "2017-10-25T14:34:03Z",
             "event": "closed",
             "id": 1310013505,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTMxMDAxMzUwNQ==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1310013505"
         }
     ],
@@ -128,6 +136,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/7/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MTQ4NDcyODMx",
     "number": 7,
     "pull_request": {
         "diff_url": "https://github.com/program-in-chinese/CTS/pull/7.diff",
@@ -150,6 +159,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

@@ -4,6 +4,7 @@
         "default": true,
         "id": 672230830,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NzIyMzA4MzA=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 672230831,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NzIyMzA4MzE=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 672230832,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NzIyMzA4MzI=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 672230833,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NzIyMzA4MzM=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/help%20wanted"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 672230834,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NzIyMzA4MzQ=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/invalid"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 672230835,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NzIyMzA4MzU=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/question"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 672230836,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NzIyMzA4MzY=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/wontfix"
     },
     {
@@ -53,6 +60,7 @@
         "default": false,
         "id": 681666433,
         "name": "受阻",
+        "node_id": "MDU6TGFiZWw2ODE2NjY0MzM=",
         "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/labels/%E5%8F%97%E9%98%BB"
     }
 ]

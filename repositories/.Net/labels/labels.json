@@ -4,6 +4,7 @@
         "default": true,
         "id": 659302534,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NTkzMDI1MzQ=",
         "url": "https://api.github.com/repos/program-in-chinese/.Net/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 659302535,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NTkzMDI1MzU=",
         "url": "https://api.github.com/repos/program-in-chinese/.Net/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 659302536,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NTkzMDI1MzY=",
         "url": "https://api.github.com/repos/program-in-chinese/.Net/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 659302537,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NTkzMDI1Mzc=",
         "url": "https://api.github.com/repos/program-in-chinese/.Net/labels/help%20wanted"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 659302538,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NTkzMDI1Mzg=",
         "url": "https://api.github.com/repos/program-in-chinese/.Net/labels/invalid"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 659302539,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NTkzMDI1Mzk=",
         "url": "https://api.github.com/repos/program-in-chinese/.Net/labels/question"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 659302540,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NTkzMDI1NDA=",
         "url": "https://api.github.com/repos/program-in-chinese/.Net/labels/wontfix"
     }
 ]

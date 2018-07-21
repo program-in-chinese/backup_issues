@@ -4,6 +4,7 @@
         "default": true,
         "id": 775086854,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NTQ=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 775086855,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NTU=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 775086856,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NTY=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 775086858,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NTg=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 775086857,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NTc=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 775086859,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NTk=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 775086860,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NjA=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 775086861,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3NzUwODY4NjE=",
         "url": "https://api.github.com/repos/program-in-chinese/typescript_in_5_min_zh/labels/wontfix"
     }
 ]

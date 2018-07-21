@@ -4,6 +4,7 @@
         "default": true,
         "id": 671400423,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NzE0MDA0MjM=",
         "url": "https://api.github.com/repos/program-in-chinese/CnCXX/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 671400424,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NzE0MDA0MjQ=",
         "url": "https://api.github.com/repos/program-in-chinese/CnCXX/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 671400425,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NzE0MDA0MjU=",
         "url": "https://api.github.com/repos/program-in-chinese/CnCXX/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 671400426,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NzE0MDA0MjY=",
         "url": "https://api.github.com/repos/program-in-chinese/CnCXX/labels/help%20wanted"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 671400427,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NzE0MDA0Mjc=",
         "url": "https://api.github.com/repos/program-in-chinese/CnCXX/labels/invalid"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 671400428,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NzE0MDA0Mjg=",
         "url": "https://api.github.com/repos/program-in-chinese/CnCXX/labels/question"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 671400429,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NzE0MDA0Mjk=",
         "url": "https://api.github.com/repos/program-in-chinese/CnCXX/labels/wontfix"
     }
 ]

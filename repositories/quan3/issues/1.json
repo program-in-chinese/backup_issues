@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "",
     "closed_at": "2018-01-02T22:25:42Z",
     "comment_data": [],
@@ -20,6 +20,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -34,6 +35,7 @@
             "created_at": "2018-01-02T22:25:42Z",
             "event": "referenced",
             "id": 1407023716,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE0MDcwMjM3MTY=",
             "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/1407023716"
         },
         {
@@ -47,6 +49,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -61,6 +64,7 @@
             "created_at": "2018-01-02T22:25:42Z",
             "event": "merged",
             "id": 1407023717,
+            "node_id": "MDExOk1lcmdlZEV2ZW50MTQwNzAyMzcxNw==",
             "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/1407023717"
         },
         {
@@ -74,6 +78,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -88,6 +93,7 @@
             "created_at": "2018-01-02T22:25:42Z",
             "event": "closed",
             "id": 1407023720,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTQwNzAyMzcyMA==",
             "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/1407023720"
         }
     ],
@@ -98,6 +104,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/1/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MTYwODE1ODM0",
     "number": 1,
     "pull_request": {
         "diff_url": "https://github.com/program-in-chinese/quan3/pull/1.diff",
@@ -120,6 +127,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

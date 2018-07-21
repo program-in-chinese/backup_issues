@@ -4,6 +4,7 @@
         "default": true,
         "id": 655107454,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NTUxMDc0NTQ=",
         "url": "https://api.github.com/repos/program-in-chinese/Java/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 655107455,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NTUxMDc0NTU=",
         "url": "https://api.github.com/repos/program-in-chinese/Java/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 655107456,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NTUxMDc0NTY=",
         "url": "https://api.github.com/repos/program-in-chinese/Java/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 655107457,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NTUxMDc0NTc=",
         "url": "https://api.github.com/repos/program-in-chinese/Java/labels/help%20wanted"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 655107458,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NTUxMDc0NTg=",
         "url": "https://api.github.com/repos/program-in-chinese/Java/labels/invalid"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 655107459,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NTUxMDc0NTk=",
         "url": "https://api.github.com/repos/program-in-chinese/Java/labels/question"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 655107460,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NTUxMDc0NjA=",
         "url": "https://api.github.com/repos/program-in-chinese/Java/labels/wontfix"
     }
 ]

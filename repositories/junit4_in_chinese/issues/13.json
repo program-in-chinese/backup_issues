@@ -6,12 +6,13 @@
     "closed_at": null,
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "嗯, 这个文档放在哪里合适? README里?",
             "created_at": "2017-10-17T07:16:24Z",
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/13#issuecomment-337140104",
             "id": 337140104,
             "issue_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/13",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzE0MDEwNA==",
             "updated_at": "2017-10-17T07:16:24Z",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/comments/337140104",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -41,6 +43,7 @@
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/13#issuecomment-337141783",
             "id": 337141783,
             "issue_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/13",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzE0MTc4Mw==",
             "updated_at": "2017-10-17T07:24:13Z",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/comments/337141783",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -64,12 +68,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "有空/兴趣写一下, 发个Pull Request吗? ",
             "created_at": "2017-10-17T07:35:45Z",
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/13#issuecomment-337144488",
             "id": 337144488,
             "issue_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/13",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzE0NDQ4OA==",
             "updated_at": "2017-10-17T07:35:45Z",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/comments/337144488",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -99,6 +105,7 @@
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/13#issuecomment-337148543",
             "id": 337148543,
             "issue_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/13",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzE0ODU0Mw==",
             "updated_at": "2017-10-17T07:53:09Z",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/comments/337148543",
             "user": {
@@ -111,6 +118,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -122,12 +130,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@hummerstudio 了解. 有空的话欢迎在迎新帖里自我介绍一下. 对应表已经添加https://github.com/program-in-chinese/junit4_in_chinese/commit/b83cfb732e202f04c9c118edee1e4e1deb84b79b, 请审阅.",
             "created_at": "2017-10-17T16:45:42Z",
             "html_url": "https://github.com/program-in-chinese/junit4_in_chinese/issues/13#issuecomment-337293195",
             "id": 337293195,
             "issue_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/13",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzI5MzE5NQ==",
             "updated_at": "2017-10-17T16:45:42Z",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/comments/337293195",
             "user": {
@@ -140,6 +149,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -166,6 +176,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -180,6 +191,7 @@
             "created_at": "2017-10-17T07:08:40Z",
             "event": "mentioned",
             "id": 1296252272,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NjI1MjI3Mg==",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296252272"
         },
         {
@@ -193,6 +205,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -207,6 +220,7 @@
             "created_at": "2017-10-17T07:08:40Z",
             "event": "subscribed",
             "id": 1296252273,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTYyNTIyNzM=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296252273"
         },
         {
@@ -220,6 +234,7 @@
                 "html_url": "https://github.com/testacount1",
                 "id": 12469353,
                 "login": "testacount1",
+                "node_id": "MDQ6VXNlcjEyNDY5MzUz",
                 "organizations_url": "https://api.github.com/users/testacount1/orgs",
                 "received_events_url": "https://api.github.com/users/testacount1/received_events",
                 "repos_url": "https://api.github.com/users/testacount1/repos",
@@ -234,6 +249,7 @@
             "created_at": "2017-10-17T07:08:40Z",
             "event": "mentioned",
             "id": 1296252274,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NjI1MjI3NA==",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296252274"
         },
         {
@@ -247,6 +263,7 @@
                 "html_url": "https://github.com/testacount1",
                 "id": 12469353,
                 "login": "testacount1",
+                "node_id": "MDQ6VXNlcjEyNDY5MzUz",
                 "organizations_url": "https://api.github.com/users/testacount1/orgs",
                 "received_events_url": "https://api.github.com/users/testacount1/received_events",
                 "repos_url": "https://api.github.com/users/testacount1/repos",
@@ -261,6 +278,7 @@
             "created_at": "2017-10-17T07:08:40Z",
             "event": "subscribed",
             "id": 1296252275,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTYyNTIyNzU=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296252275"
         },
         {
@@ -274,6 +292,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -288,6 +307,7 @@
             "created_at": "2017-10-17T07:24:13Z",
             "event": "mentioned",
             "id": 1296272480,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NjI3MjQ4MA==",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296272480"
         },
         {
@@ -301,6 +321,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -315,6 +336,7 @@
             "created_at": "2017-10-17T07:24:13Z",
             "event": "subscribed",
             "id": 1296272481,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTYyNzI0ODE=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296272481"
         },
         {
@@ -328,6 +350,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -342,6 +365,7 @@
             "created_at": "2017-10-17T07:53:09Z",
             "event": "mentioned",
             "id": 1296314135,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NjMxNDEzNQ==",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296314135"
         },
         {
@@ -355,6 +379,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -369,6 +394,7 @@
             "created_at": "2017-10-17T07:53:09Z",
             "event": "subscribed",
             "id": 1296314137,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTYzMTQxMzc=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1296314137"
         },
         {
@@ -382,6 +408,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -396,6 +423,7 @@
             "created_at": "2017-10-17T16:45:42Z",
             "event": "mentioned",
             "id": 1297314182,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NzMxNDE4Mg==",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1297314182"
         },
         {
@@ -409,6 +437,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -423,6 +452,7 @@
             "created_at": "2017-10-17T16:45:42Z",
             "event": "subscribed",
             "id": 1297314185,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTczMTQxODU=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1297314185"
         },
         {
@@ -436,6 +466,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -450,6 +481,7 @@
             "created_at": "2017-10-17T16:47:49Z",
             "event": "referenced",
             "id": 1297318693,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEyOTczMTg2OTM=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1297318693"
         }
     ],
@@ -460,6 +492,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/13/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNjYwMTUxNjE=",
     "number": 13,
     "repository_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese",
     "state": "open",
@@ -476,6 +509,7 @@
         "html_url": "https://github.com/hummerstudio",
         "id": 7810874,
         "login": "hummerstudio",
+        "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
         "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
         "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
         "repos_url": "https://api.github.com/users/hummerstudio/repos",

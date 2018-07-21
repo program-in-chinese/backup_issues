@@ -4,6 +4,7 @@
         "default": true,
         "id": 747791341,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDE=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 747791342,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDI=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 747791343,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDM=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 747791345,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDU=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 747791344,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDQ=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 747791346,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDY=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 747791347,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDc=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 747791348,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3NDc3OTEzNDg=",
         "url": "https://api.github.com/repos/program-in-chinese/kotlin_in_hours_chn/labels/wontfix"
     }
 ]

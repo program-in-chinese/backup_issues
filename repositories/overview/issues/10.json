@@ -9,6 +9,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -29,6 +30,7 @@
             "html_url": "https://github.com/nobodxbodon",
             "id": 392497,
             "login": "nobodxbodon",
+            "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
             "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
             "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
             "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -39,7 +41,7 @@
             "url": "https://api.github.com/users/nobodxbodon"
         }
     ],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "#9 提到的JUnit中文化, 下面是个pretotype:\r\n```\r\n  @Test\r\n  public void test() {\r\n    相等(\"1=1\", 1, 1);\r\n    不等(\"1!=2\", 1, 2);\r\n  }\r\n```\r\n与中文化前对比:\r\n```\r\n  @Test\r\n  public void test() {\r\n    assertEquals(\"1=1\", 1, 1);\r\n    assertNotEquals(\"1!=2\", 1, 2);\r\n  }\r\n```\r\n实现如下:\r\n```\r\npackage com.github.programinchinese;\r\n\r\nimport static org.junit.Assert.assertEquals;\r\nimport static org.junit.Assert.assertNotEquals;\r\n\r\npublic class 断言 {\r\n  public static void 相等(String 不等反馈信息, Object 期望, Object 实际) {\r\n    assertEquals(不等反馈信息, 期望, 实际);\r\n  }\r\n\r\n  public static void 不等(String 不等反馈信息, Object 期望, Object 实际) {\r\n    assertNotEquals(不等反馈信息, 期望, 实际);\r\n  }\r\n}\r\n```\r\n个人感觉用相对简单的实现, 达到了一定的可读性改进, 还是有意义的. 如果没有意见, 就打算照此思路开始项目了.\r\n",
     "closed_at": "2017-08-08T05:22:37Z",
     "comment_data": [
@@ -50,6 +52,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319373229",
             "id": 319373229,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTM3MzIyOQ==",
             "updated_at": "2017-08-01T13:41:32Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319373229",
             "user": {
@@ -62,6 +65,7 @@
                 "html_url": "https://github.com/ice1000",
                 "id": 16398479,
                 "login": "ice1000",
+                "node_id": "MDQ6VXNlcjE2Mzk4NDc5",
                 "organizations_url": "https://api.github.com/users/ice1000/orgs",
                 "received_events_url": "https://api.github.com/users/ice1000/received_events",
                 "repos_url": "https://api.github.com/users/ice1000/repos",
@@ -73,12 +77,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "还没来得及看怎么改. 请问你有思路吗?",
             "created_at": "2017-08-01T14:02:55Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319379053",
             "id": 319379053,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTM3OTA1Mw==",
             "updated_at": "2017-08-01T14:02:55Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319379053",
             "user": {
@@ -91,6 +96,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -108,6 +114,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319442275",
             "id": 319442275,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTQ0MjI3NQ==",
             "updated_at": "2017-08-02T08:16:05Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319442275",
             "user": {
@@ -120,6 +127,7 @@
                 "html_url": "https://github.com/ice1000",
                 "id": 16398479,
                 "login": "ice1000",
+                "node_id": "MDQ6VXNlcjE2Mzk4NDc5",
                 "organizations_url": "https://api.github.com/users/ice1000/orgs",
                 "received_events_url": "https://api.github.com/users/ice1000/received_events",
                 "repos_url": "https://api.github.com/users/ice1000/repos",
@@ -131,12 +139,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "能提供一个kotlin里重命名annotation的实例吗? 刚搜了一下没找到.\r\n[这里](http://www.mkyong.com/java/java-custom-annotations-example/)是在Java里定义annotation和使用的例子, 粗看一下觉得如果要实现 @Test->@测试, 而且JUnit框架还要能识别的话(比如说Eclipse里的JUnit相关功能都不影响), 好像需要修改JUnit的源代码或者JUnit插件的源码. 还没有想出单纯靠第三方库实现的方法.",
             "created_at": "2017-08-01T18:10:02Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319451263",
             "id": 319451263,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTQ1MTI2Mw==",
             "updated_at": "2017-08-01T18:10:02Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319451263",
             "user": {
@@ -149,6 +158,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -160,12 +170,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "第三方库的一个缺点, Trace信息里会多一层:\r\n![screen shot 2017-08-01 at 10 36 50 pm](https://user-images.githubusercontent.com/392497/28859126-6c28c93c-770a-11e7-8282-67abad996126.png)\r\n\r\n打算先把Assert方法汉化之后先在汇编器项目里实验一下.",
             "created_at": "2017-08-02T05:44:30Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319573588",
             "id": 319573588,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTU3MzU4OA==",
             "updated_at": "2017-08-02T05:44:30Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319573588",
             "user": {
@@ -178,6 +189,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -195,6 +207,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319601859",
             "id": 319601859,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTYwMTg1OQ==",
             "updated_at": "2017-08-02T08:15:34Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319601859",
             "user": {
@@ -207,6 +220,7 @@
                 "html_url": "https://github.com/ice1000",
                 "id": 16398479,
                 "login": "ice1000",
+                "node_id": "MDQ6VXNlcjE2Mzk4NDc5",
                 "organizations_url": "https://api.github.com/users/ice1000/orgs",
                 "received_events_url": "https://api.github.com/users/ice1000/received_events",
                 "repos_url": "https://api.github.com/users/ice1000/repos",
@@ -224,6 +238,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319602193",
             "id": 319602193,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTYwMjE5Mw==",
             "updated_at": "2017-08-02T08:16:57Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319602193",
             "user": {
@@ -236,6 +251,7 @@
                 "html_url": "https://github.com/ice1000",
                 "id": 16398479,
                 "login": "ice1000",
+                "node_id": "MDQ6VXNlcjE2Mzk4NDc5",
                 "organizations_url": "https://api.github.com/users/ice1000/orgs",
                 "received_events_url": "https://api.github.com/users/ice1000/received_events",
                 "repos_url": "https://api.github.com/users/ice1000/repos",
@@ -247,12 +263,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "暂时没发现Java的类似方法.",
             "created_at": "2017-08-02T17:10:10Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319736951",
             "id": 319736951,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTczNjk1MQ==",
             "updated_at": "2017-08-02T17:10:10Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319736951",
             "user": {
@@ -265,6 +282,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -282,6 +300,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319743870",
             "id": 319743870,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTc0Mzg3MA==",
             "updated_at": "2017-08-02T17:35:52Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319743870",
             "user": {
@@ -294,6 +313,7 @@
                 "html_url": "https://github.com/ice1000",
                 "id": 16398479,
                 "login": "ice1000",
+                "node_id": "MDQ6VXNlcjE2Mzk4NDc5",
                 "organizations_url": "https://api.github.com/users/ice1000/orgs",
                 "received_events_url": "https://api.github.com/users/ice1000/received_events",
                 "repos_url": "https://api.github.com/users/ice1000/repos",
@@ -305,12 +325,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "> 我刚提交了个 commit ，那个 Kotlin 的，我已经告诉你咋整了。另外那个测试方法在 IntelliJ IDEA 中被成功识别。\r\n\r\n看到了, 多谢. 可惜Java没有这个原生特性. 你有兴趣实现一个中文化的Kotlin测试框架吗?",
             "created_at": "2017-08-02T17:58:58Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-319750083",
             "id": 319750083,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTc1MDA4Mw==",
             "updated_at": "2017-08-02T17:58:58Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319750083",
             "user": {
@@ -323,6 +344,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -340,6 +362,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-320610037",
             "id": 320610037,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDYxMDAzNw==",
             "updated_at": "2017-08-07T09:03:10Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/320610037",
             "user": {
@@ -352,6 +375,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -363,12 +387,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "多谢! 一会细看. 感觉可以\"立项\"了, 新开一个repo继续  :)",
             "created_at": "2017-08-07T15:09:15Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-320690666",
             "id": 320690666,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDY5MDY2Ng==",
             "updated_at": "2017-08-07T15:09:15Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/320690666",
             "user": {
@@ -381,6 +406,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -392,12 +418,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "多谢各位提点. 已开https://github.com/program-in-chinese/junit4_in_chinese, 欢迎在那里继续探讨.",
             "created_at": "2017-08-08T05:22:37Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/10#issuecomment-320853212",
             "id": 320853212,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDg1MzIxMg==",
             "updated_at": "2017-08-08T05:22:37Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/320853212",
             "user": {
@@ -410,6 +437,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -436,6 +464,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -455,6 +484,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -474,6 +504,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -488,6 +519,7 @@
             "created_at": "2017-08-01T06:16:42Z",
             "event": "assigned",
             "id": 1187020879,
+            "node_id": "MDEzOkFzc2lnbmVkRXZlbnQxMTg3MDIwODc5",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1187020879"
         },
         {
@@ -501,6 +533,7 @@
                 "html_url": "https://github.com/Test-",
                 "id": 2209814,
                 "login": "Test-",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyMDk4MTQ=",
                 "organizations_url": "https://api.github.com/users/Test-/orgs",
                 "received_events_url": "https://api.github.com/users/Test-/received_events",
                 "repos_url": "https://api.github.com/users/Test-/repos",
@@ -515,6 +548,7 @@
             "created_at": "2017-08-01T18:10:02Z",
             "event": "mentioned",
             "id": 1188161781,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTE4ODE2MTc4MQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1188161781"
         },
         {
@@ -528,6 +562,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -542,6 +577,7 @@
             "created_at": "2017-08-08T05:22:37Z",
             "event": "closed",
             "id": 1196561212,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTE5NjU2MTIxMg==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1196561212"
         }
     ],
@@ -552,6 +588,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/10/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNDY5NjU1Mzg=",
     "number": 10,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
@@ -568,6 +605,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

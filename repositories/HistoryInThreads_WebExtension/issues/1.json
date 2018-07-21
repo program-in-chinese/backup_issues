@@ -1,17 +1,18 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "调用`browser.history.search`两次, 一次返回时间段内所有`HistoryItem`记录, 一次返回时间段内匹配关键词的`HistoryItem`记录(如果有关键词)\r\n调用`browser.history.getVisits`次数为匹配的`HistoryItem`个数(容易上千/万)",
     "closed_at": "2017-09-01T20:33:47Z",
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "论坛上看到没有更好的API利用: https://discourse.mozilla.org/t/api-to-fetch-visits-by-multiple-urls/18467/4\r\n已经在 https://github.com/program-in-chinese/HistoryInThreads_WebExtension/commit/8466de15e73624450bd0a97db196f58ecf440106 添加了索引缓冲",
             "created_at": "2017-09-01T20:33:47Z",
             "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/issues/1#issuecomment-326677855",
             "id": 326677855,
             "issue_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjY3Nzg1NQ==",
             "updated_at": "2017-09-01T20:33:47Z",
             "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/comments/326677855",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -50,6 +52,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -64,6 +67,7 @@
             "created_at": "2017-09-01T20:33:47Z",
             "event": "closed",
             "id": 1231988806,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTIzMTk4ODgwNg==",
             "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/events/1231988806"
         }
     ],
@@ -74,6 +78,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/1/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNTI4MDg4MDk=",
     "number": 1,
     "repository_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension",
     "state": "closed",
@@ -90,6 +95,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

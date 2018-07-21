@@ -4,6 +4,7 @@
         "default": true,
         "id": 767810037,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwMzc=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 767810038,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwMzg=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 767810039,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwMzk=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 767810041,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwNDE=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 767810040,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwNDA=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 767810042,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwNDI=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 767810043,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwNDM=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 767810044,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3Njc4MTAwNDQ=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4/labels/wontfix"
     }
 ]

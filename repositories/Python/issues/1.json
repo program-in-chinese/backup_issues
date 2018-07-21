@@ -6,12 +6,13 @@
     "closed_at": null,
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "不知和[周蟒](https://github.com/gasolin/zhpy)的原理和效果有何不同?",
             "created_at": "2017-11-02T04:42:03Z",
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341316185",
             "id": 341316185,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTMxNjE4NQ==",
             "updated_at": "2017-11-02T04:42:03Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341316185",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -41,6 +43,7 @@
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341378520",
             "id": 341378520,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTM3ODUyMA==",
             "updated_at": "2017-11-02T10:26:19Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341378520",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -70,6 +74,7 @@
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341384035",
             "id": 341384035,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTM4NDAzNQ==",
             "updated_at": "2017-11-02T10:49:26Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341384035",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -99,6 +105,7 @@
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341400611",
             "id": 341400611,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTQwMDYxMQ==",
             "updated_at": "2017-11-02T12:02:57Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341400611",
             "user": {
@@ -111,6 +118,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -122,12 +130,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "请问python源码用的是https://github.com/python/cpython吗? mac下试了好像`make`没问题. \r\n看到官方对windows编译[建议用VS](https://github.com/python/cpython/blob/master/PCbuild/readme.txt)? ([主页](https://github.com/python/cpython)上有`On Windows, see PCbuild/readme.txt.`)",
             "created_at": "2017-11-03T00:10:14Z",
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341594334",
             "id": 341594334,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTU5NDMzNA==",
             "updated_at": "2017-11-03T00:10:14Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341594334",
             "user": {
@@ -140,6 +149,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -157,6 +167,7 @@
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341625950",
             "id": 341625950,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTYyNTk1MA==",
             "updated_at": "2017-11-03T05:38:27Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341625950",
             "user": {
@@ -169,6 +180,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -180,12 +192,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "OK. 只要开发没大麻烦就好. 主要是个人一直对这种额外的build小问题比较头疼 :)",
             "created_at": "2017-11-03T05:40:17Z",
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341626099",
             "id": 341626099,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTYyNjA5OQ==",
             "updated_at": "2017-11-03T05:40:17Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341626099",
             "user": {
@@ -198,6 +211,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -215,6 +229,7 @@
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341742665",
             "id": 341742665,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTc0MjY2NQ==",
             "updated_at": "2017-11-03T15:47:02Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341742665",
             "user": {
@@ -227,6 +242,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -244,6 +260,7 @@
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-341743328",
             "id": 341743328,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTc0MzMyOA==",
             "updated_at": "2017-11-03T15:49:05Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/341743328",
             "user": {
@@ -256,6 +273,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -273,6 +291,7 @@
             "html_url": "https://github.com/program-in-chinese/Python/issues/1#issuecomment-342721908",
             "id": 342721908,
             "issue_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MjcyMTkwOA==",
             "updated_at": "2017-11-08T06:19:02Z",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/comments/342721908",
             "user": {
@@ -285,6 +304,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -311,6 +331,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -325,6 +346,7 @@
             "created_at": "2017-11-02T10:26:19Z",
             "event": "mentioned",
             "id": 1322703894,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyMjcwMzg5NA==",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/events/1322703894"
         },
         {
@@ -338,6 +360,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -352,6 +375,7 @@
             "created_at": "2017-11-02T10:26:19Z",
             "event": "subscribed",
             "id": 1322703895,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjI3MDM4OTU=",
             "url": "https://api.github.com/repos/program-in-chinese/Python/issues/events/1322703895"
         }
     ],
@@ -362,6 +386,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/Python/issues/1/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNzAzMzUwOTA=",
     "number": 1,
     "repository_url": "https://api.github.com/repos/program-in-chinese/Python",
     "state": "open",
@@ -378,6 +403,7 @@
         "html_url": "https://github.com/swizl",
         "id": 3119372,
         "login": "swizl",
+        "node_id": "MDQ6VXNlcjMxMTkzNzI=",
         "organizations_url": "https://api.github.com/users/swizl/orgs",
         "received_events_url": "https://api.github.com/users/swizl/received_events",
         "repos_url": "https://api.github.com/users/swizl/repos",

@@ -4,6 +4,7 @@
         "default": true,
         "id": 671273593,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NzEyNzM1OTM=",
         "url": "https://api.github.com/repos/program-in-chinese/HuanXiang/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 671273594,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NzEyNzM1OTQ=",
         "url": "https://api.github.com/repos/program-in-chinese/HuanXiang/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 671273595,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NzEyNzM1OTU=",
         "url": "https://api.github.com/repos/program-in-chinese/HuanXiang/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 671273596,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NzEyNzM1OTY=",
         "url": "https://api.github.com/repos/program-in-chinese/HuanXiang/labels/help%20wanted"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 671273597,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NzEyNzM1OTc=",
         "url": "https://api.github.com/repos/program-in-chinese/HuanXiang/labels/invalid"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 671273598,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NzEyNzM1OTg=",
         "url": "https://api.github.com/repos/program-in-chinese/HuanXiang/labels/question"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 671273599,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NzEyNzM1OTk=",
         "url": "https://api.github.com/repos/program-in-chinese/HuanXiang/labels/wontfix"
     }
 ]

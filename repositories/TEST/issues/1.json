@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "@program-in-chinese/test 通知",
     "closed_at": null,
     "comment_data": [],
@@ -20,6 +20,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -34,6 +35,7 @@
             "created_at": "2017-10-21T02:33:59Z",
             "event": "subscribed",
             "id": 1303987021,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMDM5ODcwMjE=",
             "url": "https://api.github.com/repos/program-in-chinese/TEST/issues/events/1303987021"
         },
         {
@@ -47,6 +49,7 @@
                 "html_url": "https://github.com/testacount1",
                 "id": 12469353,
                 "login": "testacount1",
+                "node_id": "MDQ6VXNlcjEyNDY5MzUz",
                 "organizations_url": "https://api.github.com/users/testacount1/orgs",
                 "received_events_url": "https://api.github.com/users/testacount1/received_events",
                 "repos_url": "https://api.github.com/users/testacount1/repos",
@@ -61,6 +64,7 @@
             "created_at": "2017-10-21T02:33:59Z",
             "event": "subscribed",
             "id": 1303987022,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMDM5ODcwMjI=",
             "url": "https://api.github.com/repos/program-in-chinese/TEST/issues/events/1303987022"
         }
     ],
@@ -71,6 +75,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/TEST/issues/1/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNjczNDQ0MTg=",
     "number": 1,
     "repository_url": "https://api.github.com/repos/program-in-chinese/TEST",
     "state": "open",
@@ -87,6 +92,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

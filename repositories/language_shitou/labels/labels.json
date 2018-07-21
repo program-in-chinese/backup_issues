@@ -4,6 +4,7 @@
         "default": true,
         "id": 691043920,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5MjA=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 691043921,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5MjE=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 691043922,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5MjI=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 691043924,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5MjQ=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 691043923,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5MjM=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 691043925,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5MjU=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 691043926,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5MjY=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 691043927,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2OTEwNDM5Mjc=",
         "url": "https://api.github.com/repos/program-in-chinese/language_shitou/labels/wontfix"
     }
 ]

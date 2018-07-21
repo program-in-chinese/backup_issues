@@ -6,12 +6,13 @@
     "closed_at": null,
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "感觉测试用例里的`bar`好像要替代成`属性1`吧? \r\n```\r\n常量 aFoo: 测试 = { bar: 3, 属性2: \"b\", 合成属性: { 甲: 1, 乙: \"y\" } };\r\n-->\r\n常量 aFoo: 测试 = { 属性1: 3, 属性2: \"b\", 合成属性: { 甲: 1, 乙: \"y\" } }; ?\r\n\r\n如果 (aFoo.bar && aFoo.合成属性.乙) {  <--- (aFoo.属性1 && ...)\r\n  常量 { 属性1, 属性2, 合成属性: { 甲, 乙: text } } = aFoo;\r\n  常量 A: 数字 = aFoo.bar; <--- aFoo.属性1\r\n  常量 B: 数字 = 属性1;\r\n  常量 C: 文字 = 属性2;\r\n  常量 D: 数字 = 甲;\r\n  常量 E: 文字 = text;\r\n}\r\n\r\n常量 bBar:属性1 = { 元素1: 7, 元素2: aFoo };\r\n\r\n如果(bBar.元素2 && bBar.元素2.属性1 && bBar.元素2.合成属性.乙) {\r\n  常量 { 属性1, 属性2, 合成属性: { 甲, 乙: text } } = bBar.元素2;\r\n  常量 A: 数字 = bBar.元素2.属性1;\r\n  常量 B: 数字 = 属性1;\r\n  /**\r\n   *  因为 属性1 的别名是 bar 所以这个 常量 bar 与 属性1 是相同的名称\r\n   *  如果检测 bar 为重复声明, 会不会给人突兀的感觉,谁能注意到 bar 会和 属性1 重名呢\r\n   *  但是这样编译与 tsc 的结果相同, 减少不必要的犯错机率.\r\n   */\r\n  常量 bar: 文字 = \"这个隐形重名\"  <---这个好像不需要吧?\r\n  常量 C: 文字 = 属性2;\r\n  常量 D: 数字 = 甲;\r\n  常量 E: 文字 = text;\r\n}\r\n```",
             "created_at": "2017-11-04T09:18:26Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-341883051",
             "id": 341883051,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTg4MzA1MQ==",
             "updated_at": "2017-11-04T09:18:26Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/341883051",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -41,6 +43,7 @@
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-341896088",
             "id": 341896088,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTg5NjA4OA==",
             "updated_at": "2017-11-04T13:16:06Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/341896088",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -64,12 +68,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "还是不解啊...比如这里:\r\n> 常量 aFoo: 测试 = { bar: 3, 属性2: \"b\", 合成属性: { 甲: 1, 乙: \"y\" } };\r\n\r\n为什么用`bar`不是`属性1`?  后面不是用了`属性2`和`合成属性`吗?",
             "created_at": "2017-11-04T15:08:23Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-341903917",
             "id": 341903917,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTkwMzkxNw==",
             "updated_at": "2017-11-04T15:08:23Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/341903917",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -93,12 +99,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "不好意思之前没理解. 这就是为了测试中英混编是吧? 那好像合理啊.",
             "created_at": "2017-11-04T15:48:56Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-341907279",
             "id": 341907279,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTkwNzI3OQ==",
             "updated_at": "2017-11-04T15:48:56Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/341907279",
             "user": {
@@ -111,6 +118,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -128,6 +136,7 @@
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-341908091",
             "id": 341908091,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTkwODA5MQ==",
             "updated_at": "2017-11-04T16:06:35Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/341908091",
             "user": {
@@ -140,6 +149,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -157,6 +167,7 @@
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-342208860",
             "id": 342208860,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MjIwODg2MA==",
             "updated_at": "2017-11-06T16:44:37Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/342208860",
             "user": {
@@ -169,6 +180,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -180,12 +192,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@htwx 大哥沉住气啊, 坏了自己心情是大事. 口水们最大的希望就是把其他人拉到他们同样层次啊. 更直接的就是浪费了本来就宝贵的业余时间.\r\n之前在那个C#讨论里也是直接耗掉了两三天的业余时间, 这还亏得中途抽身了, 不然后半部分估计会更耗神.\r\n现在我QQ已经基本不碰. 那里匿名性太高. 基本上就是在知乎上发表自己观点了, 毕竟是自己的一方空间. 讨论的也算理性, 毕竟是公开讨论.",
             "created_at": "2017-11-06T16:52:04Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-342211388",
             "id": 342211388,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MjIxMTM4OA==",
             "updated_at": "2017-11-06T16:52:04Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/342211388",
             "user": {
@@ -198,6 +211,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -215,6 +229,7 @@
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-342226942",
             "id": 342226942,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MjIyNjk0Mg==",
             "updated_at": "2017-11-06T17:41:25Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/342226942",
             "user": {
@@ -227,6 +242,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -238,12 +254,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@htwx 历史上有多少大战就是靠毫无技术含量的口水战对骂扰乱对手军心的啊.\r\n虽然我也很难做到视而不见, 但后来想想, 我自己去对骂, 虽然是简单也解气, 但是事后却没有什么留下的. 尤其是QQ群里那种只能留在聊天记录里的内容, 实在是太浪费了. 更不用说有多少是水军或者bot(小心啊, 早就有聊天机器人可以乱真的, 现在NLP技术这么普遍, 自动刷屏的只会越来越多). 还不如做些实事, 或者把理性分析的内容发表出来. 岂不是更能有影响力也更有持久的效果吗?",
             "created_at": "2017-11-06T17:51:24Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-342229874",
             "id": 342229874,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MjIyOTg3NA==",
             "updated_at": "2017-11-06T17:51:24Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/342229874",
             "user": {
@@ -256,6 +273,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -267,12 +285,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@htwx 话说, 才发现你楼上添加的内容, 应该是发帖之后修改的吧\r\n> 因为这个 \"bar\" 和 \"属性1\" 是我随意写的 并没有完全 翻译英文意思, 好像 \"bar\" 和 \"属性1\" 没什么关系这样报错比较突兀, 但现这种情况应该不多, 中英文还是相对应的, 例如: 对 \"name\" 和 \"名称\" 报错就不那么突兀了.\r\n\r\n其实不妨添加新comment, 不然收不到email通知 :)",
             "created_at": "2017-11-07T05:57:09Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/8#issuecomment-342383642",
             "id": 342383642,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MjM4MzY0Mg==",
             "updated_at": "2017-11-07T05:57:09Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/342383642",
             "user": {
@@ -285,6 +304,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -311,6 +331,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -325,6 +346,7 @@
             "created_at": "2017-11-06T16:52:04Z",
             "event": "mentioned",
             "id": 1327994832,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyNzk5NDgzMg==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1327994832"
         },
         {
@@ -338,6 +360,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -352,6 +375,7 @@
             "created_at": "2017-11-06T16:52:04Z",
             "event": "subscribed",
             "id": 1327994833,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjc5OTQ4MzM=",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1327994833"
         },
         {
@@ -365,6 +389,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -379,6 +404,7 @@
             "created_at": "2017-11-06T17:51:24Z",
             "event": "mentioned",
             "id": 1328112993,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyODExMjk5Mw==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1328112993"
         },
         {
@@ -392,6 +418,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -406,6 +433,7 @@
             "created_at": "2017-11-06T17:51:24Z",
             "event": "subscribed",
             "id": 1328112994,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjgxMTI5OTQ=",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1328112994"
         },
         {
@@ -419,6 +447,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -433,6 +462,7 @@
             "created_at": "2017-11-07T05:57:09Z",
             "event": "mentioned",
             "id": 1329024709,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMyOTAyNDcwOQ==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1329024709"
         },
         {
@@ -446,6 +476,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -460,6 +491,7 @@
             "created_at": "2017-11-07T05:57:09Z",
             "event": "subscribed",
             "id": 1329024710,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMjkwMjQ3MTA=",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1329024710"
         }
     ],
@@ -470,6 +502,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/8/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNzExNzA0NjM=",
     "number": 8,
     "repository_url": "https://api.github.com/repos/program-in-chinese/CTS",
     "state": "open",
@@ -486,6 +519,7 @@
         "html_url": "https://github.com/htwx",
         "id": 6562192,
         "login": "htwx",
+        "node_id": "MDQ6VXNlcjY1NjIxOTI=",
         "organizations_url": "https://api.github.com/users/htwx/orgs",
         "received_events_url": "https://api.github.com/users/htwx/received_events",
         "repos_url": "https://api.github.com/users/htwx/repos",

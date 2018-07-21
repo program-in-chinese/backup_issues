@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "Catch bugs, enforce style, and increase confidence in your code before you merge.",
     "closed_at": "2017-08-18T01:30:41Z",
     "comment_data": [],
@@ -20,6 +20,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -34,6 +35,7 @@
             "created_at": "2017-08-17T23:56:02Z",
             "event": "referenced",
             "id": 1211088990,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEyMTEwODg5OTA=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211088990"
         },
         {
@@ -47,6 +49,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -61,6 +64,7 @@
             "created_at": "2017-08-18T00:07:01Z",
             "event": "referenced",
             "id": 1211097921,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEyMTEwOTc5MjE=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211097921"
         },
         {
@@ -74,6 +78,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -88,6 +93,7 @@
             "created_at": "2017-08-18T01:06:55Z",
             "event": "referenced",
             "id": 1211140245,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEyMTExNDAyNDU=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211140245"
         },
         {
@@ -101,6 +107,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -115,6 +122,7 @@
             "created_at": "2017-08-18T01:29:43Z",
             "event": "referenced",
             "id": 1211155335,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEyMTExNTUzMzU=",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211155335"
         },
         {
@@ -128,6 +136,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -142,6 +151,7 @@
             "created_at": "2017-08-18T01:30:41Z",
             "event": "closed",
             "id": 1211155994,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTIxMTE1NTk5NA==",
             "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/events/1211155994"
         }
     ],
@@ -152,6 +162,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/issues/10/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNTAzMzcyMjM=",
     "number": 10,
     "repository_url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese",
     "state": "closed",
@@ -168,6 +179,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

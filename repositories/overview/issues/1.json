@@ -1,17 +1,18 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "考虑用https://developer.github.com/v3/issues/#list-issues-for-a-repository",
     "closed_at": "2017-08-07T17:20:13Z",
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "考虑导出成文本后新建git库保存, 然后同步到osc的git库, 这样万一github访问有什么问题, 另起炉灶的损失不会太大.",
             "created_at": "2017-08-03T06:18:31Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/1#issuecomment-319878530",
             "id": 319878530,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTg3ODUzMA==",
             "updated_at": "2017-08-03T06:18:31Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319878530",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -35,12 +37,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "已导出所有issue, 每个issue一个json文件. 新建库: https://github.com/program-in-chinese/backup_issues\r\n暂时手动运行. \r\n最好定期运行和提交. 比如某服务器上做个cron job之类.",
             "created_at": "2017-08-05T05:47:08Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/1#issuecomment-320414505",
             "id": 320414505,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDQxNDUwNQ==",
             "updated_at": "2017-08-05T05:47:08Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/320414505",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -64,12 +68,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "相关讨论转到 https://github.com/program-in-chinese/backup_issues 继续",
             "created_at": "2017-08-07T17:20:13Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/1#issuecomment-320725417",
             "id": 320725417,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDcyNTQxNw==",
             "updated_at": "2017-08-07T17:20:13Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/320725417",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -108,6 +114,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -122,6 +129,7 @@
             "created_at": "2017-08-07T17:20:13Z",
             "event": "closed",
             "id": 1195803659,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTE5NTgwMzY1OQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1195803659"
         }
     ],
@@ -132,6 +140,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/1/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNDU2MTEzMzk=",
     "number": 1,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
@@ -148,6 +157,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

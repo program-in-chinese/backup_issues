@@ -12,6 +12,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/58#issuecomment-379974888",
             "id": 379974888,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/58",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM3OTk3NDg4OA==",
             "updated_at": "2018-04-10T05:04:50Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/379974888",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/bctnry",
                 "id": 12878865,
                 "login": "bctnry",
+                "node_id": "MDQ6VXNlcjEyODc4ODY1",
                 "organizations_url": "https://api.github.com/users/bctnry/orgs",
                 "received_events_url": "https://api.github.com/users/bctnry/received_events",
                 "repos_url": "https://api.github.com/users/bctnry/repos",
@@ -35,12 +37,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@hummerstudio 你是指汉化小程序的框架/API, 像[腾讯小程序](https://developers.weixin.qq.com/miniprogram/dev/api/)? 工作量确实相对通用语言标准库要小, 不过要跟上官方更新的节奏恐怕也需要一个关注小程序开发的团队才能支持.\r\n\r\n> 腾讯如果作出将小程序的用户限制在大陆的决定，就等于变相宣称它根本不在乎国外市场。\r\n\r\n@bctnry  用户当然可以是国外的, 但开发者群体肯定在相当长时间内都是国内开发者为主吧.",
             "created_at": "2018-04-10T05:31:12Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/58#issuecomment-379978850",
             "id": 379978850,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/58",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM3OTk3ODg1MA==",
             "updated_at": "2018-04-10T05:31:12Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/379978850",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -70,6 +74,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/58#issuecomment-380301025",
             "id": 380301025,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/58",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM4MDMwMTAyNQ==",
             "updated_at": "2018-04-11T01:52:57Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/380301025",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -108,6 +114,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -122,6 +129,7 @@
             "created_at": "2018-04-10T05:31:12Z",
             "event": "mentioned",
             "id": 1565324359,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTU2NTMyNDM1OQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1565324359"
         },
         {
@@ -135,6 +143,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -149,6 +158,7 @@
             "created_at": "2018-04-10T05:31:12Z",
             "event": "subscribed",
             "id": 1565324360,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE1NjUzMjQzNjA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1565324360"
         },
         {
@@ -162,6 +172,7 @@
                 "html_url": "https://github.com/bctnry",
                 "id": 12878865,
                 "login": "bctnry",
+                "node_id": "MDQ6VXNlcjEyODc4ODY1",
                 "organizations_url": "https://api.github.com/users/bctnry/orgs",
                 "received_events_url": "https://api.github.com/users/bctnry/received_events",
                 "repos_url": "https://api.github.com/users/bctnry/repos",
@@ -176,6 +187,7 @@
             "created_at": "2018-04-10T05:31:12Z",
             "event": "mentioned",
             "id": 1565324361,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTU2NTMyNDM2MQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1565324361"
         },
         {
@@ -189,6 +201,7 @@
                 "html_url": "https://github.com/bctnry",
                 "id": 12878865,
                 "login": "bctnry",
+                "node_id": "MDQ6VXNlcjEyODc4ODY1",
                 "organizations_url": "https://api.github.com/users/bctnry/orgs",
                 "received_events_url": "https://api.github.com/users/bctnry/received_events",
                 "repos_url": "https://api.github.com/users/bctnry/repos",
@@ -203,6 +216,7 @@
             "created_at": "2018-04-10T05:31:12Z",
             "event": "subscribed",
             "id": 1565324362,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE1NjUzMjQzNjI=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1565324362"
         },
         {
@@ -216,6 +230,7 @@
                 "html_url": "https://github.com/bctnry",
                 "id": 12878865,
                 "login": "bctnry",
+                "node_id": "MDQ6VXNlcjEyODc4ODY1",
                 "organizations_url": "https://api.github.com/users/bctnry/orgs",
                 "received_events_url": "https://api.github.com/users/bctnry/received_events",
                 "repos_url": "https://api.github.com/users/bctnry/repos",
@@ -230,6 +245,7 @@
             "created_at": "2018-04-11T01:52:57Z",
             "event": "mentioned",
             "id": 1567520503,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTU2NzUyMDUwMw==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1567520503"
         },
         {
@@ -243,6 +259,7 @@
                 "html_url": "https://github.com/bctnry",
                 "id": 12878865,
                 "login": "bctnry",
+                "node_id": "MDQ6VXNlcjEyODc4ODY1",
                 "organizations_url": "https://api.github.com/users/bctnry/orgs",
                 "received_events_url": "https://api.github.com/users/bctnry/received_events",
                 "repos_url": "https://api.github.com/users/bctnry/repos",
@@ -257,6 +274,7 @@
             "created_at": "2018-04-11T01:52:57Z",
             "event": "subscribed",
             "id": 1567520504,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE1Njc1MjA1MDQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1567520504"
         }
     ],
@@ -267,6 +285,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/58/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUzMTI3NTc5ODQ=",
     "number": 58,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
@@ -283,6 +302,7 @@
         "html_url": "https://github.com/hummerstudio",
         "id": 7810874,
         "login": "hummerstudio",
+        "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
         "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
         "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
         "repos_url": "https://api.github.com/users/hummerstudio/repos",

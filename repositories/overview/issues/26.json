@@ -1,17 +1,18 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "下面摘自 @azige的 https://github.com/program-in-chinese/junit4_in_chinese/pull/11#issuecomment-324548860\r\n\r\n> 在IDE和命令行（都是GBK）里都是之前那样，然后在UTF-8的命令行里就变成这样了……\r\n\r\n> [INFO] --- maven-checkstyle-plugin:2.17:check (validate) @ junit4_in_chinese ---\r\n[INFO] ▒?始检查▒?▒▒??\r\n ▒?查完成▒??\r\n\r\n> 目测是编码转了两次的结果，java在我的系统里应该默认用GBK来编码字符的，但是只有这个插件输出的字符是用UTF-8编码的\r\n\r\n感觉值得探究一下. 这种编码格式不匹配的问题可能会比想象中的更普遍, 如果中文windows的默认格式是GBK的话.",
     "closed_at": null,
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@azige 有个不明白的是为啥utf-8的命令行会输出带乱码的中文. 请问能把`mvn -v`的输出贴一下吗? ",
             "created_at": "2017-08-27T06:44:35Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-325180452",
             "id": 325180452,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyNTE4MDQ1Mg==",
             "updated_at": "2017-08-27T06:44:35Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/325180452",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -41,6 +43,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-325180581",
             "id": 325180581,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyNTE4MDU4MQ==",
             "updated_at": "2017-08-27T06:48:08Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/325180581",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -64,12 +68,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "发现不少网上分析GBK<->UTF8互转出现乱码的文章里都提到偶数OK,奇数有问题的说法. 其实不尽然.\r\n\r\n比如[此文](http://www.itkeyword.com/doc/6517034904586268x890/utf-8-java)提到的\"姓名\"的三个双字节段恰好都是合法的GBK字符[e5 a7] [93 e5] [90 8d]因此没有被破坏.\r\n\r\n只要UTF8的字节码中有GBK中不合法的字符, 就会有问题. 比如我们碰到的\"开始\". 初步分析已经整理在https://github.com/program-in-chinese/junit4_in_chinese/pull/12#issuecomment-333757123 还有一些细节要探究, 然后是针对这个插件问题的对策.",
             "created_at": "2017-10-03T18:42:44Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-333939921",
             "id": 333939921,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzMzkzOTkyMQ==",
             "updated_at": "2017-10-03T18:42:44Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/333939921",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -93,12 +99,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "看起来[checkstyle的Logger里](https://github.com/checkstyle/checkstyle/blob/master/src/main/java/com/puppycrawl/tools/checkstyle/DefaultLogger.java#L126)是按照UTF8编码输出信息的:\r\n```\r\n final Writer infoStreamWriter = new OutputStreamWriter(infoStream, StandardCharsets.UTF_8);\r\n...\r\n            final Writer errorStreamWriter = new OutputStreamWriter(errorStream,\r\nStandardCharsets.UTF_8);\r\n```\r\n试了把`StandardCharsets.UTF_8`改成`Charset.defaultCharset()`之后, 本地测试就显示正常了(ubuntu, mvn -v: Default locale:zh_CN, plaform encoding: GBK)",
             "created_at": "2017-10-04T16:05:49Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-334206209",
             "id": 334206209,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNDIwNjIwOQ==",
             "updated_at": "2017-10-04T16:05:49Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/334206209",
             "user": {
@@ -111,6 +118,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -122,12 +130,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "找到一个久远的[中文部分乱码问题](http://bbs.csdn.net/topics/390010852), 感觉应该也是类似的转码过程由于编码之间不兼容导致的, 就是不知道具体转变过程. 后来看到[JDBC连接MySQL抛出异常信息乱码](http://blog.csdn.net/zyf814/article/details/17021949), 才试出了这个可能的过程, 输出同样的乱码`中�?��?�??�??个传说`:\r\n```\r\n    String 初始字符串 = \"中国从前有个传说\";\r\n    \r\n    String 编码1 = \"utf-8\";\r\n    String 编码2 = \"windows-1252\";\r\n    String 编码3 = \"iso-8859-1\";\r\n    String 编码4 = \"utf-8\";\r\n    \r\n    byte[] 字节 = 初始字符串.getBytes(编码1);\r\n    String 转编码后 = new String(字节, 编码2);\r\n    byte[] 转码字节 = 转编码后.getBytes(编码3);\r\n    String 二转编码后 = new String(转码字节, 编码4);\r\n    System.out.println(二转编码后);\r\n```\r\n以后遇到这种部分乱码的问题, 考虑用个宽度搜索在所有编码里找可能的转变路径, 才能生成同样的乱码 hehe",
             "created_at": "2017-10-10T21:43:38Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-335617311",
             "id": 335617311,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNTYxNzMxMQ==",
             "updated_at": "2017-10-10T21:43:38Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/335617311",
             "user": {
@@ -140,6 +149,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -151,12 +161,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "阶段小结已发在[都市传说: \"部分\"中文出现乱码](https://zhuanlan.zhihu.com/p/30008480).\r\n为了尝试解决, 基于https://github.com/program-in-chinese/overview/issues/26#issuecomment-334206209, 向checkstyle作者[提问](https://github.com/checkstyle/checkstyle/commit/702a1a957607881e72bb94b3104c2603ef10891f#commitcomment-24897023)为何用UTF8编码日志信息.",
             "created_at": "2017-10-11T17:03:06Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-335878272",
             "id": 335878272,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNTg3ODI3Mg==",
             "updated_at": "2017-10-11T17:03:06Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/335878272",
             "user": {
@@ -169,6 +180,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -180,12 +192,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@program-in-chinese/all 召唤集体智慧应对~~. 插件作者[回复](https://github.com/checkstyle/checkstyle/commit/702a1a957607881e72bb94b3104c2603ef10891f#commitcomment-24920092)说原因是错误信息的保存文件格式是UTF8. 感觉有两个问题:\r\n- 文件格式是UTF8, 但读取到Java字符串时用的编码格式是什么? 换句话说, `final Writer infoStreamWriter = new OutputStreamWriter(infoStream, \"UTF-8\");`这里用的编码不是已经和文件编码格式无关了吗?\r\n- 还有除了https://github.com/program-in-chinese/overview/issues/26#issuecomment-334206209 之外的解决方案吗?",
             "created_at": "2017-10-12T01:10:04Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-335991453",
             "id": 335991453,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNTk5MTQ1Mw==",
             "updated_at": "2017-10-12T01:10:04Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/335991453",
             "user": {
@@ -198,6 +211,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -215,6 +229,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336012338",
             "id": 336012338,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjAxMjMzOA==",
             "updated_at": "2017-10-12T03:42:41Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336012338",
             "user": {
@@ -227,6 +242,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -238,12 +254,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "> GBK 解码器只会对奇数字节序列的最后那个字节造成破坏，除此之外的字节转换成字符后，都能原封不动的被 GBK 编码器转换为原本的字节\r\n\r\n我也看到不少文章提到奇数有问题, 偶数没问题. 其实偶数个字符也可能有问题. 原因详见https://github.com/program-in-chinese/junit4_in_chinese/pull/12#issuecomment-333757123. 刚发现更好的例子是\"开始\": https://gist.github.com/nobodxbodon/f01a6853ff236703ed2751bd2cf20848\r\n不仅'开'被破坏了, 而且'始'也被破坏了. 因为'开'的第三个字节被替换成了`3f`, 从而在GBK编码时, '始'的前两位被合成了一个GBK字符, 而第三个又落单被替换成了`3f`\r\n\r\n编码 | 原字1 | 原字2 \r\n ------------- | ------------- | -------------\r\n原字 | 开 | 始\r\nUTF8表示 | e5 bc 80 | e5 a7 8b \r\n转为GBK后 | e5 bc 3f | e5 a7 3f\r\nGBK字符 | 寮� | 濮�\r\n转回UTF8字符 | �? | �? \r\n\r\n[iso-8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1#Codepage_layout)没有`8_`,`9_`等等, 而[windows-1252](https://en.wikipedia.org/wiki/Windows-1252#Character_set)没有`8d`. 这些都被替换成了`3f`(两次转换都有被破坏的). 演示例程在[这里](https://gist.github.com/nobodxbodon/04c1331022eabda0b4ae883af0329293)\r\n\r\n-------------\r\n\r\n我也还不明白为何用UTF8编码. 如果系统不是UTF8编码, 那么输出的时候似乎肯定会有问题. 听作者回复的意思好像是为了确保读取UTF8格式的资源文件(messages_x.properties)的时候不会有问题. 但是我的感觉是已经从文件中读出来了(Java的String)之后就应该依赖系统编码. ",
             "created_at": "2017-10-12T06:39:23Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336035126",
             "id": 336035126,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjAzNTEyNg==",
             "updated_at": "2017-10-12T06:52:09Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336035126",
             "user": {
@@ -256,6 +273,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -273,6 +291,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336083577",
             "id": 336083577,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjA4MzU3Nw==",
             "updated_at": "2017-10-12T10:08:25Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336083577",
             "user": {
@@ -285,6 +304,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -296,12 +316,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@azige 结论是...? 既然Java的String用的是UTF16编码, 输出时的编码和资源文件格式应该完全无关了吧? 你觉得https://github.com/program-in-chinese/overview/issues/26#issuecomment-334206209 之外还有什么解决方案吗?",
             "created_at": "2017-10-12T19:04:36Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336235128",
             "id": 336235128,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjIzNTEyOA==",
             "updated_at": "2017-10-12T19:04:36Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336235128",
             "user": {
@@ -314,6 +335,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -331,6 +353,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336613299",
             "id": 336613299,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjYxMzI5OQ==",
             "updated_at": "2017-10-14T06:11:18Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336613299",
             "user": {
@@ -343,6 +366,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -354,12 +378,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@azige 不好意思忘说了, 我之前好像找到了它按照UTF8读取properties文件的地方, 详见https://github.com/checkstyle/checkstyle/commit/702a1a957607881e72bb94b3104c2603ef10891f#commitcomment-24945064 \r\n\r\n> 如果 checkstyle 自己的日志模块输出 UTF-8 字节流的话，必然要在输出到 maven 日志的时候又要转换回字符\r\n\r\n之前没有想到这个问题...但是它最后输出的时候应该用的是默认系统编码吧, 详见https://github.com/checkstyle/checkstyle/issues/3569#issuecomment-334245633:\r\n\r\n> When printing the message here, the strings are encoded using platform's default character encoding again. Thus it seems reasonable to use default charset in the beginning?",
             "created_at": "2017-10-14T06:30:40Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336614310",
             "id": 336614310,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjYxNDMxMA==",
             "updated_at": "2017-10-14T06:30:40Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336614310",
             "user": {
@@ -372,6 +397,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -389,6 +415,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336851503",
             "id": 336851503,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjg1MTUwMw==",
             "updated_at": "2017-10-16T10:52:51Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336851503",
             "user": {
@@ -401,6 +428,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -412,12 +440,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@azige 不好意思我蒙圈了...你的二重转换和我之前的[例程](https://gist.github.com/nobodxbodon/f01a6853ff236703ed2751bd2cf20848)的区别就是多显示了Java的UTF16内码吧? `\\uFFFD 再编码就会变成 0x3f`是看了你的例程才意识到的. 不过其他的UTF8->GBK->UTF8转换过程不是在https://github.com/program-in-chinese/junit4_in_chinese/pull/12#issuecomment-333757123 的第二张表里写过了吗?",
             "created_at": "2017-10-16T15:08:10Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336916890",
             "id": 336916890,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjkxNjg5MA==",
             "updated_at": "2017-10-16T15:08:54Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336916890",
             "user": {
@@ -430,6 +459,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -441,12 +471,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@azige \r\n\r\n\r\n>>不好意思忘说了, 我之前好像找到了它按照UTF8读取properties文件的地方, 详见checkstyle/checkstyle@702a1a9#commitcomment-24945064\r\n\r\n>我之前就是看到他这个 Logger 然后确认他是输出了 UTF-8 字节流的。\r\n\r\n我指的是这里https://github.com/checkstyle/checkstyle/blob/master/src/main/java/com/puppycrawl/tools/checkstyle/api/LocalizedMessage.java#L522\r\n",
             "created_at": "2017-10-16T15:10:37Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336917656",
             "id": 336917656,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjkxNzY1Ng==",
             "updated_at": "2017-10-16T15:10:37Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336917656",
             "user": {
@@ -459,6 +490,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -476,6 +508,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336919275",
             "id": 336919275,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjkxOTI3NQ==",
             "updated_at": "2017-10-16T15:15:49Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336919275",
             "user": {
@@ -488,6 +521,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -505,6 +539,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336920452",
             "id": 336920452,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjkyMDQ1Mg==",
             "updated_at": "2017-10-16T15:19:27Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336920452",
             "user": {
@@ -517,6 +552,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -528,12 +564,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@azige 嗯应该是这个1-4过程. \r\n\r\n> 抱歉这部分没注意看，但是记得 properties 文件按 Java 的规范的是只使用 iso-8859-1，此字符集以外的字符都要转义。而且这里跟日志输出乱码关系应该不是很大吧\r\n\r\n那个链接针对的是checkstyle作者的[回复](https://github.com/checkstyle/checkstyle/commit/702a1a957607881e72bb94b3104c2603ef10891f#commitcomment-24920092)里提到的\"all resource files (messages) are encoded in UTF8.\" 我也觉得文件编码和Logger里的输出编码没有关系, [那个回复](https://github.com/checkstyle/checkstyle/commit/702a1a957607881e72bb94b3104c2603ef10891f#commitcomment-24945064)只是想向作者确认一下. 现在感觉只有写个对应的单元测试才能更有说服力了. ",
             "created_at": "2017-10-16T16:26:56Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-336941834",
             "id": 336941834,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjk0MTgzNA==",
             "updated_at": "2017-10-16T16:26:56Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336941834",
             "user": {
@@ -546,6 +583,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -557,12 +595,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@azige checkstyle开发组已开始对这个issue进行深入: https://github.com/checkstyle/checkstyle/issues/3569#issuecomment-343673061 有个问题, 中文windows的系统编码默认是GBK吗? 手边没有中文版windows来确认. 看到这个[Windows为什么用GBK而不是UTF-8？](https://www.zhihu.com/question/20689098), 其中提到windows内码是UTF-16. 那么这个issue的根源其实是, 中文windows命令行默认使用的编码格式是GBK吗?",
             "created_at": "2017-11-11T16:04:37Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/26#issuecomment-343675009",
             "id": 343675009,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0MzY3NTAwOQ==",
             "updated_at": "2017-11-11T16:04:37Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/343675009",
             "user": {
@@ -575,6 +614,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -601,6 +641,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -615,6 +656,7 @@
             "created_at": "2017-08-24T07:08:36Z",
             "event": "mentioned",
             "id": 1219177362,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIxOTE3NzM2Mg==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1219177362"
         },
         {
@@ -628,6 +670,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -642,6 +685,7 @@
             "created_at": "2017-08-24T07:08:36Z",
             "event": "subscribed",
             "id": 1219177363,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMTkxNzczNjM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1219177363"
         },
         {
@@ -655,6 +699,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -669,6 +714,7 @@
             "created_at": "2017-08-27T06:44:35Z",
             "event": "mentioned",
             "id": 1222708461,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTIyMjcwODQ2MQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1222708461"
         },
         {
@@ -682,6 +728,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -696,6 +743,7 @@
             "created_at": "2017-08-27T06:44:35Z",
             "event": "subscribed",
             "id": 1222708462,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyMjI3MDg0NjI=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1222708462"
         },
         {
@@ -709,6 +757,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -723,6 +772,7 @@
             "created_at": "2017-10-03T18:43:44Z",
             "event": "renamed",
             "id": 1276589495,
+            "node_id": "MDE3OlJlbmFtZWRUaXRsZUV2ZW50MTI3NjU4OTQ5NQ==",
             "rename": {
                 "from": "Maven checkstyle输出乱码问题",
                 "to": "GBK<->UTF8 互转问题: Maven checkstyle输出乱码"
@@ -740,6 +790,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -754,6 +805,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339440,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339440"
         },
         {
@@ -767,6 +819,7 @@
                 "html_url": "https://github.com/buyouyuan",
                 "id": 10907848,
                 "login": "buyouyuan",
+                "node_id": "MDQ6VXNlcjEwOTA3ODQ4",
                 "organizations_url": "https://api.github.com/users/buyouyuan/orgs",
                 "received_events_url": "https://api.github.com/users/buyouyuan/received_events",
                 "repos_url": "https://api.github.com/users/buyouyuan/repos",
@@ -781,6 +834,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339441,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDE=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339441"
         },
         {
@@ -794,6 +848,7 @@
                 "html_url": "https://github.com/forevertyler",
                 "id": 21274021,
                 "login": "forevertyler",
+                "node_id": "MDQ6VXNlcjIxMjc0MDIx",
                 "organizations_url": "https://api.github.com/users/forevertyler/orgs",
                 "received_events_url": "https://api.github.com/users/forevertyler/received_events",
                 "repos_url": "https://api.github.com/users/forevertyler/repos",
@@ -808,6 +863,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339442,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDI=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339442"
         },
         {
@@ -821,6 +877,7 @@
                 "html_url": "https://github.com/jeromechan",
                 "id": 2209039,
                 "login": "jeromechan",
+                "node_id": "MDQ6VXNlcjIyMDkwMzk=",
                 "organizations_url": "https://api.github.com/users/jeromechan/orgs",
                 "received_events_url": "https://api.github.com/users/jeromechan/received_events",
                 "repos_url": "https://api.github.com/users/jeromechan/repos",
@@ -835,6 +892,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339443,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339443"
         },
         {
@@ -848,6 +906,7 @@
                 "html_url": "https://github.com/NER000",
                 "id": 11410222,
                 "login": "NER000",
+                "node_id": "MDQ6VXNlcjExNDEwMjIy",
                 "organizations_url": "https://api.github.com/users/NER000/orgs",
                 "received_events_url": "https://api.github.com/users/NER000/received_events",
                 "repos_url": "https://api.github.com/users/NER000/repos",
@@ -862,6 +921,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339445,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339445"
         },
         {
@@ -875,6 +935,7 @@
                 "html_url": "https://github.com/sih4sing5hong5",
                 "id": 5996555,
                 "login": "sih4sing5hong5",
+                "node_id": "MDQ6VXNlcjU5OTY1NTU=",
                 "organizations_url": "https://api.github.com/users/sih4sing5hong5/orgs",
                 "received_events_url": "https://api.github.com/users/sih4sing5hong5/received_events",
                 "repos_url": "https://api.github.com/users/sih4sing5hong5/repos",
@@ -889,6 +950,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339446,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDY=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339446"
         },
         {
@@ -902,6 +964,7 @@
                 "html_url": "https://github.com/taostein",
                 "id": 10097673,
                 "login": "taostein",
+                "node_id": "MDQ6VXNlcjEwMDk3Njcz",
                 "organizations_url": "https://api.github.com/users/taostein/orgs",
                 "received_events_url": "https://api.github.com/users/taostein/received_events",
                 "repos_url": "https://api.github.com/users/taostein/repos",
@@ -916,6 +979,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339447,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDc=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339447"
         },
         {
@@ -929,6 +993,7 @@
                 "html_url": "https://github.com/xueyongwei",
                 "id": 13045069,
                 "login": "xueyongwei",
+                "node_id": "MDQ6VXNlcjEzMDQ1MDY5",
                 "organizations_url": "https://api.github.com/users/xueyongwei/orgs",
                 "received_events_url": "https://api.github.com/users/xueyongwei/received_events",
                 "repos_url": "https://api.github.com/users/xueyongwei/repos",
@@ -943,6 +1008,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339448,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDg=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339448"
         },
         {
@@ -956,6 +1022,7 @@
                 "html_url": "https://github.com/ice1000",
                 "id": 16398479,
                 "login": "ice1000",
+                "node_id": "MDQ6VXNlcjE2Mzk4NDc5",
                 "organizations_url": "https://api.github.com/users/ice1000/orgs",
                 "received_events_url": "https://api.github.com/users/ice1000/received_events",
                 "repos_url": "https://api.github.com/users/ice1000/repos",
@@ -970,6 +1037,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339449,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NDk=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339449"
         },
         {
@@ -983,6 +1051,7 @@
                 "html_url": "https://github.com/duotai",
                 "id": 8444073,
                 "login": "duotai",
+                "node_id": "MDQ6VXNlcjg0NDQwNzM=",
                 "organizations_url": "https://api.github.com/users/duotai/orgs",
                 "received_events_url": "https://api.github.com/users/duotai/received_events",
                 "repos_url": "https://api.github.com/users/duotai/repos",
@@ -997,6 +1066,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339450,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339450"
         },
         {
@@ -1010,6 +1080,7 @@
                 "html_url": "https://github.com/nlpguyz",
                 "id": 25698072,
                 "login": "nlpguyz",
+                "node_id": "MDQ6VXNlcjI1Njk4MDcy",
                 "organizations_url": "https://api.github.com/users/nlpguyz/orgs",
                 "received_events_url": "https://api.github.com/users/nlpguyz/received_events",
                 "repos_url": "https://api.github.com/users/nlpguyz/repos",
@@ -1024,6 +1095,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339451,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTE=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339451"
         },
         {
@@ -1037,6 +1109,7 @@
                 "html_url": "https://github.com/MrZeroW",
                 "id": 23496586,
                 "login": "MrZeroW",
+                "node_id": "MDQ6VXNlcjIzNDk2NTg2",
                 "organizations_url": "https://api.github.com/users/MrZeroW/orgs",
                 "received_events_url": "https://api.github.com/users/MrZeroW/received_events",
                 "repos_url": "https://api.github.com/users/MrZeroW/repos",
@@ -1051,6 +1124,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339452,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTI=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339452"
         },
         {
@@ -1064,6 +1138,7 @@
                 "html_url": "https://github.com/liumapp",
                 "id": 21333655,
                 "login": "liumapp",
+                "node_id": "MDQ6VXNlcjIxMzMzNjU1",
                 "organizations_url": "https://api.github.com/users/liumapp/orgs",
                 "received_events_url": "https://api.github.com/users/liumapp/received_events",
                 "repos_url": "https://api.github.com/users/liumapp/repos",
@@ -1078,6 +1153,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339453,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339453"
         },
         {
@@ -1091,6 +1167,7 @@
                 "html_url": "https://github.com/xuhuisheng",
                 "id": 1118508,
                 "login": "xuhuisheng",
+                "node_id": "MDQ6VXNlcjExMTg1MDg=",
                 "organizations_url": "https://api.github.com/users/xuhuisheng/orgs",
                 "received_events_url": "https://api.github.com/users/xuhuisheng/received_events",
                 "repos_url": "https://api.github.com/users/xuhuisheng/repos",
@@ -1105,6 +1182,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339454,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339454"
         },
         {
@@ -1118,6 +1196,7 @@
                 "html_url": "https://github.com/ZiluTian",
                 "id": 28329737,
                 "login": "ZiluTian",
+                "node_id": "MDQ6VXNlcjI4MzI5NzM3",
                 "organizations_url": "https://api.github.com/users/ZiluTian/orgs",
                 "received_events_url": "https://api.github.com/users/ZiluTian/received_events",
                 "repos_url": "https://api.github.com/users/ZiluTian/repos",
@@ -1132,6 +1211,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339455,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339455"
         },
         {
@@ -1145,6 +1225,7 @@
                 "html_url": "https://github.com/FansinZhao",
                 "id": 8544178,
                 "login": "FansinZhao",
+                "node_id": "MDQ6VXNlcjg1NDQxNzg=",
                 "organizations_url": "https://api.github.com/users/FansinZhao/orgs",
                 "received_events_url": "https://api.github.com/users/FansinZhao/received_events",
                 "repos_url": "https://api.github.com/users/FansinZhao/repos",
@@ -1159,6 +1240,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339456,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTY=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339456"
         },
         {
@@ -1172,6 +1254,7 @@
                 "html_url": "https://github.com/drduan",
                 "id": 7875572,
                 "login": "drduan",
+                "node_id": "MDQ6VXNlcjc4NzU1NzI=",
                 "organizations_url": "https://api.github.com/users/drduan/orgs",
                 "received_events_url": "https://api.github.com/users/drduan/received_events",
                 "repos_url": "https://api.github.com/users/drduan/repos",
@@ -1186,6 +1269,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339458,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTg=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339458"
         },
         {
@@ -1199,6 +1283,7 @@
                 "html_url": "https://github.com/cleverdango",
                 "id": 16498418,
                 "login": "cleverdango",
+                "node_id": "MDQ6VXNlcjE2NDk4NDE4",
                 "organizations_url": "https://api.github.com/users/cleverdango/orgs",
                 "received_events_url": "https://api.github.com/users/cleverdango/received_events",
                 "repos_url": "https://api.github.com/users/cleverdango/repos",
@@ -1213,6 +1298,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339459,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NTk=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339459"
         },
         {
@@ -1226,6 +1312,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1240,6 +1327,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339460,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NjA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339460"
         },
         {
@@ -1253,6 +1341,7 @@
                 "html_url": "https://github.com/lightrabbit",
                 "id": 1521765,
                 "login": "lightrabbit",
+                "node_id": "MDQ6VXNlcjE1MjE3NjU=",
                 "organizations_url": "https://api.github.com/users/lightrabbit/orgs",
                 "received_events_url": "https://api.github.com/users/lightrabbit/received_events",
                 "repos_url": "https://api.github.com/users/lightrabbit/repos",
@@ -1267,6 +1356,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339463,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NjM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339463"
         },
         {
@@ -1280,6 +1370,7 @@
                 "html_url": "https://github.com/swizl",
                 "id": 3119372,
                 "login": "swizl",
+                "node_id": "MDQ6VXNlcjMxMTkzNzI=",
                 "organizations_url": "https://api.github.com/users/swizl/orgs",
                 "received_events_url": "https://api.github.com/users/swizl/received_events",
                 "repos_url": "https://api.github.com/users/swizl/repos",
@@ -1294,6 +1385,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339464,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NjQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339464"
         },
         {
@@ -1307,6 +1399,7 @@
                 "html_url": "https://github.com/chencun",
                 "id": 5524105,
                 "login": "chencun",
+                "node_id": "MDQ6VXNlcjU1MjQxMDU=",
                 "organizations_url": "https://api.github.com/users/chencun/orgs",
                 "received_events_url": "https://api.github.com/users/chencun/received_events",
                 "repos_url": "https://api.github.com/users/chencun/repos",
@@ -1321,6 +1414,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339465,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0NjU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339465"
         },
         {
@@ -1334,6 +1428,7 @@
                 "html_url": "https://github.com/wind05408",
                 "id": 12081066,
                 "login": "wind05408",
+                "node_id": "MDQ6VXNlcjEyMDgxMDY2",
                 "organizations_url": "https://api.github.com/users/wind05408/orgs",
                 "received_events_url": "https://api.github.com/users/wind05408/received_events",
                 "repos_url": "https://api.github.com/users/wind05408/repos",
@@ -1348,6 +1443,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339467,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0Njc=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339467"
         },
         {
@@ -1361,6 +1457,7 @@
                 "html_url": "https://github.com/RogeJohn91",
                 "id": 31815492,
                 "login": "RogeJohn91",
+                "node_id": "MDQ6VXNlcjMxODE1NDky",
                 "organizations_url": "https://api.github.com/users/RogeJohn91/orgs",
                 "received_events_url": "https://api.github.com/users/RogeJohn91/received_events",
                 "repos_url": "https://api.github.com/users/RogeJohn91/repos",
@@ -1375,6 +1472,7 @@
             "created_at": "2017-10-12T01:10:04Z",
             "event": "subscribed",
             "id": 1289339468,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyODkzMzk0Njg=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1289339468"
         },
         {
@@ -1388,6 +1486,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1402,6 +1501,7 @@
             "created_at": "2017-10-12T19:04:37Z",
             "event": "mentioned",
             "id": 1290921791,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5MDkyMTc5MQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1290921791"
         },
         {
@@ -1415,6 +1515,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1429,6 +1530,7 @@
             "created_at": "2017-10-12T19:04:37Z",
             "event": "subscribed",
             "id": 1290921794,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTA5MjE3OTQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1290921794"
         },
         {
@@ -1442,6 +1544,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1456,6 +1559,7 @@
             "created_at": "2017-10-14T06:30:40Z",
             "event": "mentioned",
             "id": 1293299103,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5MzI5OTEwMw==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1293299103"
         },
         {
@@ -1469,6 +1573,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1483,6 +1588,7 @@
             "created_at": "2017-10-14T06:30:40Z",
             "event": "subscribed",
             "id": 1293299104,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTMyOTkxMDQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1293299104"
         },
         {
@@ -1496,6 +1602,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1510,6 +1617,7 @@
             "created_at": "2017-10-16T15:08:10Z",
             "event": "mentioned",
             "id": 1295036606,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NTAzNjYwNg==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1295036606"
         },
         {
@@ -1523,6 +1631,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1537,6 +1646,7 @@
             "created_at": "2017-10-16T15:08:10Z",
             "event": "subscribed",
             "id": 1295036608,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTUwMzY2MDg=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1295036608"
         },
         {
@@ -1550,6 +1660,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1564,6 +1675,7 @@
             "created_at": "2017-10-16T15:10:37Z",
             "event": "mentioned",
             "id": 1295041813,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NTA0MTgxMw==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1295041813"
         },
         {
@@ -1577,6 +1689,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1591,6 +1704,7 @@
             "created_at": "2017-10-16T15:10:37Z",
             "event": "subscribed",
             "id": 1295041815,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTUwNDE4MTU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1295041815"
         },
         {
@@ -1604,6 +1718,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1618,6 +1733,7 @@
             "created_at": "2017-10-16T16:26:56Z",
             "event": "mentioned",
             "id": 1295198353,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NTE5ODM1Mw==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1295198353"
         },
         {
@@ -1631,6 +1747,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1645,6 +1762,7 @@
             "created_at": "2017-10-16T16:26:56Z",
             "event": "subscribed",
             "id": 1295198354,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTUxOTgzNTQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1295198354"
         },
         {
@@ -1658,6 +1776,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1672,6 +1791,7 @@
             "created_at": "2017-11-11T16:04:37Z",
             "event": "mentioned",
             "id": 1337275486,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMzNzI3NTQ4Ng==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1337275486"
         },
         {
@@ -1685,6 +1805,7 @@
                 "html_url": "https://github.com/azige",
                 "id": 1646859,
                 "login": "azige",
+                "node_id": "MDQ6VXNlcjE2NDY4NTk=",
                 "organizations_url": "https://api.github.com/users/azige/orgs",
                 "received_events_url": "https://api.github.com/users/azige/received_events",
                 "repos_url": "https://api.github.com/users/azige/repos",
@@ -1699,6 +1820,7 @@
             "created_at": "2017-11-11T16:04:37Z",
             "event": "subscribed",
             "id": 1337275487,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMzcyNzU0ODc=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1337275487"
         }
     ],
@@ -1709,6 +1831,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/26/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNTI1MDY1Njg=",
     "number": 26,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
@@ -1725,6 +1848,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

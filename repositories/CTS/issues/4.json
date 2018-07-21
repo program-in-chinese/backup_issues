@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "false/true的原因是:\r\n相比\r\n`变量 我是歌手 = 为假`\r\n感觉还是 \r\n`变量 我是歌手 = 假` \r\n更合适\r\n暂时没想到两字的用词. ",
     "closed_at": "2017-10-21T16:03:21Z",
     "comment_data": [],
@@ -20,6 +20,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -34,6 +35,7 @@
             "created_at": "2017-10-21T15:55:56Z",
             "event": "mentioned",
             "id": 1304213712,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTMwNDIxMzcxMg==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1304213712"
         },
         {
@@ -47,6 +49,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -61,6 +64,7 @@
             "created_at": "2017-10-21T15:55:56Z",
             "event": "subscribed",
             "id": 1304213713,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzMDQyMTM3MTM=",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1304213713"
         },
         {
@@ -74,6 +78,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -88,6 +93,7 @@
             "created_at": "2017-10-21T16:03:21Z",
             "event": "referenced",
             "id": 1304216328,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDEzMDQyMTYzMjg=",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1304216328"
         },
         {
@@ -101,6 +107,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -115,6 +122,7 @@
             "created_at": "2017-10-21T16:03:21Z",
             "event": "merged",
             "id": 1304216329,
+            "node_id": "MDExOk1lcmdlZEV2ZW50MTMwNDIxNjMyOQ==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1304216329"
         },
         {
@@ -128,6 +136,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -142,6 +151,7 @@
             "created_at": "2017-10-21T16:03:21Z",
             "event": "closed",
             "id": 1304216330,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTMwNDIxNjMzMA==",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/events/1304216330"
         }
     ],
@@ -152,6 +162,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/4/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0MTQ3OTMwMjE2",
     "number": 4,
     "pull_request": {
         "diff_url": "https://github.com/program-in-chinese/CTS/pull/4.diff",
@@ -174,6 +185,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

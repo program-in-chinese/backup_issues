@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "因为看到有些commit很大, 比如https://github.com/program-in-chinese/CTS/commit/f6e204bf54d335c9691de505d8d52d5f5897177d, 好奇是不是有一些工具辅助?",
     "closed_at": null,
     "comment_data": [
@@ -12,6 +12,7 @@
             "html_url": "https://github.com/program-in-chinese/CTS/issues/6#issuecomment-339319085",
             "id": 339319085,
             "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/6",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzOTMxOTA4NQ==",
             "updated_at": "2017-10-25T12:50:13Z",
             "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/339319085",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/htwx",
                 "id": 6562192,
                 "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
                 "organizations_url": "https://api.github.com/users/htwx/orgs",
                 "received_events_url": "https://api.github.com/users/htwx/received_events",
                 "repos_url": "https://api.github.com/users/htwx/repos",
@@ -46,6 +48,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/6/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNjgwNzA4ODM=",
     "number": 6,
     "repository_url": "https://api.github.com/repos/program-in-chinese/CTS",
     "state": "open",
@@ -62,6 +65,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

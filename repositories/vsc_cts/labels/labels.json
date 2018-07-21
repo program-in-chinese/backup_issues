@@ -4,6 +4,7 @@
         "default": true,
         "id": 824548241,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDE=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 824548242,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDI=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 824548243,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDM=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 824548245,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDU=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 824548244,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDQ=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 824548246,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDY=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 824548247,
         "name": "question",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDc=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 824548248,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw4MjQ1NDgyNDg=",
         "url": "https://api.github.com/repos/program-in-chinese/vsc_cts/labels/wontfix"
     }
 ]

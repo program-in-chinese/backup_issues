@@ -4,6 +4,7 @@
         "default": true,
         "id": 719561510,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTA=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 719561511,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTE=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 719561512,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTI=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 719561514,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTQ=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 719561513,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTM=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 719561515,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTU=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 719561516,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTY=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 719561517,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3MTk1NjE1MTc=",
         "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/labels/wontfix"
     }
 ]

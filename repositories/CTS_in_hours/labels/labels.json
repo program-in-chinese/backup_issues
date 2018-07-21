@@ -4,6 +4,7 @@
         "default": true,
         "id": 726927820,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4MjA=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 726927821,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4MjE=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 726927822,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4MjI=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 726927824,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4MjQ=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 726927823,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4MjM=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 726927825,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4MjU=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 726927826,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4MjY=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 726927827,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3MjY5Mjc4Mjc=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_in_hours/labels/wontfix"
     }
 ]

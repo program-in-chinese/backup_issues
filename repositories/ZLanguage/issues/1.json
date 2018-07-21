@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "@TKT2016 应该已经有所有权限, 包括提交, issue管理等等. 如有问题请随时告知. \r\n欢迎欢迎!",
     "closed_at": null,
     "comment_data": [
@@ -12,6 +12,7 @@
             "html_url": "https://github.com/program-in-chinese/ZLanguage/issues/1#issuecomment-337135972",
             "id": 337135972,
             "issue_url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzEzNTk3Mg==",
             "updated_at": "2017-10-17T06:56:01Z",
             "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/comments/337135972",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/hummerstudio",
                 "id": 7810874,
                 "login": "hummerstudio",
+                "node_id": "MDQ6VXNlcjc4MTA4NzQ=",
                 "organizations_url": "https://api.github.com/users/hummerstudio/orgs",
                 "received_events_url": "https://api.github.com/users/hummerstudio/received_events",
                 "repos_url": "https://api.github.com/users/hummerstudio/repos",
@@ -35,12 +37,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "http://www.zyuyan.org/zyy/index.php 有一些示例代码. 下载使用: http://www.zyuyan.org/download.php",
             "created_at": "2017-10-17T06:59:09Z",
             "html_url": "https://github.com/program-in-chinese/ZLanguage/issues/1#issuecomment-337136631",
             "id": 337136631,
             "issue_url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/1",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzEzNjYzMQ==",
             "updated_at": "2017-10-17T06:59:09Z",
             "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/comments/337136631",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -79,6 +83,7 @@
                 "html_url": "https://github.com/TKT2016",
                 "id": 22956625,
                 "login": "TKT2016",
+                "node_id": "MDQ6VXNlcjIyOTU2NjI1",
                 "organizations_url": "https://api.github.com/users/TKT2016/orgs",
                 "received_events_url": "https://api.github.com/users/TKT2016/received_events",
                 "repos_url": "https://api.github.com/users/TKT2016/repos",
@@ -93,6 +98,7 @@
             "created_at": "2017-10-14T05:57:56Z",
             "event": "mentioned",
             "id": 1293291632,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5MzI5MTYzMg==",
             "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/events/1293291632"
         },
         {
@@ -106,6 +112,7 @@
                 "html_url": "https://github.com/TKT2016",
                 "id": 22956625,
                 "login": "TKT2016",
+                "node_id": "MDQ6VXNlcjIyOTU2NjI1",
                 "organizations_url": "https://api.github.com/users/TKT2016/orgs",
                 "received_events_url": "https://api.github.com/users/TKT2016/received_events",
                 "repos_url": "https://api.github.com/users/TKT2016/repos",
@@ -120,6 +127,7 @@
             "created_at": "2017-10-14T05:57:56Z",
             "event": "subscribed",
             "id": 1293291633,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTMyOTE2MzM=",
             "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/events/1293291633"
         },
         {
@@ -133,6 +141,7 @@
                 "html_url": "https://github.com/TKT2016",
                 "id": 22956625,
                 "login": "TKT2016",
+                "node_id": "MDQ6VXNlcjIyOTU2NjI1",
                 "organizations_url": "https://api.github.com/users/TKT2016/orgs",
                 "received_events_url": "https://api.github.com/users/TKT2016/received_events",
                 "repos_url": "https://api.github.com/users/TKT2016/repos",
@@ -147,6 +156,7 @@
             "created_at": "2017-10-17T06:56:01Z",
             "event": "mentioned",
             "id": 1296236911,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI5NjIzNjkxMQ==",
             "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/events/1296236911"
         },
         {
@@ -160,6 +170,7 @@
                 "html_url": "https://github.com/TKT2016",
                 "id": 22956625,
                 "login": "TKT2016",
+                "node_id": "MDQ6VXNlcjIyOTU2NjI1",
                 "organizations_url": "https://api.github.com/users/TKT2016/orgs",
                 "received_events_url": "https://api.github.com/users/TKT2016/received_events",
                 "repos_url": "https://api.github.com/users/TKT2016/repos",
@@ -174,6 +185,7 @@
             "created_at": "2017-10-17T06:56:01Z",
             "event": "subscribed",
             "id": 1296236912,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyOTYyMzY5MTI=",
             "url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/events/1296236912"
         }
     ],
@@ -184,6 +196,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/1/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNjU0Njc1Mzg=",
     "number": 1,
     "repository_url": "https://api.github.com/repos/program-in-chinese/ZLanguage",
     "state": "open",
@@ -200,6 +213,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

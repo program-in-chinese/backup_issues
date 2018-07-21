@@ -4,6 +4,7 @@
         "default": true,
         "id": 655106830,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NTUxMDY4MzA=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 655106831,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NTUxMDY4MzE=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 655106832,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NTUxMDY4MzI=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 717036872,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3MTcwMzY4NzI=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 655106833,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NTUxMDY4MzM=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 655106834,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NTUxMDY4MzQ=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 655106835,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NTUxMDY4MzU=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/question"
     },
     {
@@ -53,20 +60,55 @@
         "default": true,
         "id": 655106836,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NTUxMDY4MzY=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/wontfix"
+    },
+    {
+        "color": "3f4d9e",
+        "default": false,
+        "id": 998159880,
+        "name": "zhihu",
+        "node_id": "MDU6TGFiZWw5OTgxNTk4ODA=",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/zhihu"
+    },
+    {
+        "color": "1e0ad1",
+        "default": false,
+        "id": 998155238,
+        "name": "专栏",
+        "node_id": "MDU6TGFiZWw5OTgxNTUyMzg=",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E4%B8%93%E6%A0%8F"
+    },
+    {
+        "color": "7fddf4",
+        "default": false,
+        "id": 998224346,
+        "name": "周边",
+        "node_id": "MDU6TGFiZWw5OTgyMjQzNDY=",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%91%A8%E8%BE%B9"
     },
     {
         "color": "0e8a16",
         "default": false,
         "id": 688675470,
         "name": "思路",
+        "node_id": "MDU6TGFiZWw2ODg2NzU0NzA=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%80%9D%E8%B7%AF"
+    },
+    {
+        "color": "d4e273",
+        "default": false,
+        "id": 997278384,
+        "name": "提议",
+        "node_id": "MDU6TGFiZWw5OTcyNzgzODQ=",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%8F%90%E8%AE%AE"
     },
     {
         "color": "fbca04",
         "default": false,
         "id": 657797434,
         "name": "日常",
+        "node_id": "MDU6TGFiZWw2NTc3OTc0MzQ=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%97%A5%E5%B8%B8"
     },
     {
@@ -74,6 +116,7 @@
         "default": false,
         "id": 678642283,
         "name": "笔记",
+        "node_id": "MDU6TGFiZWw2Nzg2NDIyODM=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%AC%94%E8%AE%B0"
     },
     {
@@ -81,6 +124,7 @@
         "default": false,
         "id": 658880771,
         "name": "长期",
+        "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%95%BF%E6%9C%9F"
     }
 ]

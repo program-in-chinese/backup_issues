@@ -4,6 +4,7 @@
         "default": true,
         "id": 655107965,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NTUxMDc5NjU=",
         "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 655107966,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NTUxMDc5NjY=",
         "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 655107968,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NTUxMDc5Njg=",
         "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 655107969,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NTUxMDc5Njk=",
         "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/help%20wanted"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 655107971,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NTUxMDc5NzE=",
         "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/invalid"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 655107973,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NTUxMDc5NzM=",
         "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/question"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 655107974,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NTUxMDc5NzQ=",
         "url": "https://api.github.com/repos/program-in-chinese/JavaScript/labels/wontfix"
     }
 ]

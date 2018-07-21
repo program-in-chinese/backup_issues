@@ -1,17 +1,18 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "由于本人才疏学浅, 希望各位能够对擅长的区域参与管理和耕耘. 如有兴趣请在这里提出, 除非其他成员提出异议, 不然都会尽快添加权限.\r\n@sih4sing5hong5 不好意思例外一下, 没有经过同意就加你为Python区的Collaborator. 希望没有让你为难?",
     "closed_at": "2017-08-04T07:30:30Z",
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@taostein 请问有兴趣开展OCaml区吗? 在下的函数式语言经验仅限于学校的一些Scheme课程, 所以希望能够借一臂之力.",
             "created_at": "2017-07-31T04:39:13Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/7#issuecomment-318965630",
             "id": 318965630,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/7",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxODk2NTYzMA==",
             "updated_at": "2017-07-31T04:39:13Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/318965630",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -41,6 +43,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/7#issuecomment-319025062",
             "id": 319025062,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/7",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTAyNTA2Mg==",
             "updated_at": "2017-07-31T10:05:57Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319025062",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/sih4sing5hong5",
                 "id": 5996555,
                 "login": "sih4sing5hong5",
+                "node_id": "MDQ6VXNlcjU5OTY1NTU=",
                 "organizations_url": "https://api.github.com/users/sih4sing5hong5/orgs",
                 "received_events_url": "https://api.github.com/users/sih4sing5hong5/received_events",
                 "repos_url": "https://api.github.com/users/sih4sing5hong5/repos",
@@ -64,12 +68,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "嗯, 好主意. 刚建了 \"所有人\"小组, @program-in-chinese/all  应该包括了所有现有成员. 暂时所有repo有write权限. 如果觉得需要admin, 请告知.",
             "created_at": "2017-07-31T14:28:06Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/7#issuecomment-319083458",
             "id": 319083458,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/7",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTA4MzQ1OA==",
             "updated_at": "2017-07-31T14:28:06Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319083458",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -93,12 +99,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "暂时看来没有问题.",
             "created_at": "2017-08-04T07:30:30Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/7#issuecomment-320178610",
             "id": 320178610,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/7",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDE3ODYxMA==",
             "updated_at": "2017-08-04T07:30:30Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/320178610",
             "user": {
@@ -111,6 +118,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -137,6 +145,7 @@
                 "html_url": "https://github.com/sih4sing5hong5",
                 "id": 5996555,
                 "login": "sih4sing5hong5",
+                "node_id": "MDQ6VXNlcjU5OTY1NTU=",
                 "organizations_url": "https://api.github.com/users/sih4sing5hong5/orgs",
                 "received_events_url": "https://api.github.com/users/sih4sing5hong5/received_events",
                 "repos_url": "https://api.github.com/users/sih4sing5hong5/repos",
@@ -151,6 +160,7 @@
             "created_at": "2017-07-31T04:34:42Z",
             "event": "mentioned",
             "id": 1185091101,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTE4NTA5MTEwMQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185091101"
         },
         {
@@ -164,6 +174,7 @@
                 "html_url": "https://github.com/sih4sing5hong5",
                 "id": 5996555,
                 "login": "sih4sing5hong5",
+                "node_id": "MDQ6VXNlcjU5OTY1NTU=",
                 "organizations_url": "https://api.github.com/users/sih4sing5hong5/orgs",
                 "received_events_url": "https://api.github.com/users/sih4sing5hong5/received_events",
                 "repos_url": "https://api.github.com/users/sih4sing5hong5/repos",
@@ -178,6 +189,7 @@
             "created_at": "2017-07-31T04:34:42Z",
             "event": "subscribed",
             "id": 1185091102,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODUwOTExMDI=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185091102"
         },
         {
@@ -191,6 +203,7 @@
                 "html_url": "https://github.com/taostein",
                 "id": 10097673,
                 "login": "taostein",
+                "node_id": "MDQ6VXNlcjEwMDk3Njcz",
                 "organizations_url": "https://api.github.com/users/taostein/orgs",
                 "received_events_url": "https://api.github.com/users/taostein/received_events",
                 "repos_url": "https://api.github.com/users/taostein/repos",
@@ -205,6 +218,7 @@
             "created_at": "2017-07-31T04:39:13Z",
             "event": "mentioned",
             "id": 1185093642,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTE4NTA5MzY0Mg==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185093642"
         },
         {
@@ -218,6 +232,7 @@
                 "html_url": "https://github.com/taostein",
                 "id": 10097673,
                 "login": "taostein",
+                "node_id": "MDQ6VXNlcjEwMDk3Njcz",
                 "organizations_url": "https://api.github.com/users/taostein/orgs",
                 "received_events_url": "https://api.github.com/users/taostein/received_events",
                 "repos_url": "https://api.github.com/users/taostein/repos",
@@ -232,6 +247,7 @@
             "created_at": "2017-07-31T04:39:13Z",
             "event": "subscribed",
             "id": 1185093643,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODUwOTM2NDM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185093643"
         },
         {
@@ -245,6 +261,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -259,6 +276,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875883,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU4ODM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875883"
         },
         {
@@ -272,6 +290,7 @@
                 "html_url": "https://github.com/buyouyuan",
                 "id": 10907848,
                 "login": "buyouyuan",
+                "node_id": "MDQ6VXNlcjEwOTA3ODQ4",
                 "organizations_url": "https://api.github.com/users/buyouyuan/orgs",
                 "received_events_url": "https://api.github.com/users/buyouyuan/received_events",
                 "repos_url": "https://api.github.com/users/buyouyuan/repos",
@@ -286,6 +305,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875887,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU4ODc=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875887"
         },
         {
@@ -299,6 +319,7 @@
                 "html_url": "https://github.com/forevertyler",
                 "id": 21274021,
                 "login": "forevertyler",
+                "node_id": "MDQ6VXNlcjIxMjc0MDIx",
                 "organizations_url": "https://api.github.com/users/forevertyler/orgs",
                 "received_events_url": "https://api.github.com/users/forevertyler/received_events",
                 "repos_url": "https://api.github.com/users/forevertyler/repos",
@@ -313,6 +334,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875890,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU4OTA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875890"
         },
         {
@@ -326,6 +348,7 @@
                 "html_url": "https://github.com/jeromechan",
                 "id": 2209039,
                 "login": "jeromechan",
+                "node_id": "MDQ6VXNlcjIyMDkwMzk=",
                 "organizations_url": "https://api.github.com/users/jeromechan/orgs",
                 "received_events_url": "https://api.github.com/users/jeromechan/received_events",
                 "repos_url": "https://api.github.com/users/jeromechan/repos",
@@ -340,6 +363,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875894,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU4OTQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875894"
         },
         {
@@ -353,6 +377,7 @@
                 "html_url": "https://github.com/NER000",
                 "id": 11410222,
                 "login": "NER000",
+                "node_id": "MDQ6VXNlcjExNDEwMjIy",
                 "organizations_url": "https://api.github.com/users/NER000/orgs",
                 "received_events_url": "https://api.github.com/users/NER000/received_events",
                 "repos_url": "https://api.github.com/users/NER000/repos",
@@ -367,6 +392,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875900,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU5MDA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875900"
         },
         {
@@ -380,6 +406,7 @@
                 "html_url": "https://github.com/sih4sing5hong5",
                 "id": 5996555,
                 "login": "sih4sing5hong5",
+                "node_id": "MDQ6VXNlcjU5OTY1NTU=",
                 "organizations_url": "https://api.github.com/users/sih4sing5hong5/orgs",
                 "received_events_url": "https://api.github.com/users/sih4sing5hong5/received_events",
                 "repos_url": "https://api.github.com/users/sih4sing5hong5/repos",
@@ -394,6 +421,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875903,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU5MDM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875903"
         },
         {
@@ -407,6 +435,7 @@
                 "html_url": "https://github.com/taostein",
                 "id": 10097673,
                 "login": "taostein",
+                "node_id": "MDQ6VXNlcjEwMDk3Njcz",
                 "organizations_url": "https://api.github.com/users/taostein/orgs",
                 "received_events_url": "https://api.github.com/users/taostein/received_events",
                 "repos_url": "https://api.github.com/users/taostein/repos",
@@ -421,6 +450,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875906,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU5MDY=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875906"
         },
         {
@@ -434,6 +464,7 @@
                 "html_url": "https://github.com/xueyongwei",
                 "id": 13045069,
                 "login": "xueyongwei",
+                "node_id": "MDQ6VXNlcjEzMDQ1MDY5",
                 "organizations_url": "https://api.github.com/users/xueyongwei/orgs",
                 "received_events_url": "https://api.github.com/users/xueyongwei/received_events",
                 "repos_url": "https://api.github.com/users/xueyongwei/repos",
@@ -448,6 +479,7 @@
             "created_at": "2017-07-31T14:28:07Z",
             "event": "subscribed",
             "id": 1185875908,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODU4NzU5MDg=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1185875908"
         },
         {
@@ -461,6 +493,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -475,6 +508,7 @@
             "created_at": "2017-08-04T07:30:30Z",
             "event": "closed",
             "id": 1192678520,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTE5MjY3ODUyMA==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1192678520"
         }
     ],
@@ -485,6 +519,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/7/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNDY2NDIyNjU=",
     "number": 7,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
@@ -501,6 +536,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

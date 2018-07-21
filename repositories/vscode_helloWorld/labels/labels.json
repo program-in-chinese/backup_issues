@@ -4,6 +4,7 @@
         "default": true,
         "id": 769779226,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMjY=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 769779227,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMjc=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 769779228,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMjg=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 769779230,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMzA=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 769779229,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMjk=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 769779231,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMzE=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 769779232,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMzI=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 769779233,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3Njk3NzkyMzM=",
         "url": "https://api.github.com/repos/program-in-chinese/vscode_helloWorld/labels/wontfix"
     }
 ]

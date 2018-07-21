@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "`git version 2.11.0 (Apple Git-81)`\r\n```\r\n$ git diff\r\ndiff --git a/sidebar/history.js b/sidebar/history.js\r\nindex f982d12..5cca082 100644\r\n--- a/sidebar/history.js\r\n+++ b/sidebar/history.js\r\n@@ -19,23 +19,35 @@ var ?<80><97>?<97>? = {};\r\ndiff --git a/sidebar/history.js b/sidebar/history.js\r\nindex f982d12..5cca082 100644\r\n--- a/sidebar/history.js\r\n+++ b/sidebar/history.js\r\n@@ -19,23 +19,35 @@ var ?<80><97>?<97>? = {};\r\n   var ?<9C>??<84>?<90><86>url?<95>? = 0;\r\n   var 访?<97>??<86>?<8A><82>表 = {}; // visitId -> historyItem\r\n \r\n+  var ?<9C><80>?<87><8D>?<96>?索?<95> = true;\r\n+\r\n   var ?<8C><89>?<85>??<94>??<8D>?<90><9C>索?<8E><86>?<8F>? = function(?<85>??<94>??<8D>, ?<8E><86>?<8F>??<97>??<97>??<8C><83>?<9B>?) {\r\n     计?<97>?(\"?<83>?<94>??<89><8D>\")\r\n     带?<85>??<94>??<8D>访?<97>?记?<95> = [];\r\n     ?<97>??<85>??<94>??<8D>访?<97>?记?<95> = [];\r\n+    ?<9C>??<84>?<90><86>url?<95>? = 0;\r\n+    访?<97>??<86>?<8A><82>表 = {};\r\n\r\n ...\r\n```\r\n安装新版`git version 2.14.1`后,  问题解决.",
     "closed_at": "2017-09-06T07:15:16Z",
     "comment_data": [],
@@ -20,6 +20,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -38,6 +39,7 @@
                 "color": "d4c5f9",
                 "name": "笔记"
             },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDEyMjQ4OTU3OTM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1224895793"
         },
         {
@@ -51,6 +53,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -65,6 +68,7 @@
             "created_at": "2017-09-06T07:15:16Z",
             "event": "closed",
             "id": 1236251618,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTIzNjI1MTYxOA==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1236251618"
         }
     ],
@@ -77,12 +81,14 @@
             "default": false,
             "id": 678642283,
             "name": "笔记",
+            "node_id": "MDU6TGFiZWw2Nzg2NDIyODM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%AC%94%E8%AE%B0"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/27/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNTM1MjM3MTE=",
     "number": 27,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
@@ -99,6 +105,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

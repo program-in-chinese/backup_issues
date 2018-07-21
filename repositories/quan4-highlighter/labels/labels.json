@@ -4,6 +4,7 @@
         "default": true,
         "id": 796136516,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1MTY=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 796136517,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1MTc=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 796136518,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1MTg=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 796136521,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1MjE=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 796136519,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1MTk=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 796136524,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1MjQ=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 796136526,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1MjY=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 796136528,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3OTYxMzY1Mjg=",
         "url": "https://api.github.com/repos/program-in-chinese/quan4-highlighter/labels/wontfix"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "早先有一些[尝试](https://github.com/nobodxbodon/program-in-chinese/issues/2), 以及编写[Java上手](https://github.com/program-in-chinese/java_in_hours_chn#%E9%9B%B6-%E6%B2%A1%E6%9C%89%E8%A7%84%E7%9F%A9-%E4%B8%8D%E6%88%90%E6%96%B9%E5%9C%86---%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC)时归整的一些. 有些是Java特定的. 希望一同探讨, 早日发现潜在问题, 总结出一些不同编程语言普遍适用的规则以及特定编程语言相关的规则.\r\n\r\n### 如何区分类/方法/变量/常量: 没有了大小写区分,词性又会有歧义,考虑用前/后缀?\r\n\r\n有对变量进行前缀区别函数/变量的[实践](http://blog.csdn.net/acebdo/article/details/20643503). 似乎类似匈牙利命名法. 但是感觉有些不大直观,比如g代表get和s代表set.在[示例项目](https://github.com/nobodxbodon/jinxiaocun/blob/master/src/main/java/com/example/%E5%8D%95%E4%BD%8D.java)中, 我用的是get/setxx. 感觉还有改进空间. 下面是一些动议:\r\n- 类名尽量用名词或名词短语. 用\"类\"结尾, 便于和一般变量名区别. 测试类用\"测试类\"结尾.\r\n- 接口(interface)名用\"接口\"结尾\r\n- 方法/函数命名尽量用动词开头\r\n- 常量命名以\"常量_\"作前缀, 考虑只用在\"真\"常量上, 就是初始化后不能被改变的量(Immutable).\r\n- 包名(Java)用中文(如第三方不支持, 则用小写英文), 不用下划线\r\n\r\n### 如何命名临时变量: 英文的a, i, j之类\r\n详见https://github.com/nobodxbodon/program-in-chinese/issues/2#issuecomment-275956104, 对于纯粹作为循环中的索引, 个人认为不需强求改为中文, 因为它的语义很少. 但是如果想突出它的语义, 那么当然可以用对应中文, 这和英文命名是类似的. 比如:\r\n```\r\nfor(int 排名; 排名 < 总人数; 排名++) {\r\n  System.out.println(排行榜[排名]);\r\n}\r\n```\r\n\r\n### 英文单复数如何表达?\r\n这是个有趣的主题. 其实英文命名如果带复数往往意思是\"这个变量有可能含有多个元素\", 比如`List<String> names = new ArrayList<>()`. 但实际上这个变量是可能包含一个元素的, 这种情况下就和复数形式不一致.\r\n而中文中的名词默认情况下是不分单复数的, 感觉这其实更合适\"这个变量有可能含有多个元素\"这个语义. 那么, 关键就在于如何表示单数了. 比如:\r\n```\r\nfor (String name : names) {\r\n...\r\n}\r\n```\r\n中文是否可以考虑:\r\n```\r\nfor (String 某名字 : 名字) {\r\n...\r\n}\r\n```\r\n\r\n\r\n\r\n",
     "closed_at": null,
     "comment_data": [
@@ -12,6 +12,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-347167336",
             "id": 347167336,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0NzE2NzMzNg==",
             "updated_at": "2017-11-27T12:26:54Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/347167336",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/kenpusney",
                 "id": 1501332,
                 "login": "kenpusney",
+                "node_id": "MDQ6VXNlcjE1MDEzMzI=",
                 "organizations_url": "https://api.github.com/users/kenpusney/orgs",
                 "received_events_url": "https://api.github.com/users/kenpusney/received_events",
                 "repos_url": "https://api.github.com/users/kenpusney/repos",
@@ -35,12 +37,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@kenpusney 多谢! 顶楼确实非常针对Java中的中文命名. 主要的考虑是, 即使新的中文编程语言现在出现, 很可能要5-10年才能成熟和推广. 那么在这之前以及之后的一段时间, 当今的英文编程语言还会占据很大一部分市场(考虑到现有软件的生命期), 因此探讨一下英文编程语言中的中文风格也是有益处的. 另外, 这些风格也可能影响新中文编程语言的设计.\r\n\r\n> 用OO方式写代码的时候大概都会是SVO（主-谓-宾）的形式，也即，<施动者>.<动作>（<受动者>）。这样其实也就不会出现什么“方法”和“变量”命名冲突了。\r\n\r\n顶楼有一点\"方法/函数命名尽量用动词开头\", 也是出于类似考虑. 但是变量名可能难以做到完全不用动词开头. 因为即使是名词短语也很可能用动词开头. 但方法和变量名即使在英文代码中也是无法一眼区分的, 因此主要关注的还是区分类名(上面采取的是后缀\"类\")\r\n\r\n> 另外，类或者getXxx、setXxx 之类的，既然你期望引入中文编程，就没必要一定拿Java这堆模型来设计语言。比如，直接引入“属性（property）”，远比定义一堆getter/setter好得多。\r\n\r\n很同意. 如果是新的中文编程语言, 绝对不会用这个get/set前缀.\r\n\r\n> 另外临时变量用“某（some）”，“临时（temp）”这种前缀其实在现在的编程实践中都不是一个很值得推荐的做法。更不要试图用匈牙利命名法来给输入和理解增加负担。\r\n\r\n很同意. 个人也认为匈牙利命名的缩写部分在现在的命名风格中已经不再推崇了. 不过临时变量的命名也许值得探讨一下. 毕竟也有没有什么语义的情况, 个人现在实践中, 经常就沿用英文字母了, 比如for循环中的i.",
             "created_at": "2017-11-27T15:29:59Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-347217501",
             "id": 347217501,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM0NzIxNzUwMQ==",
             "updated_at": "2017-11-27T15:29:59Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/347217501",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -70,6 +74,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-379610889",
             "id": 379610889,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM3OTYxMDg4OQ==",
             "updated_at": "2018-04-09T02:37:49Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/379610889",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/farteryhr",
                 "id": 1175749,
                 "login": "farteryhr",
+                "node_id": "MDQ6VXNlcjExNzU3NDk=",
                 "organizations_url": "https://api.github.com/users/farteryhr/orgs",
                 "received_events_url": "https://api.github.com/users/farteryhr/received_events",
                 "repos_url": "https://api.github.com/users/farteryhr/repos",
@@ -93,12 +99,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "看到第二个链接里的`logOff`而不是`logOut`, `signOut`而不是`signOff`; `logOn`而不是`logIn`, `signIn`而不是`signOn`; 还有`canceled`而不是`cancelled`, 就呵呵了.\r\n\r\n还没细看wiki的页, 不过之前想过在所有编程语言中使用一套尽可能一致的中文命名方法, 避免英文命名在不同历史阶段留下的各种不同风格. 也算一种后发优势吧.\r\n\r\n> 某些时候若用大小写携带某些语义有用，也要另想办法\r\n\r\n除了之前提到的`区分类/方法/变量/常量`的目的, 其他还有什么情况呢?",
             "created_at": "2018-04-09T21:15:22Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-379896446",
             "id": 379896446,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM3OTg5NjQ0Ng==",
             "updated_at": "2018-04-09T21:15:22Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/379896446",
             "user": {
@@ -111,6 +118,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -128,6 +136,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-380358182",
             "id": 380358182,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM4MDM1ODE4Mg==",
             "updated_at": "2018-04-11T07:39:59Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/380358182",
             "user": {
@@ -140,6 +149,7 @@
                 "html_url": "https://github.com/dou4cc",
                 "id": 7764678,
                 "login": "dou4cc",
+                "node_id": "MDQ6VXNlcjc3NjQ2Nzg=",
                 "organizations_url": "https://api.github.com/users/dou4cc/orgs",
                 "received_events_url": "https://api.github.com/users/dou4cc/received_events",
                 "repos_url": "https://api.github.com/users/dou4cc/repos",
@@ -157,6 +167,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-380380623",
             "id": 380380623,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM4MDM4MDYyMw==",
             "updated_at": "2018-04-11T09:11:16Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/380380623",
             "user": {
@@ -169,6 +180,7 @@
                 "html_url": "https://github.com/farteryhr",
                 "id": 1175749,
                 "login": "farteryhr",
+                "node_id": "MDQ6VXNlcjExNzU3NDk=",
                 "organizations_url": "https://api.github.com/users/farteryhr/orgs",
                 "received_events_url": "https://api.github.com/users/farteryhr/received_events",
                 "repos_url": "https://api.github.com/users/farteryhr/repos",
@@ -180,12 +192,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "颜色的规范难度恐怕不比词缀小, 个人感觉和IDE功能耦合有点大. 现在想来, [之前](https://github.com/program-in-chinese/assembler-in-chinese-experiment/blob/master/src/cn/org/assembler/constants/%E5%AF%84%E5%AD%98%E5%99%A8%E5%B8%B8%E9%87%8F.java)没有特别区分常量命名, 好像也没什么问题, 语义上就比较清楚了. 而且还有编译期检查.",
             "created_at": "2018-04-11T18:47:50Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-380556973",
             "id": 380556973,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM4MDU1Njk3Mw==",
             "updated_at": "2018-04-11T18:47:50Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/380556973",
             "user": {
@@ -198,6 +211,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -215,6 +229,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/45#issuecomment-380635224",
             "id": 380635224,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM4MDYzNTIyNA==",
             "updated_at": "2018-04-12T00:19:11Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/380635224",
             "user": {
@@ -227,6 +242,7 @@
                 "html_url": "https://github.com/dou4cc",
                 "id": 7764678,
                 "login": "dou4cc",
+                "node_id": "MDQ6VXNlcjc3NjQ2Nzg=",
                 "organizations_url": "https://api.github.com/users/dou4cc/orgs",
                 "received_events_url": "https://api.github.com/users/dou4cc/received_events",
                 "repos_url": "https://api.github.com/users/dou4cc/repos",
@@ -253,6 +269,7 @@
                 "html_url": "https://github.com/kenpusney",
                 "id": 1501332,
                 "login": "kenpusney",
+                "node_id": "MDQ6VXNlcjE1MDEzMzI=",
                 "organizations_url": "https://api.github.com/users/kenpusney/orgs",
                 "received_events_url": "https://api.github.com/users/kenpusney/received_events",
                 "repos_url": "https://api.github.com/users/kenpusney/repos",
@@ -267,6 +284,7 @@
             "created_at": "2017-11-27T15:29:59Z",
             "event": "mentioned",
             "id": 1359469432,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTM1OTQ2OTQzMg==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1359469432"
         },
         {
@@ -280,6 +298,7 @@
                 "html_url": "https://github.com/kenpusney",
                 "id": 1501332,
                 "login": "kenpusney",
+                "node_id": "MDQ6VXNlcjE1MDEzMzI=",
                 "organizations_url": "https://api.github.com/users/kenpusney/orgs",
                 "received_events_url": "https://api.github.com/users/kenpusney/received_events",
                 "repos_url": "https://api.github.com/users/kenpusney/repos",
@@ -294,6 +313,7 @@
             "created_at": "2017-11-27T15:29:59Z",
             "event": "subscribed",
             "id": 1359469433,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEzNTk0Njk0MzM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1359469433"
         },
         {
@@ -307,6 +327,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -321,6 +342,7 @@
             "created_at": "2018-04-12T00:19:12Z",
             "event": "mentioned",
             "id": 1569846544,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTU2OTg0NjU0NA==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1569846544"
         },
         {
@@ -334,6 +356,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -348,6 +371,7 @@
             "created_at": "2018-04-12T00:19:12Z",
             "event": "subscribed",
             "id": 1569846545,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE1Njk4NDY1NDU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1569846545"
         }
     ],
@@ -358,6 +382,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/45/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNzEyMzA2MTk=",
     "number": 45,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
@@ -374,6 +399,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

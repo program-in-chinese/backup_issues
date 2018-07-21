@@ -4,6 +4,7 @@
         "default": true,
         "id": 816436550,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NTA=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 816436551,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NTE=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 816436552,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NTI=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 816436556,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NTY=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 816436553,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NTM=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 816436559,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NTk=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 816436562,
         "name": "question",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NjI=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 816436565,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw4MTY0MzY1NjU=",
         "url": "https://api.github.com/repos/program-in-chinese/CTS_Typewriting/labels/wontfix"
     }
 ]

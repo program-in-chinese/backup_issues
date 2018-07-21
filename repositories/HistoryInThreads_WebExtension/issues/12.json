@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "Based on [user feedback](https://addons.mozilla.org/en-US/firefox/addon/history-in-threads/reviews/916218/)\r\n\r\n> I found the icon for this add-on missing. no way to add it to the menu bar.\r\n\r\nNot sure about feasibility in FF 57+ yet. ",
     "closed_at": null,
     "comment_data": [
@@ -12,6 +12,7 @@
             "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/issues/12#issuecomment-337086403",
             "id": 337086403,
             "issue_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/12",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzA4NjQwMw==",
             "updated_at": "2017-10-17T01:00:46Z",
             "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/comments/337086403",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/sibojan",
                 "id": 11802171,
                 "login": "sibojan",
+                "node_id": "MDQ6VXNlcjExODAyMTcx",
                 "organizations_url": "https://api.github.com/users/sibojan/orgs",
                 "received_events_url": "https://api.github.com/users/sibojan/received_events",
                 "repos_url": "https://api.github.com/users/sibojan/repos",
@@ -41,6 +43,7 @@
             "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/issues/12#issuecomment-352094912",
             "id": 352094912,
             "issue_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/12",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDM1MjA5NDkxMg==",
             "updated_at": "2017-12-15T19:45:03Z",
             "url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/comments/352094912",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/trespda",
                 "id": 34583545,
                 "login": "trespda",
+                "node_id": "MDQ6VXNlcjM0NTgzNTQ1",
                 "organizations_url": "https://api.github.com/users/trespda/orgs",
                 "received_events_url": "https://api.github.com/users/trespda/received_events",
                 "repos_url": "https://api.github.com/users/trespda/repos",
@@ -75,6 +79,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension/issues/12/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNTU3NDUzOTY=",
     "number": 12,
     "repository_url": "https://api.github.com/repos/program-in-chinese/HistoryInThreads_WebExtension",
     "state": "open",
@@ -91,6 +96,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

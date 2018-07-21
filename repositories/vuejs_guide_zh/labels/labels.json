@@ -4,6 +4,7 @@
         "default": true,
         "id": 735617005,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMDU=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 735617006,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMDY=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 735617007,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMDc=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 735617009,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMDk=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 735617008,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMDg=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 735617010,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMTA=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 735617011,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMTE=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 735617012,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3MzU2MTcwMTI=",
         "url": "https://api.github.com/repos/program-in-chinese/vuejs_guide_zh/labels/wontfix"
     }
 ]

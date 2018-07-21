@@ -12,6 +12,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328333418",
             "id": 328333418,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyODMzMzQxOA==",
             "updated_at": "2017-09-10T10:23:10Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328333418",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/qwas982",
                 "id": 10122306,
                 "login": "qwas982",
+                "node_id": "MDQ6VXNlcjEwMTIyMzA2",
                 "organizations_url": "https://api.github.com/users/qwas982/orgs",
                 "received_events_url": "https://api.github.com/users/qwas982/received_events",
                 "repos_url": "https://api.github.com/users/qwas982/repos",
@@ -35,12 +37,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "> 输入法和键盘是很难完全独立，二者应该是相互影响的，输入法的设计应该影响到键盘的布\r\n局，键盘的设计反过来又应该导致输入法的改进。\r\n\r\n同意. 这两项研究下去都很有深度. 有个有趣的现状是, 最优秀(输入速度最快)的键盘/输入法往往不是最普及的(比如中文的五笔比拼音快). 背后原因值得推敲, 可能对以后的推广也会有启发.\r\n\r\n假设, 我们首先着手的是研发适合程序员编写代码使用的键盘/输入法, 在https://github.com/program-in-chinese/overview/issues/11 有一些相关讨论, 包括和IDE的自动补全功能的集成问题.\r\n\r\n另外还有关于自动切换的思路在https://github.com/program-in-chinese/overview/issues/2#issuecomment-321429975:\r\n\r\n\r\n\r\n    能自动感知，帮你切换输入法\r\n    例如：\r\n        function 你好（ 检测到function后输入法自动切换成中文，然后在检测到全角的圆括号后自动切换成英文输入法并且把全角圆括号变为半角的。\r\n        let 变量 在输入let之后切换输入法为中文\r\n\r\n    简单来说，就是在需要定义新名字（函数名，变量名，类名）的地方，自动切换成中文输入法，在使用现有名字的地方（调用现有方法或者函数），使用智能感知来提高效率。\r\n\r\n\r\n> 应该在词法、语法、特性等方面做一个系统性的、全新的设计\r\n\r\n欢迎在https://github.com/program-in-chinese/overview/issues/11 一起探讨思路.\r\n\r\n4/5 也很同意, 也是当时把语言和IDE在https://github.com/program-in-chinese/overview/issues/11 一起讨论的原因",
             "created_at": "2017-09-10T22:44:37Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328377542",
             "id": 328377542,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyODM3NzU0Mg==",
             "updated_at": "2017-09-10T22:44:37Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328377542",
             "user": {
@@ -53,6 +56,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -70,6 +74,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328402984",
             "id": 328402984,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyODQwMjk4NA==",
             "updated_at": "2017-09-11T02:57:43Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328402984",
             "user": {
@@ -82,6 +87,7 @@
                 "html_url": "https://github.com/qingseshaohua",
                 "id": 16396727,
                 "login": "qingseshaohua",
+                "node_id": "MDQ6VXNlcjE2Mzk2NzI3",
                 "organizations_url": "https://api.github.com/users/qingseshaohua/orgs",
                 "received_events_url": "https://api.github.com/users/qingseshaohua/received_events",
                 "repos_url": "https://api.github.com/users/qingseshaohua/repos",
@@ -93,12 +99,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@qingseshaohua 多谢分享!\r\n\r\n> 应该是让更多中国人，能够更加简单的学习编程，这个才是最为主要的目的，不知是不是这点？\r\n\r\n刚才吃饭的时候也在想这个问题. 毕竟有编程需求的人比程序员多的多. 个人觉得这确实是一个最重要的目的之一. 另一方面, 在商业代码中进行中文编程实践(命名等等), 也是一个不能忽视的方面. 前者意义更长远影响更广泛, 后者更有短期效益意义更现实. 前者比后者的投入也要大一些, 但肯定值得.\r\n\r\n[这个知乎回答](https://www.zhihu.com/question/27976378/answer/42527683)列出了不少其他母语编程语言, 不少也以让更多人都能够编程为目标. 你提到的易语言详尽接口文档的优点也总结在https://github.com/program-in-chinese/overview/issues/11 了(`提示/帮助文档贯穿整个开发过程`), 其实那个列表很多也是参考易语言开发环境的.\r\n\r\n顺便问个问题, 假想我们要创造,或者说重造一个中文编程语言和开发环境, 第一版必须具备哪些硬性功能呢? 欢迎在 #11 多提意见!",
             "created_at": "2017-09-11T04:24:42Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328411951",
             "id": 328411951,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyODQxMTk1MQ==",
             "updated_at": "2017-09-11T04:24:42Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328411951",
             "user": {
@@ -111,6 +118,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -128,6 +136,7 @@
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328544658",
             "id": 328544658,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMyODU0NDY1OA==",
             "updated_at": "2017-09-11T14:22:03Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328544658",
             "user": {
@@ -140,6 +149,7 @@
                 "html_url": "https://github.com/RogeJohn91",
                 "id": 31815492,
                 "login": "RogeJohn91",
+                "node_id": "MDQ6VXNlcjMxODE1NDky",
                 "organizations_url": "https://api.github.com/users/RogeJohn91/orgs",
                 "received_events_url": "https://api.github.com/users/RogeJohn91/received_events",
                 "repos_url": "https://api.github.com/users/RogeJohn91/repos",
@@ -151,12 +161,13 @@
             }
         },
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "@RogeJohn91 建议参考[楼上](https://github.com/program-in-chinese/overview/issues/31#issuecomment-328377542), 在各个主题帖进行不同主题的讨论. 如果有些想法不属于任何主题, 建议新开帖讨论. 然后就可以把本贴Close了.",
             "created_at": "2017-09-28T21:43:21Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-332972365",
             "id": 332972365,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMzMjk3MjM2NQ==",
             "updated_at": "2017-09-28T21:43:21Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/332972365",
             "user": {
@@ -169,6 +180,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -195,6 +207,7 @@
                 "html_url": "https://github.com/qingseshaohua",
                 "id": 16396727,
                 "login": "qingseshaohua",
+                "node_id": "MDQ6VXNlcjE2Mzk2NzI3",
                 "organizations_url": "https://api.github.com/users/qingseshaohua/orgs",
                 "received_events_url": "https://api.github.com/users/qingseshaohua/received_events",
                 "repos_url": "https://api.github.com/users/qingseshaohua/repos",
@@ -209,6 +222,7 @@
             "created_at": "2017-09-11T04:24:42Z",
             "event": "mentioned",
             "id": 1242546037,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI0MjU0NjAzNw==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1242546037"
         },
         {
@@ -222,6 +236,7 @@
                 "html_url": "https://github.com/qingseshaohua",
                 "id": 16396727,
                 "login": "qingseshaohua",
+                "node_id": "MDQ6VXNlcjE2Mzk2NzI3",
                 "organizations_url": "https://api.github.com/users/qingseshaohua/orgs",
                 "received_events_url": "https://api.github.com/users/qingseshaohua/received_events",
                 "repos_url": "https://api.github.com/users/qingseshaohua/repos",
@@ -236,6 +251,7 @@
             "created_at": "2017-09-11T04:24:42Z",
             "event": "subscribed",
             "id": 1242546038,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyNDI1NDYwMzg=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1242546038"
         },
         {
@@ -249,6 +265,7 @@
                 "html_url": "https://github.com/RogeJohn91",
                 "id": 31815492,
                 "login": "RogeJohn91",
+                "node_id": "MDQ6VXNlcjMxODE1NDky",
                 "organizations_url": "https://api.github.com/users/RogeJohn91/orgs",
                 "received_events_url": "https://api.github.com/users/RogeJohn91/received_events",
                 "repos_url": "https://api.github.com/users/RogeJohn91/repos",
@@ -263,6 +280,7 @@
             "created_at": "2017-09-28T21:43:21Z",
             "event": "mentioned",
             "id": 1270670197,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTI3MDY3MDE5Nw==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270670197"
         },
         {
@@ -276,6 +294,7 @@
                 "html_url": "https://github.com/RogeJohn91",
                 "id": 31815492,
                 "login": "RogeJohn91",
+                "node_id": "MDQ6VXNlcjMxODE1NDky",
                 "organizations_url": "https://api.github.com/users/RogeJohn91/orgs",
                 "received_events_url": "https://api.github.com/users/RogeJohn91/received_events",
                 "repos_url": "https://api.github.com/users/RogeJohn91/repos",
@@ -290,6 +309,7 @@
             "created_at": "2017-09-28T21:43:21Z",
             "event": "subscribed",
             "id": 1270670199,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDEyNzA2NzAxOTk=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270670199"
         },
         {
@@ -303,6 +323,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -317,6 +338,7 @@
             "created_at": "2017-11-05T06:40:32Z",
             "event": "closed",
             "id": 1326340604,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTMyNjM0MDYwNA==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1326340604"
         }
     ],
@@ -327,6 +349,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNTY0OTM1NTg=",
     "number": 31,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
@@ -343,6 +366,7 @@
         "html_url": "https://github.com/RogeJohn91",
         "id": 31815492,
         "login": "RogeJohn91",
+        "node_id": "MDQ6VXNlcjMxODE1NDky",
         "organizations_url": "https://api.github.com/users/RogeJohn91/orgs",
         "received_events_url": "https://api.github.com/users/RogeJohn91/received_events",
         "repos_url": "https://api.github.com/users/RogeJohn91/repos",

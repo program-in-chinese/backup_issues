@@ -1,17 +1,18 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "@taostein 请问OCaml对中文/unicode命名支持吗? 刚尝试在OCaml 4.02下用中文命名:\r\n```\r\nlet rec 斐波那契 n =\r\n    if n < 2 then n else 斐波那契 (n-1) + 斐波那契 (n-2);;\r\n```\r\n报错:\r\n```\r\nWarning 3: deprecated: ISO-Latin1 characters in identifiers\r\n...\r\nError: Illegal character\r\n```\r\n",
     "closed_at": "2017-08-02T00:36:49Z",
     "comment_data": [
         {
-            "author_association": "OWNER",
+            "author_association": "MEMBER",
             "body": "根据[这里](https://ocaml.org/learn/tutorials/basics.html):\r\n\r\n> OCaml provides a char type which is used for characters, written 'x' for example. Unfortunately the char type does not support Unicode or UTF-8. This is a serious flaw in OCaml which should be fixed, but for the time being there are comprehensive Unicode libraries which work around it.\r\n\r\n既然连内置char类型都不默认支持unicode, 估计命名更不会支持了. 暂时close了.",
             "created_at": "2017-08-02T00:36:49Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/4#issuecomment-319534930",
             "id": 319534930,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/4",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTUzNDkzMA==",
             "updated_at": "2017-08-02T00:36:49Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/319534930",
             "user": {
@@ -24,6 +25,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -50,6 +52,7 @@
                 "html_url": "https://github.com/taostein",
                 "id": 10097673,
                 "login": "taostein",
+                "node_id": "MDQ6VXNlcjEwMDk3Njcz",
                 "organizations_url": "https://api.github.com/users/taostein/orgs",
                 "received_events_url": "https://api.github.com/users/taostein/received_events",
                 "repos_url": "https://api.github.com/users/taostein/repos",
@@ -64,6 +67,7 @@
             "created_at": "2017-07-30T22:30:53Z",
             "event": "mentioned",
             "id": 1184930014,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTE4NDkzMDAxNA==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1184930014"
         },
         {
@@ -77,6 +81,7 @@
                 "html_url": "https://github.com/taostein",
                 "id": 10097673,
                 "login": "taostein",
+                "node_id": "MDQ6VXNlcjEwMDk3Njcz",
                 "organizations_url": "https://api.github.com/users/taostein/orgs",
                 "received_events_url": "https://api.github.com/users/taostein/received_events",
                 "repos_url": "https://api.github.com/users/taostein/repos",
@@ -91,6 +96,7 @@
             "created_at": "2017-07-30T22:30:53Z",
             "event": "subscribed",
             "id": 1184930015,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDExODQ5MzAwMTU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1184930015"
         },
         {
@@ -104,6 +110,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -118,6 +125,7 @@
             "created_at": "2017-08-02T00:36:49Z",
             "event": "closed",
             "id": 1188681382,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTE4ODY4MTM4Mg==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1188681382"
         },
         {
@@ -131,6 +139,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -145,6 +154,7 @@
             "created_at": "2017-08-02T00:38:22Z",
             "event": "referenced",
             "id": 1188682754,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDExODg2ODI3NTQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1188682754"
         }
     ],
@@ -155,6 +165,7 @@
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/4/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNDY2MTMzNzM=",
     "number": 4,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
@@ -171,6 +182,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

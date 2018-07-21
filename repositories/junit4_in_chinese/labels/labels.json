@@ -4,6 +4,7 @@
         "default": true,
         "id": 664071253,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw2NjQwNzEyNTM=",
         "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 664071254,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw2NjQwNzEyNTQ=",
         "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 664071255,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw2NjQwNzEyNTU=",
         "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 664071256,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw2NjQwNzEyNTY=",
         "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/labels/help%20wanted"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 664071257,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw2NjQwNzEyNTc=",
         "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/labels/invalid"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 664071258,
         "name": "question",
+        "node_id": "MDU6TGFiZWw2NjQwNzEyNTg=",
         "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/labels/question"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 664071259,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw2NjQwNzEyNTk=",
         "url": "https://api.github.com/repos/program-in-chinese/junit4_in_chinese/labels/wontfix"
     }
 ]

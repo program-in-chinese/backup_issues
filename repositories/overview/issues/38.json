@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "OWNER",
+    "author_association": "MEMBER",
     "body": "除了日常管理社区讨论和代码库/wiki之外, 现在想到的职(琐)责(事):\r\n- 维护[讨论组对外网站](https://github.com/program-in-chinese/team_website)的内容\r\n- 每周编写[周报](https://github.com/program-in-chinese/overview/blob/master/docs/index.md)\r\n- (不)定时[备份](https://github.com/program-in-chinese/backup_issues)讨论\r\n- 在其他社区/库发现潜在组员时发起交流/邀请\r\n\r\n自己的一些希望:\r\n- 最好有(广义的)中文编程实践经验\r\n- 最好有公开的(开发员)社区/讨论群管理经验\r\n- 至少在刚开始的一段时间和本人有线下沟通(见面 & 电话). 理想情况是人在美西时区/湾区--**不强求**",
     "closed_at": null,
     "comment_data": [],
@@ -20,6 +20,7 @@
                 "html_url": "https://github.com/nobodxbodon",
                 "id": 392497,
                 "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
                 "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
                 "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
                 "repos_url": "https://api.github.com/users/nobodxbodon/repos",
@@ -38,6 +39,7 @@
                 "color": "fbca04",
                 "name": "日常"
             },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDEyOTc4OTc4Mjg=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1297897828"
         }
     ],
@@ -50,12 +52,14 @@
             "default": false,
             "id": 657797434,
             "name": "日常",
+            "node_id": "MDU6TGFiZWw2NTc3OTc0MzQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%97%A5%E5%B8%B8"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/38/labels{/name}",
     "locked": false,
     "milestone": null,
+    "node_id": "MDU6SXNzdWUyNjYyOTU5Mzg=",
     "number": 38,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
@@ -72,6 +76,7 @@
         "html_url": "https://github.com/nobodxbodon",
         "id": 392497,
         "login": "nobodxbodon",
+        "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
         "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
         "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
         "repos_url": "https://api.github.com/users/nobodxbodon/repos",

@@ -4,6 +4,7 @@
         "default": true,
         "id": 734116046,
         "name": "bug",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNDY=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/bug"
     },
     {
@@ -11,6 +12,7 @@
         "default": true,
         "id": 734116047,
         "name": "duplicate",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNDc=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/duplicate"
     },
     {
@@ -18,6 +20,7 @@
         "default": true,
         "id": 734116048,
         "name": "enhancement",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNDg=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/enhancement"
     },
     {
@@ -25,6 +28,7 @@
         "default": true,
         "id": 734116050,
         "name": "good first issue",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNTA=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/good%20first%20issue"
     },
     {
@@ -32,6 +36,7 @@
         "default": true,
         "id": 734116049,
         "name": "help wanted",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNDk=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/help%20wanted"
     },
     {
@@ -39,6 +44,7 @@
         "default": true,
         "id": 734116051,
         "name": "invalid",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNTE=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/invalid"
     },
     {
@@ -46,6 +52,7 @@
         "default": true,
         "id": 734116052,
         "name": "question",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNTI=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/question"
     },
     {
@@ -53,6 +60,7 @@
         "default": true,
         "id": 734116053,
         "name": "wontfix",
+        "node_id": "MDU6TGFiZWw3MzQxMTYwNTM=",
         "url": "https://api.github.com/repos/program-in-chinese/Programming_in_Scala_study_notes_zh/labels/wontfix"
     }
 ]
