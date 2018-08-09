@@ -5152,6 +5152,39 @@
             "id": 1493080876,
             "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE0OTMwODA4NzY=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1493080876"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-08T06:28:02Z",
+            "event": "labeled",
+            "id": 1776951492,
+            "label": {
+                "color": "006b75",
+                "name": "社区/运营/推广"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5NTE0OTI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776951492"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/events",
@@ -5173,6 +5206,14 @@
             "name": "日常",
             "node_id": "MDU6TGFiZWw2NTc3OTc0MzQ=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%97%A5%E5%B8%B8"
+        },
+        {
+            "color": "006b75",
+            "default": false,
+            "id": 1017997653,
+            "name": "社区/运营/推广",
+            "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%A4%BE%E5%8C%BA/%E8%BF%90%E8%90%A5/%E6%8E%A8%E5%B9%BF"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/labels{/name}",
@@ -5183,7 +5224,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "社区运行方式讨论, 迎新",
-    "updated_at": "2018-07-18T06:42:52Z",
+    "updated_at": "2018-08-08T06:28:02Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

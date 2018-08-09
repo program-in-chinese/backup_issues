@@ -1353,12 +1353,95 @@
             "id": 1455687761,
             "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE0NTU2ODc3NjE=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1455687761"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-08T06:16:15Z",
+            "event": "labeled",
+            "id": 1776935482,
+            "label": {
+                "color": "cc0c7f",
+                "name": "浏览器/编辑器/插件/辅助工具"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5MzU0ODI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776935482"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-08T06:17:10Z",
+            "event": "labeled",
+            "id": 1776936716,
+            "label": {
+                "color": "fbca04",
+                "name": "输入法"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5MzY3MTY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776936716"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/53/events",
     "html_url": "https://github.com/program-in-chinese/overview/issues/53",
     "id": 286502771,
-    "labels": [],
+    "labels": [
+        {
+            "color": "cc0c7f",
+            "default": false,
+            "id": 1017995836,
+            "name": "浏览器/编辑器/插件/辅助工具",
+            "node_id": "MDU6TGFiZWwxMDE3OTk1ODM2",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%B5%8F%E8%A7%88%E5%99%A8/%E7%BC%96%E8%BE%91%E5%99%A8/%E6%8F%92%E4%BB%B6/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7"
+        },
+        {
+            "color": "fbca04",
+            "default": false,
+            "id": 1017999100,
+            "name": "输入法",
+            "node_id": "MDU6TGFiZWwxMDE3OTk5MTAw",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%BE%93%E5%85%A5%E6%B3%95"
+        }
+    ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/53/labels{/name}",
     "locked": false,
     "milestone": null,
@@ -1367,7 +1450,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "vsc插件实现拼音输入法",
-    "updated_at": "2018-02-03T02:13:31Z",
+    "updated_at": "2018-08-08T06:17:10Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/53",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

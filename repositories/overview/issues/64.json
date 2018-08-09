@@ -577,9 +577,9 @@
             "color": "d4c5f9",
             "default": false,
             "id": 678642283,
-            "name": "笔记",
+            "name": "笔记/总结",
             "node_id": "MDU6TGFiZWw2Nzg2NDIyODM=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%AC%94%E8%AE%B0"
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%AC%94%E8%AE%B0/%E6%80%BB%E7%BB%93"
         },
         {
             "color": "c5def5",

@@ -1,5 +1,13 @@
 [
     {
+        "color": "008922",
+        "default": false,
+        "id": 1018003831,
+        "name": "RFC",
+        "node_id": "MDU6TGFiZWwxMDE4MDAzODMx",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/RFC"
+    },
+    {
         "color": "ee0701",
         "default": true,
         "id": 655106830,
@@ -88,12 +96,52 @@
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%91%A8%E8%BE%B9"
     },
     {
+        "color": "e0d147",
+        "default": false,
+        "id": 1017995237,
+        "name": "实用",
+        "node_id": "MDU6TGFiZWwxMDE3OTk1MjM3",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%AE%9E%E7%94%A8"
+    },
+    {
+        "color": "bfd4f2",
+        "default": false,
+        "id": 1018001029,
+        "name": "实践探索",
+        "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%AE%9E%E8%B7%B5%E6%8E%A2%E7%B4%A2"
+    },
+    {
+        "color": "0052cc",
+        "default": false,
+        "id": 1017999329,
+        "name": "底层",
+        "node_id": "MDU6TGFiZWwxMDE3OTk5MzI5",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%BA%95%E5%B1%82"
+    },
+    {
         "color": "0e8a16",
         "default": false,
         "id": 688675470,
         "name": "思路",
         "node_id": "MDU6TGFiZWw2ODg2NzU0NzA=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%80%9D%E8%B7%AF"
+    },
+    {
+        "color": "6e0ba8",
+        "default": false,
+        "id": 1000523124,
+        "name": "想法",
+        "node_id": "MDU6TGFiZWwxMDAwNTIzMTI0",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%83%B3%E6%B3%95"
+    },
+    {
+        "color": "7f69ce",
+        "default": false,
+        "id": 1007657501,
+        "name": "技术问题-Windows系统",
+        "node_id": "MDU6TGFiZWwxMDA3NjU3NTAx",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%8A%80%E6%9C%AF%E9%97%AE%E9%A2%98-Windows%E7%B3%BB%E7%BB%9F"
     },
     {
         "color": "d4e273",
@@ -112,12 +160,84 @@
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%97%A5%E5%B8%B8"
     },
     {
+        "color": "078263",
+        "default": false,
+        "id": 1017986447,
+        "name": "有趣",
+        "node_id": "MDU6TGFiZWwxMDE3OTg2NDQ3",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%9C%89%E8%B6%A3"
+    },
+    {
+        "color": "cc0c7f",
+        "default": false,
+        "id": 1017995836,
+        "name": "浏览器/编辑器/插件/辅助工具",
+        "node_id": "MDU6TGFiZWwxMDE3OTk1ODM2",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%B5%8F%E8%A7%88%E5%99%A8/%E7%BC%96%E8%BE%91%E5%99%A8/%E6%8F%92%E4%BB%B6/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7"
+    },
+    {
+        "color": "fca971",
+        "default": false,
+        "id": 1018005503,
+        "name": "疑问",
+        "node_id": "MDU6TGFiZWwxMDE4MDA1NTAz",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%96%91%E9%97%AE"
+    },
+    {
+        "color": "006b75",
+        "default": false,
+        "id": 1017997653,
+        "name": "社区/运营/推广",
+        "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%A4%BE%E5%8C%BA/%E8%BF%90%E8%90%A5/%E6%8E%A8%E5%B9%BF"
+    },
+    {
         "color": "d4c5f9",
         "default": false,
         "id": 678642283,
-        "name": "笔记",
+        "name": "笔记/总结",
         "node_id": "MDU6TGFiZWw2Nzg2NDIyODM=",
-        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%AC%94%E8%AE%B0"
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%AC%94%E8%AE%B0/%E6%80%BB%E7%BB%93"
+    },
+    {
+        "color": "f9d0c4",
+        "default": false,
+        "id": 1017998120,
+        "name": "翻译/汉化",
+        "node_id": "MDU6TGFiZWwxMDE3OTk4MTIw",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%BF%BB%E8%AF%91/%E6%B1%89%E5%8C%96"
+    },
+    {
+        "color": "fbca04",
+        "default": false,
+        "id": 1018006265,
+        "name": "讨论",
+        "node_id": "MDU6TGFiZWwxMDE4MDA2MjY1",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%AE%A8%E8%AE%BA"
+    },
+    {
+        "color": "d1a5e5",
+        "default": false,
+        "id": 1018943862,
+        "name": "词典/术语对照词汇表",
+        "node_id": "MDU6TGFiZWwxMDE4OTQzODYy",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%AF%8D%E5%85%B8/%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%AF%8D%E6%B1%87%E8%A1%A8"
+    },
+    {
+        "color": "6ffcc6",
+        "default": false,
+        "id": 1017999778,
+        "name": "语言设计",
+        "node_id": "MDU6TGFiZWwxMDE3OTk5Nzc4",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1"
+    },
+    {
+        "color": "fbca04",
+        "default": false,
+        "id": 1017999100,
+        "name": "输入法",
+        "node_id": "MDU6TGFiZWwxMDE3OTk5MTAw",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%BE%93%E5%85%A5%E6%B3%95"
     },
     {
         "color": "c5def5",
@@ -126,5 +246,13 @@
         "name": "长期",
         "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
         "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%95%BF%E6%9C%9F"
+    },
+    {
+        "color": "45cc8a",
+        "default": false,
+        "id": 1017997212,
+        "name": "集合/汇总",
+        "node_id": "MDU6TGFiZWwxMDE3OTk3MjEy",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%9B%86%E5%90%88/%E6%B1%87%E6%80%BB"
     }
 ]
