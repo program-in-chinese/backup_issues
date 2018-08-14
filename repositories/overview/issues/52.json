@@ -945,20 +945,20 @@
     "id": 283255329,
     "labels": [
         {
-            "color": "bfd4f2",
-            "default": false,
-            "id": 1018001029,
-            "name": "实践探索",
-            "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%AE%9E%E8%B7%B5%E6%8E%A2%E7%B4%A2"
-        },
-        {
             "color": "6ffcc6",
             "default": false,
             "id": 1017999778,
-            "name": "语言设计",
+            "name": "设计",
             "node_id": "MDU6TGFiZWwxMDE3OTk5Nzc4",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1"
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%AE%BE%E8%AE%A1"
+        },
+        {
+            "color": "bfd4f2",
+            "default": false,
+            "id": 1018001029,
+            "name": "调研",
+            "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%B0%83%E7%A0%94"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/52/labels{/name}",

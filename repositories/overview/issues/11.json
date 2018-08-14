@@ -3937,20 +3937,45 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5NTA0MjU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776950425"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T21:24:52Z",
+            "event": "unlabeled",
+            "id": 1786435052,
+            "label": {
+                "color": "fbca04",
+                "name": "d讨论"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTc4NjQzNTA1Mg==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1786435052"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11/events",
     "html_url": "https://github.com/program-in-chinese/overview/issues/11",
     "id": 247201042,
     "labels": [
-        {
-            "color": "fbca04",
-            "default": false,
-            "id": 1018006265,
-            "name": "讨论",
-            "node_id": "MDU6TGFiZWwxMDE4MDA2MjY1",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%AE%A8%E8%AE%BA"
-        },
         {
             "color": "c5def5",
             "default": false,
@@ -3968,7 +3993,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "讨论: 适合中文用户的编程语言和IDE, 侧重于现有语言/IDE不具备的特性",
-    "updated_at": "2018-08-08T06:27:22Z",
+    "updated_at": "2018-08-13T21:24:52Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

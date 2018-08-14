@@ -230,7 +230,7 @@
             "id": 405827126,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
             "node_id": "MDEyOklzc3VlQ29tbWVudDQwNTgyNzEyNg==",
-            "updated_at": "2018-07-18T06:46:23Z",
+            "updated_at": "2018-08-14T10:50:59Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/405827126",
             "user": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -252,9 +252,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/absente"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "新文章:\r\n[中文代码示例视频演示Python入门教程第四章 控制流](https://zhuanlan.zhihu.com/p/38282172)\r\n[中文代码示例视频演示Python入门第五章 数据结构](https://zhuanlan.zhihu.com/p/38324987)\r\n[解谜计算机科学第一章示例汉化尝试](https://zhuanlan.zhihu.com/p/38514754)\r\n[\"西游记\"主题Python入门示例尝试-数据结构 5.1-5.1.2](https://zhuanlan.zhihu.com/p/38653108)\r\n[为Chrome和火狐浏览器编写扩展](http://zhuanlan.zhihu.com/p/39425449)\r\n[万马齐喑究可哀-中文编程的又一波\"讨论\"](https://zhuanlan.zhihu.com/p/40068451)\r\n[最近一波对中文编程(包括中文命名)的攻势](https://zhuanlan.zhihu.com/p/40099718)\r\n[在代码中进行中文命名(类/变量/方法等)的优势](https://zhuanlan.zhihu.com/p/40098652)\r\n[Z中文编程创新突破1-把Z语句分析生成C#函数](https://zhuanlan.zhihu.com/p/24153393)\r\n[中文编程Ｚ语言设计思想](https://zhuanlan.zhihu.com/p/40356993)\r\n[Z语言实现基本原理](https://zhuanlan.zhihu.com/p/40523508)\r\n[又见套路:如果计算机是用中文编程,你能成为计算机编程专家吗？](https://zhuanlan.zhihu.com/p/40611223)\r\n[对DLL库中的接口进行中文命名](https://zhuanlan.zhihu.com/p/40833425)\r\n[中文编程讨论组一岁了](https://zhuanlan.zhihu.com/p/41129712)\r\n[中文代码示例之Python-如何遍历字典](https://zhuanlan.zhihu.com/p/41252090)\r\n[re:从中美文化差异看编程的发展方向](https://zhuanlan.zhihu.com/p/40295586)\r\n[在Office的VBA代码里中文命名](https://zhuanlan.zhihu.com/p/41432021)\r\n[中文代码示例之Spring Boot 2.0.3问好](https://zhuanlan.zhihu.com/p/41836608)\r\n[中文编程讨论组(Github)社区守则一周年修订](https://zhuanlan.zhihu.com/p/41914179)\r\n[Head First OO分析设计一书略读与例子中文化](https://zhuanlan.zhihu.com/p/41920600)\r\n\r\n接下去个人打算以两个方向为主: \r\n- [入门教程设计](https://github.com/program-in-chinese/overview/issues/5#issuecomment-412436818)\r\n- [术语词典API](https://github.com/program-in-chinese/overview/issues/54#issuecomment-411551138)",
+            "created_at": "2018-08-14T02:52:53Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/48#issuecomment-412737278",
+            "id": 412737278,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjczNzI3OA==",
+            "updated_at": "2018-08-14T02:52:53Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/412737278",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 8,
+    "comments": 9,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48/comments",
     "created_at": "2017-11-09T05:07:54Z",
     "event_data": [
@@ -1496,20 +1527,20 @@
     "id": 272442165,
     "labels": [
         {
-            "color": "1e0ad1",
-            "default": false,
-            "id": 998155238,
-            "name": "专栏",
-            "node_id": "MDU6TGFiZWw5OTgxNTUyMzg=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E4%B8%93%E6%A0%8F"
-        },
-        {
             "color": "006b75",
             "default": false,
             "id": 1017997653,
-            "name": "社区/运营/推广",
+            "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%A4%BE%E5%8C%BA/%E8%BF%90%E8%90%A5/%E6%8E%A8%E5%B9%BF"
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "color": "1e0ad1",
+            "default": false,
+            "id": 998155238,
+            "name": "知乎专栏",
+            "node_id": "MDU6TGFiZWw5OTgxNTUyMzg=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%9F%A5%E4%B9%8E%E4%B8%93%E6%A0%8F"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48/labels{/name}",
@@ -1520,7 +1551,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "\"中文编程\"知乎专栏开通!",
-    "updated_at": "2018-08-08T06:21:57Z",
+    "updated_at": "2018-08-14T10:50:59Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

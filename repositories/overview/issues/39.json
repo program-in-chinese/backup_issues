@@ -197,6 +197,39 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5NDUwMzA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776945030"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T21:32:50Z",
+            "event": "unlabeled",
+            "id": 1786449120,
+            "label": {
+                "color": "45cc8a",
+                "name": "s集合/汇总"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTc4NjQ0OTEyMA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1786449120"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/39/events",
@@ -210,14 +243,6 @@
             "name": "长期",
             "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%95%BF%E6%9C%9F"
-        },
-        {
-            "color": "45cc8a",
-            "default": false,
-            "id": 1017997212,
-            "name": "集合/汇总",
-            "node_id": "MDU6TGFiZWwxMDE3OTk3MjEy",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%9B%86%E5%90%88/%E6%B1%87%E6%80%BB"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/39/labels{/name}",
@@ -228,7 +253,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "Open source Non-English-based programming languages 开源非英文关键词编程语言",
-    "updated_at": "2018-08-08T06:23:59Z",
+    "updated_at": "2018-08-13T21:32:50Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/39",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

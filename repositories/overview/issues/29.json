@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "@Roger-Luo 有幸看到你的[知乎回答](https://www.zhihu.com/question/44784094/answer/102271295)\r\n另外 @i2000s 刚拜读大作[对近期一些量子计算进展的评论](https://www.qixiaodong.tk/cn/2017/05/07/comment-on-recent-quantum-computing-progress.html)\r\n想请教两位, 设计一种中文编程语言进行量子编程, 是否有意义? 有些什么前提条件需要满足, 比如类似[Quantum Playground](http://www.quantumplayground.net/)的量子计算模拟环境? \r\n在下对量子计算只有零星了解, 还请多多指教.\r\n",
-    "closed_at": null,
+    "closed_at": "2018-08-13T02:41:21Z",
     "comment_data": [
         {
             "author_association": "NONE",
@@ -97,9 +97,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/absente"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "暂时搁置. 期待对量子领域有专攻的同仁重开此帖.",
+            "created_at": "2018-08-13T02:41:21Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/29#issuecomment-412394762",
+            "id": 412394762,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/29",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjM5NDc2Mg==",
+            "updated_at": "2018-08-13T02:41:21Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/412394762",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 3,
+    "comments": 4,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/29/comments",
     "created_at": "2017-09-05T06:01:17Z",
     "event_data": [
@@ -346,20 +377,107 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5NDg4NTY=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776948856"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-09T10:54:09Z",
+            "event": "labeled",
+            "id": 1779896537,
+            "label": {
+                "color": "0052cc",
+                "name": "L底层"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3Nzk4OTY1Mzc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1779896537"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-09T10:54:09Z",
+            "event": "labeled",
+            "id": 1779896540,
+            "label": {
+                "color": "b8f230",
+                "name": "sd系统设计"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3Nzk4OTY1NDA=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1779896540"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T02:41:21Z",
+            "event": "closed",
+            "id": 1784425860,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTc4NDQyNTg2MA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1784425860"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/29/events",
     "html_url": "https://github.com/program-in-chinese/overview/issues/29",
     "id": 255167742,
     "labels": [
-        {
-            "color": "0e8a16",
-            "default": false,
-            "id": 688675470,
-            "name": "思路",
-            "node_id": "MDU6TGFiZWw2ODg2NzU0NzA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%80%9D%E8%B7%AF"
-        },
         {
             "color": "078263",
             "default": false,
@@ -383,9 +501,9 @@
     "node_id": "MDU6SXNzdWUyNTUxNjc3NDI=",
     "number": 29,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "为量子计算设计的中文编程语言",
-    "updated_at": "2018-08-08T06:26:21Z",
+    "updated_at": "2018-08-13T02:41:21Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/29",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

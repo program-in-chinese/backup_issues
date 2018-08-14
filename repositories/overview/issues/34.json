@@ -847,6 +847,72 @@
             "id": 1270243318,
             "node_id": "MDExOkNsb3NlZEV2ZW50MTI3MDI0MzMxOA==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1270243318"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-09T08:50:56Z",
+            "event": "labeled",
+            "id": 1779651551,
+            "label": {
+                "color": "0e8a16",
+                "name": "思路"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3Nzk2NTE1NTE=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1779651551"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-09T08:50:56Z",
+            "event": "labeled",
+            "id": 1779651552,
+            "label": {
+                "color": "0052cc",
+                "name": "底层"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3Nzk2NTE1NTI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1779651552"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/34/events",
@@ -861,7 +927,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
     "title": "如果用已有的中文编程语言来设计编译器呢.如何?",
-    "updated_at": "2017-09-28T17:23:21Z",
+    "updated_at": "2018-08-09T08:50:56Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/34",
     "user": {
         "avatar_url": "https://avatars3.githubusercontent.com/u/10122306?v=4",

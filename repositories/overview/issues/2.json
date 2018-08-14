@@ -5185,6 +5185,39 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5NTE0OTI=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776951492"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T21:37:36Z",
+            "event": "unlabeled",
+            "id": 1786457419,
+            "label": {
+                "color": "006b75",
+                "name": "co社区/运营/推广"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTc4NjQ1NzQxOQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1786457419"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/events",
@@ -5203,17 +5236,9 @@
             "color": "fbca04",
             "default": false,
             "id": 657797434,
-            "name": "日常",
+            "name": "内务",
             "node_id": "MDU6TGFiZWw2NTc3OTc0MzQ=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%97%A5%E5%B8%B8"
-        },
-        {
-            "color": "006b75",
-            "default": false,
-            "id": 1017997653,
-            "name": "社区/运营/推广",
-            "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%A4%BE%E5%8C%BA/%E8%BF%90%E8%90%A5/%E6%8E%A8%E5%B9%BF"
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%86%85%E5%8A%A1"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/2/labels{/name}",
@@ -5224,7 +5249,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "社区运行方式讨论, 迎新",
-    "updated_at": "2018-08-08T06:28:02Z",
+    "updated_at": "2018-08-13T21:37:36Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/2",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

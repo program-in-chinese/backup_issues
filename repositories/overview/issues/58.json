@@ -822,6 +822,104 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5NDA0MjY=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776940426"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-09T08:15:24Z",
+            "event": "milestoned",
+            "id": 1779579657,
+            "milestone": {
+                "title": "2018戊戌"
+            },
+            "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE3Nzk1Nzk2NTc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1779579657"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T21:17:32Z",
+            "event": "labeled",
+            "id": 1786421908,
+            "label": {
+                "color": "6e0ba8",
+                "name": "想法"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE3ODY0MjE5MDg=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1786421908"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T21:17:32Z",
+            "event": "unlabeled",
+            "id": 1786421910,
+            "label": {
+                "color": "0e8a16",
+                "name": "i思路"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTc4NjQyMTkxMA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1786421910"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/58/events",
@@ -829,39 +927,75 @@
     "id": 312757984,
     "labels": [
         {
-            "color": "bfd4f2",
-            "default": false,
-            "id": 1018001029,
-            "name": "实践探索",
-            "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%AE%9E%E8%B7%B5%E6%8E%A2%E7%B4%A2"
-        },
-        {
-            "color": "0e8a16",
-            "default": false,
-            "id": 688675470,
-            "name": "思路",
-            "node_id": "MDU6TGFiZWw2ODg2NzU0NzA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%80%9D%E8%B7%AF"
-        },
-        {
             "color": "f9d0c4",
             "default": false,
             "id": 1017998120,
-            "name": "翻译/汉化",
+            "name": "中文化",
             "node_id": "MDU6TGFiZWwxMDE3OTk4MTIw",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%BF%BB%E8%AF%91/%E6%B1%89%E5%8C%96"
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E4%B8%AD%E6%96%87%E5%8C%96"
+        },
+        {
+            "color": "6e0ba8",
+            "default": false,
+            "id": 1000523124,
+            "name": "想法",
+            "node_id": "MDU6TGFiZWwxMDAwNTIzMTI0",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%83%B3%E6%B3%95"
+        },
+        {
+            "color": "bfd4f2",
+            "default": false,
+            "id": 1018001029,
+            "name": "调研",
+            "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%B0%83%E7%A0%94"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/58/labels{/name}",
     "locked": false,
-    "milestone": null,
+    "milestone": {
+        "closed_at": null,
+        "closed_issues": 10,
+        "created_at": "2018-07-21T10:08:05Z",
+        "creator": {
+            "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+            "events_url": "https://api.github.com/users/absente/events{/privacy}",
+            "followers_url": "https://api.github.com/users/absente/followers",
+            "following_url": "https://api.github.com/users/absente/following{/other_user}",
+            "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/absente",
+            "id": 1655223,
+            "login": "absente",
+            "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+            "organizations_url": "https://api.github.com/users/absente/orgs",
+            "received_events_url": "https://api.github.com/users/absente/received_events",
+            "repos_url": "https://api.github.com/users/absente/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/absente"
+        },
+        "description": "",
+        "due_on": "2019-02-04T08:00:00Z",
+        "html_url": "https://github.com/program-in-chinese/overview/milestone/3",
+        "id": 3513326,
+        "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
+        "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
+        "number": 3,
+        "open_issues": 14,
+        "state": "open",
+        "title": "2018戊戌",
+        "updated_at": "2018-08-13T23:23:14Z",
+        "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
+    },
     "node_id": "MDU6SXNzdWUzMTI3NTc5ODQ=",
     "number": 58,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "有能力者可考虑对小程序编程进行汉化，更实际",
-    "updated_at": "2018-08-08T06:20:13Z",
+    "updated_at": "2018-08-13T21:17:32Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/58",
     "user": {
         "avatar_url": "https://avatars0.githubusercontent.com/u/7810874?v=4",

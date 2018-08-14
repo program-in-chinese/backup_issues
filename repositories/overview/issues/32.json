@@ -258,16 +258,7 @@
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/32/events",
     "html_url": "https://github.com/program-in-chinese/overview/issues/32",
     "id": 256544568,
-    "labels": [
-        {
-            "color": "0e8a16",
-            "default": false,
-            "id": 688675470,
-            "name": "思路",
-            "node_id": "MDU6TGFiZWw2ODg2NzU0NzA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%80%9D%E8%B7%AF"
-        }
-    ],
+    "labels": [],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/32/labels{/name}",
     "locked": false,
     "milestone": null,

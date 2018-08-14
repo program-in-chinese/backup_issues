@@ -500,9 +500,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "合并自@absente  的https://github.com/program-in-chinese/overview/issues/71:\r\n\r\n\r\n> 豆瓣跟饭否都有api，应该也都有人写过bot，简书跟知乎尚未清楚，貌似IFTTT之类的平台，或是安卓上的tasker/xposed一类的自动化应用可以解决这个问题？\r\n\r\n> 现在是在team_website库尽量把所有知乎文章都转到github pages上, 所以是markdown格式. 要研究一下api看看能不能方便地从markdown格式转过去. 我有个小linux机器可以跑自动任务.",
+            "created_at": "2018-08-13T00:36:40Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/70#issuecomment-412382947",
+            "id": 412382947,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/70",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjM4Mjk0Nw==",
+            "updated_at": "2018-08-13T00:36:40Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/412382947",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 16,
+    "comments": 17,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/70/comments",
     "created_at": "2018-07-23T07:37:34Z",
     "event_data": [
@@ -1444,6 +1475,64 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5MzQyODU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776934285"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T00:36:41Z",
+            "event": "mentioned",
+            "id": 1784351899,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTc4NDM1MTg5OQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1784351899"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T00:36:41Z",
+            "event": "subscribed",
+            "id": 1784351900,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE3ODQzNTE5MDA=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1784351900"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/70/events",
@@ -1454,16 +1543,16 @@
             "color": "006b75",
             "default": false,
             "id": 1017997653,
-            "name": "社区/运营/推广",
+            "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%A4%BE%E5%8C%BA/%E8%BF%90%E8%90%A5/%E6%8E%A8%E5%B9%BF"
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%8E%A8%E5%B9%BF"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/70/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 10,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -1492,10 +1581,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 4,
+        "open_issues": 14,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2018-07-26T08:00:58Z",
+        "updated_at": "2018-08-13T23:23:14Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNDM1MjA2NjM=",
@@ -1503,7 +1592,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "在国内社区进行相关推广",
-    "updated_at": "2018-08-09T02:47:32Z",
+    "updated_at": "2018-08-13T00:36:40Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/70",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

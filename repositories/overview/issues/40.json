@@ -3635,21 +3635,45 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDE3NzY5NDU3ODc=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1776945787"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-13T21:11:20Z",
+            "event": "unlabeled",
+            "id": 1786410345,
+            "label": {
+                "color": "fca971",
+                "name": "q疑问"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTc4NjQxMDM0NQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1786410345"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/40/events",
     "html_url": "https://github.com/program-in-chinese/overview/issues/40",
     "id": 266438569,
-    "labels": [
-        {
-            "color": "fca971",
-            "default": false,
-            "id": 1018005503,
-            "name": "疑问",
-            "node_id": "MDU6TGFiZWwxMDE4MDA1NTAz",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%96%91%E9%97%AE"
-        }
-    ],
+    "labels": [],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/40/labels{/name}",
     "locked": false,
     "milestone": null,
@@ -3658,7 +3682,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "中文化 C, C++,  Objective-C 需要什么样的关键字?",
-    "updated_at": "2018-08-08T06:24:32Z",
+    "updated_at": "2018-08-13T21:11:20Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/40",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/3119372?v=4",

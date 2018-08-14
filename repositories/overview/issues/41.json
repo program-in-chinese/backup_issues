@@ -569,9 +569,9 @@
             "color": "006b75",
             "default": false,
             "id": 1017997653,
-            "name": "社区/运营/推广",
+            "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E7%A4%BE%E5%8C%BA/%E8%BF%90%E8%90%A5/%E6%8E%A8%E5%B9%BF"
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%8E%A8%E5%B9%BF"
         },
         {
             "color": "c5def5",
