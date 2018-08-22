@@ -810,9 +810,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/absente"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "[第一次见以汉字命名的 Java 类](https://www.v2ex.com/t/480623)是对组内项目[简繁转换库](https://github.com/program-in-chinese/zhconverter)的反馈. 回复中提到在业务相关部分使用中文命名的实践, 摘录如下:\r\n\r\n> 不支持中文命名，但是在业务性强的系统中，对于实体类和一些常量(仅限实体类、常量)还是推荐使用的，否则很多名词用英语很难表达清楚，关键是换个人来看这代码，看到统一串英文不一定能和中文环境下的名次对上号。\r\n比如我们开发的一个系统中，有大量这样的名词：\r\n>1. 决定判决情况\r\n>2. 判决情况\r\n>3. 历次减刑情况\r\n>4. 刑罚执行检查档案审查情况\r\n...\r\n这些字段和其他系统是直接相关的(我们这个是辅助系统), 而且随着这个系统支持的业务范围不断的扩大，如果全都使用英文(缩写)，维护起来简直就是灾难。",
+            "created_at": "2018-08-17T21:06:59Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/3#issuecomment-413988411",
+            "id": 413988411,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQxMzk4ODQxMQ==",
+            "updated_at": "2018-08-17T21:06:59Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/413988411",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 26,
+    "comments": 27,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3/comments",
     "created_at": "2017-07-30T00:32:58Z",
     "event_data": [
@@ -3126,6 +3157,35 @@
             },
             "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MTc4NjQ0OTExOA==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1786449118"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-08-15T13:00:11Z",
+            "event": "added_to_project",
+            "id": 1789961201,
+            "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQxNzg5OTYxMjAx",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1789961201"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3/events",
@@ -3157,7 +3217,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 在其他论坛关于用中文编写代码的讨论",
-    "updated_at": "2018-08-13T21:32:50Z",
+    "updated_at": "2018-08-17T21:06:59Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/3",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
