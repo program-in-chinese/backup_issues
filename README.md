@@ -6,3 +6,4 @@
 ```
 $ github-backup -u USER_NAME -p USER_PASSWORD --issues --issue-comments --issue-events --labels --pull-comments -O program-in-chinese
 ```
+此库在码云的备份库[地址](https://gitee.com/Program-in-Chinese/backup_issues).
