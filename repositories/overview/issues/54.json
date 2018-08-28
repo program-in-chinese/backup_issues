@@ -658,13 +658,13 @@
         },
         {
             "author_association": "MEMBER",
-            "body": "看到v2ex三年前的帖子[越来越觉得码代码时命名是件十分头疼的事，想发起一个项目建立一个命名字典](https://www.v2ex.com/t/194218). 再联系到之前的讨论, 考虑从一个web API原型开始做.\r\n\r\n虽然术语词典还处于非常初步的阶段(词条很少), 总归需要平台/工具来演示它的用途. 想到的有:\r\n- 类似https://github.com/unbug/codelf 的变量名搜索引擎(我们可以提供中文变量名推荐, 比如输入abstract list就返回\"抽象列表\"等等)\r\n- IDE插件, 通过调用这个字典达到 @swizl 在https://github.com/program-in-chinese/overview/issues/59#issuecomment-411119728 中提到的效果\r\n\r\n这个API就是用来支撑这些应用的. 返回值的可能格式之一在[楼上](https://github.com/program-in-chinese/overview/issues/54#issuecomment-389311778), 还需要继续改进和细化API设计.\r\n\r\n在实现方面, API和源代码都尽量用中文命名, 项目本身和术语词典开源, API开放给第三方应用. 有兴趣参与的童鞋欢迎推荐和探讨架构/部署环境. 如果暂时无人参与, 也许就用自己最方便的做个原型出来再说. 像其他项目一样, 新开库后, 就在那里进行针对性讨论, 而这里最多是对项目的阶段介绍, 当然一般讨论照样继续.",
+            "body": "看到v2ex三年前的帖子[越来越觉得码代码时命名是件十分头疼的事，想发起一个项目建立一个命名字典](https://www.v2ex.com/t/194218). 再联系到之前的讨论, 考虑从一个web API原型开始做.\r\n\r\n虽然术语词典还处于非常初步的阶段(词条很少), 总归需要平台/工具来演示它的用途. 想到的有:\r\n- 类似https://github.com/unbug/codelf 的变量名搜索引擎(我们可以提供中文变量名推荐, 比如输入abstract list就返回\"抽象列表\"等等)\r\n- IDE插件, 通过调用这个字典达到 @swizl 在https://github.com/program-in-chinese/overview/issues/59#issuecomment-411119728 中提到的效果\r\n- 代码翻译, 详见@swizl 在https://github.com/program-in-chinese/overview/issues/59#issuecomment-411272880\r\n\r\n这个API就是用来支撑这些应用的. 返回值的可能格式之一在[楼上](https://github.com/program-in-chinese/overview/issues/54#issuecomment-389311778), 还需要继续改进和细化API设计.\r\n\r\n在实现方面, API和源代码都尽量用中文命名, 项目本身和术语词典开源, API开放给第三方应用. 有兴趣参与的童鞋欢迎推荐和探讨架构/部署环境. 如果暂时无人参与, 也许就用自己最方便的做个原型出来再说. 像其他项目一样, 新开库后, 就在那里进行针对性讨论, 而这里最多是对项目的阶段介绍, 当然一般讨论照样继续.",
             "created_at": "2018-08-08T21:02:06Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/54#issuecomment-411551138",
             "id": 411551138,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/54",
             "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTU1MTEzOA==",
-            "updated_at": "2018-08-08T21:02:06Z",
+            "updated_at": "2018-08-26T02:57:15Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/411551138",
             "user": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
@@ -1947,7 +1947,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 11,
+        "closed_issues": 14,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -1976,10 +1976,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 17,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2018-08-21T17:42:32Z",
+        "updated_at": "2018-08-28T16:45:18Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUyODY2MzQwODE=",
@@ -1987,7 +1987,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "参考MSDN，试搞.NET类库标识符的翻译版",
-    "updated_at": "2018-08-09T08:15:16Z",
+    "updated_at": "2018-08-26T02:57:15Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/54",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/1175749?v=4",

@@ -11,9 +11,9 @@
         "color": "f95e97",
         "default": false,
         "id": 1019255412,
-        "name": "FP/函数式",
+        "name": "FP/λ",
         "node_id": "MDU6TGFiZWwxMDE5MjU1NDEy",
-        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/FP/%E5%87%BD%E6%95%B0%E5%BC%8F"
+        "url": "https://api.github.com/repos/program-in-chinese/overview/labels/FP/%CE%BB"
     },
     {
         "color": "7f69ce",
