@@ -438,9 +438,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/swizl"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "新文章:\r\n[Java实现英汉词典API初版发布在Maven](http://zhuanlan.zhihu.com/p/43977821) 源于 https://github.com/program-in-chinese/overview/issues/88\r\n接下去在开发https://github.com/program-in-chinese/overview/issues/86 的原型过程中, 逐步完善此API, 并同时逐步积累[术语词典](https://github.com/program-in-chinese/overview/issues/85).",
+            "created_at": "2018-09-07T06:41:55Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/48#issuecomment-419339208",
+            "id": 419339208,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTMzOTIwOA==",
+            "updated_at": "2018-09-07T06:41:55Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/419339208",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 14,
+    "comments": 15,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48/comments",
     "created_at": "2017-11-09T05:07:54Z",
     "event_data": [
@@ -1967,7 +1998,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "\"中文编程\"知乎专栏开通!",
-    "updated_at": "2018-08-31T23:31:54Z",
+    "updated_at": "2018-09-07T06:41:55Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
