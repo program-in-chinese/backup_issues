@@ -2,12 +2,12 @@
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "https://github.com/shekhargulati/java8-the-missing-tutorial/blob/master/code/src/main/java/com/shekhargulati/java8_tutorial/ch05/TaskRepository.java\r\n![screen shot 2018-10-19 at 1 00 09 am](https://user-images.githubusercontent.com/392497/47205361-7b992c80-d33a-11e8-8526-ffd1755048a1.png)\r\n",
-    "closed_at": "2018-10-20T06:06:57Z",
+    "body": "https://github.com/iliakan/javascript-tutorial-en/blob/master/1-js/07-object-oriented-programming/09-class/1-rewrite-to-class/source.view/clock.js\r\n\r\n![screen shot 2018-10-19 at 11 58 50 am](https://user-images.githubusercontent.com/392497/47238237-6520be80-d396-11e8-9db0-d74646eddb68.png)\r\n",
+    "closed_at": "2018-10-20T05:44:58Z",
     "comment_data": [],
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/5/comments",
-    "created_at": "2018-10-19T08:01:28Z",
+    "comments_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/6/comments",
+    "created_at": "2018-10-19T18:59:31Z",
     "event_data": [
         {
             "actor": {
@@ -30,13 +30,13 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "e72069ff393ecc65cdd7919957c417fc916240ba",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/commits/e72069ff393ecc65cdd7919957c417fc916240ba",
-            "created_at": "2018-10-20T06:06:45Z",
+            "commit_id": "f5e627687f708fd13f0694c529c9b9b006d4e802",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/commits/f5e627687f708fd13f0694c529c9b9b006d4e802",
+            "created_at": "2018-10-20T05:44:46Z",
             "event": "referenced",
-            "id": 1916074251,
-            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5MTYwNzQyNTE=",
-            "url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/events/1916074251"
+            "id": 1916067570,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDE5MTYwNjc1NzA=",
+            "url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/events/1916067570"
         },
         {
             "actor": {
@@ -61,27 +61,27 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2018-10-20T06:06:57Z",
+            "created_at": "2018-10-20T05:44:58Z",
             "event": "closed",
-            "id": 1916074286,
-            "node_id": "MDExOkNsb3NlZEV2ZW50MTkxNjA3NDI4Ng==",
-            "url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/events/1916074286"
+            "id": 1916067629,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTkxNjA2NzYyOQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/events/1916067629"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/5/events",
-    "html_url": "https://github.com/program-in-chinese/webextension_github_code_translator/issues/5",
-    "id": 371847392,
+    "events_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/6/events",
+    "html_url": "https://github.com/program-in-chinese/webextension_github_code_translator/issues/6",
+    "id": 372078002,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/5/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/6/labels{/name}",
     "locked": false,
     "milestone": null,
-    "node_id": "MDU6SXNzdWUzNzE4NDczOTI=",
-    "number": 5,
+    "node_id": "MDU6SXNzdWUzNzIwNzgwMDI=",
+    "number": 6,
     "repository_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator",
     "state": "closed",
-    "title": "span字段转换有误",
-    "updated_at": "2018-10-20T06:06:57Z",
-    "url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/5",
+    "title": "清理释义中的括号内容",
+    "updated_at": "2018-10-20T05:44:58Z",
+    "url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/6",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
