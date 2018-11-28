@@ -1,20 +1,51 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
-    "body": "微信群没有分组等功能，不够方便，gitter/slack访问不够稳定，目前来看，MSTeam是最合适的：\r\nhttps://teams.microsoft.com/l/team/19%3aebfd10b3245543aea2859aff7b9ab4f4%40thread.skype/conversations?groupId=962607ad-4f24-46fd-802a-2348822de965&tenantId=92246c25-ecbf-47fe-b266-8e0257b25a8d",
+    "author_association": "NONE",
+    "body": "我避免了这个问题,但产生的问题难以解决。\r\n昨日我描述为(miniKanre/run*o q (evalo env code q) '())",
     "closed_at": null,
     "comment_data": [
         {
+            "author_association": "MEMBER",
+            "body": "停机问题历史悠久. 相关论文也是汗牛充栋. 如有参考请分享一下出处? 或者尽量用中文详述你的思路?",
+            "created_at": "2018-11-20T18:45:16Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/106#issuecomment-440387033",
+            "id": 440387033,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/106",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MDM4NzAzMw==",
+            "updated_at": "2018-11-20T18:45:16Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/440387033",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
+        },
+        {
             "author_association": "NONE",
-            "body": "telegram可能更好",
-            "created_at": "2018-11-19T13:17:48Z",
-            "html_url": "https://github.com/program-in-chinese/overview/issues/105#issuecomment-439889353",
-            "id": 439889353,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDQzOTg4OTM1Mw==",
-            "updated_at": "2018-11-19T13:17:48Z",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/439889353",
+            "body": "允许分步地把算不出值的东西替换为错误。替换的算法还没有，可能用一个自动的proof prover或proof sarcher可以解决。\r\n这会导致结果可以有很多种，等能被接受的矛盾。\r\n\r\n",
+            "created_at": "2018-11-21T01:32:58Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/106#issuecomment-440495213",
+            "id": 440495213,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/106",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MDQ5NTIxMw==",
+            "updated_at": "2018-11-21T01:32:58Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/440495213",
             "user": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/26081596?v=4",
                 "events_url": "https://api.github.com/users/zaoqi-unsafe/events{/privacy}",
@@ -37,40 +68,40 @@
             }
         },
         {
-            "author_association": "MEMBER",
-            "body": "@zaoqi-unsafe 电报的问题主要是需要挂代理，当然其实也可以做一个内部的web代理，方便上电报",
-            "created_at": "2018-11-19T23:23:37Z",
-            "html_url": "https://github.com/program-in-chinese/overview/issues/105#issuecomment-440078847",
-            "id": 440078847,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MDA3ODg0Nw==",
-            "updated_at": "2018-11-19T23:23:37Z",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/440078847",
+            "author_association": "NONE",
+            "body": "这是zaoqi的unsafe账号。我不只为了中文而实现一些语言。",
+            "created_at": "2018-11-21T01:34:13Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/106#issuecomment-440495468",
+            "id": 440495468,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/106",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MDQ5NTQ2OA==",
+            "updated_at": "2018-11-21T01:34:13Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/440495468",
             "user": {
-                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
-                "events_url": "https://api.github.com/users/absente/events{/privacy}",
-                "followers_url": "https://api.github.com/users/absente/followers",
-                "following_url": "https://api.github.com/users/absente/following{/other_user}",
-                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "avatar_url": "https://avatars1.githubusercontent.com/u/26081596?v=4",
+                "events_url": "https://api.github.com/users/zaoqi-unsafe/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zaoqi-unsafe/followers",
+                "following_url": "https://api.github.com/users/zaoqi-unsafe/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zaoqi-unsafe/gists{/gist_id}",
                 "gravatar_id": "",
-                "html_url": "https://github.com/absente",
-                "id": 1655223,
-                "login": "absente",
-                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
-                "organizations_url": "https://api.github.com/users/absente/orgs",
-                "received_events_url": "https://api.github.com/users/absente/received_events",
-                "repos_url": "https://api.github.com/users/absente/repos",
+                "html_url": "https://github.com/zaoqi-unsafe",
+                "id": 26081596,
+                "login": "zaoqi-unsafe",
+                "node_id": "MDQ6VXNlcjI2MDgxNTk2",
+                "organizations_url": "https://api.github.com/users/zaoqi-unsafe/orgs",
+                "received_events_url": "https://api.github.com/users/zaoqi-unsafe/received_events",
+                "repos_url": "https://api.github.com/users/zaoqi-unsafe/repos",
                 "site_admin": false,
-                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "starred_url": "https://api.github.com/users/zaoqi-unsafe/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zaoqi-unsafe/subscriptions",
                 "type": "User",
-                "url": "https://api.github.com/users/absente"
+                "url": "https://api.github.com/users/zaoqi-unsafe"
             }
         }
     ],
-    "comments": 2,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105/comments",
-    "created_at": "2018-11-17T09:29:10Z",
+    "comments": 3,
+    "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/106/comments",
+    "created_at": "2018-11-20T04:39:08Z",
     "event_data": [
         {
             "actor": {
@@ -95,14 +126,15 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2018-11-17T09:29:10Z",
-            "event": "milestoned",
-            "id": 1972708595,
-            "milestone": {
-                "title": "2018戊戌"
+            "created_at": "2018-11-20T07:37:59Z",
+            "event": "labeled",
+            "id": 1976582537,
+            "label": {
+                "color": "cc317c",
+                "name": "question"
             },
-            "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5NzI3MDg1OTU=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1972708595"
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDE5NzY1ODI1Mzc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1976582537"
         },
         {
             "actor": {
@@ -127,11 +159,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2018-11-19T23:23:37Z",
-            "event": "mentioned",
-            "id": 1976007437,
-            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MTk3NjAwNzQzNw==",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1976007437"
+            "created_at": "2018-11-21T01:28:36Z",
+            "event": "closed",
+            "id": 1978888331,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MTk3ODg4ODMzMQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1978888331"
         },
         {
             "actor": {
@@ -156,11 +188,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2018-11-19T23:23:37Z",
-            "event": "subscribed",
-            "id": 1976007440,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDE5NzYwMDc0NDA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1976007440"
+            "created_at": "2018-11-21T01:28:52Z",
+            "event": "reopened",
+            "id": 1978888688,
+            "node_id": "MDEzOlJlb3BlbmVkRXZlbnQxOTc4ODg4Njg4",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1978888688"
         },
         {
             "actor": {
@@ -185,31 +217,30 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2018-11-19T23:24:05Z",
-            "event": "labeled",
-            "id": 1976008131,
-            "label": {
-                "color": "006b75",
-                "name": "推广"
+            "created_at": "2018-11-22T04:39:13Z",
+            "event": "milestoned",
+            "id": 1981594811,
+            "milestone": {
+                "title": "2018戊戌"
             },
-            "node_id": "MDEyOkxhYmVsZWRFdmVudDE5NzYwMDgxMzE=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1976008131"
+            "node_id": "MDE1Ok1pbGVzdG9uZWRFdmVudDE5ODE1OTQ4MTE=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1981594811"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105/events",
-    "html_url": "https://github.com/program-in-chinese/overview/issues/105",
-    "id": 381846062,
+    "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/106/events",
+    "html_url": "https://github.com/program-in-chinese/overview/issues/106",
+    "id": 382497619,
     "labels": [
         {
-            "color": "006b75",
-            "default": false,
-            "id": 1017997653,
-            "name": "推广",
-            "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%8E%A8%E5%B9%BF"
+            "color": "cc317c",
+            "default": true,
+            "id": 655106835,
+            "name": "question",
+            "node_id": "MDU6TGFiZWw2NTUxMDY4MzU=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/question"
         }
     ],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/106/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
@@ -248,31 +279,31 @@
         "updated_at": "2018-11-22T04:39:25Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
-    "node_id": "MDU6SXNzdWUzODE4NDYwNjI=",
-    "number": 105,
+    "node_id": "MDU6SXNzdWUzODI0OTc2MTk=",
+    "number": 106,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
-    "title": "建了一个MSTeam，方便即时交流",
-    "updated_at": "2018-11-19T23:24:05Z",
-    "url": "https://api.github.com/repos/program-in-chinese/overview/issues/105",
+    "title": "Halting Problem",
+    "updated_at": "2018-11-22T04:39:13Z",
+    "url": "https://api.github.com/repos/program-in-chinese/overview/issues/106",
     "user": {
-        "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
-        "events_url": "https://api.github.com/users/absente/events{/privacy}",
-        "followers_url": "https://api.github.com/users/absente/followers",
-        "following_url": "https://api.github.com/users/absente/following{/other_user}",
-        "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/26081596?v=4",
+        "events_url": "https://api.github.com/users/zaoqi-unsafe/events{/privacy}",
+        "followers_url": "https://api.github.com/users/zaoqi-unsafe/followers",
+        "following_url": "https://api.github.com/users/zaoqi-unsafe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zaoqi-unsafe/gists{/gist_id}",
         "gravatar_id": "",
-        "html_url": "https://github.com/absente",
-        "id": 1655223,
-        "login": "absente",
-        "node_id": "MDQ6VXNlcjE2NTUyMjM=",
-        "organizations_url": "https://api.github.com/users/absente/orgs",
-        "received_events_url": "https://api.github.com/users/absente/received_events",
-        "repos_url": "https://api.github.com/users/absente/repos",
+        "html_url": "https://github.com/zaoqi-unsafe",
+        "id": 26081596,
+        "login": "zaoqi-unsafe",
+        "node_id": "MDQ6VXNlcjI2MDgxNTk2",
+        "organizations_url": "https://api.github.com/users/zaoqi-unsafe/orgs",
+        "received_events_url": "https://api.github.com/users/zaoqi-unsafe/received_events",
+        "repos_url": "https://api.github.com/users/zaoqi-unsafe/repos",
         "site_admin": false,
-        "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+        "starred_url": "https://api.github.com/users/zaoqi-unsafe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zaoqi-unsafe/subscriptions",
         "type": "User",
-        "url": "https://api.github.com/users/absente"
+        "url": "https://api.github.com/users/zaoqi-unsafe"
     }
 }
