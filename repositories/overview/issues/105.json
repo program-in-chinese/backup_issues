@@ -43,7 +43,7 @@
     ],
     "author_association": "MEMBER",
     "body": "微信群没有分组等功能，不够方便，gitter/slack访问不够稳定，目前来看，MSTeam是最合适的：\r\nhttps://teams.microsoft.com/l/team/19%3aebfd10b3245543aea2859aff7b9ab4f4%40thread.skype/conversations?groupId=962607ad-4f24-46fd-802a-2348822de965&tenantId=92246c25-ecbf-47fe-b266-8e0257b25a8d",
-    "closed_at": null,
+    "closed_at": "2018-12-08T05:47:32Z",
     "comment_data": [
         {
             "author_association": "NONE",
@@ -106,9 +106,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/absente"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "暂且用qq+wx替代，此方案留作备选。 群，620225373",
+            "created_at": "2018-12-08T05:47:31Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/105#issuecomment-445433616",
+            "id": 445433616,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NTQzMzYxNg==",
+            "updated_at": "2018-12-08T05:47:31Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/445433616",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            }
         }
     ],
-    "comments": 2,
+    "comments": 3,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105/comments",
     "created_at": "2018-11-17T09:29:10Z",
     "event_data": [
@@ -332,6 +363,229 @@
             "id": 1997473196,
             "node_id": "MDE5OkFkZGVkVG9Qcm9qZWN0RXZlbnQxOTk3NDczMTk2",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1997473196"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-12-08T05:01:39Z",
+            "event": "labeled",
+            "id": 2013831136,
+            "label": {
+                "color": "c64403",
+                "name": "session-archive"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDIwMTM4MzExMzY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013831136"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-12-08T05:47:32Z",
+            "event": "closed",
+            "id": 2013844149,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MjAxMzg0NDE0OQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013844149"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-12-08T05:47:32Z",
+            "event": "moved_columns_in_project",
+            "id": 2013844150,
+            "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MjAxMzg0NDE1MA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013844150"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-12-08T05:48:00Z",
+            "event": "labeled",
+            "id": 2013844244,
+            "label": {
+                "color": "fbca04",
+                "name": "内务"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDIwMTM4NDQyNDQ=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013844244"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-12-08T05:48:00Z",
+            "event": "labeled",
+            "id": 2013844245,
+            "label": {
+                "color": "c5def5",
+                "name": "长期"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDIwMTM4NDQyNDU=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013844245"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-12-08T05:48:00Z",
+            "event": "labeled",
+            "id": 2013844246,
+            "label": {
+                "color": "33dd71",
+                "name": "todo"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDIwMTM4NDQyNDY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013844246"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
+                "events_url": "https://api.github.com/users/absente/events{/privacy}",
+                "followers_url": "https://api.github.com/users/absente/followers",
+                "following_url": "https://api.github.com/users/absente/following{/other_user}",
+                "gists_url": "https://api.github.com/users/absente/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/absente",
+                "id": 1655223,
+                "login": "absente",
+                "node_id": "MDQ6VXNlcjE2NTUyMjM=",
+                "organizations_url": "https://api.github.com/users/absente/orgs",
+                "received_events_url": "https://api.github.com/users/absente/received_events",
+                "repos_url": "https://api.github.com/users/absente/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/absente/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/absente/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/absente"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2018-12-08T05:48:00Z",
+            "event": "labeled",
+            "id": 2013844247,
+            "label": {
+                "color": "b9f767",
+                "name": "active"
+            },
+            "node_id": "MDEyOkxhYmVsZWRFdmVudDIwMTM4NDQyNDc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013844247"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105/events",
@@ -339,19 +593,59 @@
     "id": 381846062,
     "labels": [
         {
+            "color": "b9f767",
+            "default": false,
+            "id": 1154421934,
+            "name": "active",
+            "node_id": "MDU6TGFiZWwxMTU0NDIxOTM0",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/active"
+        },
+        {
+            "color": "c64403",
+            "default": false,
+            "id": 1154428751,
+            "name": "session-archive",
+            "node_id": "MDU6TGFiZWwxMTU0NDI4NzUx",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/session-archive"
+        },
+        {
+            "color": "33dd71",
+            "default": false,
+            "id": 1019259147,
+            "name": "todo",
+            "node_id": "MDU6TGFiZWwxMDE5MjU5MTQ3",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/todo"
+        },
+        {
+            "color": "fbca04",
+            "default": false,
+            "id": 657797434,
+            "name": "内务",
+            "node_id": "MDU6TGFiZWw2NTc3OTc0MzQ=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E5%86%85%E5%8A%A1"
+        },
+        {
             "color": "006b75",
             "default": false,
             "id": 1017997653,
             "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "color": "c5def5",
+            "default": false,
+            "id": 658880771,
+            "name": "长期",
+            "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E9%95%BF%E6%9C%9F"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/105/labels{/name}",
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 33,
+        "closed_issues": 50,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -380,18 +674,18 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 33,
+        "open_issues": 19,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2018-11-30T09:57:27Z",
+        "updated_at": "2018-12-08T17:47:39Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzODE4NDYwNjI=",
     "number": 105,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "建了一个MSTeam，方便即时交流",
-    "updated_at": "2018-11-29T10:49:47Z",
+    "updated_at": "2018-12-08T05:48:00Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/105",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
