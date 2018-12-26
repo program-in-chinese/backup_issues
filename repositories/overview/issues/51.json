@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "NONE",
+    "author_association": "MEMBER",
     "body": "https://github.com/MikaGuraN/HL4A\r\n--------- 2018/06/29 替作者更新 ---------\r\n核心库, 无Android依赖: https://github.com/HL4A/hl4a-core\r\nAndroid工具库: https://github.com/HL4A/hl4a-android\r\n\r\n就是汉化了一些JAVA API......",
     "closed_at": null,
     "comment_data": [
@@ -37,7 +37,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 一开始想的是做一个在android上用js写app，结果变成了写工具类来着",
             "created_at": "2017-12-09T22:57:30Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350511608",
@@ -99,7 +99,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 示例啊，看APK/script/index.js\r\n这个是默认的界面，刚更新了一下",
             "created_at": "2017-12-09T23:10:16Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350512192",
@@ -161,7 +161,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 不。没有什么优势，根本比不上什么eclipse,android studio，只是因为我没有电脑罢了。。。\r\n有些可以吧。但是JVM和dalvik在动态加载的地方不一样，dalvik需要加载dex，总之很多需要改。不过我没有电脑蛤蛤，手机上都是AIDE在写代码",
             "created_at": "2017-12-10T03:49:41Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350523205",
@@ -192,7 +192,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 不过比起电脑开发的确也有一点好处吧，现在已经更新了基本所有视图，准备写一个IDE，然后搞AAPT打包，我是故意不用任何xml布局的，所以打包只用aapt和signer就可以了",
             "created_at": "2017-12-10T03:54:11Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350523349",
@@ -285,7 +285,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 好处也有，就是不用打包就能运行。用法的话，以后ide写好了会像aide一个一个教程加的，就是缺中文API的文档(类名.方法名,传入参数说明,返回值说明\r\n，如果你不嫌麻烦的话 可以帮个忙哦 23333",
             "created_at": "2017-12-10T06:54:41Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350529190",
@@ -316,7 +316,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 调试也挺方便了，错误日志会自动保存，特别详细呢(js最详细",
             "created_at": "2017-12-10T06:59:36Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350529370",
@@ -378,7 +378,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon  成型之前，只要修改script/index.js这个入口文件，然后编译就可以了。\r\n和sl4a是没有关系的，js是rhino的js,lua是androlua-pro的lua,java是BeanShell的脚本",
             "created_at": "2017-12-10T08:38:19Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350533299",
@@ -409,7 +409,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 当前界面.跳转界面(\"#index.js\") 就是跳转到主页，同理的，可以在script/下加其他文件",
             "created_at": "2017-12-10T08:39:22Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350533356",
@@ -440,7 +440,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 现在做了一个简单IDE和一个HelloWorld啦！",
             "created_at": "2017-12-10T18:30:20Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350568208",
@@ -533,7 +533,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 抱歉，我这里是4.4破手机，没有报错，请问有没有错误日志？在/sdcard/Android/data/h.android/错误日志 ？",
             "created_at": "2017-12-11T09:36:19Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350670387",
@@ -564,7 +564,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 现在完善了一下IDE。顺便说一下建议QQ私聊,github这里不是经常看,",
             "created_at": "2017-12-11T12:53:20Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-350716090",
@@ -688,7 +688,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon 这两天停更一下，等买的笔记本送到准备用java8重构一下。╮(‵▽′)╭",
             "created_at": "2018-07-01T01:31:27Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-401577027",
@@ -719,7 +719,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "@nobodxbodon   关于SimpleJS 他是使用j2v8做脚本的，虽然快，但是调用java很不方便。我是把他的编辑器加入了Lua作者的高亮逻辑改的。",
             "created_at": "2018-07-01T01:59:51Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/51#issuecomment-401577815",

@@ -139,7 +139,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "不同脚本语言也有各自的特性.而且语言也会更新 \r\n如果要把所有的脚本语言的运行时都调度到同一个运行时\r\n而且要实现所有特性的话上工作量太大",
             "created_at": "2018-08-09T09:33:32Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/75#issuecomment-411698104",

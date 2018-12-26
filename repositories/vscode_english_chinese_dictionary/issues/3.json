@@ -283,9 +283,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "实际安装数远少于下载数量:\r\n![screen shot 2018-12-12 at 4 49 46 pm](https://user-images.githubusercontent.com/392497/49908199-47b82000-fe2e-11e8-8b49-def9f0e2ce8c.png)\r\n",
+            "created_at": "2018-12-13T00:52:26Z",
+            "html_url": "https://github.com/program-in-chinese/vscode_english_chinese_dictionary/issues/3#issuecomment-446801498",
+            "id": 446801498,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/3",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NjgwMTQ5OA==",
+            "updated_at": "2018-12-13T00:52:26Z",
+            "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/comments/446801498",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 9,
+    "comments": 10,
     "comments_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/3/comments",
     "created_at": "2018-11-09T03:46:23Z",
     "event_data": [],
@@ -301,7 +332,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary",
     "state": "open",
     "title": "安装记录与分析",
-    "updated_at": "2018-12-02T07:56:10Z",
+    "updated_at": "2018-12-13T00:52:27Z",
     "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/3",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
