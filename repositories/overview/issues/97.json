@@ -757,9 +757,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/absente"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "如https://github.com/program-in-chinese/overview/issues/123#issuecomment-450545686 所述, 打算先从[度量衡](https://baike.baidu.com/item/%E5%BA%A6%E9%87%8F%E8%A1%A1)开始. 与某历史地理群讨论之后, 发现的确有类似需求. 功能初步设想如下:\r\n- 从现代的日常常用中文单位开始, 长度: 千米-毫米等; 质量: 吨-克等; 面积: 平方公里等; 体积: 立方米, 升等. 以及[市制单位](https://baike.baidu.com/item/%E5%B8%82%E5%88%B6).\r\n- 支持同一度量之间的换算, 比如公制长度单位之间, 市制长度单位之间, 公制与市制长度单位之间\r\n\r\n初版粗略API设计:\r\n- enum 单位类型 {长度, 质量, 体积, 容积)\r\n- List<单位> 获取所有单位(enum 单位类型): 返回该度量下支持的单位, 比如所有长度单位\r\n- double 换算(double 值, 单位 原单位, 单位 目标单位): 只对同一度量进行换算\r\n\r\n之后的扩展:\r\n- 科学常用单位(如微米/纳米), 专业单位(如海里, 节), 英制单位 (英亩, 英里等)\r\n- 古代单位(与朝代相关, 如[丈](https://baike.baidu.com/item/%E4%B8%88), [石](https://baike.baidu.com/item/%E7%9F%B3/15884034), 也许某些还是约数)\r\n- [决定不在此库完成] 支持不同度量之间的计算/换算, 比如: 1米×1米×1米=?升, 千米/小时=?米/秒\r\n\r\n待定问题:\r\n精确度保持?\r\n\r\n参考现有类似功能库:\r\nJS: https://github.com/gentooboontoo/js-quantities\r\nJava: \r\n- http://jscience.org/ \r\n- https://frinklang.org/\r\n- https://github.com/gnapse/metric\r\n",
+            "created_at": "2019-01-03T19:17:10Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/97#issuecomment-451247600",
+            "id": 451247600,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/97",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MTI0NzYwMA==",
+            "updated_at": "2019-01-06T19:17:58Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/451247600",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 23,
+    "comments": 24,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/97/comments",
     "created_at": "2018-10-20T05:34:03Z",
     "event_data": [
@@ -2330,7 +2361,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 50,
+        "closed_issues": 51,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -2359,10 +2390,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 19,
+        "open_issues": 18,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2018-12-08T17:47:39Z",
+        "updated_at": "2018-12-26T23:16:07Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNzIxNzU4ODE=",
@@ -2370,7 +2401,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "通过中文命名将少儿编程与核心学科结合起来",
-    "updated_at": "2018-12-10T23:06:20Z",
+    "updated_at": "2019-01-06T19:17:58Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/97",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

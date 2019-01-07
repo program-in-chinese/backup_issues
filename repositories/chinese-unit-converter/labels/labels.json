@@ -1,0 +1,66 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 1179923253,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjUz",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/bug"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 1179923254,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjU0",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 1179923255,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjU1",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 1179923261,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjYx",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 1179923258,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjU4",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 1179923265,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjY1",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 1179923267,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjY3",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 1179923271,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxMTc5OTIzMjcx",
+        "url": "https://api.github.com/repos/program-in-chinese/chinese-unit-converter/labels/wontfix"
+    }
+]

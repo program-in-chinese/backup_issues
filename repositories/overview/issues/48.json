@@ -2,7 +2,7 @@
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "@program-in-chinese/all 特此通知: [地址](https://zhuanlan.zhihu.com/c_140193266)\r\n首次创建专栏, 希望各位有经验的多指点. 初步打算把之前写的[一些文章](https://www.zhihu.com/people/wu-xuan-81-42/posts)选取一些发到专栏中. ~~另外, 不知专栏是否允许多人管理?~~ 在此也诚征编辑(能管理投稿, 调整作者权限, 发布文章)和作者(能发布文章).\r\n\r\n下面是一些打算写的具体主题(不分先后), 希望坑都能填平:\r\n- [x] 中文命名实践的阻力分析和对策: 基于https://github.com/program-in-chinese/overview/issues/18\r\n- [x] 中文编程语言和开发环境需要的特性: 基于https://github.com/program-in-chinese/overview/issues/11 - [通用型的中文编程语言探讨之一: 高考](https://zhuanlan.zhihu.com/p/32677451)\r\n- [ ] 中文编程不是什么: 有些误区也许需要澄清, 如-中文编程能实现自然语言编程(新手能够不需学习语法就像说话一样实现编程等等), 大多数软件工程的经验教训也适用于中文编程(如语言工具不是silver bullet, 项目管理/实施过程/开发方法是很大程度绝对项目成败的)等等\r\n- [x] Java快速入门教程(中文示例代码): 基于[短时间Java上手-中文代码版](https://github.com/program-in-chinese/java_in_hours_chn). \r\n- [ ] 其他语言的入门教程(中文示例代码)[Kotlin](https://github.com/program-in-chinese/kotlin_in_hours_chn), [JavaScript](https://github.com/program-in-chinese/javascript-in-a-day-chn),等等\r\n- [ ] 新建IDE中的项目模板, 源自 https://github.com/program-in-chinese/overview/issues/11#issuecomment-417743692\r\n- [ ] 中文编程语言的介绍\r\n  - [x] [Z语言](https://github.com/TKT2016/ZLanguage3)\r\n    - [x] [ZLOGO](https://zhuanlan.zhihu.com/p/31620122)\r\n- [x] 在基于Spring的应用中使用中文命名: 基于[进销存示例](https://github.com/program-in-chinese/jinxiaocun)\r\n- [ ] 对现有语言汉化的技术和心得 \r\n  - [ ] [周蟒](https://github.com/gasolin/zhpy)和[中蟒](http://www.chinesepython.org/)采用的关键词和API汉化用词规整, 结合https://github.com/program-in-chinese/overview/issues/40\r\n  - [ ] [CTS](https://github.com/program-in-chinese/CTS)\r\n  - [ ] [拼音输入法vscode插件](https://github.com/program-in-chinese/CTS_Typewriting)\r\n  - [x] [cnlang](https://github.com/program-in-chinese/cnlang) [cnpython](https://github.com/swizl/cnpython)  gcc 多谢@swizl投稿这三个主题!\r\n- [x] 从零开始开发一个(高级)语言/编程环境(教程, 用中文代码): 源自https://github.com/program-in-chinese/overview/issues/33\r\n- [x] 从零开始实现一个汇编编译器(用中文代码): 基于[汇编编译器原型](https://github.com/program-in-chinese/assembler-in-chinese-experiment) - [烂尾工程: Java实现的汇编语言编译器](https://zhuanlan.zhihu.com/p/32607169)\r\n- [x] 编码导致的乱码问题: 基于[部分中文出现乱码](https://github.com/program-in-chinese/team_website/blob/master/docs/_posts/2017-10-10-%E9%83%A8%E5%88%86%E4%B8%AD%E6%96%87%E5%87%BA%E7%8E%B0%E4%B9%B1%E7%A0%81.markdown)\r\n- [ ] 对现有开源项目的汉化\r\n  - [ ] 期待中的[miniasm](http://tieba.baidu.com/p/5095251226?pid=121222543812#121222543812)\r\n- [ ] 基于现有需求做一些实际程序, 尤其是小规模/与中文处理有关/不仅限于IT领域的 (参考 #19 #41 ), 如\r\n  - [x] [五笔码整理编辑器](https://www.v2ex.com/t/490269)\r\n- [ ] 试用各种中文编程工具\r\n  - [ ] [口袋编程(iOS)](https://itunes.apple.com/cn/app/%E5%8F%A3%E8%A2%8B%E5%BC%95%E6%93%8E-%E5%88%9B%E5%BB%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%9E%8B/id1415607268)\r\n\r\n希望大家多多建议新主题, 更欢迎投稿! \r\n  ",
+    "body": "@program-in-chinese/all 特此通知: [地址](https://zhuanlan.zhihu.com/c_140193266)\r\n首次创建专栏, 希望各位有经验的多指点. 初步打算把之前写的[一些文章](https://www.zhihu.com/people/wu-xuan-81-42/posts)选取一些发到专栏中. ~~另外, 不知专栏是否允许多人管理?~~ 在此也诚征编辑(能管理投稿, 调整作者权限, 发布文章)和作者(能发布文章).\r\n\r\n下面是一些打算写的具体主题(不分先后), 希望坑都能填平:\r\n- [x] 中文命名实践的阻力分析和对策: 基于https://github.com/program-in-chinese/overview/issues/18\r\n- [x] 中文编程语言和开发环境需要的特性: 基于https://github.com/program-in-chinese/overview/issues/11 - [通用型的中文编程语言探讨之一: 高考](https://zhuanlan.zhihu.com/p/32677451)\r\n- [ ] 中文编程不是什么: 有些误区也许需要澄清, 如-中文编程能实现自然语言编程(新手能够不需学习语法就像说话一样实现编程等等), 大多数软件工程的经验教训也适用于中文编程(如语言工具不是silver bullet, 项目管理/实施过程/开发方法是很大程度绝对项目成败的)等等\r\n- [x] Java快速入门教程(中文示例代码): 基于[短时间Java上手-中文代码版](https://github.com/program-in-chinese/java_in_hours_chn). \r\n- [ ] 其他语言的入门教程(中文示例代码)[Kotlin](https://github.com/program-in-chinese/kotlin_in_hours_chn), [JavaScript](https://github.com/program-in-chinese/javascript-in-a-day-chn),等等\r\n- [ ] 新建IDE中的项目模板, 源自 https://github.com/program-in-chinese/overview/issues/11#issuecomment-417743692\r\n- [ ] 中文编程语言的介绍\r\n  - [x] [Z语言](https://github.com/TKT2016/ZLanguage3)\r\n    - [x] [ZLOGO](https://zhuanlan.zhihu.com/p/31620122)\r\n- [x] 在基于Spring的应用中使用中文命名: 基于[进销存示例](https://github.com/program-in-chinese/jinxiaocun)\r\n- [ ] 对现有语言汉化的技术和心得 \r\n  - [ ] [周蟒](https://github.com/gasolin/zhpy)和[中蟒](http://www.chinesepython.org/)采用的关键词和API汉化用词规整, 结合https://github.com/program-in-chinese/overview/issues/40\r\n  - [ ] [CTS](https://github.com/program-in-chinese/CTS)\r\n  - [ ] [拼音输入法vscode插件](https://github.com/program-in-chinese/CTS_Typewriting)\r\n  - [x] [cnlang](https://github.com/program-in-chinese/cnlang) [cnpython](https://github.com/swizl/cnpython)  gcc 多谢@swizl投稿这三个主题!\r\n- [x] 从零开始开发一个(高级)语言/编程环境(教程, 用中文代码): 源自https://github.com/program-in-chinese/overview/issues/33\r\n- [x] 从零开始实现一个汇编编译器(用中文代码): 基于[汇编编译器原型](https://github.com/program-in-chinese/assembler-in-chinese-experiment) - [烂尾工程: Java实现的汇编语言编译器](https://zhuanlan.zhihu.com/p/32607169)\r\n- [x] 编码导致的乱码问题: 基于[部分中文出现乱码](https://github.com/program-in-chinese/team_website/blob/master/docs/_posts/2017-10-10-%E9%83%A8%E5%88%86%E4%B8%AD%E6%96%87%E5%87%BA%E7%8E%B0%E4%B9%B1%E7%A0%81.markdown)\r\n- [ ] 对现有开源项目的汉化\r\n  - [ ] [Rem编程语言](https://github.com/thautwarm/Rem/blob/ebnfparser2.0/tests-example_source_codes/chinese.rem)\r\n  - [ ] 期待中的[miniasm](http://tieba.baidu.com/p/5095251226?pid=121222543812#121222543812), 已开源在[此](https://github.com/woodgreat/miniasm_release)\r\n- [ ] 基于现有需求做一些实际程序, 尤其是小规模/与中文处理有关/不仅限于IT领域的 (参考 #19 #41 ), 如\r\n  - [x] [五笔码整理编辑器](https://www.v2ex.com/t/490269)\r\n- [ ] 试用各种中文编程工具\r\n  - [ ] [口袋编程(iOS)](https://itunes.apple.com/cn/app/%E5%8F%A3%E8%A2%8B%E5%BC%95%E6%93%8E-%E5%88%9B%E5%BB%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%9E%8B/id1415607268)\r\n- [ ] 编译器相关\r\n  - [ ] vscode下TypeScript可设置为[中文反馈编译信息](\r\nhttps://www.zhihu.com/pin/1062349662463381504) [VS下貌似早已支持](https://social.msdn.microsoft.com/Forums/vstudio/en-US/f99d14b9-c889-419f-9252-835bec7c7393/avoid-debug-and-compile-errors-localization?forum=vssetup)\r\n- [ ] IDE问题\r\n  - [ ] Eclipse: 拼音输入后, ctrl-z会从拼音开始回退. 比如\"换算\", 会从`huan's`开始而不是中文字符.\r\n\r\n希望大家多多建议新主题, 更欢迎投稿! \r\n  ",
     "closed_at": null,
     "comment_data": [
         {
@@ -748,9 +748,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "| 知乎文章 | v2ex转帖 | \r\n| ------------- | ------------- |\r\n| [用python编写控制网络设备的自动化脚本1：框架设计](https://zhuanlan.zhihu.com/p/53641620) | |\r\n| [[转载] 做煎饼果子的N种方式——From Sequential to Reactive](https://zhuanlan.zhihu.com/p/53416369) | |\r\n| [VS Code英汉词典v0.0.8: 批量翻译文件部分命名](https://zhuanlan.zhihu.com/p/53288297) | |\r\n| [专栏关注人少,我用爬虫做知乎数据分析---04](https://zhuanlan.zhihu.com/p/53261378) | |\r\n| [在国内原创开源项目中使用中文命名的意义与方式](https://zhuanlan.zhihu.com/p/53050766) | [链接0](https://www.v2ex.com/t/518452#reply193) |\r\n| [专栏关注人少,我用爬虫做知乎数据分析---03](https://zhuanlan.zhihu.com/p/53035007) | |\r\n| [专栏关注人少,我用爬虫做知乎数据分析---02](https://zhuanlan.zhihu.com/p/52984841) | |\r\n| [专栏关注人少,我用爬虫做知乎数据分析---01](https://zhuanlan.zhihu.com/p/52969986) | |\r\n| [VS Code英汉词典进化效果演示: 翻译文件所有命名](https://zhuanlan.zhihu.com/p/52543477) | |\r\n| [JavaScript实现ZLOGO: 前进方向和速度](https://zhuanlan.zhihu.com/p/52434775) | |\r\n| [Scala疑似中文命名问题后续](https://zhuanlan.zhihu.com/p/52114604) | |\r\n| [疑似bug_中文代码示例之Programming in Scala笔记第九十章](https://zhuanlan.zhihu.com/p/51998712) | [链接](https://www.v2ex.com/t/513438#reply7) |\r\n| [中文编程,最精致的python访客登记系统实例项目,微信机器人不再只当人工智障---08](https://zhuanlan.zhihu.com/p/51902838) | |\r\n| [中文编程,最精致的python访客登记系统实例项目,微信机器人不再只当人工智障------07](https://zhuanlan.zhihu.com/p/51771041) | [链接](https://www.v2ex.com/t/515200#reply12) |",
+            "created_at": "2018-12-29T21:14:22Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/48#issuecomment-450520566",
+            "id": 450520566,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MDUyMDU2Ng==",
+            "updated_at": "2018-12-29T21:14:22Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/450520566",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 24,
+    "comments": 25,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48/comments",
     "created_at": "2017-11-09T05:07:54Z",
     "event_data": [
@@ -2578,7 +2609,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 50,
+        "closed_issues": 51,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -2607,10 +2638,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 19,
+        "open_issues": 18,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2018-12-08T17:47:39Z",
+        "updated_at": "2018-12-26T23:16:07Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUyNzI0NDIxNjU=",
@@ -2618,7 +2649,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "\"中文编程\"知乎专栏开通!",
-    "updated_at": "2018-12-08T05:48:58Z",
+    "updated_at": "2019-01-04T04:51:24Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
