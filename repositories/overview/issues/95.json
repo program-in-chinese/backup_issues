@@ -232,7 +232,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "MEMBER",
             "body": "之前曾做過 python 2 可用的周蟒(zhpy)，附上完整中英對照，中，英版程式皆可執行的範例文件\r\nhttps://github.com/gasolin/zhpy/blob/wiki/ExampleHello.md\r\n\r\n當時做的想法有\r\n1. 用中文化的py代码降低門檻\r\n2. 用中文化的py代码，教不懂python的人漸進認識英语法\r\n3. 中英py代碼可混用，也可為現有module加入字典，用中文調用\r\n4. 需要時可漸進轉換純python\r\n5. 中英對照的教學文件\r\n\r\n@absente 當時是python 2時做的，有興趣可以拿去參考",
             "created_at": "2018-10-18T02:02:44Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/95#issuecomment-430849492",
