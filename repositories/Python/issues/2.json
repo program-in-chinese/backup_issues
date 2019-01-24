@@ -170,7 +170,7 @@
     "id": 271281469,
     "labels": [],
     "labels_url": "https://api.github.com/repos/program-in-chinese/Python/issues/2/labels{/name}",
-    "locked": false,
+    "locked": true,
     "milestone": null,
     "node_id": "MDU6SXNzdWUyNzEyODE0Njk=",
     "number": 2,

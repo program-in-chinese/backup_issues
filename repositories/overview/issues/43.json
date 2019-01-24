@@ -161,7 +161,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@zaoqi 具体是要怎么做？",
             "created_at": "2018-03-01T15:02:46Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/43#issuecomment-369619515",

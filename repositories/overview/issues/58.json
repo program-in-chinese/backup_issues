@@ -6,7 +6,7 @@
     "closed_at": null,
     "comment_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "> 小程序立足本地，发源于中国，面向国人，不用考虑所谓国际化交流问题。\r\n\r\n这是最不可能发生的事情。腾讯如果作出将小程序的用户限制在大陆的决定，就等于变相宣称它根本不在乎国外市场。",
             "created_at": "2018-04-10T05:04:50Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/58#issuecomment-379974888",

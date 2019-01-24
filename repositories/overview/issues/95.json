@@ -1519,6 +1519,204 @@
             "id": 2013845139,
             "node_id": "MDI2Ok1vdmVkQ29sdW1uc0luUHJvamVjdEV2ZW50MjAxMzg0NTEzOQ==",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013845139"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-01-17T20:16:38Z",
+            "event": "unlabeled",
+            "id": 2081284608,
+            "label": {
+                "color": "c6d83e",
+                "name": "#prolog"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjA4MTI4NDYwOA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2081284608"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-01-17T20:16:38Z",
+            "event": "unlabeled",
+            "id": 2081284609,
+            "label": {
+                "color": "1cbfb1",
+                "name": "+erlang"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjA4MTI4NDYwOQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2081284609"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-01-17T20:16:38Z",
+            "event": "unlabeled",
+            "id": 2081284610,
+            "label": {
+                "color": "ed7db9",
+                "name": "+forth"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjA4MTI4NDYxMA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2081284610"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-01-17T20:16:38Z",
+            "event": "unlabeled",
+            "id": 2081284612,
+            "label": {
+                "color": "89ede9",
+                "name": "APL"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjA4MTI4NDYxMg==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2081284612"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-01-17T20:16:38Z",
+            "event": "unlabeled",
+            "id": 2081284613,
+            "label": {
+                "color": "adcff7",
+                "name": "nV-非冯"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjA4MTI4NDYxMw==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2081284613"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-01-17T20:16:38Z",
+            "event": "unlabeled",
+            "id": 2081284614,
+            "label": {
+                "color": "f2b3df",
+                "name": "自然语言NLP"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjA4MTI4NDYxNA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2081284614"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/95/events",
@@ -1526,52 +1724,12 @@
     "id": 370976175,
     "labels": [
         {
-            "color": "c6d83e",
-            "default": false,
-            "id": 1154444139,
-            "name": "#prolog",
-            "node_id": "MDU6TGFiZWwxMTU0NDQ0MTM5",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%23prolog"
-        },
-        {
-            "color": "1cbfb1",
-            "default": false,
-            "id": 1154443809,
-            "name": "+erlang",
-            "node_id": "MDU6TGFiZWwxMTU0NDQzODA5",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/+erlang"
-        },
-        {
-            "color": "ed7db9",
-            "default": false,
-            "id": 1154444018,
-            "name": "+forth",
-            "node_id": "MDU6TGFiZWwxMTU0NDQ0MDE4",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/+forth"
-        },
-        {
-            "color": "89ede9",
-            "default": false,
-            "id": 1019249428,
-            "name": "APL",
-            "node_id": "MDU6TGFiZWwxMDE5MjQ5NDI4",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/APL"
-        },
-        {
             "color": "b9f767",
             "default": false,
             "id": 1154421934,
             "name": "active",
             "node_id": "MDU6TGFiZWwxMTU0NDIxOTM0",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/active"
-        },
-        {
-            "color": "adcff7",
-            "default": false,
-            "id": 1154440427,
-            "name": "nV-非冯",
-            "node_id": "MDU6TGFiZWwxMTU0NDQwNDI3",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/nV-%E9%9D%9E%E5%86%AF"
         },
         {
             "color": "c64403",
@@ -1588,14 +1746,6 @@
             "name": "todo",
             "node_id": "MDU6TGFiZWwxMDE5MjU5MTQ3",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/todo"
-        },
-        {
-            "color": "f2b3df",
-            "default": false,
-            "id": 1154430544,
-            "name": "自然语言NLP",
-            "node_id": "MDU6TGFiZWwxMTU0NDMwNTQ0",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80NLP"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/95/labels{/name}",
@@ -1642,7 +1792,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
     "title": "Python3中文化?",
-    "updated_at": "2018-12-08T05:51:11Z",
+    "updated_at": "2019-01-17T20:16:38Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/95",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

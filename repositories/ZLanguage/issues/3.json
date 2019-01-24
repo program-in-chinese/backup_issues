@@ -77,7 +77,7 @@
     "id": 278694894,
     "labels": [],
     "labels_url": "https://api.github.com/repos/program-in-chinese/ZLanguage/issues/3/labels{/name}",
-    "locked": false,
+    "locked": true,
     "milestone": null,
     "node_id": "MDU6SXNzdWUyNzg2OTQ4OTQ=",
     "number": 3,

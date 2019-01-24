@@ -779,9 +779,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "[中文编程,python控制Excel实现跨文件复制Sheet.](https://zhuanlan.zhihu.com/p/54847656)\r\n[[日常]mov文件转换为gif](https://zhuanlan.zhihu.com/p/54832362)",
+            "created_at": "2019-01-16T08:11:27Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/48#issuecomment-454688933",
+            "id": 454688933,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NDY4ODkzMw==",
+            "updated_at": "2019-01-16T08:11:27Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/454688933",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 25,
+    "comments": 26,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48/comments",
     "created_at": "2017-11-09T05:07:54Z",
     "event_data": [
@@ -2649,7 +2680,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "\"中文编程\"知乎专栏开通!",
-    "updated_at": "2019-01-04T04:51:24Z",
+    "updated_at": "2019-01-16T08:11:27Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

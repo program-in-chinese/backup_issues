@@ -2,19 +2,19 @@
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "以前用🐢, 现在也许用其他? 比如🐶, 或者直接用→.\r\n可选择隐藏",
-    "closed_at": null,
+    "body": "https://github.com/program-in-chinese/quan3/blob/491a7f0394d685e0174cb781f0d8723c94567bc2/%E7%BC%96%E8%AF%91.js#L37",
+    "closed_at": "2019-01-24T06:59:22Z",
     "comment_data": [
         {
             "author_association": "MEMBER",
-            "body": "暂时用<img width=\"25\" alt=\"default\" src=\"https://user-images.githubusercontent.com/392497/51447586-8dd98c80-1cd4-11e9-8148-3f8c47a4c3e2.png\"> 需要更雅致点的图标\r\n\r\n还需:\r\n- 在初始状态(白板)时显示图标默认状态(方向/位置)\r\n- 在界面提供选项, 以开/关图标显示\r\n",
-            "created_at": "2019-01-21T00:59:06Z",
-            "html_url": "https://github.com/program-in-chinese/quan3/issues/3#issuecomment-455919605",
-            "id": 455919605,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/3",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NTkxOTYwNQ==",
-            "updated_at": "2019-01-21T01:00:36Z",
-            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/comments/455919605",
+            "body": "如果简化如下, 线变粗:\r\n```\r\n  绘制 = function() {\r\n    var 当前序号 = 序号;\r\n    const 速度 = parseInt(当前速度);\r\n    // TODO: 避免重画\r\n    //background(255, 255, 255);\r\n\r\n    for (var i = 0; i < 路径表.length; i++ ) {\r\n      var 段 = 路径表[i];\r\n      var 起点 = 段.起点;\r\n      var 终点 = 段.终点;\r\n      line(起点.x, 起点.y, 终点.x, 终点.y);\r\n    }\r\n    \r\n    序号 += 速度;\r\n  }\r\n```\r\n![screen shot 2019-01-21 at 1 48 20 pm](https://user-images.githubusercontent.com/392497/51500565-54ac2580-1d83-11e9-964a-c8e241c936a6.png)\r\n比较重置背景色的效果:\r\n![screen shot 2019-01-21 at 1 48 29 pm](https://user-images.githubusercontent.com/392497/51500617-87eeb480-1d83-11e9-9205-e50866dc2b09.png)\r\n怀疑与`line`的实现有关, 即使起始点坐标相同, 每帧画出的也不完全重合?",
+            "created_at": "2019-01-21T21:53:11Z",
+            "html_url": "https://github.com/program-in-chinese/quan3/issues/10#issuecomment-456208331",
+            "id": 456208331,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/10",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NjIwODMzMQ==",
+            "updated_at": "2019-01-21T21:53:11Z",
+            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/comments/456208331",
             "user": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
                 "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
@@ -38,8 +38,8 @@
         }
     ],
     "comments": 1,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/3/comments",
-    "created_at": "2018-12-13T07:06:26Z",
+    "comments_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/10/comments",
+    "created_at": "2019-01-21T03:54:36Z",
     "event_data": [
         {
             "actor": {
@@ -62,13 +62,13 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "a36347657842a588f61cfdc7298d998269c032e5",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/quan3/commits/a36347657842a588f61cfdc7298d998269c032e5",
-            "created_at": "2018-12-13T08:15:42Z",
+            "commit_id": "0519dec33fb1dec761c45a3292f86f7137a95517",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/quan3/commits/0519dec33fb1dec761c45a3292f86f7137a95517",
+            "created_at": "2019-01-21T03:55:53Z",
             "event": "referenced",
-            "id": 2023538029,
-            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwMjM1MzgwMjk=",
-            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/2023538029"
+            "id": 2085396812,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwODUzOTY4MTI=",
+            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/2085396812"
         },
         {
             "actor": {
@@ -91,13 +91,13 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "02cad10bb57d176394e0e1e71b785de3e86c6f31",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/quan3/commits/02cad10bb57d176394e0e1e71b785de3e86c6f31",
-            "created_at": "2018-12-14T04:50:56Z",
+            "commit_id": "7df4e4679a27bfe42cf4d35d73993e1407d253ac",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/quan3/commits/7df4e4679a27bfe42cf4d35d73993e1407d253ac",
+            "created_at": "2019-01-22T19:50:48Z",
             "event": "referenced",
-            "id": 2025976909,
-            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwMjU5NzY5MDk=",
-            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/2025976909"
+            "id": 2089798992,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwODk3OTg5OTI=",
+            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/2089798992"
         },
         {
             "actor": {
@@ -120,29 +120,29 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             },
-            "commit_id": "760089f27a978fb6a230b8bc55659d0e47c7308d",
-            "commit_url": "https://api.github.com/repos/program-in-chinese/quan3/commits/760089f27a978fb6a230b8bc55659d0e47c7308d",
-            "created_at": "2018-12-14T19:11:33Z",
-            "event": "referenced",
-            "id": 2027585978,
-            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIwMjc1ODU5Nzg=",
-            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/2027585978"
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-01-24T06:59:22Z",
+            "event": "closed",
+            "id": 2093646877,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MjA5MzY0Njg3Nw==",
+            "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/events/2093646877"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/3/events",
-    "html_url": "https://github.com/program-in-chinese/quan3/issues/3",
-    "id": 390545193,
+    "events_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/10/events",
+    "html_url": "https://github.com/program-in-chinese/quan3/issues/10",
+    "id": 401184005,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/3/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/quan3/issues/10/labels{/name}",
     "locked": false,
     "milestone": null,
-    "node_id": "MDU6SXNzdWUzOTA1NDUxOTM=",
-    "number": 3,
+    "node_id": "MDU6SXNzdWU0MDExODQwMDU=",
+    "number": 10,
     "repository_url": "https://api.github.com/repos/program-in-chinese/quan3",
-    "state": "open",
-    "title": "添加方向指示",
-    "updated_at": "2019-01-21T01:00:36Z",
-    "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/3",
+    "state": "closed",
+    "title": "避免在绘制每帧时重置背景色",
+    "updated_at": "2019-01-24T06:59:22Z",
+    "url": "https://api.github.com/repos/program-in-chinese/quan3/issues/10",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",

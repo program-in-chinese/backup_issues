@@ -440,7 +440,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "「数组列表」「链表」「抽象列表」。\r\n已经有对应中文的，为了不引起困惑不成为新的门槛的一部分，不要用其他中文。",
             "created_at": "2018-02-02T09:58:13Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/54#issuecomment-362540715",

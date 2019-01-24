@@ -105,7 +105,7 @@
     "id": 252844351,
     "labels": [],
     "labels_url": "https://api.github.com/repos/program-in-chinese/.Net/issues/2/labels{/name}",
-    "locked": false,
+    "locked": true,
     "milestone": null,
     "node_id": "MDU6SXNzdWUyNTI4NDQzNTE=",
     "number": 2,

@@ -37,7 +37,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "已经有了。https://github.com/HelloZeroNet/ZeroNet",
             "created_at": "2018-11-21T13:58:29Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/108#issuecomment-440670764",
@@ -130,7 +130,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "结论就是，你还是会遇到地址表太××长的问题，然后你还是要为了解决这个问题把地址表outsource给专门的设备。BOOM，你又发明了一遍路由器。RSA公钥太长记不住怎么办？引入一套别名+别名解析的机制。BOOM，你又把现在的DNS的那一套发明了一遍。不搞别名了，直接交换公钥吧！那又要怎么交换公钥？怎么在交换公钥的时候避免中间人攻击？BOOM，你又把HTTPS发明了一遍，而且可能还没有别人想得那样周到。还是想做？来来来，FreeNet，ZeroNet，Solid，Tox，Bitmessage，随你挑随你选。\r\n\r\n在这里叫着不要English不要English有用吗？你不如还是乖乖上学罢。",
             "created_at": "2018-11-22T08:18:41Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/108#issuecomment-440948245",
