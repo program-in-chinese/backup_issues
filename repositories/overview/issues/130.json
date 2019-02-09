@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "@program-in-chinese/all 组会形式与流程与上周相同(qq群: 620225373). 请尽量准时.\r\n\r\n历史组会小记:\r\n2019年\r\n- 一月\r\n  - 19日: #128 \r\n  - 12日: https://github.com/program-in-chinese/overview/issues/127\r\n  - 5日: #125\r\n\r\n2018年\r\n- 十二月\r\n  - 30日: #123\r\n  - 22日: #120\r\n  - 15日: #119\r\n  - 8日: #114\r\n  - 1日: #113",
-    "closed_at": null,
+    "closed_at": "2019-02-01T03:03:44Z",
     "comment_data": [
         {
             "author_association": "MEMBER",
@@ -1229,6 +1229,35 @@
             "id": 2098761270,
             "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIwOTg3NjEyNzA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2098761270"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-02-01T03:03:44Z",
+            "event": "closed",
+            "id": 2111177360,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MjExMTE3NzM2MA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2111177360"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/130/events",
@@ -1241,9 +1270,9 @@
     "node_id": "MDU6SXNzdWU0MDMyNjQwMjI=",
     "number": 130,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "2019年1月26日 北京时间周六14:00 语音组会",
-    "updated_at": "2019-01-26T09:08:04Z",
+    "updated_at": "2019-02-01T03:03:44Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/130",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

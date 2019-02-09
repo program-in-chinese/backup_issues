@@ -163,6 +163,7 @@
             "node_id": "MDIwOlJldmlld1JlcXVlc3RlZEV2ZW50MTc1ODIyNDI1Mw==",
             "requested_team": {
                 "description": "",
+                "html_url": "https://github.com/orgs/program-in-chinese/teams/all",
                 "id": 2431548,
                 "members_url": "https://api.github.com/teams/2431548/members{/member}",
                 "name": "all",
