@@ -1399,9 +1399,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "~~今天~~昨天看到一个有趣的东西，过来分享一下。(要是火星了轻点吐槽)\r\n不知道怎么对这个东西进行归类，能算是一种 GPPL 但我还是更乐意叫他 IDE，毕竟里面可以写不止一种“语言”。\r\n\r\n<details>\r\n <summary>DUANG~</summary>\r\n\r\n> 当我第一次知道 PWCT 时，你让我去推荐它，其实我是拒绝的。应为我觉得啊，我不能看到了就推荐、马上推荐。第一，我要试一下，我又不想说，拿 PWCT 编完程序之后，代码加了很多特效，自动生成（DUANG~）！很强！很快！结果大家一定会吐槽我，根本没有这种 IDE！~~所以我先要试一下~~。我要给大家看到，我用完之后就是这样子，你们用完以后，也是这样子！\r\n</details>\r\n找到这个东西的顺序大概是：\r\n\r\n> Github explore -> [Ring-lang](https://github.com/ring-lang/ring) -> [PWCT(Programming Without Coding Technology)](http://doublesvsoop.sourceforge.net/)\r\n\r\n有趣的东西是 `PWCT` 直译就是不写代码也能编程的技术。PWCT 是一个项目，也是这 IDE 的名字，算是图形编程的一种，号称是一行代码都不用写。可能比较像 scratch？\r\n\r\n目前看来这个东西还是比较实用的，能开发新的语言。github 给我推的 [Ring-lang](https://github.com/ring-lang/ring) 也是用 PWCT 开发的 GPPL ，跟普通的 C/C++ 一样，要写代码的哪种。只用 PWCT 也能开发各种程序，详见 demo。\r\n\r\n这种纯靠 IDE 的“语言”汉化也好做一点，毕竟“完形填空”段有限。易用性不好说，写小程序时还可以，程序写大了可能就有点烦，不过这个 IDE 从教程里看可以纯键盘操作，易用性应该有所改善。\r\n另外团队目测是阿拉伯人，因为它们 youtube 的教程全部带阿拉伯文字字幕。也看到有阿拉伯语的demo，国际化应该不成问题。\r\n\r\n-----\r\n\r\n大概看了一下，装完打开就是一个图形的 IDE，参照[教程](http://doublesvsoop.sourceforge.net/pwcthelp/main2.htm)写一个 [hello world](http://doublesvsoop.sourceforge.net/pwcthelp/Console/HelloWorld/lesson.htm)\r\n> 我发现教程里面的步骤特别详细，详细到感觉不是人写的，\r\n> eg: [这篇是创造新的图形化编程语言教程的第一篇](http://doublesvsoop.sourceforge.net/pwcthelp/Supernova/Nova/lesson.htm)，先看看长度，再仔细看看：前几百步都是在定义各种文件/变量，每步都配图+文字说明，让人来写应该是举一反N就行了。\r\n> 后面发现这些文档都是生成的，编完程序就可以[自动生成](http://doublesvsoop.sourceforge.net/pwcthelp/PWCTEnvironment/Lesson2/lesson.htm)这样的文档，并自带版本控制\r\n\r\nIDE 里“写”程序大概又多种办法：\r\n详细过程见 [hello world](http://doublesvsoop.sourceforge.net/pwcthelp/Console/HelloWorld/lesson.htm) 教程，有图有文字，下面就不贴图了\r\n\r\n+ 一个就是点点点，找到你要的功能点一下(~~玩一年~~)，“完形填空”，然后点确定就行了，参数不对点确定时就会报错，\r\n  （试了下貌似console不支持中文？不过看到又阿拉伯文的demo应该是支持多语言的）；\r\n+ 第二个就是用搜索，软件目前是全英文的，输出就搜 `pri`，上下键选中 print to xxx，然后回车，之后就和点点点一样了，完形填空然后点ok；\r\n+ 看 template 也有支持直接写代码的模板，因为是看它有趣的地方就没有深入研究，\r\n  不过看源文件夹他会生成中间语言的代码(c/c#/python)然后编译运行。能直接写源语言很正常。\r\n\r\nPWCT 支持 5 种 VPL (Visual Programming Language/可视化编程语言) \r\n- **Harbour**PWCT；**Supernova**PWCT；**C**PWCT；；**Python**PWCT；**C**#PWCT；\r\n\r\n我用 hello world 测试，这几种貌似并不都兼容，也就是说并不是“编写”的一段程序，然后就可以定义选导出成哪种语言。感觉更像是，把某种语言的逻辑封装成一个个完形填空，然后组合起来直接生成对应的程序，再编译运行。\r\n\r\n[系列教程](http://doublesvsoop.sourceforge.net/pwcthelp/main2.htm) 中有教你怎么创建新的 VPL \r\n> Developing the Supernova Textual Programming Language\r\n> Using the HarbourPWCT Visual programming language\r\n\r\n他把 **Supernova**PWCT 的开发过程都编为教程了(虽然是自动生成的)\r\n\r\n我目前大概就了解了这么多，感觉从 PWCT 这个开源项目中可以学习和复用的东西有很多。\r\n这个项目缺点肯定不少，毕竟编程方式比较特别，用的人也不多。但我们应该多从中找找优点，看那些值得学习的地方。上面说的也比较混乱，权当抛砖引玉吧。\r\n",
+            "created_at": "2019-02-10T08:10:42Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-462112552",
+            "id": 462112552,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MjExMjU1Mg==",
+            "updated_at": "2019-02-10T08:10:42Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/462112552",
+            "user": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/5158738?v=4",
+                "events_url": "https://api.github.com/users/inkydragon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/inkydragon/followers",
+                "following_url": "https://api.github.com/users/inkydragon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/inkydragon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/inkydragon",
+                "id": 5158738,
+                "login": "inkydragon",
+                "node_id": "MDQ6VXNlcjUxNTg3Mzg=",
+                "organizations_url": "https://api.github.com/users/inkydragon/orgs",
+                "received_events_url": "https://api.github.com/users/inkydragon/received_events",
+                "repos_url": "https://api.github.com/users/inkydragon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/inkydragon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/inkydragon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/inkydragon"
+            }
         }
     ],
-    "comments": 45,
+    "comments": 46,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11/comments",
     "created_at": "2017-08-01T21:04:16Z",
     "event_data": [
@@ -4144,7 +4175,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "讨论: 适合中文用户的编程语言和IDE, 侧重于现有语言/IDE不具备的特性",
-    "updated_at": "2018-12-28T07:20:33Z",
+    "updated_at": "2019-02-10T08:10:43Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
