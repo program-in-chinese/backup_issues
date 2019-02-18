@@ -1,0 +1,66 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 1230988408,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDA4",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/bug"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 1230988410,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDEw",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 1230988412,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDEy",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 1230988416,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDE2",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 1230988414,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDE0",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 1230988417,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDE3",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 1230988418,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDE4",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 1230988419,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxMjMwOTg4NDE5",
+        "url": "https://api.github.com/repos/program-in-chinese/water_about_programming_in_chinese/labels/wontfix"
+    }
+]
