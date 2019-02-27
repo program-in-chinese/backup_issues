@@ -2,20 +2,15 @@
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "以增加搜索命中率.\r\n![screen shot 2018-12-26 at 3 20 07 pm](https://user-images.githubusercontent.com/392497/50459593-c8444980-0921-11e9-820e-1f8aefd70d75.png)\r\n",
-    "closed_at": "2019-02-26T07:47:10Z",
-    "comment_data": [
+    "body": "考虑暂时将`is`略过翻译, 类似`of`",
+    "closed_at": "2019-02-26T07:46:06Z",
+    "comment_data": [],
+    "comments": 0,
+    "comments_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/21/comments",
+    "created_at": "2019-02-20T22:25:41Z",
+    "event_data": [
         {
-            "author_association": "MEMBER",
-            "body": "![screen shot 2019-02-25 at 11 46 38 pm](https://user-images.githubusercontent.com/392497/53395809-a4b87200-3957-11e9-9717-2deadcfbcd3d.png)\r\n",
-            "created_at": "2019-02-26T07:47:09Z",
-            "html_url": "https://github.com/program-in-chinese/vscode_english_chinese_dictionary/issues/19#issuecomment-467332203",
-            "id": 467332203,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/19",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NzMzMjIwMw==",
-            "updated_at": "2019-02-26T07:47:09Z",
-            "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/comments/467332203",
-            "user": {
+            "actor": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
                 "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
                 "followers_url": "https://api.github.com/users/nobodxbodon/followers",
@@ -34,13 +29,15 @@
                 "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
-            }
-        }
-    ],
-    "comments": 1,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/19/comments",
-    "created_at": "2018-12-26T23:20:36Z",
-    "event_data": [
+            },
+            "commit_id": "e9231abcb9ca2617f5744e76d1cb56d662e7730c",
+            "commit_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/commits/e9231abcb9ca2617f5744e76d1cb56d662e7730c",
+            "created_at": "2019-02-26T07:28:10Z",
+            "event": "referenced",
+            "id": 2163979847,
+            "node_id": "MDE1OlJlZmVyZW5jZWRFdmVudDIxNjM5Nzk4NDc=",
+            "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/events/2163979847"
+        },
         {
             "actor": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
@@ -64,27 +61,27 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-02-26T07:47:10Z",
+            "created_at": "2019-02-26T07:46:06Z",
             "event": "closed",
-            "id": 2164015356,
-            "node_id": "MDExOkNsb3NlZEV2ZW50MjE2NDAxNTM1Ng==",
-            "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/events/2164015356"
+            "id": 2164013288,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MjE2NDAxMzI4OA==",
+            "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/events/2164013288"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/19/events",
-    "html_url": "https://github.com/program-in-chinese/vscode_english_chinese_dictionary/issues/19",
-    "id": 394257419,
+    "events_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/21/events",
+    "html_url": "https://github.com/program-in-chinese/vscode_english_chinese_dictionary/issues/21",
+    "id": 412658049,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/19/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/21/labels{/name}",
     "locked": false,
     "milestone": null,
-    "node_id": "MDU6SXNzdWUzOTQyNTc0MTk=",
-    "number": 19,
+    "node_id": "MDU6SXNzdWU0MTI2NTgwNDk=",
+    "number": 21,
     "repository_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary",
     "state": "closed",
-    "title": "在插件描述中添加\"翻译\"",
-    "updated_at": "2019-02-26T07:47:10Z",
-    "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/19",
+    "title": "翻译不当: is_infectious => 加下标次序_有传染性的",
+    "updated_at": "2019-02-26T07:46:06Z",
+    "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/21",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",

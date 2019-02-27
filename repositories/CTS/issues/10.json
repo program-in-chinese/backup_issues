@@ -626,7 +626,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "为typeScripts添加中文关键字怎么做？中文标点符号怎么做，有教程参考吗？\r\n我做过两次，结果都是会报错，所以放下一直没做。",
             "created_at": "2018-11-26T08:28:24Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/10#issuecomment-441555772",
@@ -719,7 +719,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon 是zhihu的银裁秋業\r\n@htwx 不能和原生的集成在一起吗？\r\n\r\n我在尝试的版本3.X.X\r\n\r\n## 像这样\r\n\r\n### 关键字\r\n\r\n![default](https://user-images.githubusercontent.com/31165554/49070336-63d09480-f266-11e8-9681-4530afba26f7.png)\r\n\r\n### 符号\r\n\r\n![default](https://user-images.githubusercontent.com/31165554/49070439-9ed2c800-f266-11e8-9615-0f5c5afb3c70.png)\r\n\r\n",
             "created_at": "2018-11-27T09:03:51Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/10#issuecomment-441980232",
@@ -781,7 +781,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@htwx 我周末搞一搞,如果测好了就写一份文档.",
             "created_at": "2018-11-29T01:09:23Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/10#issuecomment-442666896",
@@ -812,7 +812,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@htwx 构建之后, 编译ts文件报错\r\n\r\n![default](https://user-images.githubusercontent.com/31165554/49212752-bf815600-f3fd-11e8-8635-e413aa621c9c.png)\r\n\r\n![default](https://user-images.githubusercontent.com/31165554/49212683-96f95c00-f3fd-11e8-9724-70ea353a6302.png)\r\n\r\n![default](https://user-images.githubusercontent.com/31165554/49212637-7df0ab00-f3fd-11e8-8e79-74ce241d4f9a.png)\r\n\r\n![default](https://user-images.githubusercontent.com/31165554/49212598-57cb0b00-f3fd-11e8-8548-b0ee0f5ba5d7.png)\r\n",
             "created_at": "2018-11-29T09:37:00Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/10#issuecomment-442767712",
@@ -843,7 +843,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "> 这里实现了添加中文关键字和API. 标点符号不大确定. 不妨先研究一下这个repo的commit历史?\r\n\r\n@nobodxbodon 我看了下,更新历史,好像从初始化开始,这个项目就能编译通过了吧!\r\n我没学过编译,不会正则表达式.\r\n\r\n",
             "created_at": "2018-11-29T10:00:40Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/10#issuecomment-442775241",
@@ -905,7 +905,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon \r\n1. 我们建立一个QQ群吧, 讨论方便一点! \r\n2. 一个官方站点, 正式一点\r\n3. 技术做成视频",
             "created_at": "2018-12-01T02:13:15Z",
             "html_url": "https://github.com/program-in-chinese/CTS/issues/10#issuecomment-443390984",

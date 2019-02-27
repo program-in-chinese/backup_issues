@@ -418,7 +418,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "我觉得JS+H5+Vue+Canvas编程比较好,所见即所得,很快就能创造出有意义的很Cool的东西,这会很吸引小孩子.\r\n",
             "created_at": "2018-12-02T01:20:46Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/97#issuecomment-443472489",
@@ -480,7 +480,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@SilverLeaves 对呀, 义务教育阶段最有用的就是 数学和物理了, 数学就是画函数图像以提高象形思维能力, 物理就是动力模拟以提高分析思维能力. JS+H5+Vue+Canvas这一套刚好啊!",
             "created_at": "2018-12-05T09:51:22Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/97#issuecomment-444425157",
@@ -542,7 +542,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon \r\n\r\n1. 简单说,大学学习Matlab,C语言的时候, 我和我同学都不愿意学. 真的乏味. (相比计算机语言,Matlab简单多了.)\r\n2. 我看了你上面提到的那两段代码, 概念真的不是大多数孩子愿意接受的\r\n3. 知识本身就不是大多数人喜欢的的东西, 更何况让小孩子接受.\r\n\r\n我觉得关键是趣味,  我现在会写C/C++, JS等完全是以一个兴趣点`相干图形生成`驱动起来的.\r\n\r\n哪种衍生应用? 我的回答是`有趣味的`, 最好是像王者荣耀那样简单有趣, 伴随无限可能的趣味.\r\n\r\n`相干图形生成` 算一个. 顺便说一句,我不是计算机相关专业的.\r\n",
             "created_at": "2018-12-06T01:19:48Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/97#issuecomment-444712895",
@@ -604,7 +604,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nobodxbodon 可以开发一种这样的新的计算机语言吗?\r\n\r\n## 像这样\r\n\r\n```\r\n事物 渣渣辉\r\n事物 古添乐\r\n\r\n渣渣辉 的 攻击力 = 5\r\n古添乐 的 血量 = 10\r\n\r\n动作 砍\r\n{\r\n    宾语 的 血量 = 宾语 的 血量 - 主语 的 攻击力\r\n}\r\n\r\n渣渣辉 砍 古添乐\r\n// 结果 : 古添乐 的 血量 现在是5\r\n\r\n```\r\n\r\n等价于,js语句\r\n\r\n```\r\nlet 渣渣辉={}\r\nlet 古添乐={}\r\n\r\n渣渣辉.攻击力=5\r\n古添乐.血量=10\r\n\r\nfunction 砍(aim){\r\n    aim.血量=aim.血量-this.攻击力\r\n}\r\n\r\n渣渣辉.砍 = 砍\r\n\r\n渣渣辉.砍( 古添乐 )\r\n// 结果 : 古添乐 的 血量 现在是5\r\n```\r\n\r\n## 运行示例\r\n![default](https://user-images.githubusercontent.com/31165554/49651506-59827780-fa6a-11e8-91a2-dd546e365641.png)\r\n",
             "created_at": "2018-12-07T13:08:08Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/97#issuecomment-445227598",
@@ -697,7 +697,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@absente  adobe flash 的那个 flash???\r\nadobe flash不是已经废了麽",
             "created_at": "2018-12-08T11:35:46Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/97#issuecomment-445452683",
