@@ -2,7 +2,7 @@
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "Python:\r\nhttps://github.com/swaroopch/byte-of-python/blob/master/programs/ds_using_list.py\r\nhttps://github.com/swaroopch/byte-of-python/blob/master/programs/oop_subclass.py\r\nJava:\r\nhttps://github.com/shekhargulati/java8-the-missing-tutorial/blob/master/code/src/main/java/com/shekhargulati/java8_tutorial/ch01/BasicCalculator.java\r\nhttps://github.com/shekhargulati/java8-the-missing-tutorial/blob/master/code/src/main/java/com/shekhargulati/java8_tutorial/ch05/TaskRepository.java\r\nJS:\r\nhttps://github.com/iliakan/javascript-tutorial-en/blob/master/1-js/07-object-oriented-programming/09-class/1-rewrite-to-class/source.view/clock.js\r\nhttps://github.com/jvaldezq/solo-media-group/blob/f6c0b2b2c22415910f519adca5b37a088741e8e5/src/utils/dataUtil.js\r\nC:\r\nhttps://github.com/kion-dgl/DashGL-GTK-Astroids-Tutorial/blob/master/01_Open_a_Window/main.c\r\n",
+    "body": "Python:\r\nhttps://github.com/swaroopch/byte-of-python/blob/master/programs/ds_using_list.py\r\nhttps://github.com/swaroopch/byte-of-python/blob/master/programs/oop_subclass.py\r\nJava:\r\nhttps://github.com/shekhargulati/java8-the-missing-tutorial/blob/master/code/src/main/java/com/shekhargulati/java8_tutorial/ch01/BasicCalculator.java\r\nhttps://github.com/shekhargulati/java8-the-missing-tutorial/blob/master/code/src/main/java/com/shekhargulati/java8_tutorial/ch05/TaskRepository.java\r\nJS:\r\nhttps://github.com/iliakan/javascript-tutorial-en/blob/master/1-js/09-classes/01-class-patterns/2-rewrite-to-prototypes/source.view/clock.js\r\nhttps://github.com/jvaldezq/solo-media-group/blob/f6c0b2b2c22415910f519adca5b37a088741e8e5/src/utils/dataUtil.js\r\nC:\r\nhttps://github.com/kion-dgl/DashGL-GTK-Astroids-Tutorial/blob/master/01_Open_a_Window/main.c\r\n",
     "closed_at": null,
     "comment_data": [
         {
@@ -53,7 +53,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator",
     "state": "open",
     "title": "供测试用url",
-    "updated_at": "2018-12-26T07:25:39Z",
+    "updated_at": "2019-03-05T20:48:50Z",
     "url": "https://api.github.com/repos/program-in-chinese/webextension_github_code_translator/issues/26",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
