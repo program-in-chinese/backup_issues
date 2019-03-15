@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "",
-    "closed_at": null,
+    "closed_at": "2019-03-11T23:07:05Z",
     "comment_data": [
         {
             "author_association": "MEMBER",
@@ -35,12 +35,73 @@
                 "type": "User",
                 "url": "https://api.github.com/users/RimoChan"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "建议分开讨论: \r\n对\"中文编程\"含义的探讨请移步 [专用帖: 对中文编程的质疑, 困惑, 批评, 吐槽请到此处](https://github.com/program-in-chinese/overview/issues/44)\r\n对自然语言与中文编程的结合的**具体技术相关**讨论, 建议开新帖.",
+            "created_at": "2019-03-11T23:07:05Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/138#issuecomment-471775845",
+            "id": 471775845,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/138",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MTc3NTg0NQ==",
+            "updated_at": "2019-03-11T23:07:05Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/471775845",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 1,
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/138/comments",
     "created_at": "2019-03-04T07:31:48Z",
-    "event_data": [],
+    "event_data": [
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-03-11T23:07:05Z",
+            "event": "closed",
+            "id": 2195528840,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MjE5NTUyODg0MA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2195528840"
+        }
+    ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/138/events",
     "html_url": "https://github.com/program-in-chinese/overview/issues/138",
     "id": 416666790,
@@ -51,9 +112,9 @@
     "node_id": "MDU6SXNzdWU0MTY2NjY3OTA=",
     "number": 138,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "参与中文编程的动因?中文编程是什么?以及自然语言编程的未来会是怎样?",
-    "updated_at": "2019-03-04T09:47:34Z",
+    "updated_at": "2019-03-11T23:07:05Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/138",
     "user": {
         "avatar_url": "https://avatars3.githubusercontent.com/u/25894997?v=4",
