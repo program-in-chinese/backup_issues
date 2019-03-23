@@ -1,0 +1,66 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 1282603898,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzODk4",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/bug"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 1282603899,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzODk5",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 1282603900,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzOTAw",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 1282603902,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzOTAy",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 1282603901,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzOTAx",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 1282603903,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzOTAz",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 1282603904,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzOTA0",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 1282603905,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxMjgyNjAzOTA1",
+        "url": "https://api.github.com/repos/program-in-chinese/stone-editor-eclipse/labels/wontfix"
+    }
+]
