@@ -593,7 +593,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "目前我作息 每天北京时间19点后 大部分情况下有空 周日休息 \r\n提前1天确定下时间就好 我没问题.",
             "created_at": "2018-11-30T08:12:54Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/66#issuecomment-443125194",

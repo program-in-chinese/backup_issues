@@ -1,0 +1,66 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 1297006555,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTU1",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/bug"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 1297006556,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTU2",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 1297006557,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTU3",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 1297006559,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTU5",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 1297006558,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTU4",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 1297006560,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTYw",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 1297006561,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTYx",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 1297006562,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxMjk3MDA2NTYy",
+        "url": "https://api.github.com/repos/program-in-chinese/simple-text-editor-in-Java/labels/wontfix"
+    }
+]

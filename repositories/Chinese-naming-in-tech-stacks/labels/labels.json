@@ -1,0 +1,66 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 1286777933,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTMz",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/bug"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 1286777934,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTM0",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 1286777935,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTM1",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 1286777937,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTM3",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 1286777936,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTM2",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 1286777938,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTM4",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 1286777939,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTM5",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 1286777940,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxMjg2Nzc3OTQw",
+        "url": "https://api.github.com/repos/program-in-chinese/Chinese-naming-in-tech-stacks/labels/wontfix"
+    }
+]
