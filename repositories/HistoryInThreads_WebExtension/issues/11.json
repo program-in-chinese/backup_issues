@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "For some locales, the date/time column is misaligned: the padding is on the right, but needs to be on the left.",
     "closed_at": "2019-03-19T20:26:41Z",
     "comment_data": [
@@ -37,7 +37,7 @@
             }
         },
         {
-            "author_association": "NONE",
+            "author_association": "CONTRIBUTOR",
             "body": "You're welcome.  I tested several popular English locales, and they all had the issue.",
             "created_at": "2017-09-07T02:55:40Z",
             "html_url": "https://github.com/program-in-chinese/HistoryInThreads_WebExtension/issues/11#issuecomment-327669194",

@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "NONE",
+    "author_association": "CONTRIBUTOR",
     "body": "Can you add an \"x\" to the search field to quickly clear it?\r\n\r\nAlso, when the search field is empty, can you show all history, so the user does not have to press the Search button again?  It's a little confusing right now.\r\n\r\nThanks for the great tool!",
     "closed_at": null,
     "comment_data": [],
