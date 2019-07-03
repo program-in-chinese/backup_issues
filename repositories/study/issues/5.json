@@ -35,9 +35,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/htwx"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "> 这个标识符是 服务器 的那个 ping 机器翻译是 平 我感觉 平通更好点。\r\n\r\n这样的音译会不会有些勉强？之前的[关键字翻译](https://github.com/program-in-chinese/webextension_github_code_translator/blob/master/%E6%BA%90%E7%A0%81%E7%BF%BB%E8%AF%91/%E8%AF%AD%E8%A8%80%E5%85%B3%E9%94%AE%E8%AF%8D%E8%AF%8D%E5%85%B8.js)，就有一些词如`volatile`,`with`等等，没想到特别好的，就保留了原英文。类似的，像`ping`这种从常用工具名称沿用而来的命名，是否可以考虑保留英文？\r\n\r\n> 我想保持只要英文不一样中文就不一样\r\n\r\n这两个英文API的功能一样吗? \r\n因为”行号“和”行数“有些含义区别。后者有两种含义：1）一个文件中总共有多少行；2）当前行所在的位置。而前者只有第二个含义。\r\n个人认为命名应首先基于功能。如果是两个库，即使有同名API，应该问题也不大吧。",
+            "created_at": "2019-05-05T07:07:21Z",
+            "html_url": "https://github.com/program-in-chinese/study/issues/5#issuecomment-489397701",
+            "id": 489397701,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/study/issues/5",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ4OTM5NzcwMQ==",
+            "updated_at": "2019-05-05T07:07:21Z",
+            "url": "https://api.github.com/repos/program-in-chinese/study/issues/comments/489397701",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 1,
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/program-in-chinese/study/issues/5/comments",
     "created_at": "2019-05-03T00:01:11Z",
     "event_data": [
@@ -112,7 +143,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/study",
     "state": "open",
     "title": "提取词条过程中发现的API翻译问题",
-    "updated_at": "2019-05-03T00:58:22Z",
+    "updated_at": "2019-05-05T07:07:21Z",
     "url": "https://api.github.com/repos/program-in-chinese/study/issues/5",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

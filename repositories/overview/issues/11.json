@@ -1430,9 +1430,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/inkydragon"
             }
+        },
+        {
+            "author_association": "CONTRIBUTOR",
+            "body": " 本地化编程语言的特点\n编程语言本地化不仅仅是替换一下关键字那么简单，主要包括以下几个方面：\nA.  开发环境本地化\n如果没有提供对应的本地化开发环境，就无法做到完全本地化。\nB.  语言字面本地化\n编程语言的关键字和语法格式必须本地化。\nC.  相关资源本地化\n编程语言的所有附属资源，如功能类库、资料文档、附属工具等都必须本地化。\nD.  使用习惯本地化\n编程语言所有支持内容都必须符合本地的使用和学习习惯，包括语言本身、开发环境、附属资源等。\nE.  交流社区本地化\n必须为编程语言提供本地化的交流社区，方便用户之间进行交流及资源共享。\n\n编程语言本地化的最终目的是为用户创建一个易学易用实用的应用开发环境，用户不需要掌握英文、不需要有太多软件开发基础、不需要使用西方思维，不需要投入太多学习成本就能学会使用。",
+            "created_at": "2019-06-04T18:03:49Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/11#issuecomment-498779910",
+            "id": 498779910,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ5ODc3OTkxMA==",
+            "updated_at": "2019-06-04T18:03:49Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/498779910",
+            "user": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/49856161?v=4",
+                "events_url": "https://api.github.com/users/apexel/events{/privacy}",
+                "followers_url": "https://api.github.com/users/apexel/followers",
+                "following_url": "https://api.github.com/users/apexel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/apexel/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apexel",
+                "id": 49856161,
+                "login": "apexel",
+                "node_id": "MDQ6VXNlcjQ5ODU2MTYx",
+                "organizations_url": "https://api.github.com/users/apexel/orgs",
+                "received_events_url": "https://api.github.com/users/apexel/received_events",
+                "repos_url": "https://api.github.com/users/apexel/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/apexel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/apexel/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/apexel"
+            }
         }
     ],
-    "comments": 46,
+    "comments": 47,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/11/comments",
     "created_at": "2017-08-01T21:04:16Z",
     "event_data": [
@@ -4175,7 +4206,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "讨论: 适合中文用户的编程语言和IDE, 侧重于现有语言/IDE不具备的特性",
-    "updated_at": "2019-02-10T08:10:43Z",
+    "updated_at": "2019-06-04T18:03:49Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/11",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

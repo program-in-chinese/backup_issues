@@ -66,9 +66,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/gasolin"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "我并不认为直接patch是一个好的解决方案。\r\n这样并没有足够的灵活性和轻松的可扩展性，甚至还会产生兼容性问题，尤其是在社区对关键字没有统一的标准和定义的时候（类似的情况像js的模块化标准：有Commonjs、AMD、CMD、ES moudle、UMD）\r\n并且，我认为需要同时支持所有语言的关键字和必须是可持续扩展的，因为事实上，需要给出的是一个尽可能的可用于生产的、具有生命力的工业级的解决方式。",
+            "created_at": "2019-05-18T02:55:48Z",
+            "html_url": "https://github.com/program-in-chinese/CTS/issues/14#issuecomment-493642974",
+            "id": 493642974,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/14",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MzY0Mjk3NA==",
+            "updated_at": "2019-05-18T03:29:39Z",
+            "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/comments/493642974",
+            "user": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/31165554?v=4",
+                "events_url": "https://api.github.com/users/SilverLeaves/events{/privacy}",
+                "followers_url": "https://api.github.com/users/SilverLeaves/followers",
+                "following_url": "https://api.github.com/users/SilverLeaves/following{/other_user}",
+                "gists_url": "https://api.github.com/users/SilverLeaves/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/SilverLeaves",
+                "id": 31165554,
+                "login": "SilverLeaves",
+                "node_id": "MDQ6VXNlcjMxMTY1NTU0",
+                "organizations_url": "https://api.github.com/users/SilverLeaves/orgs",
+                "received_events_url": "https://api.github.com/users/SilverLeaves/received_events",
+                "repos_url": "https://api.github.com/users/SilverLeaves/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/SilverLeaves/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/SilverLeaves/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/SilverLeaves"
+            }
         }
     ],
-    "comments": 2,
+    "comments": 3,
     "comments_url": "https://api.github.com/repos/program-in-chinese/CTS/issues/14/comments",
     "created_at": "2019-02-08T18:06:43Z",
     "event_data": [
@@ -259,7 +290,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/CTS",
     "state": "open",
     "title": "建了一個讓js支援多種本地語言的新專案: lingascript",
-    "updated_at": "2019-02-08T20:58:02Z",
+    "updated_at": "2019-05-18T03:29:39Z",
     "url": "https://api.github.com/repos/program-in-chinese/CTS/issues/14",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/748808?v=4",

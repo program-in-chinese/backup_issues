@@ -4,8 +4,40 @@
     "author_association": "MEMBER",
     "body": "避免在命名中出现`...`等特殊符号:\r\n`beforeRedesign` -> `在...之前重新设计`",
     "closed_at": null,
-    "comment_data": [],
-    "comments": 0,
+    "comment_data": [
+        {
+            "author_association": "MEMBER",
+            "body": "`editCountry` -> `编辑DOS外部命令:用于设定国家代码`  [源自](https://github.com/program-in-chinese/vscode_english_chinese_dictionary/issues/27#issuecomment-491639699)",
+            "created_at": "2019-05-12T23:56:11Z",
+            "html_url": "https://github.com/program-in-chinese/vscode_english_chinese_dictionary/issues/24#issuecomment-491639800",
+            "id": 491639800,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/24",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MTYzOTgwMA==",
+            "updated_at": "2019-05-12T23:56:11Z",
+            "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/comments/491639800",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/24/comments",
     "created_at": "2019-03-05T19:34:10Z",
     "event_data": [
@@ -80,7 +112,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary",
     "state": "open",
     "title": "需确保翻译后的代码语法正确",
-    "updated_at": "2019-03-05T19:34:10Z",
+    "updated_at": "2019-05-12T23:56:11Z",
     "url": "https://api.github.com/repos/program-in-chinese/vscode_english_chinese_dictionary/issues/24",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

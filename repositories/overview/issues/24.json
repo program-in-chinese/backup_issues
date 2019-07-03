@@ -1,7 +1,7 @@
 {
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "body": "- 测试主流Prolog实现是否支持中文utf-8, 以及unicode smp\r\n- (如支持) 建立中文prolog例程库\r\n- (如不支持) 修改prolog解释器源码, 使其支持中文程序",
     "closed_at": "2017-11-27T00:06:58Z",
     "comment_data": [
@@ -37,7 +37,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "多谢！主要原因是Prolog擅长于简单的自然语言处理和逻辑编程。我先测试一下swi-prolog吧。",
             "created_at": "2017-08-19T05:11:13Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/24#issuecomment-323501240",
@@ -130,7 +130,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "SWI-prolog支持MBCS，测试了一些中文标识符，运算没有问题。但是界面显示有问题，光标会出现错位。还是需要修改。",
             "created_at": "2017-08-23T08:33:02Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/24#issuecomment-324260340",

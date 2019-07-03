@@ -2,19 +2,19 @@
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "@program-in-chinese/all ***请注意时间***. 组会形式与流程与上周相同(qq群: 620225373). \r\n\r\n历史组会小记:\r\n\r\n| 年/月 | 日期 |\r\n| ------------- | ------------- |\r\n| 2019/4 | [27](148) [20](146) [13](145) [6](143) |\r\n| 2019/3 | [~~30~~](https://github.com/program-in-chinese/overview/issues/142) [23](https://github.com/program-in-chinese/overview/issues/141)  [16](https://github.com/program-in-chinese/overview/issues/140) [9](https://github.com/program-in-chinese/overview/issues/139) [2](https://github.com/program-in-chinese/overview/issues/137)  |\r\n| 2019/2 | [23](https://github.com/program-in-chinese/overview/issues/136) [16](https://github.com/program-in-chinese/overview/issues/135) [9](https://github.com/program-in-chinese/overview/issues/134) [2](https://github.com/program-in-chinese/overview/issues/132) |\r\n| 2019/1 | [26](130) [19](128) [12](https://github.com/program-in-chinese/overview/issues/127) [5](125) |\r\n| 2018/12 | [30](123) [22](120) [15](119) [8](114) [1](113) | ",
-    "closed_at": "2019-05-11T07:05:40Z",
+    "body": "@program-in-chinese/all ***请注意时间***. 组会形式与流程与上周相同(qq群: 620225373). \r\n\r\n历史组会小记:\r\n\r\n| 年/月 | 日期 |\r\n| ------------- | ------------- |\r\n| 2019/5 | [4](149) |\r\n| 2019/4 | [27](148) [20](146) [13](145) [6](143) |\r\n| 2019/3 | [~~30~~](https://github.com/program-in-chinese/overview/issues/142) [23](https://github.com/program-in-chinese/overview/issues/141)  [16](https://github.com/program-in-chinese/overview/issues/140) [9](https://github.com/program-in-chinese/overview/issues/139) [2](https://github.com/program-in-chinese/overview/issues/137)  |\r\n| 2019/2 | [23](https://github.com/program-in-chinese/overview/issues/136) [16](https://github.com/program-in-chinese/overview/issues/135) [9](https://github.com/program-in-chinese/overview/issues/134) [2](https://github.com/program-in-chinese/overview/issues/132) |\r\n| 2019/1 | [26](130) [19](128) [12](https://github.com/program-in-chinese/overview/issues/127) [5](125) |\r\n| 2018/12 | [30](123) [22](120) [15](119) [8](114) [1](113) | ",
+    "closed_at": "2019-05-18T06:42:55Z",
     "comment_data": [
         {
             "author_association": "MEMBER",
-            "body": "@RimoChan 正在进行[京东机器学习竞赛](https://jdata.jd.com/html/detail.html?id=8). 讨论Invoker项目的[跨平台问题](https://github.com/RimoChan/Invoker/issues/1).\r\n\r\n@nobodxbodon 尝试对[CTS的API翻译](https://github.com/program-in-chinese/study/issues/5)进行术语提取. 发现一些Python图形界面开发的[跨平台问题](https://github.com/RimoChan/Invoker/issues/1).\r\n本周主要进行头条推广. 详情见微信公众号文章(也保存在[github](https://github.com/program-in-chinese/team_website/blob/master/_posts/2019-04-30-))",
-            "created_at": "2019-05-04T06:51:52Z",
-            "html_url": "https://github.com/program-in-chinese/overview/issues/149#issuecomment-489301045",
-            "id": 489301045,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/149",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDQ4OTMwMTA0NQ==",
-            "updated_at": "2019-05-04T06:51:52Z",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/489301045",
+            "body": "qq@Exception 提问群里都在做什么，进行了各方面介绍，建议参考历史项目（知乎专栏文章）选感兴趣的入手。\r\n\r\n@chuanjiao10 分享了几个比较典型的中文命名更适合的例子，建议加到[wiki](https://github.com/program-in-chinese/overview/wiki/%E6%9B%B4%E6%98%93%E4%BA%8E%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87%E5%91%BD%E5%90%8D%E7%9A%84%E4%BE%8B%E5%AD%90)\r\n\r\n@cflw 在钻研游戏开发中的分辨率动态更新，以及Python网络设备库的重构。\r\n\r\n@RimoChan 编写了中文标识符机翻为英文的[工具](https://www.zhihu.com/question/323049857/answer/679533177)，以及使用Librian编写的[小说剧本](https://github.com/RimoChan/Einstein-and-The-Other-World-Computer-Network)，也许以后可以和[学科结合](https://zhuanlan.zhihu.com/p/47807062), 编写历史事件剧本等\r\n\r\n@htwx CTS核心部分进入内测，还在进行更多库的汉化。个人打算参考[之前的5分钟教程](https://zhuanlan.zhihu.com/p/36559989)写个环境搭建过程，在组内先进行介绍。\r\n\r\n@nobodxbodon 详见微信公众号“用中文编程”文章。",
+            "created_at": "2019-05-11T07:17:09Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/154#issuecomment-491486965",
+            "id": 491486965,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/154",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDQ5MTQ4Njk2NQ==",
+            "updated_at": "2019-05-11T07:17:09Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/491486965",
             "user": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
                 "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
@@ -38,8 +38,8 @@
         }
     ],
     "comments": 1,
-    "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/149/comments",
-    "created_at": "2019-05-03T23:59:49Z",
+    "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/154/comments",
+    "created_at": "2019-05-10T22:35:07Z",
     "event_data": [
         {
             "actor": {
@@ -64,11 +64,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713969,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5Njk=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713969"
+            "id": 2334371786,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3ODY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371786"
         },
         {
             "actor": {
@@ -93,11 +93,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713970,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5NzA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713970"
+            "id": 2334371787,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3ODc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371787"
         },
         {
             "actor": {
@@ -122,11 +122,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713971,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5NzE=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713971"
+            "id": 2334371788,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3ODg=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371788"
         },
         {
             "actor": {
@@ -151,11 +151,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713973,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5NzM=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713973"
+            "id": 2334371790,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTA=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371790"
         },
         {
             "actor": {
@@ -180,11 +180,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713978,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5Nzg=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713978"
+            "id": 2334371791,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTE=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371791"
         },
         {
             "actor": {
@@ -209,11 +209,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713979,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5Nzk=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713979"
+            "id": 2334371792,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371792"
         },
         {
             "actor": {
@@ -238,11 +238,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713980,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713980"
+            "id": 2334371793,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTM=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371793"
         },
         {
             "actor": {
@@ -267,11 +267,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:07Z",
             "event": "subscribed",
-            "id": 2318713981,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODE=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713981"
+            "id": 2334371794,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTQ=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371794"
         },
         {
             "actor": {
@@ -296,11 +296,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713982,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODI=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713982"
+            "id": 2334371795,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTU=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371795"
         },
         {
             "actor": {
@@ -325,11 +325,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713983,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODM=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713983"
+            "id": 2334371796,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371796"
         },
         {
             "actor": {
@@ -354,11 +354,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713984,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODQ=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713984"
+            "id": 2334371797,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371797"
         },
         {
             "actor": {
@@ -383,11 +383,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713985,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODU=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713985"
+            "id": 2334371798,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTg=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371798"
         },
         {
             "actor": {
@@ -412,11 +412,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:49Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713986,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODY=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713986"
+            "id": 2334371799,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE3OTk=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371799"
         },
         {
             "actor": {
@@ -441,11 +441,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713988,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODg=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713988"
+            "id": 2334371800,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDA=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371800"
         },
         {
             "actor": {
@@ -470,11 +470,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713989,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5ODk=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713989"
+            "id": 2334371802,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371802"
         },
         {
             "actor": {
@@ -499,11 +499,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713990,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5OTA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713990"
+            "id": 2334371804,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDQ=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371804"
         },
         {
             "actor": {
@@ -528,11 +528,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713992,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5OTI=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713992"
+            "id": 2334371805,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDU=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371805"
         },
         {
             "actor": {
@@ -557,11 +557,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713994,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5OTQ=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713994"
+            "id": 2334371806,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371806"
         },
         {
             "actor": {
@@ -586,11 +586,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713995,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5OTU=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713995"
+            "id": 2334371807,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371807"
         },
         {
             "actor": {
@@ -615,11 +615,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713996,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5OTY=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713996"
+            "id": 2334371808,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDg=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371808"
         },
         {
             "actor": {
@@ -644,11 +644,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713998,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5OTg=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713998"
+            "id": 2334371809,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MDk=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371809"
         },
         {
             "actor": {
@@ -673,11 +673,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318713999,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTM5OTk=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318713999"
+            "id": 2334371810,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MTA=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371810"
         },
         {
             "actor": {
@@ -702,11 +702,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714000,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMDA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714000"
+            "id": 2334371811,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MTE=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371811"
         },
         {
             "actor": {
@@ -731,11 +731,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714002,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMDI=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714002"
+            "id": 2334371812,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MTI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371812"
         },
         {
             "actor": {
@@ -760,11 +760,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714003,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMDM=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714003"
+            "id": 2334371814,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MTQ=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371814"
         },
         {
             "actor": {
@@ -789,11 +789,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714005,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMDU=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714005"
+            "id": 2334371816,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MTY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371816"
         },
         {
             "actor": {
@@ -818,11 +818,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714006,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMDY=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714006"
+            "id": 2334371817,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MTc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371817"
         },
         {
             "actor": {
@@ -847,11 +847,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714007,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMDc=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714007"
+            "id": 2334371818,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MTg=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371818"
         },
         {
             "actor": {
@@ -876,11 +876,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714008,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMDg=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714008"
+            "id": 2334371820,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MjA=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371820"
         },
         {
             "actor": {
@@ -905,11 +905,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714010,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMTA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714010"
+            "id": 2334371821,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MjE=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371821"
         },
         {
             "actor": {
@@ -934,11 +934,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714012,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMTI=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714012"
+            "id": 2334371822,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MjI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371822"
         },
         {
             "actor": {
@@ -963,11 +963,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714013,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMTM=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714013"
+            "id": 2334371823,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MjM=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371823"
         },
         {
             "actor": {
@@ -992,11 +992,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714014,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMTQ=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714014"
+            "id": 2334371824,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MjQ=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371824"
         },
         {
             "actor": {
@@ -1021,11 +1021,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714016,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMTY=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714016"
+            "id": 2334371825,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MjU=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371825"
         },
         {
             "actor": {
@@ -1050,11 +1050,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714017,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMTc=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714017"
+            "id": 2334371826,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4MjY=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371826"
         },
         {
             "actor": {
@@ -1079,11 +1079,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714020,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMjA=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714020"
+            "id": 2334371827,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4Mjc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371827"
         },
         {
             "actor": {
@@ -1108,11 +1108,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714022,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMjI=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714022"
+            "id": 2334371828,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4Mjg=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371828"
         },
         {
             "actor": {
@@ -1137,11 +1137,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-03T23:59:50Z",
+            "created_at": "2019-05-10T22:35:08Z",
             "event": "subscribed",
-            "id": 2318714023,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg3MTQwMjM=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318714023"
+            "id": 2334371829,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQzNzE4Mjk=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334371829"
         },
         {
             "actor": {
@@ -1166,11 +1166,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-04T06:51:52Z",
+            "created_at": "2019-05-11T07:17:09Z",
             "event": "mentioned",
-            "id": 2318877828,
-            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjMxODg3NzgyOA==",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318877828"
+            "id": 2334622381,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjMzNDYyMjM4MQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622381"
         },
         {
             "actor": {
@@ -1195,11 +1195,185 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-04T06:51:52Z",
+            "created_at": "2019-05-11T07:17:09Z",
             "event": "subscribed",
-            "id": 2318877829,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg4Nzc4Mjk=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318877829"
+            "id": 2334622382,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQ2MjIzODI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622382"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6562192?v=4",
+                "events_url": "https://api.github.com/users/htwx/events{/privacy}",
+                "followers_url": "https://api.github.com/users/htwx/followers",
+                "following_url": "https://api.github.com/users/htwx/following{/other_user}",
+                "gists_url": "https://api.github.com/users/htwx/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/htwx",
+                "id": 6562192,
+                "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
+                "organizations_url": "https://api.github.com/users/htwx/orgs",
+                "received_events_url": "https://api.github.com/users/htwx/received_events",
+                "repos_url": "https://api.github.com/users/htwx/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/htwx/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/htwx/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/htwx"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-05-11T07:17:09Z",
+            "event": "mentioned",
+            "id": 2334622384,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjMzNDYyMjM4NA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622384"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6562192?v=4",
+                "events_url": "https://api.github.com/users/htwx/events{/privacy}",
+                "followers_url": "https://api.github.com/users/htwx/followers",
+                "following_url": "https://api.github.com/users/htwx/following{/other_user}",
+                "gists_url": "https://api.github.com/users/htwx/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/htwx",
+                "id": 6562192,
+                "login": "htwx",
+                "node_id": "MDQ6VXNlcjY1NjIxOTI=",
+                "organizations_url": "https://api.github.com/users/htwx/orgs",
+                "received_events_url": "https://api.github.com/users/htwx/received_events",
+                "repos_url": "https://api.github.com/users/htwx/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/htwx/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/htwx/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/htwx"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-05-11T07:17:09Z",
+            "event": "subscribed",
+            "id": 2334622385,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQ2MjIzODU=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622385"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/8968667?v=4",
+                "events_url": "https://api.github.com/users/chuanjiao10/events{/privacy}",
+                "followers_url": "https://api.github.com/users/chuanjiao10/followers",
+                "following_url": "https://api.github.com/users/chuanjiao10/following{/other_user}",
+                "gists_url": "https://api.github.com/users/chuanjiao10/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/chuanjiao10",
+                "id": 8968667,
+                "login": "chuanjiao10",
+                "node_id": "MDQ6VXNlcjg5Njg2Njc=",
+                "organizations_url": "https://api.github.com/users/chuanjiao10/orgs",
+                "received_events_url": "https://api.github.com/users/chuanjiao10/received_events",
+                "repos_url": "https://api.github.com/users/chuanjiao10/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/chuanjiao10/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/chuanjiao10/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/chuanjiao10"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-05-11T07:17:09Z",
+            "event": "mentioned",
+            "id": 2334622386,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjMzNDYyMjM4Ng==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622386"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/8968667?v=4",
+                "events_url": "https://api.github.com/users/chuanjiao10/events{/privacy}",
+                "followers_url": "https://api.github.com/users/chuanjiao10/followers",
+                "following_url": "https://api.github.com/users/chuanjiao10/following{/other_user}",
+                "gists_url": "https://api.github.com/users/chuanjiao10/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/chuanjiao10",
+                "id": 8968667,
+                "login": "chuanjiao10",
+                "node_id": "MDQ6VXNlcjg5Njg2Njc=",
+                "organizations_url": "https://api.github.com/users/chuanjiao10/orgs",
+                "received_events_url": "https://api.github.com/users/chuanjiao10/received_events",
+                "repos_url": "https://api.github.com/users/chuanjiao10/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/chuanjiao10/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/chuanjiao10/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/chuanjiao10"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-05-11T07:17:09Z",
+            "event": "subscribed",
+            "id": 2334622387,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQ2MjIzODc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622387"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/17311509?v=4",
+                "events_url": "https://api.github.com/users/cflw/events{/privacy}",
+                "followers_url": "https://api.github.com/users/cflw/followers",
+                "following_url": "https://api.github.com/users/cflw/following{/other_user}",
+                "gists_url": "https://api.github.com/users/cflw/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/cflw",
+                "id": 17311509,
+                "login": "cflw",
+                "node_id": "MDQ6VXNlcjE3MzExNTA5",
+                "organizations_url": "https://api.github.com/users/cflw/orgs",
+                "received_events_url": "https://api.github.com/users/cflw/received_events",
+                "repos_url": "https://api.github.com/users/cflw/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/cflw/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/cflw/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/cflw"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-05-11T07:17:09Z",
+            "event": "mentioned",
+            "id": 2334622391,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjMzNDYyMjM5MQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622391"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/17311509?v=4",
+                "events_url": "https://api.github.com/users/cflw/events{/privacy}",
+                "followers_url": "https://api.github.com/users/cflw/followers",
+                "following_url": "https://api.github.com/users/cflw/following{/other_user}",
+                "gists_url": "https://api.github.com/users/cflw/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/cflw",
+                "id": 17311509,
+                "login": "cflw",
+                "node_id": "MDQ6VXNlcjE3MzExNTA5",
+                "organizations_url": "https://api.github.com/users/cflw/orgs",
+                "received_events_url": "https://api.github.com/users/cflw/received_events",
+                "repos_url": "https://api.github.com/users/cflw/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/cflw/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/cflw/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/cflw"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-05-11T07:17:09Z",
+            "event": "subscribed",
+            "id": 2334622393,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQ2MjIzOTM=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622393"
         },
         {
             "actor": {
@@ -1224,11 +1398,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-04T06:51:52Z",
+            "created_at": "2019-05-11T07:17:09Z",
             "event": "mentioned",
-            "id": 2318877831,
-            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjMxODg3NzgzMQ==",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318877831"
+            "id": 2334622395,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjMzNDYyMjM5NQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622395"
         },
         {
             "actor": {
@@ -1253,11 +1427,11 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-04T06:51:52Z",
+            "created_at": "2019-05-11T07:17:09Z",
             "event": "subscribed",
-            "id": 2318877832,
-            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMTg4Nzc4MzI=",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2318877832"
+            "id": 2334622397,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzMzQ2MjIzOTc=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334622397"
         },
         {
             "actor": {
@@ -1282,27 +1456,27 @@
             },
             "commit_id": null,
             "commit_url": null,
-            "created_at": "2019-05-11T07:05:40Z",
+            "created_at": "2019-05-18T06:42:56Z",
             "event": "closed",
-            "id": 2334618714,
-            "node_id": "MDExOkNsb3NlZEV2ZW50MjMzNDYxODcxNA==",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2334618714"
+            "id": 2350835556,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MjM1MDgzNTU1Ng==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2350835556"
         }
     ],
-    "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/149/events",
-    "html_url": "https://github.com/program-in-chinese/overview/issues/149",
-    "id": 440261894,
+    "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/154/events",
+    "html_url": "https://github.com/program-in-chinese/overview/issues/154",
+    "id": 442917389,
     "labels": [],
-    "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/149/labels{/name}",
+    "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/154/labels{/name}",
     "locked": false,
     "milestone": null,
-    "node_id": "MDU6SXNzdWU0NDAyNjE4OTQ=",
-    "number": 149,
+    "node_id": "MDU6SXNzdWU0NDI5MTczODk=",
+    "number": 154,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "closed",
-    "title": "2019年5月4日 周六13:30(北京时间) 语音组会",
-    "updated_at": "2019-05-11T07:05:40Z",
-    "url": "https://api.github.com/repos/program-in-chinese/overview/issues/149",
+    "title": "2019年5月11日 周六13:30(北京时间) 语音组会",
+    "updated_at": "2019-05-18T06:42:55Z",
+    "url": "https://api.github.com/repos/program-in-chinese/overview/issues/154",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
         "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
