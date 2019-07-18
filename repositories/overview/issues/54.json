@@ -686,9 +686,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "续[楼上](https://github.com/program-in-chinese/overview/issues/54#issuecomment-411551138)的\"总归需要平台/工具来演示它的用途\", 打算尝试作一个原型:\r\n\r\n独立运行的本地工具(暂时PC端)，支持中文查找各种API（包括语言/标准库/框架/网络服务API等等）, 类似[Dash](https://apps.apple.com/us/app/dash-offline-api-docs/id1239167694)\r\n关键是**可以用中文关键字搜索**，比如搜“双击”，可以查到 ondblclick， 搜“延迟”，可以搜到\"setDelay\"，\"数组\"可搜到ArrayList等等。 \r\n\r\n潜在扩展功能:\r\n- 添加常用API的中文例程. 之前有个[类似想法](https://github.com/program-in-chinese/overview/issues/133)但依赖于特定IDE的检索功能, 比较受限(比如VSC只允许英文前缀).\r\n- 在搜索API功能基础上, 用一个简单的\"胶水脚本语言\", 调用各种API实现简单的常用功能\r\n- 向完整的IDE方向发展",
+            "created_at": "2019-07-15T21:47:58Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/54#issuecomment-511582976",
+            "id": 511582976,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/54",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDUxMTU4Mjk3Ng==",
+            "updated_at": "2019-07-16T05:14:59Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/511582976",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 22,
+    "comments": 23,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/54/comments",
     "created_at": "2018-01-08T03:30:41Z",
     "event_data": [
@@ -2012,7 +2043,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "参考MSDN，试搞.NET类库标识符的翻译版",
-    "updated_at": "2018-11-22T04:40:23Z",
+    "updated_at": "2019-07-16T05:14:59Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/54",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/1175749?v=4",
