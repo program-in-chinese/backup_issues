@@ -500,9 +500,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "一种基于现有英文编程语言使用者的推广途径, 是从API浏览/搜索工具开始, 逐渐发展出可\"胶合\"利用现有API的中文脚本语言和开发环境. 详见 https://github.com/program-in-chinese/overview/issues/54#issuecomment-511582976",
+            "created_at": "2019-07-25T20:37:30Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/41#issuecomment-515205065",
+            "id": 515205065,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/41",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDUxNTIwNTA2NQ==",
+            "updated_at": "2019-07-25T20:37:30Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/515205065",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 16,
+    "comments": 17,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/41/comments",
     "created_at": "2017-10-19T04:28:11Z",
     "event_data": [
@@ -1065,7 +1096,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 51,
+        "closed_issues": 52,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -1094,10 +1125,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 18,
+        "open_issues": 17,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2018-12-26T23:16:07Z",
+        "updated_at": "2019-08-26T18:32:12Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUyNjY3MTcwMDU=",
@@ -1105,7 +1136,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "如何面向中文编程(潜在)用户进行推广?",
-    "updated_at": "2019-05-23T22:14:57Z",
+    "updated_at": "2019-07-25T20:37:30Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/41",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

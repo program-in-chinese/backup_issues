@@ -46,37 +46,6 @@
     "closed_at": "2017-11-05T06:40:32Z",
     "comment_data": [
         {
-            "author_association": "NONE",
-            "body": "兄弟，欢迎广发建议意见，同时注重实践\r\n1，可以通过设计新的软键盘实现。\r\n2，可能得求助输入法厂商。比如搜狗。\r\n3，目前第一步还是汉化吧，模仿已有的，完全吃透了才能创造全新的。\r\n4，编译器也推荐汉化已有的。\r\n5，目前是需要一款能用的汉语编程语言+能编译汉语代码的中文编译器。之后才是慢慢发展新的软件产品，比如IDE。",
-            "created_at": "2017-09-10T10:23:10Z",
-            "html_url": "https://github.com/program-in-chinese/overview/issues/31#issuecomment-328333418",
-            "id": 328333418,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/31",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDMyODMzMzQxOA==",
-            "updated_at": "2017-09-10T10:23:10Z",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/328333418",
-            "user": {
-                "avatar_url": "https://avatars3.githubusercontent.com/u/10122306?v=4",
-                "events_url": "https://api.github.com/users/qwas982/events{/privacy}",
-                "followers_url": "https://api.github.com/users/qwas982/followers",
-                "following_url": "https://api.github.com/users/qwas982/following{/other_user}",
-                "gists_url": "https://api.github.com/users/qwas982/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/qwas982",
-                "id": 10122306,
-                "login": "qwas982",
-                "node_id": "MDQ6VXNlcjEwMTIyMzA2",
-                "organizations_url": "https://api.github.com/users/qwas982/orgs",
-                "received_events_url": "https://api.github.com/users/qwas982/received_events",
-                "repos_url": "https://api.github.com/users/qwas982/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/qwas982/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/qwas982/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/qwas982"
-            }
-        },
-        {
             "author_association": "MEMBER",
             "body": "> 输入法和键盘是很难完全独立，二者应该是相互影响的，输入法的设计应该影响到键盘的布\r\n局，键盘的设计反过来又应该导致输入法的改进。\r\n\r\n同意. 这两项研究下去都很有深度. 有个有趣的现状是, 最优秀(输入速度最快)的键盘/输入法往往不是最普及的(比如中文的五笔比拼音快). 背后原因值得推敲, 可能对以后的推广也会有启发.\r\n\r\n假设, 我们首先着手的是研发适合程序员编写代码使用的键盘/输入法, 在https://github.com/program-in-chinese/overview/issues/11 有一些相关讨论, 包括和IDE的自动补全功能的集成问题.\r\n\r\n另外还有关于自动切换的思路在https://github.com/program-in-chinese/overview/issues/2#issuecomment-321429975:\r\n\r\n\r\n\r\n    能自动感知，帮你切换输入法\r\n    例如：\r\n        function 你好（ 检测到function后输入法自动切换成中文，然后在检测到全角的圆括号后自动切换成英文输入法并且把全角圆括号变为半角的。\r\n        let 变量 在输入let之后切换输入法为中文\r\n\r\n    简单来说，就是在需要定义新名字（函数名，变量名，类名）的地方，自动切换成中文输入法，在使用现有名字的地方（调用现有方法或者函数），使用智能感知来提高效率。\r\n\r\n\r\n> 应该在词法、语法、特性等方面做一个系统性的、全新的设计\r\n\r\n欢迎在https://github.com/program-in-chinese/overview/issues/11 一起探讨思路.\r\n\r\n4/5 也很同意, 也是当时把语言和IDE在https://github.com/program-in-chinese/overview/issues/11 一起讨论的原因",
             "created_at": "2017-09-10T22:44:37Z",
