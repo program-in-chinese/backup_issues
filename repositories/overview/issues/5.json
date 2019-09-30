@@ -903,9 +903,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/jeffreybaoshenlee"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "刚发现的使用中文命名标识符(包括Python, 前端模板, 数据库等等)的2018年Django系列视频教程!\r\n\r\n- [Django 2 之登录注册(2018.6.18 更新)](https://www.bilibili.com/video/av24753518/?p=9)\r\n![Screen Shot 2019-09-16 at 12 12 59 AM](https://user-images.githubusercontent.com/392497/64942839-fa366c80-d81e-11e9-9ea0-c598720bb982.png)\r\n\r\n- [Django 2 零基础 - 待办清单网站 (2018.6.13 更新)](https://www.bilibili.com/video/av24293644/?p=16)\r\n![Screen Shot 2019-09-15 at 4 35 08 AM](https://user-images.githubusercontent.com/392497/64942890-1f2adf80-d81f-11e9-9a65-9eaa324f69a2.png)\r\n![Screen Shot 2019-09-15 at 4 33 54 AM](https://user-images.githubusercontent.com/392497/64942900-23ef9380-d81f-11e9-9533-d5158f695b41.png)\r\n\r\n- [Django 2 零基础 - 购物网站制作 (2018.6.11 更新) ](https://www.bilibili.com/video/av24632734/?p=4)\r\n![Screen Shot 2019-09-13 at 9 42 45 PM](https://user-images.githubusercontent.com/392497/64942950-408bcb80-d81f-11e9-908c-33bbb4c2f2b3.png)\r\n![Screen Shot 2019-09-13 at 10 05 24 PM](https://user-images.githubusercontent.com/392497/64942955-44b7e900-d81f-11e9-9e6e-98c9177855d6.png)\r\n",
+            "created_at": "2019-09-16T08:14:45Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/5#issuecomment-531681135",
+            "id": 531681135,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/5",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDUzMTY4MTEzNQ==",
+            "updated_at": "2019-09-16T08:14:45Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/531681135",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 29,
+    "comments": 30,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/5/comments",
     "created_at": "2017-07-31T02:37:56Z",
     "event_data": [
@@ -2181,7 +2212,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 用中文代码作示例的编程教程",
-    "updated_at": "2018-10-19T15:47:09Z",
+    "updated_at": "2019-09-16T08:14:45Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/5",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

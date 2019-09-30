@@ -1,0 +1,74 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "id": 1572270578,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTc4",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/bug"
+    },
+    {
+        "color": "0075ca",
+        "default": true,
+        "id": 1572270579,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTc5",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/documentation"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "id": 1572270580,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTgw",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "id": 1572270581,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTgx",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "id": 1572270583,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTgz",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "id": 1572270582,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTgy",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "id": 1572270584,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTg0",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "id": 1572270585,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTg1",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "id": 1572270586,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxNTcyMjcwNTg2",
+        "url": "https://api.github.com/repos/program-in-chinese/ark_compiler_source_translation/labels/wontfix"
+    }
+]
