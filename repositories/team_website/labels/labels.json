@@ -8,6 +8,14 @@
         "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/bug"
     },
     {
+        "color": "0366d6",
+        "default": false,
+        "id": 1606849804,
+        "name": "dependencies",
+        "node_id": "MDU6TGFiZWwxNjA2ODQ5ODA0",
+        "url": "https://api.github.com/repos/program-in-chinese/team_website/labels/dependencies"
+    },
+    {
         "color": "cccccc",
         "default": true,
         "id": 727709237,

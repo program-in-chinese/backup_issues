@@ -314,9 +314,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "> \r\n> \r\n> 请问有何进展？\r\n\r\n目前正在实现语言的大框架, 计划等数组功能实现之后, 再深入研究这些细节, 目前暂定的就是统一不转化.",
+            "created_at": "2019-10-08T01:05:44Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/163#issuecomment-539268661",
+            "id": 539268661,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/163",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDUzOTI2ODY2MQ==",
+            "updated_at": "2019-10-08T01:05:44Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/539268661",
+            "user": {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/2688923?v=4",
+                "events_url": "https://api.github.com/users/luoyou/events{/privacy}",
+                "followers_url": "https://api.github.com/users/luoyou/followers",
+                "following_url": "https://api.github.com/users/luoyou/following{/other_user}",
+                "gists_url": "https://api.github.com/users/luoyou/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/luoyou",
+                "id": 2688923,
+                "login": "luoyou",
+                "node_id": "MDQ6VXNlcjI2ODg5MjM=",
+                "organizations_url": "https://api.github.com/users/luoyou/orgs",
+                "received_events_url": "https://api.github.com/users/luoyou/received_events",
+                "repos_url": "https://api.github.com/users/luoyou/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/luoyou/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/luoyou/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/luoyou"
+            }
         }
     ],
-    "comments": 10,
+    "comments": 11,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/163/comments",
     "created_at": "2019-07-16T15:42:15Z",
     "event_data": [
@@ -623,7 +654,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "一门语言中，其他值转化为 bool 值应该如何设计？",
-    "updated_at": "2019-08-04T22:34:55Z",
+    "updated_at": "2019-10-08T01:05:44Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/163",
     "user": {
         "avatar_url": "https://avatars0.githubusercontent.com/u/2688923?v=4",

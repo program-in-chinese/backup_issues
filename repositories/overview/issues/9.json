@@ -1399,9 +1399,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "几个优先考虑的因素：\r\n- 领域相关的库，而不是过于通用的库。通用库意味着很多计算机专用术语需要自行翻译，而专业库更多时候已经有完备的相关中文术语可以沿用于API命名。\r\n- 易于测试。虽然很可能是直接封装原有库，但为了使用户信任，仍需完备的测试集。\r\n- 最好是国内开发组实现的库。像大疆机甲大师机器人的[Python API中](https://zhuanlan.zhihu.com/p/87999734)，”装甲“，”底盘“，”云台“等等中文术语都在官方文档中。\r\n- 有相对固定用户群，社区够大就行，最好有较活跃的交流渠道，以便推广和搜集反馈。\r\n- 有发行平台，不需自行维护单独网站等。\r\n【待续】",
+            "created_at": "2019-11-12T07:22:28Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/9#issuecomment-552768170",
+            "id": 552768170,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDU1Mjc2ODE3MA==",
+            "updated_at": "2019-11-12T07:22:28Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/552768170",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 45,
+    "comments": 46,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9/comments",
     "created_at": "2017-08-01T04:45:31Z",
     "event_data": [
@@ -3614,26 +3645,7 @@
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1325959099"
         },
         {
-            "actor": {
-                "avatar_url": "https://avatars1.githubusercontent.com/u/31186920?v=4",
-                "events_url": "https://api.github.com/users/HiedaNaKan/events{/privacy}",
-                "followers_url": "https://api.github.com/users/HiedaNaKan/followers",
-                "following_url": "https://api.github.com/users/HiedaNaKan/following{/other_user}",
-                "gists_url": "https://api.github.com/users/HiedaNaKan/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/HiedaNaKan",
-                "id": 31186920,
-                "login": "HiedaNaKan",
-                "node_id": "MDQ6VXNlcjMxMTg2OTIw",
-                "organizations_url": "https://api.github.com/users/HiedaNaKan/orgs",
-                "received_events_url": "https://api.github.com/users/HiedaNaKan/received_events",
-                "repos_url": "https://api.github.com/users/HiedaNaKan/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/HiedaNaKan/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/HiedaNaKan/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/HiedaNaKan"
-            },
+            "actor": null,
             "commit_id": null,
             "commit_url": null,
             "created_at": "2017-12-09T15:49:19Z",
@@ -3643,26 +3655,7 @@
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/1380051891"
         },
         {
-            "actor": {
-                "avatar_url": "https://avatars1.githubusercontent.com/u/31186920?v=4",
-                "events_url": "https://api.github.com/users/HiedaNaKan/events{/privacy}",
-                "followers_url": "https://api.github.com/users/HiedaNaKan/followers",
-                "following_url": "https://api.github.com/users/HiedaNaKan/following{/other_user}",
-                "gists_url": "https://api.github.com/users/HiedaNaKan/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/HiedaNaKan",
-                "id": 31186920,
-                "login": "HiedaNaKan",
-                "node_id": "MDQ6VXNlcjMxMTg2OTIw",
-                "organizations_url": "https://api.github.com/users/HiedaNaKan/orgs",
-                "received_events_url": "https://api.github.com/users/HiedaNaKan/received_events",
-                "repos_url": "https://api.github.com/users/HiedaNaKan/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/HiedaNaKan/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/HiedaNaKan/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/HiedaNaKan"
-            },
+            "actor": null,
             "commit_id": null,
             "commit_url": null,
             "created_at": "2017-12-09T15:49:19Z",
@@ -3875,7 +3868,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "把最常用的开源的英文API进行中文化",
-    "updated_at": "2019-07-29T06:16:24Z",
+    "updated_at": "2019-11-12T07:22:28Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

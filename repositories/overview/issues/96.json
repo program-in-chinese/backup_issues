@@ -168,9 +168,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/ZoomQuiet"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "相对手语, 也许语音输入适用的人群广的多.\r\n之前看到[此贴](https://www.v2ex.com/t/577210), 找了一下发现国外已有类似工具开发: [Speaking in code: how to program by voice](https://www.nature.com/articles/d41586-018-05588-x)",
+            "created_at": "2019-10-03T23:01:39Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/96#issuecomment-538161596",
+            "id": 538161596,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/96",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDUzODE2MTU5Ng==",
+            "updated_at": "2019-10-03T23:01:39Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/538161596",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 4,
+    "comments": 5,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/96/comments",
     "created_at": "2018-10-17T16:27:49Z",
     "event_data": [
@@ -668,7 +699,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 52,
+        "closed_issues": 53,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -697,10 +728,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 17,
+        "open_issues": 16,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-08-26T18:32:12Z",
+        "updated_at": "2019-10-03T22:53:29Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNzExNjMyMTk=",
@@ -708,7 +739,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "中文的手语识别",
-    "updated_at": "2018-12-08T05:32:09Z",
+    "updated_at": "2019-10-03T23:01:39Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/96",
     "user": {
         "avatar_url": "https://avatars2.githubusercontent.com/u/22494?v=4",

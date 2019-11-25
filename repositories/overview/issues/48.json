@@ -872,9 +872,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "由前到后：\r\n[用python编写控制网络设备的自动化脚本6：框架设计2](https://zhuanlan.zhihu.com/p/67650697)\r\n[从立创EDA，Gratipay看中文编程开发环境和推广运营的一个趋势](https://zhuanlan.zhihu.com/p/69883126)\r\n[中文代码之Django官方入门：建立模型](https://zhuanlan.zhihu.com/p/72170870)\r\n[用JS Search实现客户端JSON内容索引和搜索](https://zhuanlan.zhihu.com/p/75985099)\r\n[[自己动手, 丰衣足食] Python脚本找到大垃圾文件(夹)](https://zhuanlan.zhihu.com/p/78914328)\r\n[手工翻译方舟编译器源码:尝试重命名标识符与文本](https://zhuanlan.zhihu.com/p/81450947)\r\n[尝试方舟编译器下对Java中标识符中文命名](https://zhuanlan.zhihu.com/p/81700604)\r\n[手工翻译方舟编译器源码: IR相关节点类](https://zhuanlan.zhihu.com/p/81979178)\r\n[用python编写控制网络设备的自动化脚本7：跳板（远程登录）](https://zhuanlan.zhihu.com/p/83475460)\r\n[中文编程语言及编程思维](https://zhuanlan.zhihu.com/p/58165734)\r\n[既然开发新中文编程语言离不开API, 何不从开发API开始呢? 更进一步, 何不从例程开始呢?](https://zhuanlan.zhihu.com/p/85081589)\r\n[尝试自动批量翻译方舟编译器源码中的标识符](https://zhuanlan.zhihu.com/p/85085837)\r\n[自制TTS引擎第0.01步-Python实现拼接单字wav文件](https://zhuanlan.zhihu.com/p/85486162)\r\n[自制TTS引擎第0.02步-单字拼音化, 从Excel表格用Python提取拼音表](https://zhuanlan.zhihu.com/p/85601740)\r\n[(多图)火热出炉的大疆机甲大师教育机器人开箱组装小记](https://zhuanlan.zhihu.com/p/86316396)\r\n[[日常] Python缩小jpg图片尺寸](https://zhuanlan.zhihu.com/p/86571051)\r\n[大疆机甲大师Python开发: 中文命名变量初尝试](https://zhuanlan.zhihu.com/p/86686589)\r\n[大疆机甲大师Python开发: API中文化初尝试](https://zhuanlan.zhihu.com/p/86692696)\r\n[【Night Beam】去除文本马赛克的随机算法！](https://zhuanlan.zhihu.com/p/86866269)\r\n[大疆机甲大师Python开发: 两只老虎](https://zhuanlan.zhihu.com/p/87072890)\r\n[大疆机甲大师教育机器人Python API中文化之一：枪亮枪暗](https://zhuanlan.zhihu.com/p/87816006)\r\n[大疆机甲大师教育机器人Python API中文化之二：LED闪烁](https://zhuanlan.zhihu.com/p/87999357)\r\n[大疆机甲大师教育机器人Python API中文化之三：底盘灯效](https://zhuanlan.zhihu.com/p/87999734)\r\n[大疆机甲大师教育机器人Python API中文化之四五：云台灯效，指定序号](https://zhuanlan.zhihu.com/p/88215643)\r\n[大疆机甲大师教育机器人Python API中文化之六：关灯](https://zhuanlan.zhihu.com/p/88389200)\r\n[大疆机甲大师Python API之七：做个闹钟](https://zhuanlan.zhihu.com/p/88558581)\r\n[潜力需要分享来加速挖掘：大疆机甲大师Python开发两周感想之一](https://zhuanlan.zhihu.com/p/88559004)\r\n[[意外走向] 大疆机甲大师Python API之八：计时 -- 为性能测试展开1000次循环](https://zhuanlan.zhihu.com/p/88964199)\r\n[【小惊吓】大疆机甲大师Python API之九：整机控制模式](https://zhuanlan.zhihu.com/p/89182664)\r\n[【日常】五行Python代码由png图片生成gif文件](https://zhuanlan.zhihu.com/p/89394860)\r\n[大疆机甲大师Python API之十：程序运行时间](https://zhuanlan.zhihu.com/p/89626066)\r\n[【日常】Python读取解析xml文件，顺便转换为大疆机甲大师可以演奏的乐谱](https://zhuanlan.zhihu.com/p/89736491)\r\n[【巧妇难为无米之炊】为机甲大师从MusicXML提取乐谱之卡农](https://zhuanlan.zhihu.com/p/90142676)\r\n[大疆机甲大师Python API之十一：用上电时间实测电池放电曲线](https://zhuanlan.zhihu.com/p/90395027)\r\n[大疆机甲大师Python API之十二：识别郭德纲于谦](https://zhuanlan.zhihu.com/p/90607858)\r\n[“中文编程”知乎专栏两岁了——山雨欲来风满楼](https://zhuanlan.zhihu.com/p/91353256)",
+            "created_at": "2019-11-12T07:02:57Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/48#issuecomment-552763017",
+            "id": 552763017,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDU1Mjc2MzAxNw==",
+            "updated_at": "2019-11-12T07:02:57Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/552763017",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 28,
+    "comments": 29,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/48/comments",
     "created_at": "2017-11-09T05:07:54Z",
     "event_data": [
@@ -2702,7 +2733,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 52,
+        "closed_issues": 53,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -2731,10 +2762,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 17,
+        "open_issues": 16,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-08-26T18:32:12Z",
+        "updated_at": "2019-10-03T22:53:29Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUyNzI0NDIxNjU=",
@@ -2742,7 +2773,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "\"中文编程\"知乎专栏开通!",
-    "updated_at": "2019-07-18T20:57:38Z",
+    "updated_at": "2019-11-12T07:02:57Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/48",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
