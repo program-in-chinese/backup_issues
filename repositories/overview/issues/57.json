@@ -205,6 +205,7 @@
         {
             "color": "ebfca9",
             "default": false,
+            "description": "RFC",
             "id": 1019236511,
             "name": "规范",
             "node_id": "MDU6TGFiZWwxMDE5MjM2NTEx",
@@ -213,6 +214,7 @@
         {
             "color": "6ffcc6",
             "default": false,
+            "description": "design",
             "id": 1017999778,
             "name": "设计",
             "node_id": "MDU6TGFiZWwxMDE3OTk5Nzc4",
@@ -223,7 +225,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -252,10 +254,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzMDEzODMxMTc=",

@@ -2,6 +2,7 @@
     {
         "color": "d73a4a",
         "default": true,
+        "description": "Something isn't working",
         "id": 1435656905,
         "name": "bug",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTA1",
@@ -10,6 +11,7 @@
     {
         "color": "0075ca",
         "default": true,
+        "description": "Improvements or additions to documentation",
         "id": 1435656907,
         "name": "documentation",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTA3",
@@ -18,6 +20,7 @@
     {
         "color": "cfd3d7",
         "default": true,
+        "description": "This issue or pull request already exists",
         "id": 1435656908,
         "name": "duplicate",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTA4",
@@ -26,6 +29,7 @@
     {
         "color": "a2eeef",
         "default": true,
+        "description": "New feature or request",
         "id": 1435656909,
         "name": "enhancement",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTA5",
@@ -34,6 +38,7 @@
     {
         "color": "7057ff",
         "default": true,
+        "description": "Good for newcomers",
         "id": 1435656911,
         "name": "good first issue",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTEx",
@@ -42,6 +47,7 @@
     {
         "color": "008672",
         "default": true,
+        "description": "Extra attention is needed",
         "id": 1435656910,
         "name": "help wanted",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTEw",
@@ -50,6 +56,7 @@
     {
         "color": "e4e669",
         "default": true,
+        "description": "This doesn't seem right",
         "id": 1435656912,
         "name": "invalid",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTEy",
@@ -58,6 +65,7 @@
     {
         "color": "d876e3",
         "default": true,
+        "description": "Further information is requested",
         "id": 1435656914,
         "name": "question",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTE0",
@@ -66,6 +74,7 @@
     {
         "color": "ffffff",
         "default": true,
+        "description": "This will not be worked on",
         "id": 1435656915,
         "name": "wontfix",
         "node_id": "MDU6TGFiZWwxNDM1NjU2OTE1",

@@ -1402,13 +1402,13 @@
         },
         {
             "author_association": "MEMBER",
-            "body": "几个优先考虑的因素：\r\n- 领域相关的库，而不是过于通用的库。通用库意味着很多计算机专用术语需要自行翻译，而专业库更多时候已经有完备的相关中文术语可以沿用于API命名。\r\n- 易于测试。虽然很可能是直接封装原有库，但为了使用户信任，仍需完备的测试集。\r\n- 最好是国内开发组实现的库。像大疆机甲大师机器人的[Python API中](https://zhuanlan.zhihu.com/p/87999734)，”装甲“，”底盘“，”云台“等等中文术语都在官方文档中。\r\n- 有相对固定用户群，社区够大就行，最好有较活跃的交流渠道，以便推广和搜集反馈。\r\n- 有发行平台，不需自行维护单独网站等。\r\n【待续】",
+            "body": "几个优先考虑的因素：\r\n- 领域相关的库，而不是过于通用的库。通用库意味着很多计算机专用术语需要自行翻译，而专业库更多时候已经有完备的相关中文术语可以沿用于API命名。\r\n- 易于测试。虽然很可能是直接封装原有库，但为了使用户信任，仍需完备的测试集。\r\n- 最好是国内开发组实现的库\r\n  - 由于对文档进行汉化几乎是必须的，相较汉化英文库+英文文档，汉化国人创建的库至少只要汉化库就可以，因为大多数都已经有中文文档了\r\n  - 汉化库时，可以参考中文文档中的术语。既省汉化的力，又能和官方的中文用语一致。像大疆机甲大师机器人的[Python API中](https://zhuanlan.zhihu.com/p/87999734)，”装甲“，”底盘“，”云台“等等中文术语都在官方文档中。\r\n  - 非技术层面的理由，国人创建的库更多的是针对国内市场的。这一特性决定了，在比例上来说，这些库的使用者（或者潜在使用者）对中文命名的需求较大。简言之，通用库的国内用户数量不一定比国内某些库的大。即使更大，汉化的工作量也更大，而目标群体不一定那么领情。\r\n- 有相对固定用户群，社区够大就行，最好有较活跃的交流渠道，以便推广和搜集反馈。\r\n- 有发行平台，不需自行维护单独网站等。\r\n- 考虑到国内去 windows 的趋势，应避免选择和 windows 平台绑定的库\r\n\r\n除了传统的库 （library），也包括在线 API，比如之前听说过百度的某些API 的 JSON 键名为中文。类似汉化本地库，也可以对在线 API 进行封装。\r\n【待续】",
             "created_at": "2019-11-12T07:22:28Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/9#issuecomment-552768170",
             "id": 552768170,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
             "node_id": "MDEyOklzc3VlQ29tbWVudDU1Mjc2ODE3MA==",
-            "updated_at": "2019-11-12T07:22:28Z",
+            "updated_at": "2019-11-16T05:55:24Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/552768170",
             "user": {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
@@ -3854,6 +3854,7 @@
         {
             "color": "c5def5",
             "default": false,
+            "description": "原则上仅对索引帖适用",
             "id": 658880771,
             "name": "长期",
             "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
@@ -3868,7 +3869,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "把最常用的开源的英文API进行中文化",
-    "updated_at": "2019-11-12T07:22:28Z",
+    "updated_at": "2019-11-16T05:55:24Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/9",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

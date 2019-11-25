@@ -1990,6 +1990,7 @@
         {
             "color": "ee0701",
             "default": true,
+            "description": null,
             "id": 655106830,
             "name": "bug",
             "node_id": "MDU6TGFiZWw2NTUxMDY4MzA=",

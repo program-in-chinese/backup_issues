@@ -202,6 +202,7 @@
         {
             "color": "006b75",
             "default": false,
+            "description": "not only 中文编程",
             "id": 1017997653,
             "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",

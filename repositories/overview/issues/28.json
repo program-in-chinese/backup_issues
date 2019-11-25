@@ -3543,6 +3543,7 @@
         {
             "color": "006b75",
             "default": false,
+            "description": "not only 中文编程",
             "id": 1017997653,
             "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
@@ -3551,6 +3552,7 @@
         {
             "color": "ebfca9",
             "default": false,
+            "description": "RFC",
             "id": 1019236511,
             "name": "规范",
             "node_id": "MDU6TGFiZWwxMDE5MjM2NTEx",
@@ -3559,6 +3561,7 @@
         {
             "color": "c5def5",
             "default": false,
+            "description": "原则上仅对索引帖适用",
             "id": 658880771,
             "name": "长期",
             "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",

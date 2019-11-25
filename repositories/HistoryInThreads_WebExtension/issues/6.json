@@ -82,6 +82,7 @@
         {
             "color": "d93f0b",
             "default": false,
+            "description": null,
             "id": 681666433,
             "name": "受阻",
             "node_id": "MDU6TGFiZWw2ODE2NjY0MzM=",

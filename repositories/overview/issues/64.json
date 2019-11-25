@@ -742,6 +742,7 @@
         {
             "color": "1e0ad1",
             "default": false,
+            "description": "",
             "id": 998155238,
             "name": "知乎专栏",
             "node_id": "MDU6TGFiZWw5OTgxNTUyMzg=",
@@ -750,6 +751,7 @@
         {
             "color": "c5def5",
             "default": false,
+            "description": "原则上仅对索引帖适用",
             "id": 658880771,
             "name": "长期",
             "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
@@ -760,7 +762,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -789,10 +791,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNDI1NDM4Mjc=",

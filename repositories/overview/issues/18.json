@@ -653,6 +653,7 @@
         {
             "color": "cc317c",
             "default": true,
+            "description": null,
             "id": 655106835,
             "name": "question",
             "node_id": "MDU6TGFiZWw2NTUxMDY4MzU=",

@@ -411,6 +411,7 @@
         {
             "color": "bfd4f2",
             "default": false,
+            "description": "",
             "id": 1018001029,
             "name": "调研",
             "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",

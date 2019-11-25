@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "基于LUAJIT 支持中英双语，保留英文关键字的目的为了兼容现有的LUA库，要汉化的话就汉化接口就行了，库代码没有影响。\r\n\r\n### 英文关键字\r\n`\"and\", \"break\", \"do\", \"else\", \"elseif\", \"end\", \"false\", \"for\", \"function\", \"goto\", \"if\", \"in\", \"local\", \"nil\", \"not\", \"or\", \"repeat\", \"return\", \"then\", \"true\", \"until\", \"while\"`\r\n### 中文关键字\r\n`\"且\", \"跳出循环\", \"运行\", \"否则\", \"否则如果\", \"结束\", \"假\", \"循环\", \"函数\", \"跳转\", \"如果\", \"在\", \"局部\", \"空\", \"不是\", \"或\", \"循环判断尾\", \"返回\", \"则\", \"真\", \"判断尾\", \"判断循环\"`\r\n\r\n### 标准库全局函数的汉化\r\n\r\n `_G[\"导入\"]\r\n\r\n = require;\r\n_G[\"标准输出\"] = print;\r\n_G[\"迭代\"] = pairs;\r\n_G[\"数组迭代\"] = ipairs;\r\n_G[\"运行文件\"] = dofile;\r\n_G[\"加载\"] = load;\r\n_G[\"加载文件\"] = loadfile;\r\n_G[\"加载文本\"] = loadstring;\r\n_G[\"判断\"] = rawequal;\r\n_G[\"取哈希表值\"] = rawget;\r\n_G[\"置哈希表值\"] = rawset;\r\n_G[\"选择\"] =  select;\r\n_G[\"取函数环境\"] =  getfenv ;\r\n_G[\"置函数环境\"] =   setfenv;\r\n_G[\"取元表\"] =   getmetatable;\r\n_G[\"置元表\"] =   setmetatable;\r\n_G[\"到数字\"] =   tonumber;\r\n_G[\"到文本\"] =   tostring;\r\n_G[\"取类型\"] =   type;\r\n\r\npackage.path = package.path ..';.\\\\lib\\\\?.lua';\r\n\r\nrequire(\"文件读写\")\r\nrequire(\"字符串\")\r\nrequire(\"哈希表\")\r\nrequire(\"协程\")`\r\n\r\n\r\n\r\n### 标准库汉化实例 哈希表.lua\r\n`哈希表 = {}\r\n哈希表.插入= table.insert\r\n哈希表.连接元素= table.concat\r\n哈希表.连接元素= table.concat\r\n哈希表.取最大索引= table.maxn\r\n哈希表.删除元素= table.remove\r\n哈希表.排序 = table.sort\r\n返回 哈希表`\r\n\r\n### 实例代码\r\n`局部 a,b = 文件读写.打开(\"1.txt\",\"a+\")\r\n局部 content = 文件读写.读取(a,\"*l\")\r\n文件读写.写入(a,\"ssadass\\nscsdfsdfsfsfs\")\r\n文件读写.关闭(a)\r\n\r\n局部 s =\"abcdE\" \r\n\r\n标准输出(字符串.到大写(s))\r\n标准输出(\"测试标准输出\\n\")\r\n\r\n函数 测试函数 (参数1)\r\n\t局部 测试局部 = \"wwww\"\r\n\t标准输出(参数1,测试局部)\r\n结束\r\n\r\n测试函数(\"调用函数\")\r\n\r\n全局变量2 = 真\r\n\r\n如果(全局变量2) 则\r\n\t标准输出(\"你好\")\r\n否则\r\n\t标准输出(\"不好\")\r\n结束\r\n\r\n临时表 = {\"第一个\", \"第二个\", \"第三个\"}\r\n\r\n哈希表.插入(临时表,\"第四个\")\r\n局部 biao = 哈希表.连接元素(临时表)\r\n标准输出(biao)\r\n\r\n哈希表.删除元素(临时表,2)\r\n\r\n循环 计次, 元素 在 数组迭代(临时表) 运行\r\n    标准输出(计次, 元素)\r\n结束 `\r\n\r\n简单说下这玩意的由来，我入门语言是易语言，虽然后来学习了很多语言但是一直有用易语言做小工具的习惯。后来业务需要迁到MAC OS开发 易语言当然不适用了。于是 这东西诞生了，目的取代易语言做小工具 自动化等脚本，当然他本质是LUA 结合LUA社区，他能干的事情远不止于此吧。",
-    "closed_at": null,
+    "closed_at": "2019-11-25T19:31:30Z",
     "comment_data": [
         {
             "author_association": "MEMBER",
@@ -159,9 +159,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "已合并到 https://github.com/program-in-chinese/overview/issues/25 ，如有更新或进展请在那里跟帖",
+            "created_at": "2019-11-25T19:31:30Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/147#issuecomment-558305776",
+            "id": 558305776,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/147",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDU1ODMwNTc3Ng==",
+            "updated_at": "2019-11-25T19:31:30Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/558305776",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 5,
+    "comments": 6,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/147/comments",
     "created_at": "2019-04-20T18:02:58Z",
     "event_data": [
@@ -454,6 +485,35 @@
             "id": 2289975216,
             "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIyODk5NzUyMTY=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2289975216"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-11-25T19:31:30Z",
+            "event": "closed",
+            "id": 2829357732,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MjgyOTM1NzczMg==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2829357732"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/147/events",
@@ -466,9 +526,9 @@
     "node_id": "MDU6SXNzdWU0MzU0MjQxNjg=",
     "number": 147,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "汉化版LUA。",
-    "updated_at": "2019-04-23T18:25:38Z",
+    "updated_at": "2019-11-25T19:31:31Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/147",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/4461860?v=4",

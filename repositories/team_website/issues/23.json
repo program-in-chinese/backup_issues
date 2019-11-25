@@ -140,6 +140,7 @@
         {
             "color": "0366d6",
             "default": false,
+            "description": "Pull requests that update a dependency file",
             "id": 1606849804,
             "name": "dependencies",
             "node_id": "MDU6TGFiZWwxNjA2ODQ5ODA0",

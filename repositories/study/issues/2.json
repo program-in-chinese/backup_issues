@@ -50,6 +50,7 @@
         {
             "color": "81ea4d",
             "default": false,
+            "description": "",
             "id": 1144331090,
             "name": "web前端",
             "node_id": "MDU6TGFiZWwxMTQ0MzMxMDkw",

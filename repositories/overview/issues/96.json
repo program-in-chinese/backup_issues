@@ -648,6 +648,39 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDIwMTM4Mzk3NzU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013839775"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-11-25T22:11:30Z",
+            "event": "unlabeled",
+            "id": 2829807439,
+            "label": {
+                "color": "adcff7",
+                "name": "nV-非冯"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50MjgyOTgwNzQzOQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2829807439"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/96/events",
@@ -655,16 +688,9 @@
     "id": 371163219,
     "labels": [
         {
-            "color": "adcff7",
-            "default": false,
-            "id": 1154440427,
-            "name": "nV-非冯",
-            "node_id": "MDU6TGFiZWwxMTU0NDQwNDI3",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/nV-%E9%9D%9E%E5%86%AF"
-        },
-        {
             "color": "33dd71",
             "default": false,
+            "description": "",
             "id": 1019259147,
             "name": "todo",
             "node_id": "MDU6TGFiZWwxMDE5MjU5MTQ3",
@@ -673,6 +699,7 @@
         {
             "color": "6e0ba8",
             "default": false,
+            "description": "+思路/观点",
             "id": 1000523124,
             "name": "想法",
             "node_id": "MDU6TGFiZWwxMDAwNTIzMTI0",
@@ -681,6 +708,7 @@
         {
             "color": "006b75",
             "default": false,
+            "description": "not only 中文编程",
             "id": 1017997653,
             "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
@@ -689,6 +717,7 @@
         {
             "color": "f2b3df",
             "default": false,
+            "description": "",
             "id": 1154430544,
             "name": "自然语言NLP",
             "node_id": "MDU6TGFiZWwxMTU0NDMwNTQ0",
@@ -699,7 +728,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -728,10 +757,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNzExNjMyMTk=",
@@ -739,7 +768,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "中文的手语识别",
-    "updated_at": "2019-10-03T23:01:39Z",
+    "updated_at": "2019-11-25T22:11:30Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/96",
     "user": {
         "avatar_url": "https://avatars2.githubusercontent.com/u/22494?v=4",

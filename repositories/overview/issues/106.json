@@ -550,6 +550,7 @@
         {
             "color": "1cbfb1",
             "default": false,
+            "description": "+BEAM",
             "id": 1154443809,
             "name": "+erlang",
             "node_id": "MDU6TGFiZWwxMTU0NDQzODA5",
@@ -558,6 +559,7 @@
         {
             "color": "ed7db9",
             "default": false,
+            "description": "stack based desgin",
             "id": 1154444018,
             "name": "+forth",
             "node_id": "MDU6TGFiZWwxMTU0NDQ0MDE4",
@@ -566,6 +568,7 @@
         {
             "color": "cc317c",
             "default": true,
+            "description": null,
             "id": 655106835,
             "name": "question",
             "node_id": "MDU6TGFiZWw2NTUxMDY4MzU=",
@@ -574,6 +577,7 @@
         {
             "color": "078263",
             "default": false,
+            "description": "fun/interesting",
             "id": 1017986447,
             "name": "有趣",
             "node_id": "MDU6TGFiZWwxMDE3OTg2NDQ3",
@@ -582,6 +586,7 @@
         {
             "color": "6ffcc6",
             "default": false,
+            "description": "design",
             "id": 1017999778,
             "name": "设计",
             "node_id": "MDU6TGFiZWwxMDE3OTk5Nzc4",
@@ -592,7 +597,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -621,10 +626,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzODI0OTc2MTk=",

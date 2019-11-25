@@ -239,6 +239,7 @@
         {
             "color": "c5def5",
             "default": false,
+            "description": "原则上仅对索引帖适用",
             "id": 658880771,
             "name": "长期",
             "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",

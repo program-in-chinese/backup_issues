@@ -2,7 +2,7 @@
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
-    "body": "曾几何时, 编译器还多不能支持中文标识符, 前人[努力过改变](https://github.com/program-in-chinese/overview/issues/13). 现在多数语言本身已经支持unicode的标识符, 可以认为用中文编程的第一个障碍基本消除了. 随着语言和编译器的开源, 出现了各种对英文关键词的编程语言进行汉化的实践. 下面试着罗列一下:\r\n\r\n[TypeScript](https://gitee.com/HTWX/CHTypeScript) (原作者 @htwx. [演示](https://github.com/dotnet/csharplang/issues/993#issuecomment-336716860))\r\n[PowerShell](https://github.com/klumsy/DayBreak-ChinesePowerShell)\r\n[TinyCC](https://github.com/swizl/tinycc_zh) (@swizl  的[开发过程](https://github.com/program-in-chinese/CnCXX/issues/1))\r\n[clang](https://zhuanlan.zhihu.com/p/31158537)\r\n[Lua](https://github.com/swizl/lua_cn)\r\n[Julia](https://github.com/qinwf/Chinese.jl)\r\n[CoffeeScript](https://github.com/nobodxbodon/coffeescript)\r\n[Python](https://zhuanlan.zhihu.com/p/31159526) (原作者 @swizl) 原Python讨论区issue: [1](https://github.com/program-in-chinese/Python/issues/1) [2](https://github.com/program-in-chinese/Python/issues/2)\r\n\r\n也有参照原语言的语法, 自己开发的语言:\r\n\r\n[Z语言 (类LOGO)](https://github.com/TKT2016/ZCompileCore)\r\n[类似Forth的栈语言-亲密数编程语言](https://github.com/program-in-chinese/ZLanguage/issues/2)\r\n\r\n请各位补充.",
+    "body": "曾几何时, 编译器还多不能支持中文标识符, 前人[努力过改变](https://github.com/program-in-chinese/overview/issues/13). 现在多数语言本身已经支持unicode的标识符, 可以认为用中文编程的第一个障碍基本消除了. 随着语言和编译器的开源, 出现了各种对英文关键词的编程语言进行汉化的实践. 下面试着罗列一下:\r\n\r\n[TypeScript](https://gitee.com/HTWX/CHTypeScript) (原作者 @htwx. [演示](https://github.com/dotnet/csharplang/issues/993#issuecomment-336716860))\r\n[PowerShell](https://github.com/klumsy/DayBreak-ChinesePowerShell)\r\n[TinyCC](https://github.com/swizl/tinycc_zh) (@swizl  的[开发过程](https://github.com/program-in-chinese/CnCXX/issues/1))\r\n[clang](https://zhuanlan.zhihu.com/p/31158537)\r\n[Lua](https://github.com/swizl/lua_cn)，@xgongya[的版本](https://github.com/program-in-chinese/overview/issues/147)\r\n[Julia](https://github.com/qinwf/Chinese.jl)\r\n[CoffeeScript](https://github.com/nobodxbodon/coffeescript)\r\n[Python](https://zhuanlan.zhihu.com/p/31159526) (原作者 @swizl) 原Python讨论区issue: [1](https://github.com/program-in-chinese/Python/issues/1) [2](https://github.com/program-in-chinese/Python/issues/2)\r\n\r\n也有参照原语言的语法, 自己开发的语言:\r\n\r\n[Z语言 (类LOGO)](https://github.com/TKT2016/ZCompileCore)\r\n[类似Forth的栈语言-亲密数编程语言](https://github.com/program-in-chinese/ZLanguage/issues/2)\r\n\r\n请各位补充.",
     "closed_at": null,
     "comment_data": [
         {
@@ -2596,6 +2596,64 @@
             "id": 2160368490,
             "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIxNjAzNjg0OTA=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2160368490"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/4461860?v=4",
+                "events_url": "https://api.github.com/users/xgongya/events{/privacy}",
+                "followers_url": "https://api.github.com/users/xgongya/followers",
+                "following_url": "https://api.github.com/users/xgongya/following{/other_user}",
+                "gists_url": "https://api.github.com/users/xgongya/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/xgongya",
+                "id": 4461860,
+                "login": "xgongya",
+                "node_id": "MDQ6VXNlcjQ0NjE4NjA=",
+                "organizations_url": "https://api.github.com/users/xgongya/orgs",
+                "received_events_url": "https://api.github.com/users/xgongya/received_events",
+                "repos_url": "https://api.github.com/users/xgongya/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/xgongya/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/xgongya/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/xgongya"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-11-25T19:30:42Z",
+            "event": "mentioned",
+            "id": 2829355138,
+            "node_id": "MDE0Ok1lbnRpb25lZEV2ZW50MjgyOTM1NTEzOA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2829355138"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/4461860?v=4",
+                "events_url": "https://api.github.com/users/xgongya/events{/privacy}",
+                "followers_url": "https://api.github.com/users/xgongya/followers",
+                "following_url": "https://api.github.com/users/xgongya/following{/other_user}",
+                "gists_url": "https://api.github.com/users/xgongya/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/xgongya",
+                "id": 4461860,
+                "login": "xgongya",
+                "node_id": "MDQ6VXNlcjQ0NjE4NjA=",
+                "organizations_url": "https://api.github.com/users/xgongya/orgs",
+                "received_events_url": "https://api.github.com/users/xgongya/received_events",
+                "repos_url": "https://api.github.com/users/xgongya/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/xgongya/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/xgongya/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/xgongya"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-11-25T19:30:42Z",
+            "event": "subscribed",
+            "id": 2829355152,
+            "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI4MjkzNTUxNTI=",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2829355152"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/25/events",
@@ -2605,6 +2663,7 @@
         {
             "color": "c5def5",
             "default": false,
+            "description": "原则上仅对索引帖适用",
             "id": 658880771,
             "name": "长期",
             "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
@@ -2615,7 +2674,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -2644,10 +2703,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUyNTEzOTU2NjE=",
@@ -2655,7 +2714,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 对现有编程语言的英文关键词进行汉化或者再创造的实例",
-    "updated_at": "2019-05-02T10:32:16Z",
+    "updated_at": "2019-11-25T19:30:42Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/25",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

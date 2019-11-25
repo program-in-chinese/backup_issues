@@ -535,6 +535,7 @@
         {
             "color": "fbca04",
             "default": false,
+            "description": "",
             "id": 657797434,
             "name": "内务",
             "node_id": "MDU6TGFiZWw2NTc3OTc0MzQ=",

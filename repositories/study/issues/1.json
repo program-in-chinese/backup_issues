@@ -50,6 +50,7 @@
         {
             "color": "e5f29d",
             "default": false,
+            "description": "",
             "id": 1101493121,
             "name": "todo",
             "node_id": "MDU6TGFiZWwxMTAxNDkzMTIx",

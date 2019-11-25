@@ -2,6 +2,7 @@
     {
         "color": "ee0701",
         "default": true,
+        "description": "Something isn't working",
         "id": 801064969,
         "name": "bug",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5Njk=",
@@ -10,6 +11,7 @@
     {
         "color": "cccccc",
         "default": true,
+        "description": "This issue or pull request already exists",
         "id": 801064971,
         "name": "duplicate",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5NzE=",
@@ -18,6 +20,7 @@
     {
         "color": "84b6eb",
         "default": true,
+        "description": "New feature or request",
         "id": 801064973,
         "name": "enhancement",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5NzM=",
@@ -26,6 +29,7 @@
     {
         "color": "7057ff",
         "default": true,
+        "description": "Good for newcomers",
         "id": 801064977,
         "name": "good first issue",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5Nzc=",
@@ -34,6 +38,7 @@
     {
         "color": "33aa3f",
         "default": true,
+        "description": "Extra attention is needed",
         "id": 801064975,
         "name": "help wanted",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5NzU=",
@@ -42,6 +47,7 @@
     {
         "color": "e6e6e6",
         "default": true,
+        "description": "This doesn't seem right",
         "id": 801064979,
         "name": "invalid",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5Nzk=",
@@ -50,6 +56,7 @@
     {
         "color": "cc317c",
         "default": true,
+        "description": "Further information is requested",
         "id": 801064982,
         "name": "question",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5ODI=",
@@ -58,6 +65,7 @@
     {
         "color": "ffffff",
         "default": true,
+        "description": "This will not be worked on",
         "id": 801064985,
         "name": "wontfix",
         "node_id": "MDU6TGFiZWw4MDEwNjQ5ODU=",

@@ -2,6 +2,7 @@
     {
         "color": "ee0701",
         "default": true,
+        "description": null,
         "id": 735617005,
         "name": "bug",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMDU=",
@@ -10,6 +11,7 @@
     {
         "color": "cccccc",
         "default": true,
+        "description": null,
         "id": 735617006,
         "name": "duplicate",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMDY=",
@@ -18,6 +20,7 @@
     {
         "color": "84b6eb",
         "default": true,
+        "description": null,
         "id": 735617007,
         "name": "enhancement",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMDc=",
@@ -26,6 +29,7 @@
     {
         "color": "7057ff",
         "default": true,
+        "description": null,
         "id": 735617009,
         "name": "good first issue",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMDk=",
@@ -34,6 +38,7 @@
     {
         "color": "33aa3f",
         "default": true,
+        "description": null,
         "id": 735617008,
         "name": "help wanted",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMDg=",
@@ -42,6 +47,7 @@
     {
         "color": "e6e6e6",
         "default": true,
+        "description": null,
         "id": 735617010,
         "name": "invalid",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMTA=",
@@ -50,6 +56,7 @@
     {
         "color": "cc317c",
         "default": true,
+        "description": null,
         "id": 735617011,
         "name": "question",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMTE=",
@@ -58,6 +65,7 @@
     {
         "color": "ffffff",
         "default": true,
+        "description": null,
         "id": 735617012,
         "name": "wontfix",
         "node_id": "MDU6TGFiZWw3MzU2MTcwMTI=",

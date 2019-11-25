@@ -2372,6 +2372,7 @@
         {
             "color": "89ede9",
             "default": false,
+            "description": "+组合逻辑/tacit族",
             "id": 1019249428,
             "name": "APL",
             "node_id": "MDU6TGFiZWwxMDE5MjQ5NDI4",
@@ -2380,6 +2381,7 @@
         {
             "color": "ebfca9",
             "default": false,
+            "description": "RFC",
             "id": 1019236511,
             "name": "规范",
             "node_id": "MDU6TGFiZWwxMDE5MjM2NTEx",

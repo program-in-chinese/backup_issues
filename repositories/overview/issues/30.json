@@ -380,6 +380,7 @@
         {
             "color": "6ffcc6",
             "default": false,
+            "description": "design",
             "id": 1017999778,
             "name": "设计",
             "node_id": "MDU6TGFiZWwxMDE3OTk5Nzc4",

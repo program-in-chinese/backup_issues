@@ -171,6 +171,7 @@
         {
             "color": "84b6eb",
             "default": true,
+            "description": null,
             "id": 659302536,
             "name": "enhancement",
             "node_id": "MDU6TGFiZWw2NTkzMDI1MzY=",

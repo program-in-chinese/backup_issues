@@ -1019,6 +1019,7 @@
         {
             "color": "ebfca9",
             "default": false,
+            "description": "RFC",
             "id": 1019236511,
             "name": "规范",
             "node_id": "MDU6TGFiZWwxMDE5MjM2NTEx",

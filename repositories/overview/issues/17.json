@@ -198,6 +198,7 @@
         {
             "color": "33dd71",
             "default": false,
+            "description": "",
             "id": 1019259147,
             "name": "todo",
             "node_id": "MDU6TGFiZWwxMDE5MjU5MTQ3",

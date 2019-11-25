@@ -985,6 +985,7 @@
         {
             "color": "c6d83e",
             "default": false,
+            "description": "逻辑编程",
             "id": 1154444139,
             "name": "#prolog",
             "node_id": "MDU6TGFiZWwxMTU0NDQ0MTM5",
@@ -993,6 +994,7 @@
         {
             "color": "1cbfb1",
             "default": false,
+            "description": "+BEAM",
             "id": 1154443809,
             "name": "+erlang",
             "node_id": "MDU6TGFiZWwxMTU0NDQzODA5",
@@ -1001,6 +1003,7 @@
         {
             "color": "ed7db9",
             "default": false,
+            "description": "stack based desgin",
             "id": 1154444018,
             "name": "+forth",
             "node_id": "MDU6TGFiZWwxMTU0NDQ0MDE4",
@@ -1009,6 +1012,7 @@
         {
             "color": "89ede9",
             "default": false,
+            "description": "+组合逻辑/tacit族",
             "id": 1019249428,
             "name": "APL",
             "node_id": "MDU6TGFiZWwxMDE5MjQ5NDI4",
@@ -1017,6 +1021,7 @@
         {
             "color": "f95e97",
             "default": false,
+            "description": "+函数式",
             "id": 1019255412,
             "name": "FP/λ",
             "node_id": "MDU6TGFiZWwxMDE5MjU1NDEy",
@@ -1025,6 +1030,7 @@
         {
             "color": "b9f767",
             "default": false,
+            "description": "不一定活跃，但没有弃坑",
             "id": 1154421934,
             "name": "active",
             "node_id": "MDU6TGFiZWwxMTU0NDIxOTM0",
@@ -1033,6 +1039,7 @@
         {
             "color": "adcff7",
             "default": false,
+            "description": "非冯诺依曼架构/体系",
             "id": 1154440427,
             "name": "nV-非冯",
             "node_id": "MDU6TGFiZWwxMTU0NDQwNDI3",
@@ -1041,6 +1048,7 @@
         {
             "color": "33dd71",
             "default": false,
+            "description": "",
             "id": 1019259147,
             "name": "todo",
             "node_id": "MDU6TGFiZWwxMDE5MjU5MTQ3",
@@ -1049,6 +1057,7 @@
         {
             "color": "6e0ba8",
             "default": false,
+            "description": "+思路/观点",
             "id": 1000523124,
             "name": "想法",
             "node_id": "MDU6TGFiZWwxMDAwNTIzMTI0",
@@ -1057,6 +1066,7 @@
         {
             "color": "f2b3df",
             "default": false,
+            "description": "",
             "id": 1154430544,
             "name": "自然语言NLP",
             "node_id": "MDU6TGFiZWwxMTU0NDMwNTQ0",
@@ -1065,6 +1075,7 @@
         {
             "color": "6ffcc6",
             "default": false,
+            "description": "design",
             "id": 1017999778,
             "name": "设计",
             "node_id": "MDU6TGFiZWwxMDE3OTk5Nzc4",
@@ -1073,6 +1084,7 @@
         {
             "color": "fbca04",
             "default": false,
+            "description": "keyboard input method engine",
             "id": 1017999100,
             "name": "输入法",
             "node_id": "MDU6TGFiZWwxMDE3OTk5MTAw",
@@ -1081,6 +1093,7 @@
         {
             "color": "c5def5",
             "default": false,
+            "description": "原则上仅对索引帖适用",
             "id": 658880771,
             "name": "长期",
             "node_id": "MDU6TGFiZWw2NTg4ODA3NzE=",
@@ -1091,7 +1104,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -1120,10 +1133,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNDQ3MzA2MzY=",

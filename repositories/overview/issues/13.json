@@ -446,6 +446,7 @@
         {
             "color": "9b2045",
             "default": false,
+            "description": "",
             "id": 1019249750,
             "name": "历史",
             "node_id": "MDU6TGFiZWwxMDE5MjQ5NzUw",
@@ -454,6 +455,7 @@
         {
             "color": "bfd4f2",
             "default": false,
+            "description": "",
             "id": 1018001029,
             "name": "调研",
             "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",

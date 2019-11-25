@@ -538,6 +538,7 @@
         {
             "color": "d3e24a",
             "default": false,
+            "description": "索引，汇总，集合",
             "id": 1145489159,
             "name": "index",
             "node_id": "MDU6TGFiZWwxMTQ1NDg5MTU5",
@@ -546,6 +547,7 @@
         {
             "color": "c64403",
             "default": false,
+            "description": "",
             "id": 1154428751,
             "name": "session-archive",
             "node_id": "MDU6TGFiZWwxMTU0NDI4NzUx",
@@ -556,7 +558,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -585,10 +587,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNzcxNzk2NDE=",

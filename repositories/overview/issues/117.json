@@ -902,6 +902,7 @@
         {
             "color": "c6d83e",
             "default": false,
+            "description": "逻辑编程",
             "id": 1154444139,
             "name": "#prolog",
             "node_id": "MDU6TGFiZWwxMTU0NDQ0MTM5",
@@ -910,6 +911,7 @@
         {
             "color": "ed7db9",
             "default": false,
+            "description": "stack based desgin",
             "id": 1154444018,
             "name": "+forth",
             "node_id": "MDU6TGFiZWwxMTU0NDQ0MDE4",
@@ -918,6 +920,7 @@
         {
             "color": "f95e97",
             "default": false,
+            "description": "+函数式",
             "id": 1019255412,
             "name": "FP/λ",
             "node_id": "MDU6TGFiZWwxMDE5MjU1NDEy",
@@ -926,6 +929,7 @@
         {
             "color": "006b75",
             "default": false,
+            "description": "not only 中文编程",
             "id": 1017997653,
             "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
@@ -934,6 +938,7 @@
         {
             "color": "d1a5e5",
             "default": false,
+            "description": "",
             "id": 1018943862,
             "name": "术语词典",
             "node_id": "MDU6TGFiZWwxMDE4OTQzODYy",
@@ -942,6 +947,7 @@
         {
             "color": "f2b3df",
             "default": false,
+            "description": "",
             "id": 1154430544,
             "name": "自然语言NLP",
             "node_id": "MDU6TGFiZWwxMTU0NDMwNTQ0",
@@ -950,6 +956,7 @@
         {
             "color": "ebfca9",
             "default": false,
+            "description": "RFC",
             "id": 1019236511,
             "name": "规范",
             "node_id": "MDU6TGFiZWwxMDE5MjM2NTEx",
@@ -958,6 +965,7 @@
         {
             "color": "bfd4f2",
             "default": false,
+            "description": "",
             "id": 1018001029,
             "name": "调研",
             "node_id": "MDU6TGFiZWwxMDE4MDAxMDI5",

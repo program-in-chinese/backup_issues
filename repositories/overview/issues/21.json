@@ -293,6 +293,7 @@
         {
             "color": "cc317c",
             "default": true,
+            "description": null,
             "id": 655106835,
             "name": "question",
             "node_id": "MDU6TGFiZWw2NTUxMDY4MzU=",
@@ -301,6 +302,7 @@
         {
             "color": "006b75",
             "default": false,
+            "description": "not only 中文编程",
             "id": 1017997653,
             "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",

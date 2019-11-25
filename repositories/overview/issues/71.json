@@ -721,6 +721,7 @@
         {
             "color": "1cbfb1",
             "default": false,
+            "description": "+BEAM",
             "id": 1154443809,
             "name": "+erlang",
             "node_id": "MDU6TGFiZWwxMTU0NDQzODA5",
@@ -729,6 +730,7 @@
         {
             "color": "b9f767",
             "default": false,
+            "description": "不一定活跃，但没有弃坑",
             "id": 1154421934,
             "name": "active",
             "node_id": "MDU6TGFiZWwxMTU0NDIxOTM0",
@@ -737,6 +739,7 @@
         {
             "color": "33dd71",
             "default": false,
+            "description": "",
             "id": 1019259147,
             "name": "todo",
             "node_id": "MDU6TGFiZWwxMDE5MjU5MTQ3",
@@ -745,6 +748,7 @@
         {
             "color": "473ce0",
             "default": false,
+            "description": "前端/js/typescript",
             "id": 1145424721,
             "name": "web",
             "node_id": "MDU6TGFiZWwxMTQ1NDI0NzIx",
@@ -753,6 +757,7 @@
         {
             "color": "fbca04",
             "default": false,
+            "description": "",
             "id": 657797434,
             "name": "内务",
             "node_id": "MDU6TGFiZWw2NTc3OTc0MzQ=",
@@ -761,6 +766,7 @@
         {
             "color": "006b75",
             "default": false,
+            "description": "not only 中文编程",
             "id": 1017997653,
             "name": "推广",
             "node_id": "MDU6TGFiZWwxMDE3OTk3NjUz",
@@ -769,6 +775,7 @@
         {
             "color": "1e0ad1",
             "default": false,
+            "description": "",
             "id": 998155238,
             "name": "知乎专栏",
             "node_id": "MDU6TGFiZWw5OTgxNTUyMzg=",
@@ -779,7 +786,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 53,
+        "closed_issues": 54,
         "created_at": "2018-07-21T10:08:05Z",
         "creator": {
             "avatar_url": "https://avatars1.githubusercontent.com/u/1655223?v=4",
@@ -808,10 +815,10 @@
         "labels_url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3/labels",
         "node_id": "MDk6TWlsZXN0b25lMzUxMzMyNg==",
         "number": 3,
-        "open_issues": 16,
+        "open_issues": 15,
         "state": "open",
         "title": "2018戊戌",
-        "updated_at": "2019-10-03T22:53:29Z",
+        "updated_at": "2019-11-25T00:16:46Z",
         "url": "https://api.github.com/repos/program-in-chinese/overview/milestones/3"
     },
     "node_id": "MDU6SXNzdWUzNDQ3MjA4NTM=",
