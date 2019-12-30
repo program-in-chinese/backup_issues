@@ -1733,15 +1733,6 @@
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/active"
         },
         {
-            "color": "c64403",
-            "default": false,
-            "description": "",
-            "id": 1154428751,
-            "name": "session-archive",
-            "node_id": "MDU6TGFiZWwxMTU0NDI4NzUx",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/session-archive"
-        },
-        {
             "color": "33dd71",
             "default": false,
             "description": "",

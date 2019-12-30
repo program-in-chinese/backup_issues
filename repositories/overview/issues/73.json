@@ -168,6 +168,7 @@
                 "members_url": "https://api.github.com/teams/2431548/members{/member}",
                 "name": "all",
                 "node_id": "MDQ6VGVhbTI0MzE1NDg=",
+                "parent": null,
                 "permission": "pull",
                 "privacy": "closed",
                 "repositories_url": "https://api.github.com/teams/2431548/repos",

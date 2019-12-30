@@ -562,9 +562,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "2019年 4 月末开通[\"用中文编程\"微信公众号和今日头条号](https://zhuanlan.zhihu.com/p/64079707)。还有其他一些自媒体号（企鹅、大鱼等等）。最近的推广相关详细数据请见公众号文章。\r\n下一篇会报告至今的”收入”金额 ;)",
+            "created_at": "2019-12-02T01:17:06Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/70#issuecomment-560186994",
+            "id": 560186994,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/70",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE4Njk5NA==",
+            "updated_at": "2019-12-02T01:17:06Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/560186994",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 18,
+    "comments": 19,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/70/comments",
     "created_at": "2018-07-23T07:37:34Z",
     "event_data": [
@@ -1612,6 +1643,39 @@
             },
             "node_id": "MDEyOkxhYmVsZWRFdmVudDIwMTM4MzEzNTU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2013831355"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-12-02T01:44:00Z",
+            "event": "unlabeled",
+            "id": 2843984872,
+            "label": {
+                "color": "c64403",
+                "name": "session-archive"
+            },
+            "node_id": "MDE0OlVubGFiZWxlZEV2ZW50Mjg0Mzk4NDg3Mg==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2843984872"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/70/events",
@@ -1626,15 +1690,6 @@
             "name": "active",
             "node_id": "MDU6TGFiZWwxMTU0NDIxOTM0",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/active"
-        },
-        {
-            "color": "c64403",
-            "default": false,
-            "description": "",
-            "id": 1154428751,
-            "name": "session-archive",
-            "node_id": "MDU6TGFiZWwxMTU0NDI4NzUx",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/session-archive"
         },
         {
             "color": "006b75",
@@ -1690,7 +1745,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "在国内社区进行相关推广",
-    "updated_at": "2018-12-08T05:02:34Z",
+    "updated_at": "2019-12-02T01:44:00Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/70",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

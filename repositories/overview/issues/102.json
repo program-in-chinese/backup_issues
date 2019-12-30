@@ -543,15 +543,6 @@
             "name": "index",
             "node_id": "MDU6TGFiZWwxMTQ1NDg5MTU5",
             "url": "https://api.github.com/repos/program-in-chinese/overview/labels/index"
-        },
-        {
-            "color": "c64403",
-            "default": false,
-            "description": "",
-            "id": 1154428751,
-            "name": "session-archive",
-            "node_id": "MDU6TGFiZWwxMTU0NDI4NzUx",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/labels/session-archive"
         }
     ],
     "labels_url": "https://api.github.com/repos/program-in-chinese/overview/issues/102/labels{/name}",

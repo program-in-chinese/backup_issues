@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "源自qq群 @laowu2019 \r\n> 把微软或搜狗拼音输入法调成“中文输入、英文标点”模式，然后尝试在Python IDLE里输入键盘第二排数字上方的字符，就是按shift键加数字，看能不能正常输出括号、感叹号等字符\r\n\r\n请详述环境(版本等), 以便他人验证.\r\n\r\n个人测试过下面两个环境:\r\n- Mac, IDLE 3.6.5, 搜狗拼音输入“中文输入、英文标点”模式. 输入正常: [视频](https://zhuanlan.zhihu.com/p/38324987)\r\n- Windows 7 pro 64位, IDLE 3.6.5, 搜狗拼音输入“中文输入、英文标点”模式. 输入正常",
-    "closed_at": null,
+    "closed_at": "2019-12-02T01:43:19Z",
     "comment_data": [
         {
             "author_association": "MEMBER",
@@ -190,9 +190,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/laowu2019"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "暂无进展或深究打算。",
+            "created_at": "2019-12-02T01:43:19Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/156#issuecomment-560191335",
+            "id": 560191335,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/156",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDU2MDE5MTMzNQ==",
+            "updated_at": "2019-12-02T01:43:19Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/560191335",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 6,
+    "comments": 7,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/156/comments",
     "created_at": "2019-05-13T17:21:43Z",
     "event_data": [
@@ -427,6 +458,35 @@
             "id": 2398797653,
             "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDIzOTg3OTc2NTM=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2398797653"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2019-12-02T01:43:19Z",
+            "event": "closed",
+            "id": 2843983984,
+            "node_id": "MDExOkNsb3NlZEV2ZW50Mjg0Mzk4Mzk4NA==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2843983984"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/156/events",
@@ -439,9 +499,9 @@
     "node_id": "MDU6SXNzdWU0NDM1MTM4NzI=",
     "number": 156,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "IDLE中文输入问题",
-    "updated_at": "2019-06-08T11:59:20Z",
+    "updated_at": "2019-12-02T01:43:19Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/156",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
