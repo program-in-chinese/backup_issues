@@ -565,37 +565,6 @@
         },
         {
             "author_association": "NONE",
-            "body": "是的呀，但是有人找不到好的替代方法却强行中文。。。\r\n文言是好用，但还是需要一点点语文底子的:)\r\n如果是因为畏惧英文乃至国语等基本文化知识而中文编程，那当我没说。\r\n\r\n2017年10月15日 下午11:44，farteryhr <notifications@github.com>写道：\r\n\r\n@nobodxbodon<https://github.com/nobodxbodon> （这连楼层都不好引用xsk）你最新的回我的一帖，提到的那个代码，我觉得一个巨大槽点，本来中文就是为了精简好读，“小于或等于”，要死了……\r\n我觉得，阿拉伯数字、＜＞≥≤≠这些小学生认识又短的符号（而且就这几个，现在市面拼音输入法都支持哟）（一些语言的in：∈，甚至＋－×÷），完全没必要拒绝的……\r\n= == ===，负与减-，→(->)之类英文没有输入法带来的合子符号破问题说不定都能通过这些unicode字符更好解决了（脑洞又越开越大\r\n\r\n—\r\nYou are receiving this because you were mentioned.\r\nReply to this email directly, view it on GitHub<https://github.com/program-in-chinese/overview/issues/3#issuecomment-336720372>, or mute the thread<https://github.com/notifications/unsubscribe-auth/AVfhDOfjquqNwRVTb7g31gJJ8nqGbICjks5ssihugaJpZM4OngEF>.\r\n\r\n",
-            "created_at": "2017-10-15T16:54:27Z",
-            "html_url": "https://github.com/program-in-chinese/overview/issues/3#issuecomment-336724948",
-            "id": 336724948,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjcyNDk0OA==",
-            "updated_at": "2017-10-15T16:54:27Z",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336724948",
-            "user": {
-                "avatar_url": "https://avatars2.githubusercontent.com/u/22536460?v=4",
-                "events_url": "https://api.github.com/users/thautwarm/events{/privacy}",
-                "followers_url": "https://api.github.com/users/thautwarm/followers",
-                "following_url": "https://api.github.com/users/thautwarm/following{/other_user}",
-                "gists_url": "https://api.github.com/users/thautwarm/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/thautwarm",
-                "id": 22536460,
-                "login": "thautwarm",
-                "node_id": "MDQ6VXNlcjIyNTM2NDYw",
-                "organizations_url": "https://api.github.com/users/thautwarm/orgs",
-                "received_events_url": "https://api.github.com/users/thautwarm/received_events",
-                "repos_url": "https://api.github.com/users/thautwarm/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/thautwarm/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/thautwarm/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/thautwarm"
-            }
-        },
-        {
-            "author_association": "NONE",
             "body": "@thautwarm 嘛那句话里关键字是想表达，包括语言关键字、语法、语序、符号等的“决定这编程语言写法的关键部分”，除开库里定义的各种标识符，的意思",
             "created_at": "2017-10-15T17:04:27Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/3#issuecomment-336725606",
@@ -623,37 +592,6 @@
                 "subscriptions_url": "https://api.github.com/users/farteryhr/subscriptions",
                 "type": "User",
                 "url": "https://api.github.com/users/farteryhr"
-            }
-        },
-        {
-            "author_association": "NONE",
-            "body": "_(:з」∠)_这位同学，语法也能说成是关键字的嘛。。。\r\n哎呀其实我现在很想造语言，不过身上还有坑。预计大概18年年初时开一个。\r\n感觉不是很难，直接基于某些动态语言做一个就好了，api通吃。\r\n\r\n2017年10月16日 01:04，farteryhr <notifications@github.com>写道：\r\n\r\n@thautwarm<https://github.com/thautwarm> 嘛那句话里关键字是想表达，包括语言关键字、语法、语序、符号等的“决定这编程语言写法的关键部分”，除开库里定义的各种标识符，的意思\r\n\r\n—\r\nYou are receiving this because you were mentioned.\r\nReply to this email directly, view it on GitHub<https://github.com/program-in-chinese/overview/issues/3#issuecomment-336725606>, or mute the thread<https://github.com/notifications/unsubscribe-auth/AVfhDGreWtysW1C3_F-y7qG4tYZEZ18cks5ssjsdgaJpZM4OngEF>.\r\n\r\n",
-            "created_at": "2017-10-15T17:34:59Z",
-            "html_url": "https://github.com/program-in-chinese/overview/issues/3#issuecomment-336727559",
-            "id": 336727559,
-            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3",
-            "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjcyNzU1OQ==",
-            "updated_at": "2017-10-15T17:34:59Z",
-            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/336727559",
-            "user": {
-                "avatar_url": "https://avatars2.githubusercontent.com/u/22536460?v=4",
-                "events_url": "https://api.github.com/users/thautwarm/events{/privacy}",
-                "followers_url": "https://api.github.com/users/thautwarm/followers",
-                "following_url": "https://api.github.com/users/thautwarm/following{/other_user}",
-                "gists_url": "https://api.github.com/users/thautwarm/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/thautwarm",
-                "id": 22536460,
-                "login": "thautwarm",
-                "node_id": "MDQ6VXNlcjIyNTM2NDYw",
-                "organizations_url": "https://api.github.com/users/thautwarm/orgs",
-                "received_events_url": "https://api.github.com/users/thautwarm/received_events",
-                "repos_url": "https://api.github.com/users/thautwarm/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/thautwarm/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/thautwarm/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/thautwarm"
             }
         },
         {
@@ -841,9 +779,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "至今发现的最早中文命名实践之一（不确定之前帖过否）：2009年的[我们在dotnet开发里中文变量及方法的命名规则](https://www.cnblogs.com/DotLee/archive/2009/09/19/1570069.html)\r\n\r\n>目前，我们在项目中使用中文变量，从3年前的权限管理，\r\n到一年前的购物车管理，发展到了在类库（会员积分奖金规则）中使用。\r\n体会到了中文变量对于项目维护的巨大方便。",
+            "created_at": "2020-01-10T08:33:44Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/3#issuecomment-572928885",
+            "id": 572928885,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDU3MjkyODg4NQ==",
+            "updated_at": "2020-01-10T08:33:44Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/572928885",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 27,
+    "comments": 26,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/3/comments",
     "created_at": "2017-07-30T00:32:58Z",
     "event_data": [
@@ -3374,7 +3343,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "索引: 在其他论坛关于用中文编写代码的讨论",
-    "updated_at": "2018-11-30T08:39:27Z",
+    "updated_at": "2020-01-10T08:35:34Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/3",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
