@@ -1650,13 +1650,13 @@
         },
         {
             "author_association": "NONE",
-            "body": "> @mandolin 很难找到一种适用于不同语种的\"自然语言无关语法\". 即使语言设计者/团队对多种自然语言都有相当水平, 也会导致一些不得已的折中, 最后的结果很可能是一个既不贴近中文语法, 又没有什么国外开发者认可的四不像项目.\r\n> \r\n> 举个简单的例子, 如[这里](https://github.com/program-in-chinese/overview/issues/40#issuecomment-337780621)提到的, 常见的`for 某项 in 列表`语法, 对应到中文就很难找到完全符合同样语序的. `对于 某项 在 列表`仍然不符合中文习惯用法, 而`对于 列表 中 某项`就好的多, 但对应英文又挺难办了.\r\n> \r\n> 这还仅仅是中英两种语言, 如果是语法相差更大的语种, 可想而知这种编程语言语法设计的难度会有多大.\r\n\r\n`for elem in list` 的例子不好，不具有普适性。比如 PHP 用的 `for ($list as $elem)` 就不会让西文用户感到不适应。",
+            "body": "> @mandolin 很难找到一种适用于不同语种的\"自然语言无关语法\". 即使语言设计者/团队对多种自然语言都有相当水平, 也会导致一些不得已的折中, 最后的结果很可能是一个既不贴近中文语法, 又没有什么国外开发者认可的四不像项目.\r\n> \r\n> 举个简单的例子, 如[这里](https://github.com/program-in-chinese/overview/issues/40#issuecomment-337780621)提到的, 常见的`for 某项 in 列表`语法, 对应到中文就很难找到完全符合同样语序的. `对于 某项 在 列表`仍然不符合中文习惯用法, 而`对于 列表 中 某项`就好的多, 但对应英文又挺难办了.\r\n> \r\n> 这还仅仅是中英两种语言, 如果是语法相差更大的语种, 可想而知这种编程语言语法设计的难度会有多大.\r\n\r\n`for elem in list` 的例子不好，不具有普适性。比如 PHP 用的 `foreach ($list as $elem)` 就不会让西文用户感到不适应。",
             "created_at": "2020-01-09T14:24:16Z",
             "html_url": "https://github.com/program-in-chinese/overview/issues/44#issuecomment-572583496",
             "id": 572583496,
             "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/44",
             "node_id": "MDEyOklzc3VlQ29tbWVudDU3MjU4MzQ5Ng==",
-            "updated_at": "2020-01-09T14:24:16Z",
+            "updated_at": "2020-01-20T21:15:04Z",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/572583496",
             "user": {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/2662758?v=4",
@@ -4646,7 +4646,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "专用帖: 对中文编程的质疑, 困惑, 批评, 吐槽请到此处",
-    "updated_at": "2020-01-09T14:24:16Z",
+    "updated_at": "2020-01-20T21:15:04Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/44",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
