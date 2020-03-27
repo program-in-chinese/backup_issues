@@ -1,0 +1,83 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "description": "Something isn't working",
+        "id": 1829754579,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTc5",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/bug"
+    },
+    {
+        "color": "0075ca",
+        "default": true,
+        "description": "Improvements or additions to documentation",
+        "id": 1829754580,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTgw",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/documentation"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 1829754582,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTgy",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "description": "New feature or request",
+        "id": 1829754584,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTg0",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good for newcomers",
+        "id": 1829754586,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTg2",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 1829754588,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTg4",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "description": "This doesn't seem right",
+        "id": 1829754591,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTkx",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "description": "Further information is requested",
+        "id": 1829754595,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTk1",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "This will not be worked on",
+        "id": 1829754598,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwxODI5NzU0NTk4",
+        "url": "https://api.github.com/repos/program-in-chinese/demo_android_input_yes_no/labels/wontfix"
+    }
+]
