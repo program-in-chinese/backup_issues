@@ -3,7 +3,7 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "@program-in-chinese/all  自从在知乎发问[「木兰」编程语言有什么特色？](https://www.zhihu.com/question/366509495)后，目击了暴风骤雨，而且尚未过去。\r\n\r\n有些话，不吐不快。这两天（未投到专栏）写的文章：\r\n[写给木兰编程语言研发团队的公开信](https://zhuanlan.zhihu.com/p/103557434)\r\n[为什么要急着为「木兰」编程语言贴上“造假”的标签？](https://zhuanlan.zhihu.com/p/103668152)\r\n\r\n无论结果如何，这次风波很可能成为国产编程语言的里程碑事件。\r\n\r\n【待续】",
-    "closed_at": null,
+    "closed_at": "2020-03-31T04:16:36Z",
     "comment_data": [
         {
             "author_association": "MEMBER",
@@ -35,9 +35,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "木兰相关进展将在[此小组](https://github.com/MulanRevive/)进行。\r\n在重现时，实现代码中会[使用中文命名标识符](https://zhuanlan.zhihu.com/p/117481247)。\r\n此 issue 不再更新。",
+            "created_at": "2020-03-31T04:16:36Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/169#issuecomment-606389110",
+            "id": 606389110,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/169",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDYwNjM4OTExMA==",
+            "updated_at": "2020-03-31T04:16:36Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/606389110",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 1,
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/169/comments",
     "created_at": "2020-01-21T08:42:23Z",
     "event_data": [
@@ -1171,6 +1202,35 @@
             "id": 2965294225,
             "node_id": "MDE1OlN1YnNjcmliZWRFdmVudDI5NjUyOTQyMjU=",
             "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/2965294225"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2020-03-31T04:16:36Z",
+            "event": "closed",
+            "id": 3181457309,
+            "node_id": "MDExOkNsb3NlZEV2ZW50MzE4MTQ1NzMwOQ==",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/events/3181457309"
         }
     ],
     "events_url": "https://api.github.com/repos/program-in-chinese/overview/issues/169/events",
@@ -1183,9 +1243,9 @@
     "node_id": "MDU6SXNzdWU1NTI3MDMwODY=",
     "number": 169,
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
-    "state": "open",
+    "state": "closed",
     "title": "关于「木兰」编程语言的论战",
-    "updated_at": "2020-01-23T06:20:13Z",
+    "updated_at": "2020-03-31T04:16:36Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/169",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
