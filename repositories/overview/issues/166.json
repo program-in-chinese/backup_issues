@@ -345,9 +345,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "更新的开源计划[在此](https://gitee.com/harmonyos/OpenArkCompiler#%E5%BC%80%E6%BA%90%E8%AE%A1%E5%88%92)。测试框架[已开源](https://gitee.com/harmonyos/OpenArkCompiler/tree/master/test)。",
+            "created_at": "2020-04-26T06:57:50Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/166#issuecomment-619496770",
+            "id": 619496770,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/166",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDYxOTQ5Njc3MA==",
+            "updated_at": "2020-04-26T06:57:50Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/619496770",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 11,
+    "comments": 12,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/166/comments",
     "created_at": "2019-09-04T09:45:52Z",
     "event_data": [],
@@ -363,7 +394,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "方舟编译器中文化的相关话题",
-    "updated_at": "2019-11-12T07:30:52Z",
+    "updated_at": "2020-04-26T06:57:50Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/166",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

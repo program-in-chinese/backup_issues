@@ -128,9 +128,40 @@
                 "type": "User",
                 "url": "https://api.github.com/users/nobodxbodon"
             }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "考虑也添加些常用算法，尤其是[搜索相关的](https://www.crondose.com/2016/07/sorting-algorithms-important/)。",
+            "created_at": "2020-05-21T19:28:20Z",
+            "html_url": "https://github.com/program-in-chinese/overview/issues/133#issuecomment-632299273",
+            "id": 632299273,
+            "issue_url": "https://api.github.com/repos/program-in-chinese/overview/issues/133",
+            "node_id": "MDEyOklzc3VlQ29tbWVudDYzMjI5OTI3Mw==",
+            "updated_at": "2020-05-21T19:28:20Z",
+            "url": "https://api.github.com/repos/program-in-chinese/overview/issues/comments/632299273",
+            "user": {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",
+                "events_url": "https://api.github.com/users/nobodxbodon/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nobodxbodon/followers",
+                "following_url": "https://api.github.com/users/nobodxbodon/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nobodxbodon/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nobodxbodon",
+                "id": 392497,
+                "login": "nobodxbodon",
+                "node_id": "MDQ6VXNlcjM5MjQ5Nw==",
+                "organizations_url": "https://api.github.com/users/nobodxbodon/orgs",
+                "received_events_url": "https://api.github.com/users/nobodxbodon/received_events",
+                "repos_url": "https://api.github.com/users/nobodxbodon/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nobodxbodon/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nobodxbodon/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nobodxbodon"
+            }
         }
     ],
-    "comments": 4,
+    "comments": 5,
     "comments_url": "https://api.github.com/repos/program-in-chinese/overview/issues/133/comments",
     "created_at": "2019-02-01T06:14:00Z",
     "event_data": [
@@ -379,7 +410,7 @@
     "repository_url": "https://api.github.com/repos/program-in-chinese/overview",
     "state": "open",
     "title": "通过IDE扩展提供常用功能的例程/片段",
-    "updated_at": "2019-02-03T23:52:30Z",
+    "updated_at": "2020-05-21T19:28:21Z",
     "url": "https://api.github.com/repos/program-in-chinese/overview/issues/133",
     "user": {
         "avatar_url": "https://avatars1.githubusercontent.com/u/392497?v=4",

@@ -1,0 +1,83 @@
+[
+    {
+        "color": "d73a4a",
+        "default": true,
+        "description": "Something isn't working",
+        "id": 2049193062,
+        "name": "bug",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDYy",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/bug"
+    },
+    {
+        "color": "0075ca",
+        "default": true,
+        "description": "Improvements or additions to documentation",
+        "id": 2049193063,
+        "name": "documentation",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDYz",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/documentation"
+    },
+    {
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists",
+        "id": 2049193065,
+        "name": "duplicate",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDY1",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/duplicate"
+    },
+    {
+        "color": "a2eeef",
+        "default": true,
+        "description": "New feature or request",
+        "id": 2049193067,
+        "name": "enhancement",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDY3",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/enhancement"
+    },
+    {
+        "color": "7057ff",
+        "default": true,
+        "description": "Good for newcomers",
+        "id": 2049193069,
+        "name": "good first issue",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDY5",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/good%20first%20issue"
+    },
+    {
+        "color": "008672",
+        "default": true,
+        "description": "Extra attention is needed",
+        "id": 2049193073,
+        "name": "help wanted",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDcz",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/help%20wanted"
+    },
+    {
+        "color": "e4e669",
+        "default": true,
+        "description": "This doesn't seem right",
+        "id": 2049193076,
+        "name": "invalid",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDc2",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/invalid"
+    },
+    {
+        "color": "d876e3",
+        "default": true,
+        "description": "Further information is requested",
+        "id": 2049193080,
+        "name": "question",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDgw",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/question"
+    },
+    {
+        "color": "ffffff",
+        "default": true,
+        "description": "This will not be worked on",
+        "id": 2049193083,
+        "name": "wontfix",
+        "node_id": "MDU6TGFiZWwyMDQ5MTkzMDgz",
+        "url": "https://api.github.com/repos/program-in-chinese/npm-chinese-character-strokes/labels/wontfix"
+    }
+]
